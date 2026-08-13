@@ -1,0 +1,77 @@
+name: Verify box-score fetching
+
+# Proves the box-score scraper works against LIVE MaxPreps.
+#
+# Why this runs in CI rather than locally: MaxPreps geo-blocks some countries
+# with a 403 "Geo-block" page, so a developer there cannot test the fetch path
+# at all (a browser VPN extension doesn't help — Python still exits via the
+# real IP). GitHub's runners are US-hosted, so they reach MaxPreps normally.
+#
+# It also answers the one question a JS-rendering proxy cannot: whether the
+# Next.js RSC payload the parser reads is present in a PLAIN HTTP response.
+# `requests` executes no JavaScript, so if this job extracts players, the
+# payload is server-rendered and the scraper works as written.
+#
+# Results are committed to diagnostics/boxscore-verification.md so they're
+# readable without digging through Actions logs.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - 'scrape_box_scores.py'
+      - 'app.py'
+      - '.github/workflows/verify-boxscore.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Verify live box-score fetch
+        id: verify
+        env:
+          PYTHONIOENCODING: utf-8
+          PYTHONUTF8: "1"
+          PYTHONUNBUFFERED: "1"
+        run: |
+          mkdir -p diagnostics
+          python verify_boxscore_live.py 2>&1 | tee diagnostics/boxscore-verification.md
+          echo "exit_status=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add diagnostics/boxscore-verification.md
+          git commit -m "CI: box-score verification results [skip ci]" || echo "no change"
+          git push || echo "push failed"
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: boxscore-verification
+          path: diagnostics/
+          retention-days: 14
+
+      - name: Fail if verification failed
+        if: steps.verify.outputs.exit_status != '0'
+        run: |
+          echo "Box-score verification FAILED — see diagnostics/boxscore-verification.md"
+          exit 1

@@ -35,19 +35,24 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml urllib3
+        run: pip install -r requirements.txt
 
-      - name: Run scraper
+      # Runs the full 4-stage pipeline. Calling app.py directly (as this
+      # workflow used to) only covers stage 1 plus its auto-chained box-score
+      # stage — it skips the stats-tab scrape and the final accumulation, so
+      # no Final_* file was ever produced.
+      - name: Run pipeline
         env:
           PYTHONIOENCODING: utf-8
           PYTHONUTF8: "1"
-          DATA_DIR: ${{ github.workspace }}/scraper_output
+          PYTHONUNBUFFERED: "1"
         run: |
           mkdir -p scraper_output
-          python app.py \
+          python -m APP.pipeline \
             --state ${{ github.event.inputs.state }} \
             --sport ${{ github.event.inputs.sport }} \
-            --season ${{ github.event.inputs.season }}
+            --season ${{ github.event.inputs.season }} \
+            --output-dir scraper_output
 
       - name: Upload output files
         if: always()
