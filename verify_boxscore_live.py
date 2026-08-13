@@ -82,8 +82,23 @@ def bad(msg):
 
 
 def main():
+    import os
+    import re as _re
+    import time as _time
+
     print("# Live box-score verification")
+    print(f"\nRun: `{_time.strftime('%Y-%m-%d %H:%M:%S UTC', _time.gmtime())}`"
+          f" · runner `{os.environ.get('RUNNER_OS', 'local')}`"
+          f" · attempt `{os.environ.get('GITHUB_RUN_NUMBER', '-')}`")
     print(f"\nSeason `{SEASON}` · season URL suffix `{_short_season(SEASON)}`")
+
+    # Where are we exiting from? A block is usually keyed on this.
+    try:
+        who = _get_session().get("https://ipinfo.io/json", timeout=20).json()
+        print(f"\nExit IP `{who.get('ip')}` · {who.get('country')} "
+              f"{who.get('city')} · org `{who.get('org')}`")
+    except Exception as e:
+        print(f"\n(could not determine exit IP: {e})")
 
     # ── 1. Reachability ──────────────────────────────────────────────────
     head(1, "Plain HTTP reachability")
@@ -91,9 +106,22 @@ def main():
                            allow_redirects=True)
     print(f"- status `{r.status_code}`, {len(r.text):,} bytes")
     if r.status_code != 200:
-        if "geo-block" in r.text.lower():
-            bad("GEO-BLOCKED (403). Run this from an allowed region "
-                "(GitHub Actions) or behind a system-wide VPN.")
+        title = _re.search(r"<title[^>]*>(.*?)</title>", r.text,
+                           _re.I | _re.S)
+        print(f"- page title: `{title.group(1).strip() if title else '(none)'}`")
+        print("- response headers:")
+        for k, v in r.headers.items():
+            print(f"    - `{k}: {v}`")
+        print("\n```\n" + r.text[:700] + "\n```")
+        low = r.text.lower()
+        if "geo-block" in low:
+            bad("GEO-BLOCKED (403) — this exit IP's country is not allowed.")
+        elif r.status_code == 406:
+            bad("406 Not Acceptable. Reverting the request headers did NOT "
+                "clear this, so it is keyed on the exit IP, not the headers "
+                "— MaxPreps appears to reject datacenter/cloud ranges "
+                "(GitHub runners are Azure). CI cannot verify or scrape; "
+                "only a residential/VPN exit in an allowed country works.")
         else:
             bad(f"unexpected status {r.status_code}")
         return
