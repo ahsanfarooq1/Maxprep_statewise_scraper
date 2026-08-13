@@ -64,35 +64,18 @@ GAME_WORKERS  = 50     # Parallel game checks
 # genuinely geographic (a VPN in an allowed region fixes it; header/TLS
 # tuning does not). See the matching comment in scrape_box_scores.py;
 # this header set is kept in sync with it.
-_SEC_CH_UA = '"Not.A/Brand";v="8", "Chromium";v="124", "Google Chrome";v="124"'
-
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/124.0.0.0 Safari/537.36"
     ),
-    "Accept":            "application/json, text/plain, */*",
-    "Accept-Language":   "en-US,en;q=0.9",
-    "Accept-Encoding":   "gzip, deflate",
-    "Referer":           "https://www.maxpreps.com/",
-    "sec-ch-ua":          _SEC_CH_UA,
-    "sec-ch-ua-mobile":   "?0",
-    "sec-ch-ua-platform": '"Windows"',
-    "sec-fetch-dest":     "empty",
-    "sec-fetch-mode":     "cors",
-    "sec-fetch-site":     "same-origin",
+    "Accept":          "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer":         "https://www.maxpreps.com/",
 }
 
-HTML_HEADERS = {
-    **HEADERS,
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    "sec-fetch-dest":            "document",
-    "sec-fetch-mode":            "navigate",
-    "sec-fetch-site":            "same-origin",
-    "sec-fetch-user":            "?1",
-    "Upgrade-Insecure-Requests": "1",
-}
+HTML_HEADERS = {**HEADERS, "Accept": "text/html,application/xhtml+xml,*/*"}
 
 # ─── Thread-local HTTP sessions ───────────────────────────────────────────────
 

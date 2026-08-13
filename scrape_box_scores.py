@@ -56,37 +56,26 @@ def print(*args, **kwargs):
 # scraper behind a VPN/proxy in an allowed region; no amount of header or
 # TLS tuning substitutes for that.
 #
-# The Chromium client-hints / Fetch Metadata headers below (sec-ch-ua*,
-# sec-fetch-*) are what a real Chrome sends and cost nothing to include.
-_SEC_CH_UA = '"Not.A/Brand";v="8", "Chromium";v="124", "Google Chrome";v="124"'
-
+# Keep this header set MINIMAL. Adding Chromium client-hints / Fetch Metadata
+# headers (sec-ch-ua*, sec-fetch-*) made MaxPreps reject every request with
+# 406 Not Acceptable — verified from a US-hosted CI runner, so it was not the
+# geo-block. `sec-fetch-site: same-origin` is in fact wrong for a direct
+# top-level navigation (a real browser sends `none`), and inconsistent
+# Sec-Fetch metadata is exactly what a WAF flags. The four headers below are
+# what has been observed working; don't "improve" them without re-running
+# .github/workflows/verify-boxscore.yml.
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/124.0.0.0 Safari/537.36"
     ),
-    "Accept":            "application/json, text/plain, */*",
-    "Accept-Language":   "en-US,en;q=0.9",
-    "Accept-Encoding":   "gzip, deflate",
-    "Referer":           "https://www.maxpreps.com/",
-    "sec-ch-ua":          _SEC_CH_UA,
-    "sec-ch-ua-mobile":   "?0",
-    "sec-ch-ua-platform": '"Windows"',
-    "sec-fetch-dest":     "empty",
-    "sec-fetch-mode":     "cors",
-    "sec-fetch-site":     "same-origin",
+    "Accept":          "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer":         "https://www.maxpreps.com/",
 }
 
-HTML_HEADERS = {
-    **HEADERS,
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    "sec-fetch-dest":            "document",
-    "sec-fetch-mode":            "navigate",
-    "sec-fetch-site":            "same-origin",
-    "sec-fetch-user":            "?1",
-    "Upgrade-Insecure-Requests": "1",
-}
+HTML_HEADERS = {**HEADERS, "Accept": "text/html,application/xhtml+xml,*/*"}
 
 # ── Session with automatic retry on connection drops ─────────────────────────
 # The transport-level Retry matters: scrape_game() returns None on any non-200,

@@ -43,3 +43,8 @@ girls_basketball_teams_list.json
 
 # Personal scratch notes
 instructions.txt
+
+# Ad-hoc debug scripts (kept locally, not part of the pipeline)
+_*.py
+diagnose_box_score_blank.py
+fetch_via_chrome.py
