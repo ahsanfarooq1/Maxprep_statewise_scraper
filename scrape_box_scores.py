@@ -49,20 +49,49 @@ _original_print = print
 def print(*args, **kwargs):
     _original_print(time.strftime('[%Y-%m-%d %H:%M:%S]'), *args, **kwargs)
 
+# MaxPreps serves a 403 "Geo-block" page to requests from some countries.
+# Diagnosed 2026-08-13: this is genuinely GEOGRAPHIC, not bot-detection —
+# a VPN with an allowed exit IP fixes it for both browsers and scripts,
+# while without one even a real headless Chrome is blocked. So run this
+# scraper behind a VPN/proxy in an allowed region; no amount of header or
+# TLS tuning substitutes for that.
+#
+# The Chromium client-hints / Fetch Metadata headers below (sec-ch-ua*,
+# sec-fetch-*) are what a real Chrome sends and cost nothing to include.
+_SEC_CH_UA = '"Not.A/Brand";v="8", "Chromium";v="124", "Google Chrome";v="124"'
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/124.0.0.0 Safari/537.36"
     ),
-    "Accept":          "application/json, text/plain, */*",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Referer":         "https://www.maxpreps.com/",
+    "Accept":            "application/json, text/plain, */*",
+    "Accept-Language":   "en-US,en;q=0.9",
+    "Accept-Encoding":   "gzip, deflate",
+    "Referer":           "https://www.maxpreps.com/",
+    "sec-ch-ua":          _SEC_CH_UA,
+    "sec-ch-ua-mobile":   "?0",
+    "sec-ch-ua-platform": '"Windows"',
+    "sec-fetch-dest":     "empty",
+    "sec-fetch-mode":     "cors",
+    "sec-fetch-site":     "same-origin",
 }
 
-HTML_HEADERS = {**HEADERS, "Accept": "text/html,application/xhtml+xml,*/*"}
+HTML_HEADERS = {
+    **HEADERS,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "sec-fetch-dest":            "document",
+    "sec-fetch-mode":            "navigate",
+    "sec-fetch-site":            "same-origin",
+    "sec-fetch-user":            "?1",
+    "Upgrade-Insecure-Requests": "1",
+}
 
 # ── Session with automatic retry on connection drops ─────────────────────────
+# The transport-level Retry matters: scrape_game() returns None on any non-200,
+# and its caller only retries on raised connection/timeout errors — so without
+# this adapter a 429/5xx would silently drop that game for good.
 
 def _make_session():
     s = requests.Session()
@@ -186,6 +215,24 @@ def _short_season(season):
     if m:
         return f"{m.group(1)}-{m.group(2)}"
     return season
+
+
+def _with_stats_tab(url):
+    """Force MaxPreps' 2026-redesigned game page to render its Stats tab.
+
+    The redesign split the game page into Recap / Stats / Roster / Matchup
+    tabs; the per-player shooting/totals tables that used to sit directly on
+    the page (inside div.stat-category) now only render under Stats, and the
+    page defaults to Recap. Appending ?tab=stats reproduces what happens when
+    a visitor clicks the Stats tab.
+    """
+    if not url:
+        return url
+    from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+    parts = urlsplit(url)
+    q = dict(parse_qsl(parts.query))
+    q["tab"] = "stats"
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(q), parts.fragment))
 
 
 def fetch_schedule(build_id, team_path, season_suffix=None):
@@ -324,19 +371,48 @@ def _identify_category(headers):
     return None
 
 
+def _table_header_cells(table):
+    """Header cells for a stat table.
+
+    The 2026-redesigned tables do still use <thead> (verified against live
+    pages), so the first branch is the normal path; falling back to the
+    table's first row just keeps this working if that ever changes.
+    """
+    cells = table.select("thead th, thead td")
+    if cells:
+        return cells
+    first_tr = table.find("tr")
+    return first_tr.find_all(["th", "td"]) if first_tr else []
+
+
+def _table_body_rows(table):
+    """Player rows for a stat table, excluding the header row.
+
+    Team Totals sit in <tfoot> in the current markup, so they're naturally
+    excluded here. The fallback ('every row after the first') covers a table
+    rendered without a <tbody> wrapper.
+    """
+    rows = table.select("tbody tr")
+    if rows:
+        return rows
+    all_rows = table.find_all("tr")
+    return all_rows[1:] if len(all_rows) > 1 else []
+
+
 def _parse_players(table, category):
     """
-    Parse player rows from a stat table's <tbody> (Team Totals live in
-    <tfoot> and are automatically excluded).
+    Parse player rows from a stat table, excluding the Team Totals row
+    (filtered by name text, regardless of whether it lives in <tbody> or
+    <tfoot> — see _table_body_rows()).
 
     Returns a list of player dicts with the fields expected by
     Accumulation_data.py for this category.
     """
     field_map = _CAT_MAPS.get(category, {})
-    headers = [th.get_text(strip=True) for th in table.select("thead th, thead td")]
+    headers = [th.get_text(strip=True) for th in _table_header_cells(table)]
 
     players = []
-    for tr in table.select("tbody tr"):
+    for tr in _table_body_rows(table):
         cells = [td.get_text(strip=True) for td in tr.find_all(["td", "th"])]
         if len(cells) < 2:
             continue
@@ -372,37 +448,182 @@ def _slugify(text):
     return re.sub(r"[^a-z0-9]+", "-", (text or "").lower()).strip("-")
 
 
-# ── Punctuation-tolerant name matching ──────────────────────────────────────
-# span.school on box-score pages renders short school names that don't always
-# match the canonical names byte-for-byte: MaxPreps sometimes uses a hyphen
-# where the canonical name has a space (e.g. 'Anderson-Shiro' vs 'Anderson
-# Shiro Fighting Owls'), or apostrophes / dots that differ from the master
-# list. Normalising both sides to "alphanumerics separated by single spaces"
-# makes the prefix match robust to all those variants.
+# ── Next.js RSC payload parsing (primary stat source) ───────────────────────
+# MaxPreps' 2026 redesign renders the Stats tab with React Server Components.
+# The rendered HTML only ever contains ONE team's tables (whichever the
+# client-side team switcher has selected — by default the team listed first
+# in the game URL), so HTML scraping structurally cannot see the other team.
+#
+# The streamed RSC payload, however, carries BOTH teams' complete stat tables
+# in a single response, as JSON, with each player row carrying an athlete
+# href that names their school. That makes it strictly better than the HTML:
+#   * both teams from one request (no second fetch, no missing opponent)
+#   * deterministic team attribution (no inferring from URL slug order)
+#   * machine-readable column names
+# Verified 2026-08-13 against a live CO game page.
+#
+# The payload arrives as a series of  self.__next_f.push([1,"<js string>"])
+# calls; concatenating those string literals reconstructs it.
 
-_NORM_PUNCT = re.compile(r"[^a-z0-9]+")
+_RSC_PUSH_RE = re.compile(r'self\.__next_f\.push\(\[1,("(?:[^"\\]|\\.)*")\]\)', re.S)
+
+# Athlete profile links look like
+#   https://www.maxpreps.com/co/commerce-city/adams-city-eagles/athletes/omar-deluna/?careerid=…
+# The first three path segments are the school key we match teams on.
+_ATHLETE_SCHOOL_RE = re.compile(
+    r"maxpreps\.com/([a-z]{2}/[^/]+/[^/]+)/athletes/", re.I)
+
+# Stat group objects in the payload: {"name":"Shooting","subgroups":[…]}
+_RSC_GROUP_RE = re.compile(r'\{"name":"([^"]*)","subgroups":')
 
 
-def _norm_name(text):
-    """Lowercase + collapse any run of punctuation/whitespace to a single space."""
-    return _NORM_PUNCT.sub(" ", (text or "").lower()).strip()
+def _school_key(team_path):
+    """First three path segments of a team id/path — the identity shared by a
+    team page and its athletes' profile links.
+
+    'co/commerce-city/adams-city-eagles/basketball/girls'
+        -> 'co/commerce-city/adams-city-eagles'
+    """
+    parts = [p for p in (team_path or "").split("/") if p]
+    return "/".join(parts[:3]).lower() if len(parts) >= 3 else ""
 
 
-def _school_matches_team(school_text, team_name):
-    """True if `school_text` (the literal span.school text on the page)
-    refers to the team named `team_name` (the canonical full name from the
-    master list). Compares punctuation-normalised forms — so 'Anderson-Shiro'
-    correctly matches 'Anderson Shiro Fighting Owls'.
+def _rsc_payload_from_soup(soup):
+    """Reconstruct the streamed RSC payload from the page's <script> tags."""
+    chunks = []
+    for script in soup.find_all("script"):
+        text = script.string or script.get_text() or ""
+        if "self.__next_f.push" not in text:
+            continue
+        for m in _RSC_PUSH_RE.finditer(text):
+            try:
+                chunks.append(json.loads(m.group(1)))
+            except Exception:
+                continue
+    return "".join(chunks)
 
-    Match policy: exact match OR word-boundary prefix (so 'Austin' matches
-    'Austin Maroons' but NOT 'Austinville Eagles')."""
-    if not school_text or not team_name:
-        return False
-    s = _norm_name(school_text)
-    f = _norm_name(team_name)
-    if not s or not f:
-        return False
-    return f == s or f.startswith(s + " ")
+
+def _balanced_json_at(s, start):
+    """Extract the balanced JSON object beginning at s[start] == '{'."""
+    depth = 0
+    in_str = False
+    esc = False
+    for i in range(start, len(s)):
+        ch = s[i]
+        if esc:
+            esc = False
+            continue
+        if ch == "\\":
+            esc = True
+            continue
+        if ch == '"':
+            in_str = not in_str
+            continue
+        if in_str:
+            continue
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                return s[start:i + 1]
+    return None
+
+
+def _players_from_rsc_table(columns, rows, category):
+    """Convert one RSC stat table into our player-dict list.
+
+    Column 0 is the jersey number and column 1 the athlete (whose cell carries
+    `value` = display name, `caption` = '(Sr)' class, `href` = profile link).
+    Remaining columns map to our fields by their `header` text, using the same
+    _CAT_MAPS the HTML parser uses. Team totals live in each column's
+    `overallValue`, not as a row, so no totals row filtering is needed —
+    the name check below is just belt-and-braces.
+    """
+    field_map = _CAT_MAPS.get(category, {})
+    headers = [(c.get("header") or "") for c in columns]
+
+    players = []
+    for row in rows:
+        cells = row.get("columns") or []
+        if len(cells) < 2:
+            continue
+        name_cell = cells[1] or {}
+        player_name = (name_cell.get("value") or "").strip()
+        if not player_name or "team totals" in player_name.lower():
+            continue
+        player_class = (name_cell.get("caption") or "").strip().strip("()").strip()
+
+        player = {"player_name": player_name, "class": player_class}
+        for idx, header in enumerate(headers):
+            if idx <= 1:
+                continue              # skip # and Name columns
+            if idx >= len(cells):
+                break
+            key = header.lower().replace(" ", "").replace("%", "")
+            field = field_map.get(key)
+            if field:
+                player[field] = _safe_num((cells[idx] or {}).get("value"))
+        players.append(player)
+    return players
+
+
+def _school_of_rows(rows):
+    """Majority school key across a table's athlete links.
+
+    Using the majority (rather than the first hit) means a row whose athlete
+    has no profile link — or a stray cross-linked athlete — can't misattribute
+    the whole table.
+    """
+    counts = {}
+    for row in rows:
+        for cell in row.get("columns") or []:
+            m = _ATHLETE_SCHOOL_RE.search((cell or {}).get("href") or "")
+            if m:
+                k = m.group(1).lower()
+                counts[k] = counts.get(k, 0) + 1
+    if not counts:
+        return None
+    return max(counts.items(), key=lambda kv: kv[1])[0]
+
+
+def _parse_rsc_stats(soup):
+    """Extract per-school, per-category player stats from the RSC payload.
+
+    Returns {school_key: {category: [player, …]}} — empty dict when the
+    payload is absent or carries no recognisable stat tables (e.g. the Recap
+    tab, whose payload has no stat groups at all).
+    """
+    payload = _rsc_payload_from_soup(soup)
+    if not payload:
+        return {}
+
+    out = {}
+    for m in _RSC_GROUP_RE.finditer(payload):
+        raw = _balanced_json_at(payload, m.start())
+        if not raw:
+            continue
+        try:
+            group = json.loads(raw)
+        except Exception:
+            continue
+
+        for sub in group.get("subgroups") or []:
+            stats = sub.get("stats") or {}
+            columns = stats.get("columns") or []
+            rows = stats.get("rows") or []
+            if not rows:
+                continue          # 'Game Stats' / 'Per 32' season tables are empty here
+            category = _identify_category([c.get("header") or "" for c in columns])
+            if not category:
+                continue          # not one of our four tracked categories
+            school = _school_of_rows(rows)
+            if not school:
+                continue          # can't attribute — safer to drop than to guess
+            players = _players_from_rsc_table(columns, rows, category)
+            if players:
+                out.setdefault(school, {}).setdefault(category, []).extend(players)
+    return out
 
 
 # ── Page-hyperlink team identification (deterministic) ──────────────────────
@@ -412,9 +633,14 @@ def _school_matches_team(school_text, team_name):
 # guesswork that breaks when a city has multiple teams (e.g. Austin Bowie
 # vs Austin Maroons → URL 'austin-vs-bowie' is ambiguous via slugs but
 # unambiguous via hyperlinks).
-
+#
+# The trailing (?:/.*)? must accept MULTIPLE extra segments: as of the 2026
+# redesign these scoreline links carry a season too, e.g.
+#   /co/westminster/westminster-wolves/basketball/25-26/schedule/
+# The previous single-segment pattern didn't match those, so no team ids were
+# found and opponent resolution silently fell back to raw URL slugs.
 _TEAM_LINK_RE = re.compile(
-    r"^/([a-z]{2})/([^/]+)/([^/]+)/basketball(?:/(boys|girls))?(?:/[^/]*)?/?$",
+    r"^/([a-z]{2})/([^/]+)/([^/]+)/basketball(?:/(boys|girls))?(?:/.*)?$",
     re.I,
 )
 
@@ -576,23 +802,57 @@ def _resolve_opponent(opp_slug, our_team_id, opp_index):
     return matches[0]
 
 
-def _opp_slug_from_url(game_url, team_id):
-    """Derive the opponent's canonical slug from the game URL.
+def _matchup_segment(game_url):
+    """Extract the '{slugA}-vs-{slugB}' path segment from a game URL.
 
-    Game URLs are always /games/{date}/{sport}/{slugA}-vs-{slugB}.htm where
-    one of slugA/slugB matches our team. This is the SINGLE source of truth
-    for who the opponent is — it's MaxPreps' canonical naming, never an
-    abbreviation or fallback.
-
-    Returns the opponent's slug, or None if the URL doesn't follow the
-    expected `{a}-vs-{b}.htm` pattern (rare — tournament games etc.).
+    MaxPreps has used two URL shapes for game pages:
+      old (pre-2026):  /games/{date}/{sport}/{slugA}-vs-{slugB}.htm
+      new (2026 redesign): /{state}/{sport}[/{gender}]/game/{slugA}-vs-{slugB}/{date}/
+    Both encode the matchup as a single path segment containing '-vs-'
+    (the old one with a trailing .htm). Scan segments directly instead of
+    anchoring to the surrounding path structure, so this survives further
+    URL-shape changes as long as the '{a}-vs-{b}' segment itself persists.
     """
     if not game_url:
         return None
-    m = re.search(r"/games/[^/]+/[^/]+/(.+?)\.htm", game_url, re.I)
-    if not m:
+    path = re.sub(r"^https?://[^/]+", "", game_url).split("?")[0]
+    for seg in path.split("/"):
+        if not seg:
+            continue
+        seg_clean = seg[:-4] if seg.lower().endswith(".htm") else seg
+        if re.match(r"^[a-z0-9]+(?:-[a-z0-9]+)*-vs-[a-z0-9]+(?:-[a-z0-9]+)*$", seg_clean, re.I):
+            return seg_clean.lower()
+    return None
+
+
+def _first_slug_from_url(game_url):
+    """Return the FIRST-listed team's slug from the matchup segment.
+
+    MaxPreps' redesigned Stats tab shows only one team's tables at a time,
+    selected via a client-side team switcher we can't drive without running
+    JS. Empirically the tab defaults to whichever team is listed first in
+    the URL's '{a}-vs-{b}' segment — used to infer which side's tables we're
+    looking at on a plain (no-JS) fetch.
+    """
+    matchup = _matchup_segment(game_url)
+    if not matchup:
         return None
-    matchup = m.group(1).lower()
+    parts = matchup.split("-vs-")
+    return parts[0].strip("-") if len(parts) == 2 else None
+
+
+def _opp_slug_from_url(game_url, team_id):
+    """Derive the opponent's canonical slug from the game URL's matchup
+    segment ('{slugA}-vs-{slugB}'), where one of slugA/slugB matches our
+    team. This is the SINGLE source of truth for who the opponent is — it's
+    MaxPreps' canonical naming, never an abbreviation or fallback.
+
+    Returns the opponent's slug, or None if the URL doesn't contain a
+    recognisable '{a}-vs-{b}' segment (rare — tournament games etc.).
+    """
+    matchup = _matchup_segment(game_url)
+    if not matchup:
+        return None
     parts = matchup.split("-vs-")
     if len(parts) != 2:
         return None
@@ -670,21 +930,26 @@ def _is_our_team(page_name, our_slugs):
 
 def parse_game_page(soup, game_url, our_team_name, team_id, opp_index=None):
     """
-    Parse all div.stat-category elements on a rendered game page.
+    Parse the per-player stat tables on a rendered game page.
 
-    Each div contains stats for ONE category (Shooting / Detailed Shooting /
-    Totals / Misc Totals). Inside a div MaxPreps may include:
-      - One <span class="school"> at the top showing the first team's name.
-      - One <h4> + <table> per team that uploaded stats for this category.
-        Up to TWO tables (one per team). Both teams' tables share the div.
-      - Or a <div class="no-data"> message and no table at all.
+    MaxPreps' 2026 redesign replaced the old div.stat-category layout (both
+    teams' tables side by side, identified via span.school) with tabbed
+    Recap/Stats/Roster/Matchup navigation, rendered via React Server
+    Components.
 
-    The opponent's identity is determined from the game URL (the canonical
-    `{a}-vs-{b}.htm` slug), NOT from any text scraped from the page body —
-    that way abbreviations like 'HSIFW' or 'NCA' that appear in the rendered
-    page never leak into our output. The opp_index argument (built from the
-    master team-list file) is then used to resolve the URL slug to the team's
-    FULL canonical team_id and team_name — same shape as our own team's.
+    PRIMARY source is the streamed RSC payload (see _parse_rsc_stats), which
+    carries BOTH teams' stat tables as JSON with per-athlete school links.
+    The rendered HTML only ever contains the ONE team the client-side
+    switcher has selected, so the RSC path is the only way to capture the
+    opponent's players at all.
+
+    FALLBACK, if the payload is missing or unparseable, is the previous
+    behaviour: scan every <table>, categorise by column headers, and infer
+    which team is shown from the game URL's '{a}-vs-{b}' slug order.
+
+    The opponent's identity is determined from page hyperlinks / the game
+    URL slug — NOT from any text scraped from the page body — same as
+    before the redesign.
 
     Returns:
     {
@@ -696,17 +961,18 @@ def parse_game_page(soup, game_url, our_team_name, team_id, opp_index=None):
       "totals":            {...},
       "misc":              {...},
     }
-    or None if no stat sections are present anywhere on the page.
+    or None if no recognisable stat data is present anywhere on the page.
     """
-    stat_divs = soup.select("div.stat-category")
-    if not stat_divs:
+    tables = soup.find_all("table")
+    rsc_stats = _parse_rsc_stats(soup)
+    if not tables and not rsc_stats:
         return None
 
     # ── Opponent identity from PAGE HYPERLINKS (deterministic) ───────────
     # Box-score pages start with a scoreline widget that links to both teams'
     # canonical pages. Using those hyperlinks is unambiguous — it's immune to
     # the URL-slug ambiguity that breaks for same-city opponents like
-    # 'austin-vs-bowie.htm' (Austin Bowie vs Austin Maroons, both in Austin).
+    # 'austin-vs-bowie' (Austin Bowie vs Austin Maroons, both in Austin).
     page_tids = _canonical_team_ids_on_page(soup, limit=2)
     opp_id = ""
     if team_id in page_tids:
@@ -728,67 +994,99 @@ def parse_game_page(soup, game_url, our_team_name, team_id, opp_index=None):
     # ── Per-category storage ─────────────────────────────────────────────
     team_cats = {c: [] for c in ("shooting", "detailed_shooting", "totals", "misc")}
     opp_cats  = {c: [] for c in ("shooting", "detailed_shooting", "totals", "misc")}
+
+    def _finish():
+        result = {
+            "team_name": our_team_name,
+            "opp_name":  opp_name or "",
+            "opp_id":    opp_id or "",
+        }
+        for cat in ("shooting", "detailed_shooting", "totals", "misc"):
+            result[cat] = {
+                "team":     {"players": team_cats[cat]},
+                "opponent": {"players": opp_cats[cat]},
+            }
+        return result
+
+    # ── PRIMARY: RSC payload (both teams, deterministically attributed) ──
+    if rsc_stats:
+        our_key = _school_key(team_id)
+        opp_key = _school_key(opp_id)
+        # If hyperlinks/URL didn't pin the opponent down, take whichever other
+        # school the payload itself contains — it only ever holds the two
+        # teams in this matchup.
+        if not opp_key:
+            others = [k for k in rsc_stats if k != our_key]
+            if len(others) == 1:
+                opp_key = others[0]
+                if not opp_id:
+                    # Rebuild a full team_id by reusing our own sport/gender
+                    # suffix ('basketball' or 'basketball/girls') — both teams
+                    # in a matchup necessarily share it.
+                    suffix = "/".join(team_id.split("/")[3:]) if team_id else ""
+                    opp_id = f"{opp_key}/{suffix}".rstrip("/") if suffix else opp_key
+                    id_to_name = _id_to_name_from_opp_index(opp_index)
+                    opp_name = (id_to_name.get(opp_id)
+                                or _team_name_from_id(opp_id) or opp_name)
+
+        for cat in ("shooting", "detailed_shooting", "totals", "misc"):
+            if our_key and our_key in rsc_stats:
+                team_cats[cat].extend(rsc_stats[our_key].get(cat, []))
+            if opp_key and opp_key in rsc_stats:
+                opp_cats[cat].extend(rsc_stats[opp_key].get(cat, []))
+
+        if any(team_cats[c] or opp_cats[c] for c in team_cats):
+            return _finish()
+        # Payload had stat groups but none matched either side — fall through
+        # to the HTML path rather than reporting the game as empty.
+
+    if not tables:
+        return None
+
+    # ── FALLBACK: which team's tables is the Stats tab currently showing? ──
+    # Without the RSC payload we can't click the team switcher, so infer it
+    # from the URL slug order. Compare against slugs derived from BOTH
+    # team_ids (not opp_name) — slugs like 'adams-city-commerce-city' (team
+    # name + literal city, MaxPreps' disambiguation suffix for duplicate
+    # school names) don't match a display name via prefix-matching but do
+    # match the team_id's own slug set.
+    shown_slug = _first_slug_from_url(game_url)
+    our_slugs = _our_team_slugs(team_id)
+    opp_slugs = _our_team_slugs(opp_id) if opp_id else set()
+    shown_is_us = None
+    if shown_slug:
+        is_us = _slug_matches_us(shown_slug, our_slugs)
+        is_opp = _slug_matches_us(shown_slug, opp_slugs) if opp_slugs else False
+        if is_us and not is_opp:
+            shown_is_us = True
+        elif is_opp and not is_us:
+            shown_is_us = False
+        # else ambiguous/unknown — leave shown_is_us as None
+
     found_any = False
-
-    for div in stat_divs:
-        tables = div.find_all("table")
-        if not tables:
-            continue  # 'no-data' or empty div — skip
-
-        # span.school names the FIRST team's table. Compare against the
-        # canonical names of BOTH teams (with punctuation normalisation) so
-        # 'Anderson-Shiro' correctly matches 'Anderson Shiro Fighting Owls'.
-        school_el = div.select_one("span.school")
-        first_text = school_el.get_text(strip=True) if school_el else ""
-        first_is_us  = _school_matches_team(first_text, our_team_name)
-        first_is_opp = _school_matches_team(first_text, opp_name) if opp_name else False
-        # If both names match (rare — e.g. both teams share a common prefix),
-        # prefer exact-match over prefix-match to disambiguate.
-        if first_is_us and first_is_opp:
-            s = _norm_name(first_text)
-            if _norm_name(our_team_name) == s and _norm_name(opp_name) != s:
-                first_is_opp = False
-            elif _norm_name(opp_name) == s and _norm_name(our_team_name) != s:
-                first_is_us = False
-
-        for idx, table in enumerate(tables):
-            headers = [th.get_text(strip=True)
-                       for th in table.select("thead th, thead td")]
-            category = _identify_category(headers)
-            if not category:
-                continue
-            players = _parse_players(table, category)
-            if not players:
-                continue
-            # First table = first_text's team. Subsequent tables = the OTHER team.
-            if idx == 0:
-                belongs_to_us = first_is_us and not first_is_opp
-            else:
-                belongs_to_us = (not first_is_us) and first_is_opp
-                # If first_text still matches both (after disambiguation), idx 1+
-                # is by elimination the other team.
-                if first_is_us and first_is_opp:
-                    belongs_to_us = (idx != 0)
-            if belongs_to_us:
-                team_cats[category].extend(players)
-            else:
-                opp_cats[category].extend(players)
-            found_any = True
+    for table in tables:
+        headers = [th.get_text(strip=True) for th in _table_header_cells(table)]
+        category = _identify_category(headers)
+        if not category:
+            continue  # not one of our four known stat tables — skip (Roster, quarter-by-quarter score, etc.)
+        players = _parse_players(table, category)
+        if not players:
+            continue
+        found_any = True
+        # Default to "us" when the shown side can't be determined — matches
+        # the old parser's intent of never leaving our own section empty
+        # without cause. shown_is_us is only ever False on a POSITIVE
+        # opponent-slug match, so this can't silently misattribute confirmed
+        # opponent data as ours.
+        if shown_is_us is False:
+            opp_cats[category].extend(players)
+        else:
+            team_cats[category].extend(players)
 
     if not found_any:
         return None
 
-    result = {
-        "team_name": our_team_name,
-        "opp_name":  opp_name or "",
-        "opp_id":    opp_id or "",
-    }
-    for cat in ("shooting", "detailed_shooting", "totals", "misc"):
-        result[cat] = {
-            "team":     {"players": team_cats[cat]},
-            "opponent": {"players": opp_cats[cat]},
-        }
-    return result
+    return _finish()
 
 
 # ── Game scraping ─────────────────────────────────────────────────────────────
@@ -804,7 +1102,7 @@ def scrape_game(game_url, guid, ssid, our_team_name, team_id, opp_index=None):
     of our own team's record.
 
     Returns a record dict compatible with Accumulation_data.py, or None
-    if the page could not be fetched or has no stat-category sections.
+    if the page could not be fetched or has no recognisable stat table.
     """
     time.sleep(DELAY)
 
@@ -820,6 +1118,18 @@ def scrape_game(game_url, guid, ssid, our_team_name, team_id, opp_index=None):
             return {"_404": True}
         if r.status_code != 200:
             return None
+
+        # MaxPreps' 2026 redesign defaults the game page to its Recap tab;
+        # the per-player stat tables only render under Stats. boxscore.aspx
+        # redirects to the plain (tab-less) canonical URL, so re-fetch that
+        # URL with ?tab=stats explicitly selected — same as clicking Stats.
+        stats_url = _with_stats_tab(r.url)
+        if stats_url != r.url:
+            time.sleep(DELAY)
+            r2 = _get_session().get(stats_url, headers=HTML_HEADERS, timeout=25, allow_redirects=True)
+            if r2.status_code == 200:
+                r = r2
+
         soup = BeautifulSoup(r.text, "html.parser")
     except Exception as e:
         # Re-raise connection/timeout errors so the caller can handle retries
@@ -830,10 +1140,12 @@ def scrape_game(game_url, guid, ssid, our_team_name, team_id, opp_index=None):
 
     # Opponent identity comes from the canonical game URL — never guessed.
     # Pass the final redirected URL since boxscore.aspx redirects to the
-    # public /games/.../{a}-vs-{b}.htm form that contains the slugs.
+    # public /{state}/{sport}/game/{a}-vs-{b}/{date}/ form that contains the
+    # slugs (r.url here is that canonical URL + our ?tab=stats addition,
+    # which doesn't affect the path slugs parse_game_page reads).
     page = parse_game_page(soup, r.url, our_team_name, team_id, opp_index)
     if not page:
-        return None      # game has no stat-category content
+        return None      # game has no recognisable stat table content
 
     # Game date from the final (redirected) URL
     date_m = re.search(r"/(\d{1,2}-\d{1,2}-\d{4})/", r.url)

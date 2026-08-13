@@ -60,18 +60,39 @@ DELAY         = 0.3    # base delay (per thread)
 SCHED_WORKERS = 20     # Parallel schedule fetches
 GAME_WORKERS  = 50     # Parallel game checks
 
+# MaxPreps serves a 403 "Geo-block" page to requests from some countries —
+# genuinely geographic (a VPN in an allowed region fixes it; header/TLS
+# tuning does not). See the matching comment in scrape_box_scores.py;
+# this header set is kept in sync with it.
+_SEC_CH_UA = '"Not.A/Brand";v="8", "Chromium";v="124", "Google Chrome";v="124"'
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/124.0.0.0 Safari/537.36"
     ),
-    "Accept":          "application/json, text/plain, */*",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Referer":         "https://www.maxpreps.com/",
+    "Accept":            "application/json, text/plain, */*",
+    "Accept-Language":   "en-US,en;q=0.9",
+    "Accept-Encoding":   "gzip, deflate",
+    "Referer":           "https://www.maxpreps.com/",
+    "sec-ch-ua":          _SEC_CH_UA,
+    "sec-ch-ua-mobile":   "?0",
+    "sec-ch-ua-platform": '"Windows"',
+    "sec-fetch-dest":     "empty",
+    "sec-fetch-mode":     "cors",
+    "sec-fetch-site":     "same-origin",
 }
 
-HTML_HEADERS = {**HEADERS, "Accept": "text/html,application/xhtml+xml,*/*"}
+HTML_HEADERS = {
+    **HEADERS,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "sec-fetch-dest":            "document",
+    "sec-fetch-mode":            "navigate",
+    "sec-fetch-site":            "same-origin",
+    "sec-fetch-user":            "?1",
+    "Upgrade-Insecure-Requests": "1",
+}
 
 # ─── Thread-local HTTP sessions ───────────────────────────────────────────────
 
@@ -330,6 +351,19 @@ def check_game_worker(game_url, guid, ssid, team_name, team_id=None, opp_index=N
     try:
         r = _session(json_mode=False).get(url, timeout=20, allow_redirects=True)
         if r.status_code != 200: return None
+
+        # MaxPreps' 2026 redesign defaults the game page to its Recap tab;
+        # the per-player stat tables (what _classify_game needs) only render
+        # under Stats. Re-fetch the canonical (redirected) URL with
+        # ?tab=stats explicitly selected — see scrape_box_scores._with_stats_tab.
+        from scrape_box_scores import _with_stats_tab
+        stats_url = _with_stats_tab(r.url)
+        if stats_url != r.url:
+            time.sleep(DELAY)
+            r2 = _session(json_mode=False).get(stats_url, timeout=20, allow_redirects=True)
+            if r2.status_code == 200:
+                r = r2
+
         soup = BeautifulSoup(r.text, "html.parser")
         if team_id is None:
             # Legacy mode — preserve old True/False behaviour for any caller
