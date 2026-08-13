@@ -470,8 +470,14 @@ _RSC_PUSH_RE = re.compile(r'self\.__next_f\.push\(\[1,("(?:[^"\\]|\\.)*")\]\)', 
 # Athlete profile links look like
 #   https://www.maxpreps.com/co/commerce-city/adams-city-eagles/athletes/omar-deluna/?careerid=…
 # The first three path segments are the school key we match teams on.
+#
+# Anchor on '/athletes/' rather than the host: the RSC payload currently uses
+# absolute URLs, but the same links are RELATIVE ('/tx/allen/allen-eagles/
+# athletes/…') in the rendered HTML. Requiring the host would make
+# _school_of_rows() return None for relative hrefs, which silently discards
+# the whole table — so accept either form.
 _ATHLETE_SCHOOL_RE = re.compile(
-    r"maxpreps\.com/([a-z]{2}/[^/]+/[^/]+)/athletes/", re.I)
+    r"/([a-z]{2}/[^/]+/[^/]+)/athletes/", re.I)
 
 # Stat group objects in the payload: {"name":"Shooting","subgroups":[…]}
 _RSC_GROUP_RE = re.compile(r'\{"name":"([^"]*)","subgroups":')
