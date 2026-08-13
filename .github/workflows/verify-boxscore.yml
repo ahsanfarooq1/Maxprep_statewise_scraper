@@ -22,6 +22,7 @@ on:
     paths:
       - 'scrape_box_scores.py'
       - 'app.py'
+      - 'verify_boxscore_live.py'
       - '.github/workflows/verify-boxscore.yml'
 
 permissions:
