@@ -406,7 +406,48 @@ def _save_gaps(output_file, state_name, state_code, total_count, full_data, part
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
+def _running_under_streamlit():
+    """True when this script is being executed by `streamlit run`.
+
+    Streamlit executes the target script with __name__ == "__main__", so if a
+    deployment points its 'Main file path' at THIS file instead of
+    streamlit_app.py, main() runs headless: argparse silently falls back to
+    its defaults (TX/boys/2025-2026) and a full state scrape starts, while the
+    page renders completely blank because nothing here imports Streamlit.
+    That failure is silent and expensive, so detect it and refuse.
+    """
+    # Check sys.modules first: under `streamlit run` the runtime has already
+    # imported streamlit, whereas importing it here during a normal CLI run
+    # would emit a "missing ScriptRunContext" warning into the pipeline logs
+    # that streamlit_app.py parses for progress.
+    if "streamlit" not in sys.modules:
+        return False
+    try:
+        from streamlit.runtime.scriptrunner import get_script_run_ctx
+        return get_script_run_ctx() is not None
+    except Exception:
+        return False
+
+
 def main():
+    if _running_under_streamlit():
+        try:
+            import streamlit as st
+            st.error(
+                "**Wrong entry point.** `app.py` is the command-line gap "
+                "finder — it has no user interface, which is why this page is "
+                "blank.\n\n"
+                "Set the app's **Main file path** to `streamlit_app.py` and "
+                "reboot."
+            )
+            st.caption(
+                "Left running, this file would have started an unattended "
+                "scrape using its default arguments (TX / boys / 2025-2026)."
+            )
+        except Exception:
+            pass
+        return
+
     parser = argparse.ArgumentParser(description="Parallel HS Basketball Box Score Gap Finder")
     parser.add_argument("--state", default=os.environ.get("STATE", "TX"), help="State code (default: TX)")
     parser.add_argument("--sport", default=os.environ.get("SPORT", "boys"), choices=["boys", "girls"], help="boys (default) or girls")
