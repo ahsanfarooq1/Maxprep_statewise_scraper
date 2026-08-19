@@ -243,7 +243,7 @@ def _load_team_list(input_file):
 
 # ─── Driver ──────────────────────────────────────────────────────────────────
 
-def run(input_file, season, workers, output_file):
+def run(input_file, season, workers, output_file, level='varsity'):
     if not os.path.exists(input_file):
         print(f"[ERROR] Input file not found: {input_file}")
         return None
@@ -251,6 +251,17 @@ def run(input_file, season, workers, output_file):
     teams, src_format = _load_team_list(input_file)
     # Drop entries without a URL (safety)
     teams = [t for t in teams if t.get('teamUrl')]
+
+    # Force every team URL to the requested level. A gaps file produced by
+    # `app.py --level jv` already carries it (apply_level is idempotent), but a
+    # varsity gaps file passed with --level jv would otherwise silently scrape
+    # VARSITY stats while stage 3 scraped JV box scores — a mismatch that would
+    # be very hard to spot in the merged output.
+    from scrape_box_scores import normalise_level, apply_level
+    level = normalise_level(level)
+    if level != 'varsity':
+        for t in teams:
+            t['teamUrl'] = apply_level(t['teamUrl'], level)
 
     season_suffix = _short_season(season)
     out_dir = os.path.dirname(output_file)
@@ -260,6 +271,8 @@ def run(input_file, season, workers, output_file):
     print(f"Input            : {input_file} (detected as: {src_format})")
     print(f"Teams to scrape  : {len(teams)}")
     print(f"Season URL suffix: {season_suffix or '(current)'}")
+    print(f"Level            : {level}"
+          + ("" if level == 'varsity' else f" (URL segment /{level})"))
     print(f"Workers          : {workers}")
     print(f"Output           : {output_file}")
     print("-" * 70)
@@ -369,6 +382,10 @@ def main():
                     help='Season for the print-stats URL (default 2025-2026).')
     ap.add_argument('--workers', type=int, default=TEAM_WORKERS,
                     help=f'Parallel worker count (default {TEAM_WORKERS}).')
+    ap.add_argument('--level',   default='varsity',
+                    choices=['varsity', 'jv', 'freshman'],
+                    help='Team level (default: varsity). Applied to every team '
+                         'URL so this stage matches the box-score stage.')
     ap.add_argument('--output',  default=None,
                     help='Output file path. Default: same folder as input, '
                          'name derived from input.')
@@ -384,7 +401,7 @@ def main():
         else:
             args.output = f"{base}_stats_tab_accumulated{ext}"
 
-    run(args.input, args.season, args.workers, args.output)
+    run(args.input, args.season, args.workers, args.output, level=args.level)
 
 
 if __name__ == '__main__':

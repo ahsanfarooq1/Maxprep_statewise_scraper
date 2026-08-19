@@ -78,7 +78,7 @@ def _short_season(season):
 
 
 def run_pipeline(state, sport, season, workers, output_dir=None,
-                 start_at=1, end_at=4, limit=None):
+                 start_at=1, end_at=4, limit=None, level='varsity'):
     state_code = state.upper()
     state_lower = state.lower()
     season_fn = season.replace('-', '_')
@@ -93,11 +93,18 @@ def run_pipeline(state, sport, season, workers, output_dir=None,
     os.makedirs(state_folder, exist_ok=True)
     os.makedirs(final_folder, exist_ok=True)
 
-    gaps_path  = os.path.join(state_folder, f'{state_lower}_data_gaps_{sport}_{season_fn}.json')
-    stab_path  = os.path.join(state_folder, f'{state_lower}_all_stats_tab_{sport}_{season_fn}.json')
-    box_path   = os.path.join(state_folder, f'{state_lower}_box_scores_{sport}_{season_fn}.json')
-    acc_path   = os.path.join(state_folder, f'{state_lower}_accumulated_stats_{sport}_{season_fn}.json')
-    final_path = os.path.join(final_folder, f'Final_{state_lower}_accumulated_{sport}_{ss}.json')
+    # Level suffix ('' for varsity, '_jv', '_freshman') keeps every varsity
+    # filename byte-identical to before while giving JV/freshman their own set,
+    # so the three levels can coexist without overwriting each other.
+    from scrape_box_scores import normalise_level, level_file_suffix
+    level = normalise_level(level)
+    lv = level_file_suffix(level)
+
+    gaps_path  = os.path.join(state_folder, f'{state_lower}_data_gaps_{sport}{lv}_{season_fn}.json')
+    stab_path  = os.path.join(state_folder, f'{state_lower}_all_stats_tab_{sport}{lv}_{season_fn}.json')
+    box_path   = os.path.join(state_folder, f'{state_lower}_box_scores_{sport}{lv}_{season_fn}.json')
+    acc_path   = os.path.join(state_folder, f'{state_lower}_accumulated_stats_{sport}{lv}_{season_fn}.json')
+    final_path = os.path.join(final_folder, f'Final_{state_lower}_accumulated_{sport}{lv}_{ss}.json')
 
     env = os.environ.copy()
     env['DATA_DIR'] = state_folder
@@ -108,7 +115,7 @@ def run_pipeline(state, sport, season, workers, output_dir=None,
     py = [sys.executable, '-u', '-X', 'utf8']
 
     print('=' * 80)
-    _ts(f'APP/pipeline  state={state_code}  sport={sport}  season={season}')
+    _ts(f'APP/pipeline  state={state_code}  sport={sport}  season={season}  level={level}')
     _ts(f'  state folder     : {state_folder}/')
     _ts(f'  final folder     : {final_folder}/')
     _ts(f'  stages {start_at}-{end_at}')
@@ -122,6 +129,7 @@ def run_pipeline(state, sport, season, workers, output_dir=None,
                          '--state',  state_code,
                          '--sport',  sport,
                          '--season', season,
+                         '--level',  level,
                          '--gap-only'],
                   env)
         if not ok:
@@ -141,6 +149,7 @@ def run_pipeline(state, sport, season, workers, output_dir=None,
             ok = _run(py + ['accumulate_from_stats_tab.py',
                              '--input',   gaps_path,
                              '--season',  season,
+                             '--level',   level,
                              '--workers', str(workers),
                              '--output',  stab_path],
                       env)
@@ -159,6 +168,7 @@ def run_pipeline(state, sport, season, workers, output_dir=None,
                        '--state',  state_code,
                        '--sport',  sport,
                        '--season', season,
+                       '--level',  level,
                        '--input',  gaps_path,
                        '--output', box_path,
                        '--workers', str(workers),
@@ -249,6 +259,10 @@ def main():
                     help='Skip to a specific stage (1-4). Default 1.')
     ap.add_argument('--end-at',   type=int, default=4, choices=range(1, 5),
                     help='Stop after a specific stage (1-4). Default 4.')
+    ap.add_argument('--level', default='varsity',
+                    choices=['varsity', 'jv', 'freshman'],
+                    help='Team level (default: varsity). JV/freshman write to '
+                         'their own *_jv / *_freshman output files.')
     ap.add_argument('--limit', type=int, default=None,
                     help='Box-score stage: scrape only the first N unprocessed '
                          'teams. Use for a quick end-to-end smoke test before '
@@ -265,7 +279,7 @@ def main():
     ok = run_pipeline(args.state, args.sport, args.season, args.workers,
                       output_dir=args.output_dir,
                       start_at=args.start_at, end_at=args.end_at,
-                      limit=args.limit)
+                      limit=args.limit, level=args.level)
     sys.exit(0 if ok else 1)
 
 

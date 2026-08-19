@@ -35,7 +35,17 @@ STATE_NAMES = {
 
 SEASONS        = [f"{y}-{y+1}" for y in range(2029, 2019, -1)]
 DEFAULT_SEASON = "2025-2026"
-PHASE_LABELS   = [
+LEVELS         = ["varsity", "jv", "freshman"]
+LEVEL_LABELS   = {"varsity": "Varsity", "jv": "JV", "freshman": "Freshman"}
+
+
+def level_suffix(level):
+    """Filename infix. Varsity stays '' so existing varsity outputs keep their
+    names; JV/freshman get their own files."""
+    return "" if (level or "varsity") == "varsity" else f"_{level}"
+
+
+PHASE_LABELS = [
     "Phase 1 — Gap Finder",
     "Phase 2 — Stats Section (every team)",
     "Phase 3 — Box Scores",
@@ -430,7 +440,7 @@ with st.expander("🌐 Check MaxPreps access (run this before a long scrape)", e
 
 
 # ── Dropdowns — only disabled while actively running ─────────────────────────
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 with col1:
     state_code = st.selectbox("State", options=list(STATE_NAMES.keys()),
                                format_func=lambda x: f"{x} — {STATE_NAMES[x]}", disabled=running)
@@ -441,6 +451,12 @@ with col2:
 with col3:
     season = st.selectbox("Season", options=SEASONS,
                            index=SEASONS.index(DEFAULT_SEASON), disabled=running)
+with col4:
+    # MaxPreps serves varsity at the bare team URL and nests the other levels
+    # after the gender (/basketball/girls/jv/…). Each level gets its own output
+    # files, so switching level never overwrites another level's data.
+    level = st.selectbox("Level", options=LEVELS,
+                          format_func=lambda x: LEVEL_LABELS[x], disabled=running)
 
 st.divider()
 
@@ -462,17 +478,18 @@ if st.button("▶ Start Scraping", type="primary", use_container_width=True, dis
     season_fn   = season.replace("-", "_")
     ss          = short_season(season)
     state_lower = state_code.lower()
+    lv          = level_suffix(level)
 
     clear_disk_state()
 
     if clear_previous:
         for fname in [
-            f"{state_lower}_data_gaps_{sport}_{season_fn}.json",
-            f"{state_lower}_all_stats_tab_{sport}_{season_fn}.json",
-            f"{state_lower}_all_stats_tab_{sport}_{season_fn}_report.json",
-            f"{state_lower}_box_scores_{sport}_{season_fn}.json",
-            f"{state_lower}_accumulated_stats_{sport}_{season_fn}.json",
-            f"Final_{state_lower}_accumulated_{sport}_{ss}.json",
+            f"{state_lower}_data_gaps_{sport}{lv}_{season_fn}.json",
+            f"{state_lower}_all_stats_tab_{sport}{lv}_{season_fn}.json",
+            f"{state_lower}_all_stats_tab_{sport}{lv}_{season_fn}_report.json",
+            f"{state_lower}_box_scores_{sport}{lv}_{season_fn}.json",
+            f"{state_lower}_accumulated_stats_{sport}{lv}_{season_fn}.json",
+            f"Final_{state_lower}_accumulated_{sport}{lv}_{ss}.json",
         ]:
             fpath = os.path.join(OUTPUT_DIR, fname)
             if os.path.exists(fpath):
@@ -489,6 +506,7 @@ if st.button("▶ Start Scraping", type="primary", use_container_width=True, dis
     # to OUTPUT_DIR so the UI can find them via predictable filenames.
     cmd = [sys.executable, "-u", "APP/pipeline.py",
            "--state", state_code, "--sport", sport, "--season", season,
+           "--level", level,
            "--output-dir", OUTPUT_DIR]
     if test_mode:
         cmd += ["--limit", "5"]
@@ -504,12 +522,13 @@ if st.button("▶ Start Scraping", type="primary", use_container_width=True, dis
     save_disk_state({
         "pid":         process.pid,
         "label":       (f"{STATE_NAMES[state_code]} | "
-                        f"{'Boys' if sport=='boys' else 'Girls'} Basketball | {season}"
+                        f"{'Boys' if sport=='boys' else 'Girls'} Basketball | "
+                        f"{LEVEL_LABELS[level]} | {season}"
                         + (" | 🧪 TEST MODE (5 teams)" if test_mode else "")),
-        "gaps_file":   os.path.join(OUTPUT_DIR, f"{state_lower}_data_gaps_{sport}_{season_fn}.json"),
-        "stab_file":   os.path.join(OUTPUT_DIR, f"{state_lower}_all_stats_tab_{sport}_{season_fn}.json"),
-        "box_file":    os.path.join(OUTPUT_DIR, f"{state_lower}_box_scores_{sport}_{season_fn}.json"),
-        "final_file":  os.path.join(OUTPUT_DIR, f"Final_{state_lower}_accumulated_{sport}_{ss}.json"),
+        "gaps_file":   os.path.join(OUTPUT_DIR, f"{state_lower}_data_gaps_{sport}{lv}_{season_fn}.json"),
+        "stab_file":   os.path.join(OUTPUT_DIR, f"{state_lower}_all_stats_tab_{sport}{lv}_{season_fn}.json"),
+        "box_file":    os.path.join(OUTPUT_DIR, f"{state_lower}_box_scores_{sport}{lv}_{season_fn}.json"),
+        "final_file":  os.path.join(OUTPUT_DIR, f"Final_{state_lower}_accumulated_{sport}{lv}_{ss}.json"),
     })
     st.rerun()
 

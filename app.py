@@ -447,6 +447,10 @@ def main():
     parser.add_argument("--state", default=os.environ.get("STATE", "TX"), help="State code (default: TX)")
     parser.add_argument("--sport", default=os.environ.get("SPORT", "boys"), choices=["boys", "girls"], help="boys (default) or girls")
     parser.add_argument("--season", default=os.environ.get("SEASON", "2025-2026"), help="Season (e.g., 2025-2026 or 25-26)")
+    parser.add_argument("--level", default=os.environ.get("LEVEL", "varsity"),
+                        choices=["varsity", "jv", "freshman"],
+                        help="Team level (default: varsity). MaxPreps nests it "
+                             "after the gender: /basketball/girls/jv/…")
     parser.add_argument("--gap-only", action="store_true",
                         help="Only run gap-finder; skip the auto-chained box-score "
                              "scraper. Use this when an external orchestrator (e.g. "
@@ -484,7 +488,12 @@ def main():
 
     # Output: tx_data_gaps_boys_2025_2026.json
     season_fn = args.season.replace("-", "_")
-    output_file = os.path.join(DATA_DIR, f"{state_lower}_data_gaps_{sport_label}_{season_fn}.json")
+    # Level suffix keeps varsity filenames byte-identical to before, so existing
+    # varsity outputs and any downstream consumers are unaffected.
+    from scrape_box_scores import normalise_level, level_file_suffix, apply_level
+    level = normalise_level(args.level)
+    lvl_sfx = level_file_suffix(level)
+    output_file = os.path.join(DATA_DIR, f"{state_lower}_data_gaps_{sport_label}{lvl_sfx}_{season_fn}.json")
     
     with open(input_file, encoding="utf-8") as f: data = json.load(f)
     if state_code not in data.get("byState", {}):
@@ -502,9 +511,13 @@ def main():
             if not url or url in seen_urls:
                 continue
             seen_urls.add(url)
+            # The master list only holds varsity URLs; JV/freshman live at the
+            # same path plus a level segment. Stages 2 and 3 both derive their
+            # URLs from the teamUrl we write here, so applying the level once
+            # at enumeration makes the whole downstream pipeline level-aware.
             all_teams.append({
                 "teamName": name_from_url(url, t.get("teamName", "")),
-                "teamUrl": url,
+                "teamUrl": apply_level(url, level),
                 "region": r,
             })
     total = len(all_teams)
@@ -538,6 +551,8 @@ def main():
     # --season 2024-2025 would still scrape 2025-2026 games.
     season_suffix = _short_season(args.season)
     print(f"Season URL suffix: {season_suffix or '(current — no suffix)'}")
+    print(f"Level            : {level}"
+          + ("" if level == "varsity" else f" (URL segment /{level})"))
 
     # Build the opponent canonical-name index ONCE, then pass it into every
     # Phase 2 worker. The gap-finder's 4-bucket per-game classification uses
@@ -727,7 +742,8 @@ def main():
     try:
         from scrape_box_scores import run as scrape_run
         box_scores_out = output_file.replace("data_gaps", "box_scores")
-        scrape_run(input_file=output_file, output_file=box_scores_out, sport=args.sport, season=args.season)
+        scrape_run(input_file=output_file, output_file=box_scores_out,
+                   sport=args.sport, season=args.season, level=level)
     except Exception as e: print(f"Scraper failed: {e}")
 
 if __name__ == "__main__":

@@ -428,6 +428,75 @@ def _short_season(season):
     return season
 
 
+# ── Team level: varsity / jv / freshman ──────────────────────────────────────
+# MaxPreps nests the level AFTER the gender and BEFORE the season, and varsity
+# carries no segment at all. Verified live 2026-08-19:
+#   boys varsity    /tx/allen/allen-eagles/basketball/25-26/schedule/
+#   boys jv         /tx/allen/allen-eagles/basketball/jv/25-26/schedule/
+#   boys freshman   /tx/allen/allen-eagles/basketball/freshman/25-26/schedule/
+#   girls jv        /tx/allen/allen-eagles/basketball/girls/jv/25-26/schedule/
+# The reverse order (/jv/girls/) is a 404, so gender always precedes level.
+
+LEVELS = ("varsity", "jv", "freshman")
+_LEVEL_SEGMENTS = {"jv", "freshman"}
+
+
+def normalise_level(level):
+    """Anything falsy or unrecognised -> 'varsity'."""
+    lv = (level or "varsity").strip().lower()
+    return lv if lv in LEVELS else "varsity"
+
+
+def level_segment(level):
+    """'jv' -> '/jv'.  varsity -> '' (MaxPreps has no varsity segment)."""
+    lv = normalise_level(level)
+    return "" if lv == "varsity" else f"/{lv}"
+
+
+def level_file_suffix(level):
+    """Filename infix: '' for varsity so existing varsity outputs keep their
+    names, '_jv' / '_freshman' otherwise."""
+    lv = normalise_level(level)
+    return "" if lv == "varsity" else f"_{lv}"
+
+
+def strip_level(team_path):
+    """Drop a trailing /jv or /freshman from a team path or URL."""
+    if not team_path:
+        return team_path
+    trailing_slash = team_path.endswith("/")
+    parts = [x for x in team_path.rstrip("/").split("/") if x != ""]
+    if parts and parts[-1].lower() in _LEVEL_SEGMENTS:
+        parts.pop()
+    out = "/".join(parts)
+    # Rebuild the scheme separator that the split above collapsed.
+    out = out.replace("https:/", "https://").replace("http:/", "http://")
+    return out + "/" if trailing_slash else out
+
+
+def apply_level(team_path, level):
+    """Return `team_path` with the level segment applied (idempotent).
+
+    Works for both bare paths ('tx/allen/allen-eagles/basketball/girls') and
+    full URLs ('https://www.maxpreps.com/tx/.../basketball/girls/').
+    """
+    if not team_path:
+        return team_path
+    trailing_slash = team_path.endswith("/")
+    base = strip_level(team_path).rstrip("/")
+    seg = level_segment(level)
+    out = f"{base}{seg}"
+    return out + "/" if trailing_slash else out
+
+
+def level_of(team_path):
+    """'…/basketball/girls/jv' -> 'jv';  no segment -> 'varsity'."""
+    parts = [x for x in (team_path or "").rstrip("/").split("/") if x]
+    if parts and parts[-1].lower() in _LEVEL_SEGMENTS:
+        return parts[-1].lower()
+    return "varsity"
+
+
 def _with_stats_tab(url):
     """Force MaxPreps' 2026-redesigned game page to render its Stats tab.
 
@@ -1325,16 +1394,23 @@ def parse_game_page(soup, game_url, our_team_name, team_id, opp_index=None):
     # canonical pages. Using those hyperlinks is unambiguous — it's immune to
     # the URL-slug ambiguity that breaks for same-city opponents like
     # 'austin-vs-bowie' (Austin Bowie vs Austin Maroons, both in Austin).
+    # team_id may carry a level segment (…/basketball/jv). Page hyperlinks and
+    # the master opponent index only ever use the VARSITY-shaped id, so match
+    # on the level-stripped form and re-apply the level to the result. A JV
+    # game is JV for both sides, so the opponent inherits our level.
+    our_level    = level_of(team_id)
+    base_team_id = strip_level(team_id)
+
     page_tids = _canonical_team_ids_on_page(soup, limit=2)
     opp_id = ""
-    if team_id in page_tids:
-        opp_id = next((t for t in page_tids if t != team_id), "")
+    if base_team_id in page_tids:
+        opp_id = next((t for t in page_tids if t != base_team_id), "")
 
     # If hyperlinks didn't put us in the matchup pair (rare — page structure
     # change or missing links), fall back to the URL-slug + master-index path.
     if not opp_id:
-        opp_slug_raw = _opp_slug_from_url(game_url, team_id) or ""
-        opp_id_fallback, opp_name_fallback = _resolve_opponent(opp_slug_raw, team_id, opp_index)
+        opp_slug_raw = _opp_slug_from_url(game_url, base_team_id) or ""
+        opp_id_fallback, opp_name_fallback = _resolve_opponent(opp_slug_raw, base_team_id, opp_index)
         opp_id = opp_id_fallback
         opp_name = opp_name_fallback
     else:
@@ -1342,6 +1418,11 @@ def parse_game_page(soup, game_url, our_team_name, team_id, opp_index=None):
         # in the master index; if missing, derive from the slug.
         id_to_name = _id_to_name_from_opp_index(opp_index)
         opp_name = id_to_name.get(opp_id) or _team_name_from_id(opp_id)
+
+    # Carry our level onto the opponent so JV/freshman records never collide
+    # with varsity ones downstream. Only for ids that look like a team path.
+    if opp_id and "/" in opp_id:
+        opp_id = apply_level(opp_id, our_level)
 
     # ── Per-category storage ─────────────────────────────────────────────
     team_cats = {c: [] for c in ("shooting", "detailed_shooting", "totals", "misc")}
@@ -1678,13 +1759,15 @@ def _scrape_team(team, season_suffix=None, opp_index=None):
 
 
 def run(input_file=None, output_file=None, sport="boys", season="2025-2026",
-        workers=None, run_accumulator=True, limit=None):
+        workers=None, run_accumulator=True, limit=None, level="varsity"):
     """
     Scrape all full/partial teams from a gaps JSON file.
     Can be called programmatically or invoked via main().
 
     workers: parallel team count (default: TEAM_WORKERS = 15).
     limit:   process only the first N unprocessed teams (smoke-testing).
+    level:   'varsity' (default), 'jv' or 'freshman'. Applied to every team URL
+             so this stage is correct even when handed a varsity gaps file.
     """
     if input_file is None:
         input_file = INPUT_FILE
@@ -1712,6 +1795,17 @@ def run(input_file=None, output_file=None, sport="boys", season="2025-2026",
         if url and url not in teams_by_url:
             teams_by_url[url] = t
     teams = list(teams_by_url.values())
+
+    # Force every team URL to the requested level. apply_level() is idempotent,
+    # so a gaps file that already carries the level is left alone; a varsity one
+    # is upgraded. Without this, --level jv against a varsity gaps file would
+    # silently re-scrape varsity.
+    level = normalise_level(level)
+    if level != "varsity":
+        for t in teams:
+            if t.get("teamUrl"):
+                t["teamUrl"] = apply_level(t["teamUrl"], level)
+
     total_teams = len(teams)
     # Normalise the season into the YY-YY URL segment ('2024-2025' → '24-25').
     # Without this the schedule fetch URL omits the season and MaxPreps falls
@@ -1725,6 +1819,7 @@ def run(input_file=None, output_file=None, sport="boys", season="2025-2026",
     print(f"Season           : {season} (URL suffix: {season_suffix or '(current)'})")
     print(f"Opp index size   : {len(opp_index):,} slugs")
     print(f"Workers          : {workers}")
+    print(f"Level            : {level}{' (no URL segment)' if level=='varsity' else ' (URL segment /'+level+')'}")
     print(f"HTTP transport   : {_http_backend_label()}")
     if limit:
         print(f"Limit            : first {limit} unprocessed team(s) only")
@@ -1893,6 +1988,11 @@ def main():
              f"Raise for speed, lower if you hit rate limits.",
     )
     parser.add_argument(
+        "--level", default="varsity", choices=list(LEVELS),
+        help="Team level to scrape (default: varsity). MaxPreps nests this "
+             "after the gender: /basketball/girls/jv/…",
+    )
+    parser.add_argument(
         "--limit", type=int, default=None,
         help="Process only the first N unprocessed teams. Use for a quick "
              "smoke test before committing to a full state run.",
@@ -1941,12 +2041,16 @@ def main():
 
     out = args.output
     if out is None:
-        # Output: tx_box_scores_boys_2025_2026.json
+        # Output: tx_box_scores_boys_2025_2026.json  (+ _jv / _freshman)
         out = input_file.replace("data_gaps", "box_scores")
+        sfx = level_file_suffix(args.level)
+        if sfx and sfx not in out:
+            out = out.replace(".json", f"{sfx}.json")
 
     run(input_file=input_file, output_file=out, sport=args.sport,
         season=args.season, workers=args.workers,
-        run_accumulator=not args.no_accumulate, limit=args.limit)
+        run_accumulator=not args.no_accumulate, limit=args.limit,
+        level=args.level)
 
 
 if __name__ == "__main__":

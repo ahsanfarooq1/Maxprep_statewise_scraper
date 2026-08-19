@@ -39,6 +39,46 @@ system `curl`, and finally on `requests`. The active chain is printed at
 startup (`HTTP transport : …`). A 403/404 is returned immediately rather than
 retried across backends — those are real answers, not fingerprint rejections.
 
+## Team levels: varsity / JV / freshman
+
+MaxPreps serves varsity at the bare team URL and nests the other levels **after
+the gender**, before the season:
+
+```
+boys varsity     /tx/allen/allen-eagles/basketball/25-26/schedule/
+boys JV          /tx/allen/allen-eagles/basketball/jv/25-26/schedule/
+boys freshman    /tx/allen/allen-eagles/basketball/freshman/25-26/schedule/
+girls JV         /tx/allen/allen-eagles/basketball/girls/jv/25-26/schedule/
+```
+
+`/jv/girls/` (the reverse order) is a 404 — gender always precedes level.
+
+Pass `--level varsity|jv|freshman` (default `varsity`) to `APP/pipeline.py`,
+`app.py`, `accumulate_from_stats_tab.py` and `scrape_box_scores.py`, or pick it
+from the **Level** dropdown in the Streamlit UI:
+
+```bash
+python -m APP.pipeline --state CO --sport boys --season 2025-2026 --level jv
+```
+
+**Output files.** Varsity filenames are unchanged, so existing varsity data and
+any downstream consumers keep working. JV and freshman get their own set:
+
+```
+co_box_scores_boys_2025_2026.json            # varsity
+co_box_scores_boys_jv_2025_2026.json         # JV
+co_box_scores_boys_freshman_2025_2026.json   # freshman
+```
+
+Team ids carry the level too (`co/westminster/westminster-wolves/basketball/jv`),
+for both the scraped team and its opponent — a JV game is JV for both sides — so
+levels never collide in the accumulated output.
+
+**Expect thinner data at these levels.** Many schools only upload varsity stats.
+Of six programs sampled, all six had varsity stats; only two had JV and one had
+freshman. Teams with no stats simply produce empty player lists, exactly as they
+do for varsity.
+
 ## Pipeline
 
 `APP/pipeline.py` runs four stages in order:
