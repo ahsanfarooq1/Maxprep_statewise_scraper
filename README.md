@@ -24,6 +24,21 @@ python test_live_box_score.py
 
 It prints the raw HTTP status and says plainly if you're geo-blocked.
 
+## HTTP transport
+
+MaxPreps answers plain-`requests` traffic with **406 Not Acceptable** in some
+environments (its TLS fingerprint is recognisable), so fetches go through a
+chain, first available wins:
+
+```
+curl_cffi (Chrome TLS impersonation)  →  system curl  →  plain requests
+```
+
+`curl_cffi` is in `requirements.txt`; if it's missing the scraper still runs on
+system `curl`, and finally on `requests`. The active chain is printed at
+startup (`HTTP transport : …`). A 403/404 is returned immediately rather than
+retried across backends — those are real answers, not fingerprint rejections.
+
 ## Pipeline
 
 `APP/pipeline.py` runs four stages in order:
@@ -45,6 +60,27 @@ python -m APP.pipeline --state CO --sport boys --season 2025-2026
 
 Useful flags: `--workers N`, `--start-at N`, `--end-at N` (resume a single
 stage), `--output-dir DIR`.
+
+### Smoke-test before a full state
+
+`scrape_box_scores.py` takes `--limit N` to scrape only the first N
+unprocessed teams — worth doing before committing hours to a full state:
+
+```bash
+python scrape_box_scores.py --state CO --sport boys --season 2025-2026 \
+  --input Colorado_Scraped_data/co_data_gaps_boys_2025_2026.json \
+  --output /tmp/co_test.json --workers 4 --limit 5 --no-accumulate
+```
+
+Expect roughly 20–25 games per team, `errors 0`, and most games carrying
+players for **both** teams. A reference run (CO boys, 5 teams, 2026-08-19)
+produced 115 games, 0 errors, 109/115 with both sides.
+
+To verify the fetch path itself at any time:
+
+```bash
+python verify_boxscore_live.py
+```
 
 ### Streamlit UI
 
