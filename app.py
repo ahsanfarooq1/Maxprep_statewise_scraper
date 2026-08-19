@@ -160,17 +160,14 @@ def name_from_url(team_url, fallback=""):
     return clean_team_name(fallback)
 
 def decode_contest_guid(c_param):
-    try:
-        s = c_param.replace("-", "+").replace("_", "/")
-        pad = (4 - len(s) % 4) % 4
-        b = base64.b64decode(s + "=" * pad)
-        if len(b) != 16: return None
-        p1 = struct.unpack_from("<I", b, 0)[0]
-        p2 = struct.unpack_from("<H", b, 4)[0]
-        p3 = struct.unpack_from("<H", b, 6)[0]
-        p4 = b[8:16].hex()
-        return f"{p1:08x}-{p2:04x}-{p3:04x}-{p4[:4]}-{p4[4:]}"
-    except Exception: return None
+    """Delegates to scrape_box_scores so both stages agree on the format.
+
+    MaxPreps' `c=` parameter is now already a GUID; only legacy URLs use the
+    base64url form. Keeping one implementation avoids the gap finder and the
+    box-score scraper disagreeing about which games have a usable contest id.
+    """
+    from scrape_box_scores import decode_contest_guid as _decode
+    return _decode(c_param)
 
 def _short_season(season):
     """Normalise '2024-2025' or '24-25' → '24-25'. Used to inject the season
@@ -182,20 +179,32 @@ def _short_season(season):
 
 
 def _raw_fetch_schedule(bid, team_path, season_suffix=None):
+    """Fetch one team's schedule contests via the shared transport.
+
+    Uses scrape_box_scores._http_get so the gap finder benefits from the same
+    curl_cffi → system-curl → requests chain as the box-score scraper. Some
+    hosts get 406 on plain-requests traffic, and this stage makes by far the
+    most requests, so it must not be the weak link.
+    """
+    from scrape_box_scores import _http_get, _schedule_page_url
+
     if season_suffix:
         url = f"https://www.maxpreps.com/_next/data/{bid}/{team_path}/{season_suffix}/schedule.json"
     else:
         url = f"https://www.maxpreps.com/_next/data/{bid}/{team_path}/schedule.json"
     time.sleep(DELAY)
     try:
-        r = _session().get(url, timeout=20)
-        if r.status_code == 404: return {"_expired": True}
-        if r.status_code == 429:
-            time.sleep(int(r.headers.get("Retry-After", 5)))
+        status, text, _final = _http_get(
+            url, timeout=20, kind="json",
+            extra_headers={"Referer": _schedule_page_url(team_path, season_suffix),
+                           "x-nextjs-data": "1"})
+        if status == 404: return {"_expired": True}
+        if status == 429:
+            time.sleep(5)
             return "_retry"
-        if r.status_code in (500, 502, 503, 504): return "_retry"
-        if r.status_code != 200: return None
-        data = r.json()
+        if status in (500, 502, 503, 504): return "_retry"
+        if status != 200 or not text: return None
+        data = json.loads(text)
         return (data.get("pageProps", {}).get("initialPageProps", {}).get("contests")
                 or data.get("pageProps", {}).get("contests") or [])
     except (requests.exceptions.ConnectionError, requests.exceptions.Timeout):
@@ -331,28 +340,31 @@ def check_game_worker(game_url, guid, ssid, team_name, team_id=None, opp_index=N
     time.sleep(DELAY)
     url = (f"https://www.maxpreps.com/local/stats/boxscore.aspx?contestid={guid}&ssid={ssid}"
            if guid and ssid else game_url)
+    # Shared transport (curl_cffi → system curl → requests): this worker issues
+    # the bulk of the pipeline's requests, so it uses the same browser-like
+    # chain as the box-score scraper rather than plain requests.
+    from scrape_box_scores import _http_get_page, _with_stats_tab
     try:
-        r = _session(json_mode=False).get(url, timeout=20, allow_redirects=True)
-        if r.status_code != 200: return None
+        status, html, final_url = _http_get_page(url, timeout=20, allow_redirects=True)
+        if status != 200 or not html: return None
 
         # MaxPreps' 2026 redesign defaults the game page to its Recap tab;
         # the per-player stat tables (what _classify_game needs) only render
         # under Stats. Re-fetch the canonical (redirected) URL with
         # ?tab=stats explicitly selected — see scrape_box_scores._with_stats_tab.
-        from scrape_box_scores import _with_stats_tab
-        stats_url = _with_stats_tab(r.url)
-        if stats_url != r.url:
+        stats_url = _with_stats_tab(final_url)
+        if stats_url != final_url:
             time.sleep(DELAY)
-            r2 = _session(json_mode=False).get(stats_url, timeout=20, allow_redirects=True)
-            if r2.status_code == 200:
-                r = r2
+            st2, html2, final2 = _http_get_page(stats_url, timeout=20, allow_redirects=True)
+            if st2 == 200 and html2:
+                html, final_url = html2, (final2 or stats_url)
 
-        soup = BeautifulSoup(r.text, "html.parser")
+        soup = BeautifulSoup(html, "html.parser")
         if team_id is None:
             # Legacy mode — preserve old True/False behaviour for any caller
             # that hasn't been migrated.
             return _check_soup(soup, team_name)
-        return _classify_game(soup, r.url, team_name, team_id, opp_index)
+        return _classify_game(soup, final_url, team_name, team_id, opp_index)
     except Exception: return None
 
 # ─── Save / Output ────────────────────────────────────────────────────────────

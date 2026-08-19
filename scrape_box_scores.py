@@ -24,12 +24,32 @@ import time
 import base64
 import struct
 import argparse
+import shutil
 import threading
+import subprocess
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
+# curl_cffi impersonates a real Chrome TLS handshake. Optional: everything
+# degrades to system curl and then plain requests if it isn't installed.
+try:
+    from curl_cffi import requests as cffi_requests
+    _CFFI_AVAILABLE = True
+except ImportError:            # pragma: no cover - depends on environment
+    cffi_requests = None
+    _CFFI_AVAILABLE = False
+
+# Windows consoles default to cp1252, which raises on the ✓/─ characters in
+# our log lines and on non-ASCII player names.
+if sys.platform == "win32":
+    for _stream in (sys.stdout, sys.stderr):
+        try:
+            _stream.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
@@ -102,9 +122,172 @@ def _make_session():
 _tls = threading.local()
 
 def _get_session():
+    """Plain-requests session. Kept as the last-resort transport and because
+    the diagnostic scripts import it directly."""
     if not hasattr(_tls, "session"):
         _tls.session = _make_session()
     return _tls.session
+
+
+# ── HTTP transport: curl_cffi → system curl → plain requests ─────────────────
+# MaxPreps has been observed rejecting plain-`requests` traffic with 406 Not
+# Acceptable in some environments (its TLS fingerprint is recognisable), while
+# accepting the same request from Chrome. Verified 2026-08-19 from a US VPN
+# exit that ALL THREE backends work here — so this is defence in depth, not a
+# workaround for a live failure: whichever backend the host can offer, one of
+# them looks enough like a browser to be served.
+#
+# Order matters: curl_cffi impersonates Chrome's TLS in-process (fastest and
+# most browser-like), system curl is a dependency-free backup, and plain
+# requests is the final fallback so the scraper still runs on a host with
+# neither.
+
+CURL_IMPERSONATE = "chrome124"   # keep aligned with the User-Agent above
+
+
+def _http_backend_label():
+    parts = []
+    if _CFFI_AVAILABLE:
+        parts.append(f"curl_cffi({CURL_IMPERSONATE})")
+    if shutil.which("curl"):
+        parts.append("system-curl")
+    parts.append("requests")
+    return " → ".join(parts)
+
+
+def _get_cffi_session(kind="html"):
+    """Thread-local curl_cffi session; kind is 'html' or 'json'."""
+    attr = f"cffi_{kind}"
+    if not hasattr(_tls, attr):
+        if not _CFFI_AVAILABLE:
+            setattr(_tls, attr, None)
+        else:
+            s = cffi_requests.Session(impersonate=CURL_IMPERSONATE)
+            s.headers.update(HTML_HEADERS if kind == "html" else HEADERS)
+            setattr(_tls, attr, s)
+    return getattr(_tls, attr)
+
+
+def _fetch_via_cffi(url, timeout=25, allow_redirects=True, kind="html",
+                    extra_headers=None):
+    """Chrome-impersonating in-process GET → (status, text, final_url)."""
+    session = _get_cffi_session(kind)
+    if session is None:
+        return None, None, None
+    try:
+        r = session.get(url, timeout=timeout, allow_redirects=allow_redirects,
+                        headers=extra_headers)
+        return r.status_code, (r.text if r.status_code == 200 else None), r.url
+    except (requests.exceptions.ConnectionError, requests.exceptions.Timeout):
+        raise
+    except Exception as e:
+        print(f"    [WARN] curl_cffi fetch failed: {e}")
+        return None, None, None
+
+
+def _fetch_via_curl(url, timeout=30, kind="html", extra_headers=None):
+    """System-curl GET → (status, body, final_url). (None,None,None) if absent."""
+    curl_bin = shutil.which("curl")
+    if not curl_bin:
+        return None, None, None
+    hdrs = dict(HTML_HEADERS if kind == "html" else HEADERS)
+    if extra_headers:
+        hdrs.update(extra_headers)
+    marker = "\n__CURL_META__"
+    cmd = [curl_bin, "-sL"]
+    for key, val in hdrs.items():
+        cmd.extend(["-H", f"{key}: {val}"])
+    cmd.extend(["-w", marker + "%{http_code}__URL__%{url_effective}",
+                "--max-time", str(timeout), url])
+    try:
+        proc = subprocess.run(cmd, capture_output=True, text=True,
+                              encoding="utf-8", errors="replace",
+                              timeout=timeout + 10)
+        out = proc.stdout or ""
+        if marker not in out:
+            return None, None, None
+        body, meta = out.rsplit(marker, 1)
+        if "__URL__" not in meta:
+            return None, None, None
+        code_raw, final_url = meta.split("__URL__", 1)
+        return int(code_raw.strip()), body, final_url.strip()
+    except Exception as e:
+        print(f"    [WARN] curl fetch failed: {e}")
+        return None, None, None
+
+
+def _fetch_via_requests(url, timeout=25, allow_redirects=True, kind="html",
+                        extra_headers=None):
+    """Plain-requests GET → (status, text, final_url)."""
+    hdrs = dict(HTML_HEADERS if kind == "html" else HEADERS)
+    if extra_headers:
+        hdrs.update(extra_headers)
+    try:
+        r = _get_session().get(url, headers=hdrs, timeout=timeout,
+                               allow_redirects=allow_redirects)
+        return r.status_code, (r.text if r.status_code == 200 else None), r.url
+    except (requests.exceptions.ConnectionError, requests.exceptions.Timeout):
+        raise
+    except Exception as e:
+        print(f"    [WARN] requests fetch failed: {e}")
+        return None, None, None
+
+
+def _http_get(url, timeout=25, allow_redirects=True, kind="html",
+              extra_headers=None):
+    """GET a MaxPreps URL, trying each transport in turn.
+
+    Returns (status, text, final_url); text is None unless status == 200.
+    A 403/404 from the first backend is returned immediately rather than
+    retried — those are real answers (geo-block / missing page), not
+    fingerprint rejections, so retrying just multiplies the request count.
+    """
+    last = (None, None, url)
+    for fetch in (_fetch_via_cffi, _fetch_via_curl, _fetch_via_requests):
+        if fetch is _fetch_via_cffi and not _CFFI_AVAILABLE:
+            continue
+        try:
+            if fetch is _fetch_via_curl:
+                status, text, final = fetch(url, timeout=timeout, kind=kind,
+                                            extra_headers=extra_headers)
+            else:
+                status, text, final = fetch(url, timeout=timeout,
+                                            allow_redirects=allow_redirects,
+                                            kind=kind,
+                                            extra_headers=extra_headers)
+        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout):
+            raise
+        if status == 200 and text:
+            return 200, text, final or url
+        if status in (403, 404):
+            return status, None, final or url
+        last = (status, None, final or url)
+    return last
+
+
+def _http_get_page(url, timeout=25, allow_redirects=True):
+    """GET an HTML page → (status, text, final_url)."""
+    return _http_get(url, timeout=timeout, allow_redirects=allow_redirects,
+                     kind="html")
+
+
+def _is_geo_block(status=None, body=None):
+    """True when MaxPreps served its geographic-restriction page."""
+    if status == 403:
+        return True
+    return "geo-block" in (body or "").lower()
+
+
+def _geo_block_error_message():
+    return (
+        "MaxPreps returned 403 Geo-block — this IP is outside an allowed "
+        "region (common outside the US).\n"
+        "  Fix: connect a SYSTEM-WIDE VPN (a browser VPN extension is not "
+        "enough — it doesn't route Python), confirm https://www.maxpreps.com "
+        "loads in your browser, then re-run.\n"
+        "  No header or TLS change bypasses a geo-block."
+    )
+
 
 # ── Thread-safe build ID management ──────────────────────────────────────────
 # Many threads can hit a stale build ID at the same time. Without locking they
@@ -130,26 +313,44 @@ def _fetch_build_id_raw():
     Caller must hold _bid_lock.
     """
     delays = [5, 10, 20, 40, 60]
+    # Season-suffixed pages first: they're the same URL shape we actually
+    # scrape, so their build is the one serving our schedule.json calls.
     seed_pages = [
+        "https://www.maxpreps.com/tx/austin/austin-maroons/basketball/25-26/schedule/",
+        "https://www.maxpreps.com/nm/albuquerque/la-cueva-bears/basketball/25-26/schedule/",
         "https://www.maxpreps.com/tx/austin/austin-maroons/basketball/schedule/",
         "https://www.maxpreps.com/ca/concord/de-la-salle-spartans/basketball/schedule/",
         "https://www.maxpreps.com",   # last-resort fallback
     ]
     last_err = None
+    saw_geo_block = False
     for attempt, wait in enumerate(delays, 1):
         for url in seed_pages:
             try:
-                r = _get_session().get(url, timeout=30, headers=HTML_HEADERS)
-                r.raise_for_status()
-                m = re.search(r"/_next/static/([a-zA-Z0-9_-]+)/_buildManifest\.js", r.text)
-                if m:
-                    return m.group(1)
+                status, text, _final = _http_get_page(url, timeout=30)
+                if status == 403:
+                    saw_geo_block = True
+                    continue
+                if status != 200 or not text:
+                    continue
+                bid = _extract_build_id(text)
+                if bid:
+                    return bid
             except Exception as e:
                 last_err = e
                 continue
+        # A geo-block will never resolve by waiting — fail fast with the fix.
+        if saw_geo_block:
+            raise RuntimeError(_geo_block_error_message())
         print(f"  [WARN] Build ID not found in any seed page (attempt {attempt}/{len(delays)}). Waiting {wait}s…")
         time.sleep(wait)
     raise RuntimeError(f"MaxPreps build ID not found after all retries: {last_err}")
+
+
+def _extract_build_id(html):
+    """Pull the Next.js buildId out of a rendered MaxPreps page."""
+    m = re.search(r"/_next/static/([a-zA-Z0-9_-]+)/_buildManifest\.js", html or "")
+    return m.group(1) if m else None
 
 def get_build_id():
     """Returns (build_id, version) atomically. Lazy-fetches on first call."""
@@ -174,12 +375,33 @@ def team_url_to_path(team_url):
     return re.sub(r"https://www\.maxpreps\.com/", "", team_url).rstrip("/")
 
 
+_GUID_RE = re.compile(
+    r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", re.I)
+
+
 def decode_contest_guid(c_param):
-    """Base64url-encoded contest ID → GUID string."""
+    """The `c=` query parameter of a game URL → contest GUID string.
+
+    Two formats exist, and BOTH must be handled:
+
+      new (2026)   c=dc2f2ce6-a427-4c18-93ca-839e288f67a0   — already a GUID
+      legacy       c=m2wDd2EH10m3PvRUgsthEA                 — base64url of the
+                                                              16 raw bytes
+
+    The base64 branch alone silently returned None for every current URL
+    (b64-decoding a hyphenated GUID yields the wrong length), and callers
+    that skip entries without a guid then dropped EVERY game. Check for an
+    already-formed GUID first.
+    """
+    if not c_param:
+        return None
+    s = c_param.strip()
+    if _GUID_RE.match(s):
+        return s.lower()
     try:
-        s = c_param.replace("-", "+").replace("_", "/")
-        pad = (4 - len(s) % 4) % 4
-        b = base64.b64decode(s + "=" * pad)
+        b64 = s.replace("-", "+").replace("_", "/")
+        pad = (4 - len(b64) % 4) % 4
+        b = base64.b64decode(b64 + "=" * pad)
         if len(b) != 16:
             return None
         p1 = struct.unpack_from("<I", b, 0)[0]
@@ -224,25 +446,47 @@ def _with_stats_tab(url):
     return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(q), parts.fragment))
 
 
+def _schedule_page_url(team_path, season_suffix=None):
+    """The schedule URL a browser loads."""
+    if season_suffix:
+        return f"https://www.maxpreps.com/{team_path}/{season_suffix}/schedule/"
+    return f"https://www.maxpreps.com/{team_path}/schedule/"
+
+
+def _schedule_json_url(build_id, team_path, season_suffix=None):
+    if season_suffix:
+        return (f"https://www.maxpreps.com/_next/data/{build_id}/"
+                f"{team_path}/{season_suffix}/schedule.json")
+    return (f"https://www.maxpreps.com/_next/data/{build_id}/"
+            f"{team_path}/schedule.json")
+
+
 def fetch_schedule(build_id, team_path, season_suffix=None):
     """Returns contest list, {"_expired": True}, or None on error.
 
     season_suffix (e.g. '24-25') is inserted between the team path and
     'schedule.json' so the past-season schedule is fetched instead of the
     current one. None means current season (existing behavior).
+
+    This is the CLEANEST source of a schedule: the contests array carries the
+    per-game ssid that boxscore.aspx wants. Verified working 2026-08-19.
+    fetch_game_entries() wraps this with HTML fallbacks for hosts where the
+    endpoint is refused.
     """
-    if season_suffix:
-        url = f"https://www.maxpreps.com/_next/data/{build_id}/{team_path}/{season_suffix}/schedule.json"
-    else:
-        url = f"https://www.maxpreps.com/_next/data/{build_id}/{team_path}/schedule.json"
+    url = _schedule_json_url(build_id, team_path, season_suffix)
     time.sleep(DELAY)
     try:
-        r = _get_session().get(url, timeout=25)
-        if r.status_code == 404:
+        # Referer + x-nextjs-data mirror what the Next.js client sends; some
+        # edges refuse the data endpoint without them.
+        status, text, _final = _http_get(
+            url, timeout=25, kind="json",
+            extra_headers={"Referer": _schedule_page_url(team_path, season_suffix),
+                           "x-nextjs-data": "1"})
+        if status == 404:
             return {"_expired": True}
-        if r.status_code != 200:
+        if status != 200 or not text:
             return None
-        data = r.json()
+        data = json.loads(text)
         return (
             data.get("pageProps", {}).get("initialPageProps", {}).get("contests")
             or data.get("pageProps", {}).get("contests")
@@ -254,6 +498,119 @@ def fetch_schedule(build_id, team_path, season_suffix=None):
     except Exception as e:
         print(f"    [WARN] schedule fetch failed for {team_path}: {e}")
         return None
+
+
+def _contests_from_next_data(html):
+    """Contests array embedded in a schedule page's __NEXT_DATA__ script.
+
+    Note: on the 2026 pages this is frequently present but EMPTY (the
+    schedule is hydrated client-side), so treat a 0-length result as "no
+    answer" and move to the anchor scan rather than as "no games".
+    """
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html or "", re.S)
+    if not m:
+        return None
+    try:
+        data = json.loads(m.group(1))
+    except Exception:
+        return None
+    props = data.get("props", data)          # __NEXT_DATA__ nests under props
+    pp = props.get("pageProps", {}) or data.get("pageProps", {})
+    return (pp.get("initialPageProps", {}).get("contests") or pp.get("contests"))
+
+
+def _normalize_game_href(href):
+    """Absolute https game URL from a schedule-page anchor."""
+    if not href:
+        return None
+    href = href.split("#")[0].strip()
+    if href.startswith("//"):
+        return "https:" + href
+    if href.startswith("/"):
+        return "https://www.maxpreps.com" + href
+    if href.startswith("http"):
+        return href
+    return None
+
+
+def _game_entries_from_schedule_html(html):
+    """(game_url, guid, ssid=None) for every game link on a schedule page.
+
+    Last-resort source: a schedule page also links to games that are NOT this
+    team's (opponent widgets, "other games today"), so this over-collects.
+    scrape_game() drops anything whose stat tables don't belong to the team
+    we're scraping, so the extra links cost requests but can't corrupt data.
+    """
+    entries = []
+    seen = set()
+    for href in re.findall(r"""href=["']([^"']+)["']""", html or ""):
+        full = _normalize_game_href(href)
+        if not full or "maxpreps.com" not in full:
+            continue
+        if "/game/" not in full and "/games/" not in full:
+            continue
+        m = re.search(r"[?&]c=([A-Za-z0-9_-]+)", full)
+        if not m:
+            continue
+        guid = decode_contest_guid(m.group(1))
+        key = guid or full
+        if key in seen:
+            continue
+        seen.add(key)
+        entries.append((full, guid, None))
+    return entries
+
+
+def fetch_game_entries(build_id, team_path, season_suffix=None):
+    """[(game_url, guid, ssid), …] for a team's schedule, or {"_expired": True}
+    on a 404 season page, or None when every source failed.
+
+    Tries, in order:
+      1. /_next/data/…/schedule.json  — clean, carries ssid  (preferred)
+      2. schedule page __NEXT_DATA__  — same contests shape, no extra request cost
+      3. schedule page game anchors   — over-collects, no ssid  (last resort)
+
+    Order is deliberate and the reverse of what an HTML-first implementation
+    would do: verified 2026-08-19 that (1) returns exactly the team's games
+    with ssids (27/34/29 for three test teams) while (2) returned 0 contests
+    and (3) returned 69/93/72 links — i.e. HTML-first would triple the
+    request count and lose the ssid. The HTML paths exist for hosts where
+    the data endpoint is refused (406).
+    """
+    contests = fetch_schedule(build_id, team_path, season_suffix=season_suffix)
+    if isinstance(contests, dict):          # {"_expired": True}
+        return contests
+    if contests:
+        entries = get_game_entries(contests)
+        if entries:
+            return entries
+        return []                            # season page exists, no games listed
+
+    # schedule.json unavailable (406/blocked) — fall back to the HTML page.
+    page_url = _schedule_page_url(team_path, season_suffix)
+    time.sleep(DELAY)
+    try:
+        status, html, _final = _http_get_page(page_url, timeout=25)
+    except (requests.exceptions.ConnectionError, requests.exceptions.Timeout):
+        raise
+    if status == 404:
+        return {"_expired": True}
+    if status != 200 or not html:
+        print(f"    [WARN] schedule page {status} for {team_path}")
+        return None
+
+    embedded = _contests_from_next_data(html)
+    if embedded:
+        entries = get_game_entries(embedded)
+        if entries:
+            return entries
+
+    link_entries = _game_entries_from_schedule_html(html)
+    if link_entries:
+        print(f"    [INFO] {team_path}: using {len(link_entries)} anchor links "
+              f"(schedule.json unavailable; some may not be this team's games)")
+        return link_entries
+    return []
 
 
 def get_game_entries(contests):
@@ -1108,24 +1465,25 @@ def scrape_game(game_url, guid, ssid, our_team_name, team_id, opp_index=None):
     )
 
     try:
-        r = _get_session().get(url, headers=HTML_HEADERS, timeout=25, allow_redirects=True)
-        if r.status_code == 404:
+        status, html, final_url = _http_get_page(url, timeout=25, allow_redirects=True)
+        if status == 404:
             return {"_404": True}
-        if r.status_code != 200:
+        if status != 200 or not html:
             return None
 
         # MaxPreps' 2026 redesign defaults the game page to its Recap tab;
         # the per-player stat tables only render under Stats. boxscore.aspx
         # redirects to the plain (tab-less) canonical URL, so re-fetch that
         # URL with ?tab=stats explicitly selected — same as clicking Stats.
-        stats_url = _with_stats_tab(r.url)
-        if stats_url != r.url:
+        stats_url = _with_stats_tab(final_url)
+        if stats_url != final_url:
             time.sleep(DELAY)
-            r2 = _get_session().get(stats_url, headers=HTML_HEADERS, timeout=25, allow_redirects=True)
-            if r2.status_code == 200:
-                r = r2
+            st2, html2, final2 = _http_get_page(stats_url, timeout=25,
+                                                allow_redirects=True)
+            if st2 == 200 and html2:
+                html, final_url = html2, (final2 or stats_url)
 
-        soup = BeautifulSoup(r.text, "html.parser")
+        soup = BeautifulSoup(html, "html.parser")
     except Exception as e:
         # Re-raise connection/timeout errors so the caller can handle retries
         if isinstance(e, (requests.exceptions.ConnectionError, requests.exceptions.Timeout)):
@@ -1136,19 +1494,26 @@ def scrape_game(game_url, guid, ssid, our_team_name, team_id, opp_index=None):
     # Opponent identity comes from the canonical game URL — never guessed.
     # Pass the final redirected URL since boxscore.aspx redirects to the
     # public /{state}/{sport}/game/{a}-vs-{b}/{date}/ form that contains the
-    # slugs (r.url here is that canonical URL + our ?tab=stats addition,
+    # slugs (final_url here is that canonical URL + our ?tab=stats addition,
     # which doesn't affect the path slugs parse_game_page reads).
-    page = parse_game_page(soup, r.url, our_team_name, team_id, opp_index)
+    page = parse_game_page(soup, final_url, our_team_name, team_id, opp_index)
     if not page:
         return None      # game has no recognisable stat table content
 
     # Game date from the final (redirected) URL
-    date_m = re.search(r"/(\d{1,2}-\d{1,2}-\d{4})/", r.url)
+    date_m = re.search(r"/(\d{1,2}-\d{1,2}-\d{4})/", final_url)
     game_date = date_m.group(1) if date_m else ""
+
+    # Anchor-derived entries carry no guid; recover it from the resolved URL so
+    # every record still has a contest_id for downstream dedup.
+    if not guid:
+        cm = re.search(r"[?&]c=([A-Za-z0-9_-]+)", final_url or "")
+        if cm:
+            guid = decode_contest_guid(cm.group(1))
 
     return {
         "contest_id":        guid,
-        "game_url":          r.url,
+        "game_url":          final_url,
         "game_date":         game_date,
         "is_deleted":        False,
         "team":     {"team_id": team_id,        "team_name": our_team_name},
@@ -1218,17 +1583,20 @@ def _scrape_team(team, season_suffix=None, opp_index=None):
     path = team_url_to_path(team_url)
 
     # ── Schedule with bounded retries ────────────────────────────────────────
-    contests = None
+    # fetch_game_entries() returns entry tuples directly: schedule.json first
+    # (clean, carries ssid), then the schedule page's __NEXT_DATA__, then its
+    # game anchors — so a host where the data endpoint is refused still works.
+    game_entries = None
     bid_change_retries = 0     # 404s where refresh produced a NEW bid
     stable_bid_retries = 0     # 404s where refresh returned the SAME bid (wait 15 min, then retry)
     none_retries = 0
     net_retries = 0
     bid, bid_version = get_build_id()
-    while contests is None:
+    while game_entries is None:
         try:
-            contests = fetch_schedule(bid, path, season_suffix=season_suffix)
+            game_entries = fetch_game_entries(bid, path, season_suffix=season_suffix)
 
-            if isinstance(contests, dict) and contests.get("_expired"):
+            if isinstance(game_entries, dict) and game_entries.get("_expired"):
                 # 404 on schedule.json. Try a fresh build_id.
                 new_bid, new_bid_version = refresh_build_id(bid_version)
                 if new_bid != bid:
@@ -1240,7 +1608,7 @@ def _scrape_team(team, season_suffix=None, opp_index=None):
                             "stage": "schedule", "reason": "build_id_kept_rolling",
                         }
                     bid, bid_version = new_bid, new_bid_version
-                    contests = None
+                    game_entries = None
                     continue
                 # Same bid back. Per user-requested strategy: MaxPreps may not have
                 # rolled the build id yet — wait 15 minutes then check again. Repeat
@@ -1256,10 +1624,10 @@ def _scrape_team(team, season_suffix=None, opp_index=None):
                       f"Waiting {BID_STABLE_WAIT_SEC // 60} min for build id to update "
                       f"({stable_bid_retries}/{BID_STABLE_MAX_RETRIES}).")
                 time.sleep(BID_STABLE_WAIT_SEC)
-                contests = None
+                game_entries = None
                 continue
 
-            if contests is None:
+            if game_entries is None:
                 none_retries += 1
                 if none_retries > 5:
                     return team_id, team_name, team_url, [], {
@@ -1285,10 +1653,13 @@ def _scrape_team(team, season_suffix=None, opp_index=None):
             }
 
     # ── Games (sequential within a single team to cap per-team request rate) ──
-    entries = get_game_entries(contests)
+    entries = game_entries
     team_games = []
     for game_url, guid, ssid in entries:
-        if not guid:
+        # Anchor-sourced entries have guid=None; scrape_game() falls back to
+        # the plain game URL and recovers the guid from the resolved page,
+        # so don't skip them the way the schedule.json-only path used to.
+        if not guid and not game_url:
             continue
         for _attempt in range(3):
             try:
@@ -1306,12 +1677,14 @@ def _scrape_team(team, season_suffix=None, opp_index=None):
     return team_id, team_name, team_url, team_games, None
 
 
-def run(input_file=None, output_file=None, sport="boys", season="2025-2026", workers=None, run_accumulator=True):
+def run(input_file=None, output_file=None, sport="boys", season="2025-2026",
+        workers=None, run_accumulator=True, limit=None):
     """
     Scrape all full/partial teams from a gaps JSON file.
     Can be called programmatically or invoked via main().
 
     workers: parallel team count (default: TEAM_WORKERS = 15).
+    limit:   process only the first N unprocessed teams (smoke-testing).
     """
     if input_file is None:
         input_file = INPUT_FILE
@@ -1351,7 +1724,11 @@ def run(input_file=None, output_file=None, sport="boys", season="2025-2026", wor
     print(f"Teams to process : {total_teams}  (full={len(full_b)} + partial={len(partial_b)} + no-data={len(none_b)})")
     print(f"Season           : {season} (URL suffix: {season_suffix or '(current)'})")
     print(f"Opp index size   : {len(opp_index):,} slugs")
-    print(f"Workers          : {workers}\n")
+    print(f"Workers          : {workers}")
+    print(f"HTTP transport   : {_http_backend_label()}")
+    if limit:
+        print(f"Limit            : first {limit} unprocessed team(s) only")
+    print()
 
     # Warm the build ID cache before fanning out so all threads share one fetch.
     bid, _ = get_build_id()
@@ -1384,6 +1761,8 @@ def run(input_file=None, output_file=None, sport="boys", season="2025-2026", wor
             print(f"Re-queueing {len(retry_paths)} previously-errored teams for retry.")
 
     teams_to_do = [t for t in teams if team_url_to_path(t["teamUrl"]) not in processed_teams]
+    if limit and limit > 0:
+        teams_to_do = teams_to_do[:limit]
     if not teams_to_do:
         print(f"Nothing to do — all {total_teams} teams already processed.")
     else:
@@ -1434,9 +1813,14 @@ def run(input_file=None, output_file=None, sport="boys", season="2025-2026", wor
     # list and the next run would re-scrape every team from scratch.
     _save(all_games, errors, total_teams, output_file, processed_teams)
 
-    # Surface any team in the input that we never reached.
+    # Surface any team in the input that we never reached. Skipped when --limit
+    # is set, where leaving most teams unprocessed is the whole point.
     all_input_paths = {team_url_to_path(t["teamUrl"]) for t in teams}
     missing = all_input_paths - processed_teams
+    if limit:
+        print(f"\n[--limit {limit}] {len(missing)} team(s) intentionally left "
+              f"for a later run.")
+        missing = set()
     if missing:
         print(f"\n[WARNING] {len(missing)} input teams were not processed by the scraper:")
         for p in list(missing)[:20]:
@@ -1509,6 +1893,11 @@ def main():
              f"Raise for speed, lower if you hit rate limits.",
     )
     parser.add_argument(
+        "--limit", type=int, default=None,
+        help="Process only the first N unprocessed teams. Use for a quick "
+             "smoke test before committing to a full state run.",
+    )
+    parser.add_argument(
         "--no-accumulate", action="store_true",
         help="Skip the auto-chained Accumulation_data run. Useful when an "
              "external orchestrator handles the accumulator stage itself.",
@@ -1557,7 +1946,7 @@ def main():
 
     run(input_file=input_file, output_file=out, sport=args.sport,
         season=args.season, workers=args.workers,
-        run_accumulator=not args.no_accumulate)
+        run_accumulator=not args.no_accumulate, limit=args.limit)
 
 
 if __name__ == "__main__":
