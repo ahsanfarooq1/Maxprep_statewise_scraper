@@ -289,9 +289,84 @@ with st.expander("📋 How the scraper works (click to expand)", expanded=False)
 
 st.divider()
 
+st.divider()
+
 # ── Load persisted state ──────────────────────────────────────────────────────
 disk    = load_disk_state()
 running = disk is not None and is_pid_running(disk.get("pid"))
+
+# ── MaxPreps reachability check ───────────────────────────────────────────────
+# Worth one click before a multi-hour run: MaxPreps refuses some networks, and
+# the two refusals look different.
+#   403 Geo-block      → the exit IP's country isn't allowed
+#   406 Not Acceptable → the exit IP is a datacenter range MaxPreps rejects
+#                        (confirmed for Azure/GitHub runners, and this is the
+#                        likely outcome on a hosted Streamlit deployment)
+# Either way every stage returns zero rows, so surface it up front rather than
+# letting the user discover it from an empty output file.
+with st.expander("🌐 Check MaxPreps access (run this before a long scrape)", expanded=False):
+    st.caption(
+        "The scraper can only reach MaxPreps from a permitted network. If this "
+        "check fails, a scrape will finish 'successfully' with **0 games** — so "
+        "verify here first."
+    )
+    if st.button("Run access check", disabled=running):
+        with st.spinner("Probing MaxPreps…"):
+            try:
+                sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+                from scrape_box_scores import _http_backend_label, _http_get_page
+
+                exit_ip = "unknown"
+                try:
+                    import requests as _rq
+                    who = _rq.get("https://ipinfo.io/json", timeout=15).json()
+                    exit_ip = (f"{who.get('ip')} · {who.get('country')} "
+                               f"{who.get('city')} · {who.get('org')}")
+                except Exception as e:
+                    exit_ip = f"(lookup failed: {e})"
+
+                probe = ("https://www.maxpreps.com/co/basketball/game/"
+                         "adams-city-commerce-city-vs-westminster/12-2-2025/"
+                         "?c=dc2f2ce6-a427-4c18-93ca-839e288f67a0&tab=stats")
+                status, html, _final = _http_get_page(probe, timeout=30)
+
+                st.write(f"**Transport:** `{_http_backend_label()}`")
+                st.write(f"**Exit IP:** `{exit_ip}`")
+
+                if status == 200 and html:
+                    has_payload = "self.__next_f.push" in html
+                    st.success(f"Reachable — HTTP {status}, {len(html):,} bytes.")
+                    if has_payload:
+                        st.success("Stat payload present. Scraping should work "
+                                   "from this deployment.")
+                    else:
+                        st.warning(
+                            "Page loaded but the embedded stat payload is "
+                            "missing — box scores would come back empty. The "
+                            "page layout may have changed again; run "
+                            "`verify_boxscore_live.py` for detail."
+                        )
+                elif status == 403:
+                    st.error(
+                        "**403 Geo-block** — this network's country is not "
+                        "allowed. Use a **system-wide** VPN in a permitted "
+                        "region (a browser VPN extension does not route "
+                        "Python). Scraping cannot work here."
+                    )
+                elif status == 406:
+                    st.error(
+                        "**406 Not Acceptable** — MaxPreps rejects this exit "
+                        "IP's range (typical for cloud/datacenter hosts; "
+                        "confirmed for Azure). Not fixable with headers. Run "
+                        "the scraper from a residential or VPN connection "
+                        "instead of a hosted deployment."
+                    )
+                else:
+                    st.error(f"Unexpected HTTP {status} — scraping is unlikely "
+                             f"to work from here.")
+            except Exception as e:
+                st.error(f"Access check failed to run: {type(e).__name__}: {e}")
+
 
 # ── Dropdowns — only disabled while actively running ─────────────────────────
 col1, col2, col3 = st.columns(3)
@@ -310,6 +385,16 @@ st.divider()
 
 clear_previous = st.checkbox("🗑️ Clear previous data for this state/sport/season before starting",
                               value=False, disabled=running)
+
+# Stage 1 still walks every team, so this bounds the box-score stage rather
+# than the whole run — enough to prove data actually comes back before
+# committing hours to a full state.
+test_mode = st.checkbox(
+    "🧪 Test mode — box scores for the first 5 teams only",
+    value=False, disabled=running,
+    help="Recommended for a first run on a new deployment: confirms real games "
+         "are returned without waiting for the full state.",
+)
 
 # ── Start button — enabled whenever scraper is not actively running ───────────
 if st.button("▶ Start Scraping", type="primary", use_container_width=True, disabled=running):
@@ -341,10 +426,13 @@ if st.button("▶ Start Scraping", type="primary", use_container_width=True, dis
     log_f = open(LOG_FILE, "wb")
     # New 4-stage pipeline: APP/pipeline.py. --output-dir routes all 4 outputs
     # to OUTPUT_DIR so the UI can find them via predictable filenames.
+    cmd = [sys.executable, "-u", "APP/pipeline.py",
+           "--state", state_code, "--sport", sport, "--season", season,
+           "--output-dir", OUTPUT_DIR]
+    if test_mode:
+        cmd += ["--limit", "5"]
     process = subprocess.Popen(
-        [sys.executable, "-u", "APP/pipeline.py",
-         "--state", state_code, "--sport", sport, "--season", season,
-         "--output-dir", OUTPUT_DIR],
+        cmd,
         stdout=log_f,
         stderr=subprocess.STDOUT,
         env=env,
@@ -354,7 +442,9 @@ if st.button("▶ Start Scraping", type="primary", use_container_width=True, dis
 
     save_disk_state({
         "pid":         process.pid,
-        "label":       f"{STATE_NAMES[state_code]} | {'Boys' if sport=='boys' else 'Girls'} Basketball | {season}",
+        "label":       (f"{STATE_NAMES[state_code]} | "
+                        f"{'Boys' if sport=='boys' else 'Girls'} Basketball | {season}"
+                        + (" | 🧪 TEST MODE (5 teams)" if test_mode else "")),
         "gaps_file":   os.path.join(OUTPUT_DIR, f"{state_lower}_data_gaps_{sport}_{season_fn}.json"),
         "stab_file":   os.path.join(OUTPUT_DIR, f"{state_lower}_all_stats_tab_{sport}_{season_fn}.json"),
         "box_file":    os.path.join(OUTPUT_DIR, f"{state_lower}_box_scores_{sport}_{season_fn}.json"),

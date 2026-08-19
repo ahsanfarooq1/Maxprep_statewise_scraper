@@ -30,6 +30,18 @@ import shutil
 import argparse
 import subprocess
 
+# This module's help text and stage banners contain →, ━ and ✓. A Windows
+# console defaults to cp1252 and raises UnicodeEncodeError on them, which
+# crashed `--help` outright and would abort a direct CLI run mid-stage. (The
+# Streamlit launcher sets PYTHONIOENCODING for the child, so it never hit
+# this — only terminal users did.)
+if sys.platform == "win32":
+    for _stream in (sys.stdout, sys.stderr):
+        try:
+            _stream.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT  = os.path.dirname(SCRIPT_DIR)
 sys.path.insert(0, REPO_ROOT)
@@ -66,7 +78,7 @@ def _short_season(season):
 
 
 def run_pipeline(state, sport, season, workers, output_dir=None,
-                 start_at=1, end_at=4):
+                 start_at=1, end_at=4, limit=None):
     state_code = state.upper()
     state_lower = state.lower()
     season_fn = season.replace('-', '_')
@@ -143,15 +155,17 @@ def run_pipeline(state, sport, season, workers, output_dir=None,
         if not os.path.exists(gaps_path):
             _ts(f'  SKIP — gaps file missing: {gaps_path}')
         else:
-            ok = _run(py + ['scrape_box_scores.py',
-                             '--state',  state_code,
-                             '--sport',  sport,
-                             '--season', season,
-                             '--input',  gaps_path,
-                             '--output', box_path,
-                             '--workers', str(workers),
-                             '--no-accumulate'],
-                      env)
+            box_cmd = ['scrape_box_scores.py',
+                       '--state',  state_code,
+                       '--sport',  sport,
+                       '--season', season,
+                       '--input',  gaps_path,
+                       '--output', box_path,
+                       '--workers', str(workers),
+                       '--no-accumulate']
+            if limit:
+                box_cmd += ['--limit', str(limit)]
+            ok = _run(py + box_cmd, env)
             if not ok:
                 _ts('STAGE 3 FAILED — stopping.')
                 return False
@@ -235,6 +249,10 @@ def main():
                     help='Skip to a specific stage (1-4). Default 1.')
     ap.add_argument('--end-at',   type=int, default=4, choices=range(1, 5),
                     help='Stop after a specific stage (1-4). Default 4.')
+    ap.add_argument('--limit', type=int, default=None,
+                    help='Box-score stage: scrape only the first N unprocessed '
+                         'teams. Use for a quick end-to-end smoke test before '
+                         'committing to a full state run.')
     ap.add_argument('--output-dir', default=None,
                     help='Override the per-state folder. If set, ALL stage '
                          'outputs go here (handy for Streamlit / cloud runs).')
@@ -246,7 +264,8 @@ def main():
 
     ok = run_pipeline(args.state, args.sport, args.season, args.workers,
                       output_dir=args.output_dir,
-                      start_at=args.start_at, end_at=args.end_at)
+                      start_at=args.start_at, end_at=args.end_at,
+                      limit=args.limit)
     sys.exit(0 if ok else 1)
 
 
