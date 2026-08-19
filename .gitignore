@@ -48,3 +48,11 @@ instructions.txt
 _*.py
 diagnose_box_score_blank.py
 fetch_via_chrome.py
+
+# Reference drop from the second machine: keep the scraper/README for
+# provenance, skip its copies of files we already track (the two
+# *_all_states.json master lists are byte-identical to the tracked ones,
+# ~19 MB of duplication) and its scraped test output.
+AHSAN BHAI/**/boys_basketball_all_states.json
+AHSAN BHAI/**/girls_basketball_all_states.json
+AHSAN BHAI/**/nm_test_box_scores.json
