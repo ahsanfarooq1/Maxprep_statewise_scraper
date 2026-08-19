@@ -250,19 +250,80 @@ def render_progress(ph, state):
 
 
 # ── Download helper ───────────────────────────────────────────────────────────
-def show_download(placeholder, filepath, label):
-    if os.path.exists(filepath):
-        with open(filepath, "r", encoding="utf-8") as f:
-            data = f.read()
-        placeholder.download_button(
-            label=f"✅ {label}",
-            data=data,
-            file_name=os.path.basename(filepath),
-            mime="application/json",
-            use_container_width=True,
+@st.cache_data(show_spinner=False, max_entries=8)
+def _read_file_bytes(filepath, mtime, size):
+    """File contents for a download button.
+
+    Cached on (path, mtime, size) so a rerun that changes nothing doesn't
+    re-read the file — the previous version read and UTF-8-decoded every output
+    file on EVERY rerun, which with a 1.5s auto-refresh meant re-reading ~13 MB
+    a second for a mid-size state (far more for TX). mtime/size are arguments
+    rather than looked up inside so they participate in the cache key.
+    """
+    with open(filepath, "rb") as f:      # bytes: no decode cost
+        return f.read()
+
+
+def _file_stat(filepath):
+    """(exists, size_bytes, mtime) without reading the contents."""
+    try:
+        st_ = os.stat(filepath)
+        return True, st_.st_size, st_.st_mtime
+    except OSError:
+        return False, 0, 0.0
+
+
+def _fmt_size(n):
+    for unit in ("B", "KB", "MB", "GB"):
+        if n < 1024 or unit == "GB":
+            return f"{n:.0f} {unit}" if unit == "B" else f"{n:.1f} {unit}"
+        n /= 1024.0
+
+
+def show_download(placeholder, filepath, label, allow_download=True):
+    """Render a download button (or a status line) for one output file.
+
+    allow_download=False renders size/time only. Downloads are suppressed while
+    the auto-refresh loop is active because each rerun re-creates the widget and
+    cancels an in-flight click — the usual reason the button "does nothing".
+    """
+    exists, size, mtime = _file_stat(filepath)
+    if not exists:
+        return False
+    if not allow_download:
+        placeholder.info(
+            f"✅ Ready — {_fmt_size(size)}\n\n"
+            f"_{time.strftime('%H:%M:%S', time.localtime(mtime))}_ · "
+            f"pause refresh to download"
         )
         return True
-    return False
+    placeholder.download_button(
+        label=f"✅ {label} ({_fmt_size(size)})",
+        data=_read_file_bytes(filepath, mtime, size),
+        file_name=os.path.basename(filepath),
+        mime="application/json",
+        use_container_width=True,
+        key=f"dl_{os.path.basename(filepath)}",
+    )
+    return True
+
+
+@st.cache_data(show_spinner=False, max_entries=4)
+def _build_zip(paths_with_stats):
+    """Zip the existing output files into memory.
+
+    Keyed on the (path, size, mtime) tuples so it only rebuilds when an output
+    actually changes. JSON compresses well (~10x), which also makes the browser
+    transfer far smaller than four separate raw downloads.
+    """
+    import io
+    import zipfile
+
+    buf = io.BytesIO()
+    with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED, compresslevel=6) as zf:
+        for path, _size, _mtime in paths_with_stats:
+            zf.write(path, arcname=os.path.basename(path))
+    return buf.getvalue()
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -483,27 +544,88 @@ if disk is not None:
 
     # Output files — 4 files in one row
     st.subheader("Output Files")
+
+    # Downloads and the auto-refresh loop are mutually exclusive: every rerun
+    # rebuilds the widgets, which cancels a click that's already in progress.
+    # While running, offer to pause the refresh instead of silently handing out
+    # buttons that don't work.
+    paused = False
+    if running:
+        paused = st.checkbox(
+            "⏸ Pause auto-refresh to enable downloads",
+            value=False,
+            help="Downloads can't complete while the page refreshes every few "
+                 "seconds — the rerun cancels the click. Pausing does NOT stop "
+                 "the scrape; it keeps running in the background.",
+        )
+        if not paused:
+            st.caption("↑ tick this to download files mid-run — the scrape keeps going.")
+    allow_dl = (not running) or paused
+
     fc1, fc2, fc3, fc4 = st.columns(4)
     with fc1:
         st.markdown("**Phase 1 — Data Gaps**")
         gaps_ph = st.empty()
-        if not show_download(gaps_ph, disk["gaps_file"], "Download Data Gaps"):
+        if not show_download(gaps_ph, disk["gaps_file"], "Data Gaps", allow_dl):
             gaps_ph.warning("⏳ Generating...")
     with fc2:
         st.markdown("**Phase 2 — Stats Section**")
         stab_ph = st.empty()
-        if not show_download(stab_ph, disk["stab_file"], "Download Stats Section"):
+        if not show_download(stab_ph, disk["stab_file"], "Stats Section", allow_dl):
             stab_ph.info("🔒 Waiting...")
     with fc3:
         st.markdown("**Phase 3 — Box Scores**")
         box_ph = st.empty()
-        if not show_download(box_ph, disk["box_file"], "Download Box Scores"):
+        if not show_download(box_ph, disk["box_file"], "Box Scores", allow_dl):
             box_ph.info("🔒 Waiting...")
     with fc4:
         st.markdown("**Phase 4 — Final Accumulation**")
         final_ph = st.empty()
-        if not show_download(final_ph, disk["final_file"], "Download FINAL"):
+        if not show_download(final_ph, disk["final_file"], "FINAL", allow_dl):
             final_ph.info("🔒 Waiting...")
+
+    # One-click ZIP of everything produced so far — usually ~10x smaller than
+    # the raw JSON, and one click instead of four.
+    if allow_dl:
+        present = []
+        for key in ("gaps_file", "stab_file", "box_file", "final_file"):
+            path = disk.get(key)
+            if not path:
+                continue
+            exists, size, mtime = _file_stat(path)
+            if exists:
+                present.append((path, size, mtime))
+        if present:
+            raw_total = sum(p[1] for p in present)
+            zip_bytes = _build_zip(tuple(present))
+            st.download_button(
+                f"📦 Download ALL {len(present)} file(s) as ZIP "
+                f"({_fmt_size(len(zip_bytes))}, from {_fmt_size(raw_total)} raw)",
+                data=zip_bytes,
+                file_name=f"{os.path.basename(disk.get('final_file', 'maxpreps_output')).replace('.json','')}_bundle.zip",
+                mime="application/zip",
+                use_container_width=True,
+                key="dl_zip_all",
+            )
+
+    # Running locally? The files are already on disk — downloading is pointless.
+    with st.expander("📁 Files on disk (no download needed if running locally)"):
+        st.caption(
+            "The pipeline writes straight to this folder. If you run the app on "
+            "your own machine, just open it — the download buttons only matter "
+            "for a hosted deployment."
+        )
+        st.code(OUTPUT_DIR, language=None)
+        st.caption(
+            "Tip: to have results land somewhere that syncs automatically, run "
+            "the pipeline from a terminal with `--output-dir` pointing at a "
+            "OneDrive/Google Drive/Dropbox folder:"
+        )
+        st.code(
+            "python -m APP.pipeline --state CO --sport boys --season 2025-2026 \\\n"
+            "  --output-dir \"C:/Users/you/OneDrive/maxpreps\"",
+            language="bash",
+        )
 
     # Logs
     with st.expander("📄 Logs", expanded=running):
@@ -517,7 +639,9 @@ if disk is not None:
             clear_disk_state()
             st.rerun()
 
-    # Auto-refresh while running
-    if running:
-        time.sleep(1.5)
+    # Auto-refresh while running — skipped when the user pauses to download.
+    # 3s rather than 1.5s: the progress numbers come from the log file, which
+    # only moves every few seconds anyway, and each rerun re-renders the page.
+    if running and not paused:
+        time.sleep(3.0)
         st.rerun()
