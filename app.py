@@ -206,11 +206,32 @@ def _raw_fetch_schedule(bid, team_path, season_suffix=None):
         if status in (500, 502, 503, 504): return "_retry"
         if status != 200 or not text: return None
         data = json.loads(text)
-        return (data.get("pageProps", {}).get("initialPageProps", {}).get("contests")
-                or data.get("pageProps", {}).get("contests") or [])
+        ipp = data.get("pageProps", {}).get("initialPageProps", {}) or data.get("pageProps", {})
+        contests = ipp.get("contests") or []
+        return (contests, _extract_overall_record(ipp))
     except (requests.exceptions.ConnectionError, requests.exceptions.Timeout):
         return "_retry"
     except Exception: return None
+
+
+def _extract_overall_record(ipp):
+    """Total games MaxPreps has recorded as COMPLETED for this team this
+    season (wins + losses [+ ties]), read straight from the same
+    schedule.json payload already fetched for game discovery — no extra
+    request needed.
+
+    This is server-computed from official results, so it's immune to the
+    duplicate-contest-id artifacts that can inflate a raw schedule-row count
+    (see _dedupe_games_by_date_opponent) — including a reschedule that shifts
+    the calendar date, which a (date, opponent) dedup can't catch at all.
+    Returns None if the field isn't present in this payload shape.
+    """
+    try:
+        rec = ipp["teamContext"]["standingsData"]["overallStanding"]["overallWinLossTies"]
+        return sum(int(p) for p in rec.split("-"))
+    except Exception:
+        return None
+
 
 def get_game_entries(contests):
     NULL_GUID = "00000000-0000-0000-0000-000000000000"
@@ -427,21 +448,22 @@ def fetch_sched_worker(team, season_suffix=None):
     bid, version = get_build_id()
     # Up to 5 attempts: handle 404 (stale build id), 5xx, 429, and connection errors
     for attempt in range(5):
-        contests = _raw_fetch_schedule(bid, path, season_suffix=season_suffix)
-        if contests is None:
+        result = _raw_fetch_schedule(bid, path, season_suffix=season_suffix)
+        if result is None:
             # Hard failure (non-retryable, non-200). Brief backoff before final retry.
             if attempt < 4:
                 time.sleep(1 + attempt)
                 continue
-            return team, None
-        if contests == "_retry":
+            return team, None, None
+        if result == "_retry":
             time.sleep(min(2 ** attempt, 10))
             continue
-        if isinstance(contests, dict) and contests.get("_expired"):
+        if isinstance(result, dict) and result.get("_expired"):
             bid, version = refresh_build_id(version)
             continue
-        return team, get_game_entries(contests)
-    return team, None
+        contests, overall_record = result
+        return team, get_game_entries(contests), overall_record
+    return team, None, None
 
 def check_game_worker(game_url, guid, ssid, team_name, team_id=None, opp_index=None):
     """Fetch one game's box-score page and classify it into one of four
@@ -688,15 +710,15 @@ def main():
                 # Per-future try/except: a single failure must not abort the loop
                 # and silently drop every remaining team's schedule result.
                 try:
-                    team, entries = fut.result()
+                    team, entries, overall_record = fut.result()
                 except Exception as e:
                     orig_team = futures[fut]
                     print(f"  [WARN] Schedule worker crashed for {orig_team['teamName']}: {e}")
-                    sched_results[orig_team["teamUrl"]] = (orig_team, None)
+                    sched_results[orig_team["teamUrl"]] = (orig_team, None, None)
                     continue
                 # Key by teamUrl (unique) not teamName — duplicate names would silently
                 # overwrite each other causing teams to be skipped entirely.
-                sched_results[team["teamUrl"]] = (team, entries)
+                sched_results[team["teamUrl"]] = (team, entries, overall_record)
                 if i % 100 == 0 or i == len(teams_to_process):
                     print(f"  Schedules: {i}/{len(teams_to_process)} done")
 
@@ -705,13 +727,13 @@ def main():
         for t in teams_to_process:
             if t["teamUrl"] not in sched_results:
                 print(f"  [WARN] No sched_result for {t['teamName']} — recording as error.")
-                sched_results[t["teamUrl"]] = (t, None)
+                sched_results[t["teamUrl"]] = (t, None, None)
 
         # Phase 2: Game checks
         print(f"Phase 2: Checking games in parallel ({GAME_WORKERS} workers)...")
         agg_lock = threading.Lock()
         game_jobs = []
-        for turl, (team, entries) in sched_results.items():
+        for turl, (team, entries, overall_record) in sched_results.items():
             if entries is None:
                 # Record error but DO NOT add to processed_teams — next run should retry.
                 errors.append({"teamName": team["teamName"], "teamUrl": team["teamUrl"], "region": team["region"]})
@@ -724,13 +746,14 @@ def main():
                                                      "googleSearch": google_search_url(team["teamName"], city, state_name)}})
                 processed_teams.add(team_url_to_path(team["teamUrl"]))
             else:
-                game_jobs.append({'team': team, 'entries': entries})
+                game_jobs.append({'team': team, 'entries': entries, 'overall_record': overall_record})
 
         def process_team_games(job):
             # Outer try/except: a single team failure must not kill the pool and
             # silently drop every subsequent team's result.
             try:
                 team, entries = job['team'], job['entries']
+                overall_record = job.get('overall_record')
                 t_id   = team_url_to_path(team["teamUrl"])
                 t_name = team["teamName"]
                 # Per-game classification buckets — populated by check_game_worker
@@ -767,6 +790,18 @@ def main():
                 games_missing    = len(no_data_games)
                 games_checked    = games_with_stats + games_missing
 
+                # Prefer MaxPreps' own season W-L record (server-computed from
+                # completed games) over our schedule-row count whenever it's
+                # available and not obviously wrong. It's immune to duplicate-
+                # contest-id artifacts our (date, opponent) dedup can miss —
+                # e.g. a reschedule that shifts the calendar date, not just
+                # the time — so it catches cases the dedup above doesn't.
+                # Never let it undercut games we've actually confirmed have
+                # stats.
+                if overall_record is not None and overall_record >= games_with_stats:
+                    games_checked = overall_record
+                    games_missing = max(0, games_checked - games_with_stats)
+
                 entry = {
                     "teamName":       t_name,
                     "teamUrl":        team["teamUrl"],
@@ -774,6 +809,7 @@ def main():
                     "gamesChecked":   games_checked,
                     "gamesWithStats": games_with_stats,
                     "gamesMissing":   games_missing,
+                    "recordGamesPlayed": overall_record,
                     "fullDataGames": {
                         "count": len(full_games),
                         "note":  "Both teams entered stats.",
