@@ -21,6 +21,7 @@ import json
 import time
 import base64
 import struct
+import hashlib
 import threading
 import argparse
 import requests
@@ -242,6 +243,42 @@ def _check_soup(soup, team_name):
     return bool(stat_sections) and not team_not_entered
 
 
+def _players_key(players):
+    return sorted(
+        (p.get("player_name", ""), p.get("minutes_played"), p.get("points"),
+         p.get("fg_made"), p.get("fg_attempts"))
+        for p in (players or [])
+    )
+
+
+def _stats_fingerprint(page):
+    """Deterministic fingerprint of a parsed box-score page's ACTUAL player
+    stats, used to tell two schedule entries sharing the same date+opponent
+    apart:
+      - identical fingerprint  => the same game reported under two contest_ids
+        (a stale entry MaxPreps left behind after the game time was edited)
+      - different fingerprint  => a genuine doubleheader — two real games
+
+    Keyed off whichever SIDE actually has data. MaxPreps sometimes propagates
+    only OUR team's own stats onto the stale duplicate contest_id and leaves
+    the opponent's side empty there — so comparing the whole page (both
+    sides) would call that a "different game" when it's really the same one.
+    Our own team's stat line, when present, is the reliable signal (a coach
+    doesn't record an identical box score for two different real games); the
+    opponent's line is the fallback for the rare opp_only case where we have
+    no stats of our own to compare.
+    """
+    categories = ("shooting", "detailed_shooting", "totals", "misc")
+    team_parts = [(cat, tuple(_players_key((page.get(cat) or {}).get("team", {}).get("players"))))
+                  for cat in categories]
+    if any(page.get(cat, {}).get("team", {}).get("players") for cat in categories):
+        parts = team_parts
+    else:
+        parts = [(cat, tuple(_players_key((page.get(cat) or {}).get("opponent", {}).get("players"))))
+                 for cat in categories]
+    return hashlib.sha256(repr(parts).encode("utf-8")).hexdigest()
+
+
 def _classify_game(soup, final_url, our_team_name, our_team_id, opp_index):
     """Classify a single game's box-score page into one of:
         'full'      → both teams uploaded stats
@@ -286,6 +323,7 @@ def _classify_game(soup, final_url, our_team_name, our_team_id, opp_index):
             "url":                final_url,
             "opponent_team_id":   page["opp_id"],
             "opponent_team_name": page["opp_name"],
+            "stats_fingerprint":  _stats_fingerprint(page) if cls != "no_data" else None,
         }
 
     # parse_game_page returned None → no stat-category divs at all.
@@ -303,7 +341,84 @@ def _classify_game(soup, final_url, our_team_name, our_team_id, opp_index):
         "url":                final_url,
         "opponent_team_id":   opp_id,
         "opponent_team_name": opp_name,
+        "stats_fingerprint":  None,
     }
+
+def _dedupe_games_by_date_opponent(full_games, team_only_games, opp_only_games, no_data_games, team_name):
+    """Collapse schedule entries that are really the SAME game reported twice.
+
+    MaxPreps' schedule feed occasionally carries two contest_ids for one
+    matchup — e.g. a game's start time gets edited and the original time
+    slot's contest record is left behind as an orphaned duplicate. Both show
+    up as separate rows keyed on (date, opponent_team_id).
+
+    Rule:
+      - Only ONE entry for a (date, opponent) has real stats -> the other(s)
+        are stale no_data placeholders of that same game. Drop them.
+      - TWO OR MORE entries for a (date, opponent) have real stats:
+          - identical stats_fingerprint -> the same game reported twice, keep one
+          - different stats_fingerprint -> a genuine doubleheader, keep BOTH
+      - ALL entries for a (date, opponent) are no_data (nothing to compare)
+        -> can't tell a duplicate from an unstatted doubleheader; collapse to
+        one and log it so it can be reviewed manually.
+    """
+    PRIORITY = {"full": 0, "team_only": 1, "opp_only": 1, "no_data": 2}
+    tagged = []
+    for lst, cls in ((full_games, "full"), (team_only_games, "team_only"),
+                      (opp_only_games, "opp_only"), (no_data_games, "no_data")):
+        for g in lst:
+            tagged.append({**g, "_cls": cls})
+
+    groups = {}
+    for g in tagged:
+        groups.setdefault((g.get("date", ""), g.get("opponent_team_id", "")), []).append(g)
+
+    kept = []
+    for key, group in groups.items():
+        if len(group) == 1:
+            kept.append(group[0])
+            continue
+
+        with_data = [g for g in group if g["_cls"] != "no_data"]
+        no_data   = [g for g in group if g["_cls"] == "no_data"]
+
+        if not with_data:
+            # Nothing to fingerprint-compare — collapse but flag for review.
+            best = sorted(group, key=lambda g: PRIORITY[g["_cls"]])[0]
+            kept.append(best)
+            print(f"    [DEDUPE] {team_name} | {key} | {len(group)}x no_data entries, "
+                  f"none with stats — collapsed to 1 (verify manually: could be a "
+                  f"genuine unstatted doubleheader)")
+            continue
+
+        unique_by_fp = {}
+        for g in with_data:
+            fp = g.get("stats_fingerprint")
+            if fp not in unique_by_fp:
+                unique_by_fp[fp] = g
+            elif PRIORITY[g["_cls"]] < PRIORITY[unique_by_fp[fp]["_cls"]]:
+                dupe = unique_by_fp[fp]
+                unique_by_fp[fp] = g
+                print(f"    [DEDUPE] {team_name} | {key} | identical stats across "
+                      f"contest_ids ({dupe['_cls']} vs {g['_cls']}) — kept 1 of 2")
+            else:
+                print(f"    [DEDUPE] {team_name} | {key} | identical stats across "
+                      f"contest_ids ({g['_cls']}) — kept 1 of 2")
+        kept.extend(unique_by_fp.values())
+
+        for g in no_data:
+            print(f"    [DEDUPE] {team_name} | {key} | dropped a no_data placeholder "
+                  f"— real stats already exist for this date+opponent")
+
+    full_out, team_only_out, opp_only_out, no_data_out = [], [], [], []
+    for g in kept:
+        cls = g.pop("_cls")
+        g.pop("stats_fingerprint", None)
+        if   cls == "full":      full_out.append(g)
+        elif cls == "team_only": team_only_out.append(g)
+        elif cls == "opp_only":  opp_only_out.append(g)
+        else:                    no_data_out.append(g)
+    return full_out, team_only_out, opp_only_out, no_data_out
 
 # ─── Workers ──────────────────────────────────────────────────────────────────
 
@@ -634,12 +749,19 @@ def main():
                         "opponent_team_id":   res.get("opponent_team_id", ""),
                         "opponent_team_name": res.get("opponent_team_name", ""),
                         "url":                res.get("url", url),
+                        "stats_fingerprint":  res.get("stats_fingerprint"),
                     }
                     cls = res.get("classification", "no_data")
                     if   cls == "full":      full_games.append(game_rec)
                     elif cls == "team_only": team_only_games.append(game_rec)
                     elif cls == "opp_only":  opp_only_games.append(game_rec)
                     else:                    no_data_games.append(game_rec)
+
+                # Collapse MaxPreps' stale duplicate contest_ids for the same
+                # matchup before counting — see _dedupe_games_by_date_opponent.
+                full_games, team_only_games, opp_only_games, no_data_games = \
+                    _dedupe_games_by_date_opponent(full_games, team_only_games,
+                                                    opp_only_games, no_data_games, t_name)
 
                 games_with_stats = len(full_games) + len(team_only_games) + len(opp_only_games)
                 games_missing    = len(no_data_games)
