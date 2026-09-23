@@ -11,6 +11,11 @@ name: Daily MaxPreps scrape (2026-2027 season)
 # a daily automated data commit never triggers a Streamlit Cloud redeploy
 # (which watches `master` for code changes). Code changes still go through
 # normal commits/PRs to `master` as always.
+#
+# Uses PowerShell (not `shell: bash`) throughout: on this self-hosted
+# Windows runner, `shell: bash` resolves to WSL's bash.exe (no Linux distro
+# installed there) rather than Git Bash, which fails immediately. PowerShell
+# is what's actually confirmed present and working on this machine.
 
 on:
   schedule:
@@ -40,6 +45,9 @@ jobs:
   scrape:
     runs-on: self-hosted
     timeout-minutes: 480
+    defaults:
+      run:
+        shell: powershell
     steps:
       - name: Checkout code (master)
         uses: actions/checkout@v4
@@ -54,66 +62,59 @@ jobs:
           path: data
 
       - name: Verify Python
-        shell: bash
-        run: |
-          py --version || python --version
+        run: py --version
 
       - name: Install dependencies
-        shell: bash
         working-directory: code
         run: py -m pip install -r requirements.txt
 
       - name: Run pipeline per state
-        shell: bash
         working-directory: code
         run: |
-          set +e   # one state/sport failing must not kill the whole run
+          $statesInput = "${{ github.event.inputs.states }}"
+          if ([string]::IsNullOrWhiteSpace($statesInput)) {
+            $statesInput = "AZ:Arizona_Scraped_data AR:Arkansas_scraped_data CO:Colorado_Scraped_data ID:Idaho_scraped_data IN:Indiana_scraped_data KY:Kentucky_Scraped_data LA:Louisiana_scraped_data MI:Michigan_scraped_data NV:Nevada_Scraped_data NM:NewMaxico_scraped_data OH:Ohio_scraped_data OK:Oklahoma_scraped_data OR:Oregon_scraped_data TX:Texas_scraped_data UT:Utah_Scraped_data WA:Washington_scraped_data WI:Wisconsin_scraped_data"
+          }
+          $sportsInput = "${{ github.event.inputs.sports }}"
+          if ([string]::IsNullOrWhiteSpace($sportsInput)) {
+            $sportsInput = "boys girls"
+          }
 
-          STATES="${{ github.event.inputs.states }}"
-          if [ -z "$STATES" ]; then
-            STATES="AZ:Arizona_Scraped_data AR:Arkansas_scraped_data CO:Colorado_Scraped_data ID:Idaho_scraped_data IN:Indiana_scraped_data KY:Kentucky_Scraped_data LA:Louisiana_scraped_data MI:Michigan_scraped_data NV:Nevada_Scraped_data NM:NewMaxico_scraped_data OH:Ohio_scraped_data OK:Oklahoma_scraped_data OR:Oregon_scraped_data TX:Texas_scraped_data UT:Utah_Scraped_data WA:Washington_scraped_data WI:Wisconsin_scraped_data"
-          fi
+          $entries = $statesInput -split '\s+' | Where-Object { $_ -ne '' }
+          $sports  = $sportsInput -split '\s+' | Where-Object { $_ -ne '' }
 
-          SPORTS="${{ github.event.inputs.sports }}"
-          if [ -z "$SPORTS" ]; then
-            SPORTS="boys girls"
-          fi
+          $failed = 0
+          foreach ($entry in $entries) {
+            $parts  = $entry -split ':', 2
+            $code   = $parts[0]
+            $folder = $parts[1]
+            $outDir = Join-Path $env:GITHUB_WORKSPACE "data\$folder"
+            New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 
-          FAILED=0
-          for entry in $STATES; do
-            CODE="${entry%%:*}"
-            FOLDER="${entry##*:}"
-            OUT_DIR="$GITHUB_WORKSPACE/data/$FOLDER"
-            mkdir -p "$OUT_DIR"
-            for SPORT in $SPORTS; do
-              echo "::group::$CODE ($SPORT)"
-              py APP/pipeline.py \
-                --state "$CODE" --sport "$SPORT" --season "$SEASON" \
-                --output-dir "$OUT_DIR" --workers 15
-              rc=$?
-              if [ $rc -ne 0 ]; then
-                echo "[WARN] $CODE $SPORT pipeline exited $rc — continuing with the next state/sport"
-                FAILED=$((FAILED+1))
-              fi
-              echo "::endgroup::"
-            done
-          done
-
-          echo "Failed state/sport runs: $FAILED"
-          # Never fail the job here — we still want to commit whatever DID
-          # succeed. Failures are visible in the log groups above.
+            foreach ($sport in $sports) {
+              Write-Output "::group::$code ($sport)"
+              py APP/pipeline.py --state $code --sport $sport --season $env:SEASON --output-dir $outDir --workers 15
+              if ($LASTEXITCODE -ne 0) {
+                Write-Output "[WARN] $code $sport pipeline exited $LASTEXITCODE — continuing with the next state/sport"
+                $failed++
+              }
+              Write-Output "::endgroup::"
+            }
+          }
+          Write-Output "Failed state/sport runs: $failed"
           exit 0
 
       - name: Commit and push updated data
-        shell: bash
         working-directory: data
         run: |
           git config user.name "maxpreps-daily-bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "Daily scrape: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Output "No changes to commit."
+          } else {
+            $stamp = [DateTime]::UtcNow.ToString('yyyy-MM-dd HH:mm')
+            git commit -m "Daily scrape: $stamp UTC"
             git push origin data
-          fi
+          }
