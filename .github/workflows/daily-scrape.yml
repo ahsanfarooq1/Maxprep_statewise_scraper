@@ -1,0 +1,119 @@
+name: Daily MaxPreps scrape (2026-2027 season)
+
+# Requires a self-hosted runner registered to this repo (Settings > Actions >
+# Runners) on a machine that can actually reach MaxPreps — GitHub's own
+# hosted runners exit via Azure datacenter IP ranges, which MaxPreps rejects
+# with 406 regardless of headers (measured 2026-08-13, see commit 6e5c1a6).
+# A residential/VPN connection — like the one already used for local runs —
+# is what makes this work.
+#
+# Deliberately targets the `data` branch for its commits, NOT `master` — so
+# a daily automated data commit never triggers a Streamlit Cloud redeploy
+# (which watches `master` for code changes). Code changes still go through
+# normal commits/PRs to `master` as always.
+
+on:
+  schedule:
+    # 09:17 UTC ≈ 1:17am Pacific / 4:17am Eastern — off-peak, non-round
+    # minute (GitHub's scheduler is best-effort and round times get delayed
+    # most). Adjust freely; this is not load-bearing anywhere else.
+    - cron: '17 9 * * *'
+  workflow_dispatch:
+    inputs:
+      states:
+        description: 'Space-separated CODE:FolderName pairs to run (blank = all configured states)'
+        required: false
+        default: ''
+      sports:
+        description: 'Space-separated sports to run'
+        required: false
+        default: 'boys girls'
+
+concurrency:
+  group: daily-maxpreps-scrape
+  cancel-in-progress: false
+
+env:
+  SEASON: '2026-2027'
+
+jobs:
+  scrape:
+    runs-on: self-hosted
+    timeout-minutes: 480
+    steps:
+      - name: Checkout code (master)
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          path: code
+
+      - name: Checkout data branch
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data
+
+      - name: Verify Python
+        shell: bash
+        run: |
+          py --version || python --version
+
+      - name: Install dependencies
+        shell: bash
+        working-directory: code
+        run: py -m pip install -r requirements.txt
+
+      - name: Run pipeline per state
+        shell: bash
+        working-directory: code
+        run: |
+          set +e   # one state/sport failing must not kill the whole run
+
+          STATES="${{ github.event.inputs.states }}"
+          if [ -z "$STATES" ]; then
+            STATES="AZ:Arizona_Scraped_data AR:Arkansas_scraped_data CO:Colorado_Scraped_data ID:Idaho_scraped_data IN:Indiana_scraped_data KY:Kentucky_Scraped_data LA:Louisiana_scraped_data MI:Michigan_scraped_data NV:Nevada_Scraped_data NM:NewMaxico_scraped_data OH:Ohio_scraped_data OK:Oklahoma_scraped_data OR:Oregon_scraped_data TX:Texas_scraped_data UT:Utah_Scraped_data WA:Washington_scraped_data WI:Wisconsin_scraped_data"
+          fi
+
+          SPORTS="${{ github.event.inputs.sports }}"
+          if [ -z "$SPORTS" ]; then
+            SPORTS="boys girls"
+          fi
+
+          FAILED=0
+          for entry in $STATES; do
+            CODE="${entry%%:*}"
+            FOLDER="${entry##*:}"
+            OUT_DIR="$GITHUB_WORKSPACE/data/$FOLDER"
+            mkdir -p "$OUT_DIR"
+            for SPORT in $SPORTS; do
+              echo "::group::$CODE ($SPORT)"
+              py APP/pipeline.py \
+                --state "$CODE" --sport "$SPORT" --season "$SEASON" \
+                --output-dir "$OUT_DIR" --workers 15
+              rc=$?
+              if [ $rc -ne 0 ]; then
+                echo "[WARN] $CODE $SPORT pipeline exited $rc — continuing with the next state/sport"
+                FAILED=$((FAILED+1))
+              fi
+              echo "::endgroup::"
+            done
+          done
+
+          echo "Failed state/sport runs: $FAILED"
+          # Never fail the job here — we still want to commit whatever DID
+          # succeed. Failures are visible in the log groups above.
+          exit 0
+
+      - name: Commit and push updated data
+        shell: bash
+        working-directory: data
+        run: |
+          git config user.name "maxpreps-daily-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily scrape: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push origin data
+          fi
