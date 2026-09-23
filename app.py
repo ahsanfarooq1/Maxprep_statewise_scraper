@@ -365,6 +365,33 @@ def _classify_game(soup, final_url, our_team_name, our_team_id, opp_index):
         "stats_fingerprint":  None,
     }
 
+def _contest_id_from_url(url):
+    m = re.search(r"[?&]c=([A-Za-z0-9_-]+)", url or "")
+    return m.group(1) if m else None
+
+
+def _build_game_cache(existing_gaps):
+    """(team_id, contest_id) -> (classification, game_rec) for every game an
+    earlier run already found real stats for. Deliberately EXCLUDES no_data
+    games — an unplayed/unstatted game today can still get a result
+    tomorrow, so those must always be re-checked.
+
+    This is what makes a daily re-run cheap: every team's schedule is
+    re-fetched fresh every time (to catch newly-added games), but only a
+    game missing from this cache actually hits the box-score page."""
+    cache = {}
+    for bucket in ("teamsFullBoxScores", "teamsPartialBoxScores", "teamsNoBoxScores"):
+        for team in existing_gaps.get(bucket, []):
+            t_id = team_url_to_path(team.get("teamUrl", ""))
+            for cls, key in (("full", "fullDataGames"), ("team_only", "teamOnlyDataGames"),
+                             ("opp_only", "opponentOnlyDataGames")):
+                for g in team.get(key, {}).get("games", []):
+                    cid = _contest_id_from_url(g.get("url"))
+                    if cid:
+                        cache[(t_id, cid)] = (cls, g)
+    return cache
+
+
 def _dedupe_games_by_date_opponent(full_games, team_only_games, opp_only_games, no_data_games, team_name):
     """Collapse schedule entries that are really the SAME game reported twice.
 
@@ -434,7 +461,9 @@ def _dedupe_games_by_date_opponent(full_games, team_only_games, opp_only_games, 
     full_out, team_only_out, opp_only_out, no_data_out = [], [], [], []
     for g in kept:
         cls = g.pop("_cls")
-        g.pop("stats_fingerprint", None)
+        # stats_fingerprint is kept (not stripped) so a future daily run's
+        # game cache (_build_game_cache) can still fingerprint-compare a
+        # cached game against a freshly-discovered duplicate contest_id.
         if   cls == "full":      full_out.append(g)
         elif cls == "team_only": team_only_out.append(g)
         elif cls == "opp_only":  opp_only_out.append(g)
@@ -659,28 +688,24 @@ def main():
             })
     total = len(all_teams)
 
-    # Resume Logic
+    # Every team gets a full pass every run — cheap (one schedule request
+    # each) and necessary to catch newly-added games on an in-progress
+    # season. What makes a daily re-run efficient instead of a full
+    # re-scrape is the per-game cache below: any game we already have real
+    # stats for is reused without hitting the box-score page again. Only new
+    # games and previously no_data (possibly since-played) games get
+    # (re-)checked live. See _build_game_cache / _dedupe_games_by_date_opponent.
     full_data, partial_data, no_data, errors, processed_teams = [], [], [], [], set()
+    game_cache = {}
     if os.path.exists(output_file):
         try:
             with open(output_file, "r", encoding="utf-8") as f:
                 existing = json.load(f)
-                full_data = existing.get("teamsFullBoxScores", [])
-                partial_data = existing.get("teamsPartialBoxScores", [])
-                no_data = existing.get("teamsNoBoxScores", [])
-                errors = existing.get("errors", [])
-                processed_teams = set(existing.get("meta", {}).get("processedTeams", []))
-                print(f"Resuming: {len(processed_teams)} teams already processed.")
-        except Exception: pass
-
-    # Retry-on-resume: drop previously-errored teams from processed_teams so they
-    # get re-attempted. (A network blip shouldn't permanently exclude a team.)
-    if errors:
-        retry_paths = {team_url_to_path(e["teamUrl"]) for e in errors if e.get("teamUrl")}
-        processed_teams -= retry_paths
-        errors = []
-        if retry_paths:
-            print(f"Re-queueing {len(retry_paths)} previously-errored teams for retry.")
+            game_cache = _build_game_cache(existing)
+            print(f"Loaded {len(game_cache)} already-checked games from the existing "
+                  f"file — only new or still-unresolved games will be (re-)fetched.")
+        except Exception as e:
+            print(f"  [WARN] Could not load existing file for game cache: {e}")
 
     # Normalise the season into '24-25'-style URL segment for the schedule fetch.
     # Without this the gap finder asks MaxPreps for the schedule at the path-less
@@ -698,8 +723,9 @@ def main():
     from scrape_box_scores import _get_opp_index
     opp_index = _get_opp_index(args.sport, args.season)
 
-    # Filter teams for Phase 1
-    teams_to_process = [t for t in all_teams if team_url_to_path(t["teamUrl"]) not in processed_teams]
+    # Every team goes through Phase 1 every run (see comment above) — no
+    # team-level filtering. The game_cache is what keeps a re-run cheap.
+    teams_to_process = all_teams
     if teams_to_process:
         # Phase 1: Schedules
         print(f"Phase 1: Fetching {len(teams_to_process)} schedules ({SCHED_WORKERS} workers)...")
@@ -764,17 +790,26 @@ def main():
                 opp_only_games:  list = []
                 no_data_games:   list = []
                 for url, guid, ssid in entries:
-                    res = check_game_worker(url, guid, ssid, t_name, t_id, opp_index)
-                    if res is None or not isinstance(res, dict):
-                        continue   # fetch error or legacy bool — skip
-                    game_rec = {
-                        "date":               res.get("date", ""),
-                        "opponent_team_id":   res.get("opponent_team_id", ""),
-                        "opponent_team_name": res.get("opponent_team_name", ""),
-                        "url":                res.get("url", url),
-                        "stats_fingerprint":  res.get("stats_fingerprint"),
-                    }
-                    cls = res.get("classification", "no_data")
+                    # Cache hit: a previous run already found real stats for
+                    # this exact contest_id — reuse it, no HTTP request.
+                    # Never cached: no_data games always get (re-)checked
+                    # live, since an unplayed/unstatted game today can have
+                    # a result by the next run.
+                    cached = game_cache.get((t_id, guid)) if guid else None
+                    if cached is not None:
+                        cls, game_rec = cached
+                    else:
+                        res = check_game_worker(url, guid, ssid, t_name, t_id, opp_index)
+                        if res is None or not isinstance(res, dict):
+                            continue   # fetch error or legacy bool — skip
+                        game_rec = {
+                            "date":               res.get("date", ""),
+                            "opponent_team_id":   res.get("opponent_team_id", ""),
+                            "opponent_team_name": res.get("opponent_team_name", ""),
+                            "url":                res.get("url", url),
+                            "stats_fingerprint":  res.get("stats_fingerprint"),
+                        }
+                        cls = res.get("classification", "no_data")
                     if   cls == "full":      full_games.append(game_rec)
                     elif cls == "team_only": team_only_games.append(game_rec)
                     elif cls == "opp_only":  opp_only_games.append(game_rec)
