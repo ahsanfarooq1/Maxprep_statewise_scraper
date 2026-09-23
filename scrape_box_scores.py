@@ -1642,7 +1642,7 @@ def _name_from_url(team_url, fallback=""):
 
 # ── Core scraping logic (callable from gap finder or standalone) ──────────────
 
-def _scrape_team(team, season_suffix=None, opp_index=None):
+def _scrape_team(team, season_suffix=None, opp_index=None, game_cache=None):
     """Worker: scrape one team's full set of games. Returns
     (team_id, team_name, team_url, games_list, error_dict_or_None).
 
@@ -1735,12 +1735,22 @@ def _scrape_team(team, season_suffix=None, opp_index=None):
 
     # ── Games (sequential within a single team to cap per-team request rate) ──
     entries = game_entries
+    game_cache = game_cache or {}
     team_games = []
     for game_url, guid, ssid in entries:
         # Anchor-sourced entries have guid=None; scrape_game() falls back to
         # the plain game URL and recovers the guid from the resolved page,
         # so don't skip them the way the schedule.json-only path used to.
         if not guid and not game_url:
+            continue
+        # Cache hit: an earlier run already scraped this exact contest_id for
+        # this team, and scrape_game() only ever stores records with real
+        # stat content (an empty/no-data page returns None and is never
+        # saved) — so any cached record here is trustworthy to reuse as-is,
+        # no HTTP request needed. This is what keeps a daily re-run cheap.
+        cached = game_cache.get((team_id, guid)) if guid else None
+        if cached is not None:
+            team_games.append(cached)
             continue
         for _attempt in range(3):
             try:
@@ -1834,28 +1844,32 @@ def run(input_file=None, output_file=None, sport="boys", season="2025-2026",
     all_games  = []
     errors     = []
     processed_teams = set()
+    game_cache = {}
 
-    # ── Resume Logic ─────────────────────────────────────────────────────────
+    # Every team gets a full pass every run (schedule re-fetch is cheap and
+    # is the only way to catch newly-added games on an in-progress season).
+    # What keeps a re-run cheap instead of a full re-scrape is the per-game
+    # cache below: any (team_id, contest_id) an earlier run already has a
+    # real record for is reused with no HTTP request — scrape_game() only
+    # ever stores records with real stat content, so any existing record is
+    # trustworthy. Games missing from the cache (new, or previously
+    # unstatted) are (re-)fetched live.
     if os.path.exists(output_file):
         try:
             with open(output_file, "r", encoding="utf-8") as f:
                 existing_data = json.load(f)
-                all_games = existing_data.get("games", [])
-                errors = existing_data.get("meta", {}).get("errors", [])
-                processed_teams = set(existing_data.get("meta", {}).get("processedTeams", []))
-                print(f"Resuming: {len(processed_teams)} teams already processed, {len(all_games)} games loaded.")
+            existing_games = existing_data.get("games", [])
+            game_cache = {
+                (g["team"]["team_id"], g["contest_id"]): g
+                for g in existing_games
+                if g.get("team", {}).get("team_id") and g.get("contest_id")
+            }
+            print(f"Loaded {len(game_cache)} already-scraped games from the existing "
+                  f"file — only new or previously-unstatted games will be (re-)fetched.")
         except Exception as e:
-            print(f"Could not load existing output file for resumption: {e}")
+            print(f"Could not load existing output file for game cache: {e}")
 
-    # Retry-on-resume: drop previously errored teams so they get re-attempted.
-    if errors:
-        retry_paths = {team_url_to_path(e["teamUrl"]) for e in errors if e.get("teamUrl")}
-        processed_teams -= retry_paths
-        errors = []
-        if retry_paths:
-            print(f"Re-queueing {len(retry_paths)} previously-errored teams for retry.")
-
-    teams_to_do = [t for t in teams if team_url_to_path(t["teamUrl"]) not in processed_teams]
+    teams_to_do = teams
     if limit and limit > 0:
         teams_to_do = teams_to_do[:limit]
     if not teams_to_do:
@@ -1885,7 +1899,7 @@ def run(input_file=None, output_file=None, sport="boys", season="2025-2026",
                         print(f"  [WARN] Periodic save failed: {save_e}")
 
         with ThreadPoolExecutor(max_workers=workers) as pool:
-            futures = {pool.submit(_scrape_team, t, season_suffix, opp_index): t for t in teams_to_do}
+            futures = {pool.submit(_scrape_team, t, season_suffix, opp_index, game_cache): t for t in teams_to_do}
             for fut in as_completed(futures):
                 try:
                     team_id, team_name, team_url, games, error = fut.result()
