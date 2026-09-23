@@ -1,13 +1,13 @@
 name: Daily MaxPreps scrape (2026-2027 season)
 
 # Requires a self-hosted runner registered to this repo (Settings > Actions >
-# Runners) on a machine that can actually reach MaxPreps — GitHub's own
+# Runners) on a machine that can actually reach MaxPreps - GitHub's own
 # hosted runners exit via Azure datacenter IP ranges, which MaxPreps rejects
 # with 406 regardless of headers (measured 2026-08-13, see commit 6e5c1a6).
-# A residential/VPN connection — like the one already used for local runs —
+# A residential/VPN connection - like the one already used for local runs -
 # is what makes this work.
 #
-# Deliberately targets the `data` branch for its commits, NOT `master` — so
+# Deliberately targets the `data` branch for its commits, NOT `master` - so
 # a daily automated data commit never triggers a Streamlit Cloud redeploy
 # (which watches `master` for code changes). Code changes still go through
 # normal commits/PRs to `master` as always.
@@ -19,7 +19,7 @@ name: Daily MaxPreps scrape (2026-2027 season)
 
 on:
   schedule:
-    # 09:17 UTC ≈ 1:17am Pacific / 4:17am Eastern — off-peak, non-round
+    # 09:17 UTC ~ 1:17am Pacific / 4:17am Eastern - off-peak, non-round
     # minute (GitHub's scheduler is best-effort and round times get delayed
     # most). Adjust freely; this is not load-bearing anywhere else.
     - cron: '17 9 * * *'
@@ -95,7 +95,7 @@ jobs:
               Write-Output "::group::$code ($sport)"
               py APP/pipeline.py --state $code --sport $sport --season $env:SEASON --output-dir $outDir --workers 15
               if ($LASTEXITCODE -ne 0) {
-                Write-Output "[WARN] $code $sport pipeline exited $LASTEXITCODE — continuing with the next state/sport"
+                Write-Output "[WARN] $code $sport pipeline exited $LASTEXITCODE - continuing with the next state/sport"
                 $failed++
               }
               Write-Output "::endgroup::"
