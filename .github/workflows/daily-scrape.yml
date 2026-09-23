@@ -38,6 +38,11 @@ concurrency:
   group: daily-maxpreps-scrape
   cancel-in-progress: false
 
+# The auto-generated GITHUB_TOKEN is read-only by default; the final step
+# pushes the scraped data to the `data` branch, so it needs write access.
+permissions:
+  contents: write
+
 env:
   SEASON: '2026-2027'
 
