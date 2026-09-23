@@ -1,0 +1,1367 @@
+{
+  "sourceInput": "C:\\actions-runner-maxpreps\\_work\\Maxprep_statewise_scraper\\Maxprep_statewise_scraper\\data\\Oregon_scraped_data\\or_data_gaps_boys_2026_2027.json",
+  "season": "2026-2027",
+  "teamsInInput": 270,
+  "teamsScraped": 0,
+  "teamsSkipped": 270,
+  "totalRecords": 0,
+  "team_totalRecords": 0,
+  "playerRecords": 0,
+  "skipReasons": {
+    "unparseable": 270
+  },
+  "skipped": [
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/benson-tech-astros/basketball/",
+      "teamName": "Benson Tech Astros",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/astoria/astoria-fishermen/basketball/",
+      "teamName": "Astoria Fishermen",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/amity/amity-warriors/basketball/",
+      "teamName": "Amity Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/gresham/barlow-bruins/basketball/",
+      "teamName": "Barlow Bruins",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/salem/blanchet-catholic-cavaliers/basketball/",
+      "teamName": "Blanchet Catholic Cavaliers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/aloha-warriors/basketball/",
+      "teamName": "Aloha Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/ashland/ashland-grizzlies/basketball/",
+      "teamName": "Ashland Grizzlies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/wa/bickleton/bickleton-pirates/basketball/",
+      "teamName": "Bickleton Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/adrian/adrian-antelopes/basketball/",
+      "teamName": "Adrian Antelopes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/banks/banks-braves/basketball/",
+      "teamName": "Banks Braves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/alsea/alsea-wolverines/basketball/",
+      "teamName": "Alsea Wolverines",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/baker-city/baker-bulldogs/basketball/",
+      "teamName": "Baker Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/bend/bend-lava-bears/basketball/",
+      "teamName": "Bend Lava Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/bandon/bandon-tigers/basketball/",
+      "teamName": "Bandon Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/beaverton-beavers/basketball/",
+      "teamName": "Beaverton Beavers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/bonanza/bonanza-antlers/basketball/",
+      "teamName": "Bonanza Antlers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/unity/burnt-river-bulls/basketball/",
+      "teamName": "Burnt River Bulls",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/butte-falls/butte-falls-loggers/basketball/",
+      "teamName": "Butte Falls Loggers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/brookings/brookings-harbor-bruins/basketball/",
+      "teamName": "Brookings Harbor Bruins",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/burns/burns-hilanders/basketball/",
+      "teamName": "Burns Hilanders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/canby/canby-cougars/basketball/",
+      "teamName": "Canby Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/camas-valley/camas-valley-hornets/basketball/",
+      "teamName": "Camas Valley Hornets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/medford/cascade-christian-challengers/basketball/",
+      "teamName": "Cascade Christian Challengers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/bend/caldera/basketball/",
+      "teamName": "Caldera",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/catlin-gabel-eagles/basketball/",
+      "teamName": "Catlin Gabel Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/halsey/central-linn-cobras/basketball/",
+      "teamName": "Central Linn Cobras",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/gresham/centennial-eagles/basketball/",
+      "teamName": "Centennial Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/turner/cascade-cougars/basketball/",
+      "teamName": "Cascade Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/central-catholic-rams/basketball/",
+      "teamName": "Central Catholic Rams",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/hillsboro/century-jaguars/basketball/",
+      "teamName": "Century Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/redmond/central-christian-tigers/basketball/",
+      "teamName": "Central Christian Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/salem/chemawa-indian-braves/basketball/",
+      "teamName": "Chemawa Indian Braves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/clackamas/clackamas-cavaliers/basketball/",
+      "teamName": "Clackamas Cavaliers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/eugene/city-first-christian-academy/basketball/",
+      "teamName": "City First Christian Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/colton/colton-vikings/basketball/",
+      "teamName": "Colton Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/chiloquin/chiloquin-panthers/basketball/",
+      "teamName": "Chiloquin Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/condon/condon-knights/basketball/",
+      "teamName": "Condon Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/eugene/churchill-lancers/basketball/",
+      "teamName": "Churchill Lancers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/corvallis/corvallis-spartans/basketball/",
+      "teamName": "Corvallis Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/clatskanie/clatskanie-tigers/basketball/",
+      "teamName": "Clatskanie Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/corbett/corbett-cardinals/basketball/",
+      "teamName": "Corbett Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/cleveland-warriors/basketball/",
+      "teamName": "Cleveland Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/coquille/coquille-red-devils/basketball/",
+      "teamName": "Coquille Red Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/cottage-grove/cottage-grove-lions/basketball/",
+      "teamName": "Cottage Grove Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/cove/cove-leopards/basketball/",
+      "teamName": "Cove Leopards",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/central-point/crater-comets/basketball/",
+      "teamName": "Crater Comets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/turner/crosshill-christian-eagles/basketball/",
+      "teamName": "Crosshill Christian Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/klamath-falls/crosspoint-christian-warriors/basketball/",
+      "teamName": "Crosspoint Christian Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/columbia-christian-knights/basketball/",
+      "teamName": "Columbia Christian Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/culver/culver-bulldogs/basketball/",
+      "teamName": "Culver Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/molalla/country-christian-cougars/basketball/",
+      "teamName": "Country Christian Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/days-creek/days-creek-wolves/basketball/",
+      "teamName": "Days Creek Wolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/corvallis/crescent-valley-raiders/basketball/",
+      "teamName": "Crescent Valley Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/prineville/crook-county-cowboys/basketball/",
+      "teamName": "Crook County Cowboys",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/crane/crane-mustangs/basketball/",
+      "teamName": "Crane Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/dallas/dallas-dragons/basketball/",
+      "teamName": "Dallas Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/dayton/dayton-pirates/basketball/",
+      "teamName": "Dayton Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/eugene/crow-cougars/basketball/",
+      "teamName": "Crow Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/david-douglas-scots/basketball/",
+      "teamName": "David Douglas Scots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/dayville/dayville-tigers/basketball/",
+      "teamName": "Dayville Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/de-la-salle-north-catholic-knights/basketball/",
+      "teamName": "De La Salle North Catholic Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/winston/douglas-trojans/basketball/",
+      "teamName": "Douglas Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/damascus/damascus-christian-eagles/basketball/",
+      "teamName": "Damascus Christian Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/sheridan/delphian-dragons/basketball/",
+      "teamName": "Delphian Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/creswell/creswell-bulldogs/basketball/",
+      "teamName": "Creswell Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/lebanon/east-linn-christian-academy-eagles/basketball/",
+      "teamName": "East Linn Christian Academy Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/dufur/dufur-rangers/basketball/",
+      "teamName": "Dufur Rangers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/echo/echo-cougars/basketball/",
+      "teamName": "Echo Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/eagle-point/eagle-point-eagles/basketball/",
+      "teamName": "Eagle Point Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/eddyville/eddyville-eagles/basketball/",
+      "teamName": "Eddyville Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/elkton/elkton-elks/basketball/",
+      "teamName": "Elkton Elks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/elgin/elgin-huskies/basketball/",
+      "teamName": "Elgin Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/estacada/estacada-rangers/basketball/",
+      "teamName": "Estacada Rangers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/elmira/elmira-falcons/basketball/",
+      "teamName": "Elmira Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/forest-grove/forest-grove-vikings/basketball/",
+      "teamName": "Forest Grove Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/falls-city/falls-city-kings-valley-charter-mountaineers/basketball/",
+      "teamName": "Falls City Kings Valley Charter Mountaineers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/franklin-lightning/basketball/",
+      "teamName": "Franklin Lightning",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/aloha/faith-bible-christian-life-christian/basketball/",
+      "teamName": "Faith Bible Christian Life Christian",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/ontario/four-rivers-falcons/basketball/",
+      "teamName": "Four Rivers Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/gaston/gaston-greyhounds/basketball/",
+      "teamName": "Gaston Greyhounds",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/gervais/gervais-cougars/basketball/",
+      "teamName": "Gervais Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/gladstone/gladstone-gladiators/basketball/",
+      "teamName": "Gladstone Gladiators",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/gilchrist/gilchrist-grizzlies/basketball/",
+      "teamName": "Gilchrist Grizzlies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/hillsboro/glencoe-tide/basketball/",
+      "teamName": "Glencoe Tide",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/glide/glide-wildcats/basketball/",
+      "teamName": "Glide Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/glendale/glendale-pirates/basketball/",
+      "teamName": "Glendale Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/grant-generals/basketball/",
+      "teamName": "Grant Generals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/gold-beach/gold-beach-panthers/basketball/",
+      "teamName": "Gold Beach Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/beavercreek/grand-view-christian-academy/basketball/",
+      "teamName": "Grand View Christian Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/harrisburg/harrisburg-eagles/basketball/",
+      "teamName": "Harrisburg Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/helix/griswold-grizzlies/basketball/",
+      "teamName": "Griswold Grizzlies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/gresham/gresham-gophers/basketball/",
+      "teamName": "Gresham Gophers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/medford/harvest-christian/basketball/",
+      "teamName": "Harvest Christian",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/harper/harper-hornets/basketball/",
+      "teamName": "Harper Hornets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/grants-pass/hidden-valley-mustangs/basketball/",
+      "teamName": "Hidden Valley Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/klamath-falls/henley-hornets/basketball/",
+      "teamName": "Henley Hornets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/hood-river/hood-river-valley-eagles/basketball/",
+      "teamName": "Hood River Valley Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/hillsboro/hillsboro-spartans/basketball/",
+      "teamName": "Hillsboro Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/hood-river/horizon-christian/basketball/",
+      "teamName": "Horizon Christian",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/tualatin/horizon-christian-hawks/basketball/",
+      "teamName": "Horizon Christian Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/huntington/huntington-locomotives/basketball/",
+      "teamName": "Huntington Locomotives",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/ida-b-wells-trojans/basketball/",
+      "teamName": "Ida B Wells Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/cave-junction/illinois-valley-cougars/basketball/",
+      "teamName": "Illinois Valley Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/jefferson-democrats/basketball/",
+      "teamName": "Jefferson Democrats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/jefferson/jefferson-lions/basketball/",
+      "teamName": "Jefferson Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/jesuit-crusaders/basketball/",
+      "teamName": "Jesuit Crusaders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/imbler/imbler-panthers/basketball/",
+      "teamName": "Imbler Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/jordan-valley/jordan-valley-mustangs/basketball/",
+      "teamName": "Jordan Valley Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/ione/ione-arlington-cardinals/basketball/",
+      "teamName": "Ione Arlington Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/junction-city/junction-city-tigers/basketball/",
+      "teamName": "Junction City Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/joseph/joseph-eagles/basketball/",
+      "teamName": "Joseph Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/mt-angel/kennedy-trojans/basketball/",
+      "teamName": "Kennedy Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/klamath-falls/klamath-union-pelicans/basketball/",
+      "teamName": "Klamath Union Pelicans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/astoria/knappa-loggers/basketball/",
+      "teamName": "Knappa Loggers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/wa/klickitat/klickitat-glenwood/basketball/",
+      "teamName": "Klickitat Glenwood",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/la-pine/la-pine-hawks/basketball/",
+      "teamName": "La Pine Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/la-grande/la-grande-tigers/basketball/",
+      "teamName": "La Grande Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/milwaukie/la-salle-falcons/basketball/",
+      "teamName": "La Salle Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/lake-oswego/lakeridge-pacers/basketball/",
+      "teamName": "Lakeridge Pacers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/newberg/lewis-academy-watchmen/basketball/",
+      "teamName": "Lewis Academy Watchmen",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/lebanon/lebanon-warriors/basketball/",
+      "teamName": "Lebanon Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/lake-oswego/lake-oswego-lakers/basketball/",
+      "teamName": "Lake Oswego Lakers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/lakeview/lakeview-honkers/basketball/",
+      "teamName": "Lakeview Honkers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/hillsboro/liberty-falcons/basketball/",
+      "teamName": "Liberty Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/lincoln-cardinals/basketball/",
+      "teamName": "Lincoln Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/merrill/lost-river-raiders/basketball/",
+      "teamName": "Lost River Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/salem/livingstone-adventist-academy/basketball/",
+      "teamName": "Livingstone Adventist Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/long-creek/long-creek-mountaineers/basketball/",
+      "teamName": "Long Creek Mountaineers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/lowell/lowell-red-devils/basketball/",
+      "teamName": "Lowell Red Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/wa/lyle/lyle-wishram-cougars/basketball/",
+      "teamName": "Lyle Wishram Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/madras/madras-white-buffalos/basketball/",
+      "teamName": "Madras White Buffalos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/mapleton/mapleton-sailors/basketball/",
+      "teamName": "Mapleton Sailors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/coos-bay/marshfield-pirates/basketball/",
+      "teamName": "Marshfield Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/mannahouse-christian-academy/basketball/",
+      "teamName": "Mannahouse Christian Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/eugene/marist-spartans/basketball/",
+      "teamName": "Marist Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/klamath-falls/mazama-vikings/basketball/",
+      "teamName": "Mazama Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/salem/mckay-royal-scots/basketball/",
+      "teamName": "Mckay Royal Scots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/mcdaniel-mountain-lions/basketball/",
+      "teamName": "Mcdaniel Mountain Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/finn-rock/mckenzie-eagles/basketball/",
+      "teamName": "Mckenzie Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/milton-freewater/mcloughlin-pioneers/basketball/",
+      "teamName": "Mcloughlin Pioneers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/days-creek/milo-adventist-academy-mustangs/basketball/",
+      "teamName": "Milo Adventist Academy Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/mcminnville/mcminnville-grizzlies/basketball/",
+      "teamName": "Mcminnville Grizzlies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/keizer/mcnary-celtics/basketball/",
+      "teamName": "Mcnary Celtics",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/mitchell/mitchell-spray-wheeler/basketball/",
+      "teamName": "Mitchell Spray Wheeler",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/milwaukie/milwaukie-milwaukie-academy-of-the-arts-mustangs/basketball/",
+      "teamName": "Milwaukie Milwaukie Academy Of The Arts Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/marcola/mohawk-mustangs/basketball/",
+      "teamName": "Mohawk Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/molalla/molalla-indians/basketball/",
+      "teamName": "Molalla Indians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/monument/monument-tigers/basketball/",
+      "teamName": "Monument Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/mountainside-mavericks/basketball/",
+      "teamName": "Mountainside Mavericks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/myrtle-point/myrtle-point-bobcats/basketball/",
+      "teamName": "Myrtle Point Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/bend/mountain-view-cougars/basketball/",
+      "teamName": "Mountain View Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/monroe/monroe-dragons/basketball/",
+      "teamName": "Monroe Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/happy-valley/nelson/basketball/",
+      "teamName": "Nelson",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/rockaway-beach/neah-kah-nie-pirates/basketball/",
+      "teamName": "Neah Kah Nie Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/cloverdale/nestucca-bobcats/basketball/",
+      "teamName": "Nestucca Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/grants-pass/new-hope-christian-warriors/basketball/",
+      "teamName": "New Hope Christian Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/newberg/newberg-tigers/basketball/",
+      "teamName": "Newberg Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/newport/newport-cubs/basketball/",
+      "teamName": "Newport Cubs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/pendleton/nixyaawii-community-golden-eagles/basketball/",
+      "teamName": "Nixyaawii Community Golden Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/north-bend/north-bend-bulldogs/basketball/",
+      "teamName": "North Bend Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/salem/north-salem-vikings/basketball/",
+      "teamName": "North Salem Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/silver-lake/north-lake-cowboys/basketball/",
+      "teamName": "North Lake Cowboys",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/drain/north-douglas/basketball/",
+      "teamName": "North Douglas",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/eugene/north-eugene-highlanders/basketball/",
+      "teamName": "North Eugene Highlanders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/aurora/north-marion-huskies/basketball/",
+      "teamName": "North Marion Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/oregon-city/north-clackamas-christian-saints/basketball/",
+      "teamName": "North Clackamas Christian Saints",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/grants-pass/north-valley-knights/basketball/",
+      "teamName": "North Valley Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/oakland/oakland-oakers/basketball/",
+      "teamName": "Oakland Oakers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/nyssa/nyssa-bulldogs/basketball/",
+      "teamName": "Nyssa Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/oakridge/oakridge-warriors/basketball/",
+      "teamName": "Oakridge Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/salem/oregon-school-for-the-deaf-panthers/basketball/",
+      "teamName": "Oregon School For The Deaf Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/oregon-city/oregon-city-pioneers/basketball/",
+      "teamName": "Oregon City Pioneers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/oregon-episcopal-aardvarks/basketball/",
+      "teamName": "Oregon Episcopal Aardvarks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/ontario/ontario-tigers/basketball/",
+      "teamName": "Ontario Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/troutdale/open-door-christian-academy-huskies/basketball/",
+      "teamName": "Open Door Christian Academy Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/port-orford/pacific/basketball/",
+      "teamName": "Pacific",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/paisley/paisley-broncos/basketball/",
+      "teamName": "Paisley Broncos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/pendleton/pendleton-buckaroos/basketball/",
+      "teamName": "Pendleton Buckaroos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/parkrose-broncos/basketball/",
+      "teamName": "Parkrose Broncos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/pilot-rock/pilot-rock-rockets/basketball/",
+      "teamName": "Pilot Rock Rockets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/amity/perrydale-pirates/basketball/",
+      "teamName": "Perrydale Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/phoenix/phoenix-pirates/basketball/",
+      "teamName": "Phoenix Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/philomath/philomath-warriors/basketball/",
+      "teamName": "Philomath Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/pleasant-hill/pleasant-hill-billies/basketball/",
+      "teamName": "Pleasant Hill Billies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/halfway/pine-eagle-spartans/basketball/",
+      "teamName": "Pine Eagle Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/portland-adventist-academy-cougars/basketball/",
+      "teamName": "Portland Adventist Academy Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/portland-christian-royals/basketball/",
+      "teamName": "Portland Christian Royals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/milwaukie/portland-waldorf/basketball/",
+      "teamName": "Portland Waldorf",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/north-powder/powder-valley-badgers/basketball/",
+      "teamName": "Powder Valley Badgers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/powers/powers-cruisers/basketball/",
+      "teamName": "Powers Cruisers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/prairie-city/prairie-city-panthers/basketball/",
+      "teamName": "Prairie City Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/prospect/prospect-cougars/basketball/",
+      "teamName": "Prospect Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/reedsport/reedsport/basketball/",
+      "teamName": "Reedsport",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/troutdale/reynolds-raiders/basketball/",
+      "teamName": "Reynolds Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/redmond/redmond-panthers/basketball/",
+      "teamName": "Redmond Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/rainier/rainier-columbians/basketball/",
+      "teamName": "Rainier Columbians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/stayton/regis-rams/basketball/",
+      "teamName": "Regis Rams",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/milwaukie/putnam-kingsmen/basketball/",
+      "teamName": "Putnam Kingsmen",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/redmond/ridgeview-ravens/basketball/",
+      "teamName": "Ridgeview Ravens",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/riddle/riddle-irish/basketball/",
+      "teamName": "Riddle Irish",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/riverdale-mavericks/basketball/",
+      "teamName": "Riverdale Mavericks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/boardman/riverside-pirates/basketball/",
+      "teamName": "Riverside Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/rogue-river/rogue-river-chieftains/basketball/",
+      "teamName": "Rogue River Chieftains",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/medford/rogue-valley-adventist-hawks/basketball/",
+      "teamName": "Rogue Valley Adventist Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/roosevelt-roughriders/basketball/",
+      "teamName": "Roosevelt Roughriders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/rosemary-anderson-prep-prospects/basketball/",
+      "teamName": "Rosemary Anderson Prep Prospects",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/salem/salem-academy-crusaders/basketball/",
+      "teamName": "Salem Academy Crusaders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/sandy/sandy-pioneers/basketball/",
+      "teamName": "Sandy Pioneers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/corvallis/santiam-christian-eagles/basketball/",
+      "teamName": "Santiam Christian Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/scappoose/scappoose-indians/basketball/",
+      "teamName": "Scappoose Indians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/seaside/seaside-seagulls/basketball/",
+      "teamName": "Seaside Seagulls",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/sheridan/sheridan-spartans/basketball/",
+      "teamName": "Sheridan Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/mill-city/santiam-wolverines/basketball/",
+      "teamName": "Santiam Wolverines",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/scio/scio-loggers/basketball/",
+      "teamName": "Scio Loggers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/moro/sherman-huskies/basketball/",
+      "teamName": "Sherman Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/siletz/siletz-valley/basketball/",
+      "teamName": "Siletz Valley",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/sisters/sisters-outlaws/basketball/",
+      "teamName": "Sisters Outlaws",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/albany/south-albany-redhawks/basketball/",
+      "teamName": "South Albany Redhawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/maupin/south-wasco-county-redsides/basketball/",
+      "teamName": "South Wasco County Redsides",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/myrtle-creek/south-umpqua-lancers/basketball/",
+      "teamName": "South Umpqua Lancers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/southridge-skyhawks/basketball/",
+      "teamName": "Southridge Skyhawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/florence/siuslaw-vikings/basketball/",
+      "teamName": "Siuslaw Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/silverton/silverton-foxes/basketball/",
+      "teamName": "Silverton Foxes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/southwest-christian-wilcats/basketball/",
+      "teamName": "Southwest Christian Wilcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/salem/south-salem-saxons/basketball/",
+      "teamName": "South Salem Saxons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/springfield/springfield-millers/basketball/",
+      "teamName": "Springfield Millers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/st-helens/st-helens-lions/basketball/",
+      "teamName": "St Helens Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/medford/st-marys-crusaders/basketball/",
+      "teamName": "St Marys Crusaders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/salem/sprague-olympians/basketball/",
+      "teamName": "Sprague Olympians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/sherwood/sherwood-bowmen/basketball/",
+      "teamName": "Sherwood Bowmen",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/st-paul/st-paul-buckaroos/basketball/",
+      "teamName": "St Paul Buckaroos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/stayton/stayton-eagles/basketball/",
+      "teamName": "Stayton Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/st-stephens-academy/basketball/",
+      "teamName": "St Stephens Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/the-dalles/the-dalles-riverhawks/basketball/",
+      "teamName": "The Dalles Riverhawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/sunset-apollos/basketball/",
+      "teamName": "Sunset Apollos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/bend/summit-storm/basketball/",
+      "teamName": "Summit Storm",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/tigard/tigard-tigers/basketball/",
+      "teamName": "Tigard Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/sutherlin/sutherlin-bulldogs/basketball/",
+      "teamName": "Sutherlin Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/sweet-home/sweet-home-huskies/basketball/",
+      "teamName": "Sweet Home Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/tillamook/tillamook-cheesemakers/basketball/",
+      "teamName": "Tillamook Cheesemakers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/lincoln-city/taft-tigers/basketball/",
+      "teamName": "Taft Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/trinity-academy/basketball/",
+      "teamName": "Trinity Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/blachly/triangle-lake-lakers/basketball/",
+      "teamName": "Triangle Lake Lakers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/toledo/toledo-boomers/basketball/",
+      "teamName": "Toledo Boomers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/springfield/thurston-colts/basketball/",
+      "teamName": "Thurston Colts",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/bend/trinity-lutheran-saints/basketball/",
+      "teamName": "Trinity Lutheran Saints",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/ukiah/ukiah-cougars/basketball/",
+      "teamName": "Ukiah Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/wa/trout-lake/trout-lake-mustangs/basketball/",
+      "teamName": "Trout Lake Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/tualatin/tualatin-timberwolves/basketball/",
+      "teamName": "Tualatin Timberwolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/umatilla/umatilla-vikings/basketball/",
+      "teamName": "Umatilla Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/vale/vale-vikings/basketball/",
+      "teamName": "Vale Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/roseburg/umpqua-valley-christian-monarchs/basketball/",
+      "teamName": "Umpqua Valley Christian Monarchs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/wallowa/wallowa-cougars/basketball/",
+      "teamName": "Wallowa Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/union/union-bobcats/basketball/",
+      "teamName": "Union Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/valley-catholic-valiants/basketball/",
+      "teamName": "Valley Catholic Valiants",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/valor-christian-tualatin-valley-academy/basketball/",
+      "teamName": "Valor Christian Tualatin Valley Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/vernonia/vernonia-loggers/basketball/",
+      "teamName": "Vernonia Loggers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/waldport/waldport-irish/basketball/",
+      "teamName": "Waldport Irish",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/warrenton/warrenton-warriors/basketball/",
+      "teamName": "Warrenton Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/west-linn/west-linn-lions/basketball/",
+      "teamName": "West Linn Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/lake-oswego/westside-christian-eagles/basketball/",
+      "teamName": "Westside Christian Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/brooks/willamette-valley-christian-warriors/basketball/",
+      "teamName": "Willamette Valley Christian Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/salem/west-salem-titans/basketball/",
+      "teamName": "West Salem Titans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/salem/western-christian-pioneers/basketball/",
+      "teamName": "Western Christian Pioneers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/portland/westview-wildcats/basketball/",
+      "teamName": "Westview Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/willamina/willamina-bulldogs/basketball/",
+      "teamName": "Willamina Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/wilsonville/wilsonville-wildcats/basketball/",
+      "teamName": "Wilsonville Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/yamhill/yamhill-carlton-tigers/basketball/",
+      "teamName": "Yamhill Carlton Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/woodburn/woodburn-bulldogs/basketball/",
+      "teamName": "Woodburn Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/or/yoncalla/yoncalla-eagles/basketball/",
+      "teamName": "Yoncalla Eagles",
+      "reason": "unparseable"
+    }
+  ],
+  "generatedAt": "2026-09-23 13:56:18",
+  "outputFile": "C:\\actions-runner-maxpreps\\_work\\Maxprep_statewise_scraper\\Maxprep_statewise_scraper\\data\\Oregon_scraped_data\\or_all_stats_tab_boys_2026_2027.json"
+}
