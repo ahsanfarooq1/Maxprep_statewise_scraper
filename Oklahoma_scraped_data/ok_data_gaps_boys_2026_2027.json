@@ -1,0 +1,2492 @@
+{
+  "meta": {
+    "state": "Oklahoma",
+    "stateCode": "OK",
+    "sport": "Boys Basketball",
+    "season": "2026-2027",
+    "totalTeams": 494,
+    "processedTeamsCount": 0,
+    "processedTeams": [],
+    "totalGamesChecked": 0,
+    "teamsFullBoxScores": 0,
+    "teamsPartialBoxScores": 0,
+    "teamsNoBoxScores": 0,
+    "errors_count": 494,
+    "last_updated": "2026-09-24 14:40:00"
+  },
+  "teamsFullBoxScores": [],
+  "teamsPartialBoxScores": [],
+  "teamsNoBoxScores": [],
+  "errors": [
+    {
+      "teamName": "Owasso Rams",
+      "teamUrl": "https://www.maxpreps.com/ok/owasso/owasso-rams/basketball/",
+      "region": "6A District 3"
+    },
+    {
+      "teamName": "Union Redhawks",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/union-redhawks/basketball/",
+      "region": "6A District 3"
+    },
+    {
+      "teamName": "Bixby Spartans",
+      "teamUrl": "https://www.maxpreps.com/ok/bixby/bixby-spartans/basketball/",
+      "region": "6A District 3"
+    },
+    {
+      "teamName": "Ponca City Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/ponca-city/ponca-city-wildcats/basketball/",
+      "region": "6A District 3"
+    },
+    {
+      "teamName": "Deer Creek Lamont Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/lamont/deer-creek-lamont-eagles/basketball/",
+      "region": "Cherokee Strip"
+    },
+    {
+      "teamName": "Lomega Raiders",
+      "teamUrl": "https://www.maxpreps.com/ok/omega/lomega-raiders/basketball/",
+      "region": "Cherokee Strip"
+    },
+    {
+      "teamName": "Medford Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ok/medford/medford-cardinals/basketball/",
+      "region": "Cherokee Strip"
+    },
+    {
+      "teamName": "Purcell Dragons",
+      "teamUrl": "https://www.maxpreps.com/ok/purcell/purcell-dragons/basketball/",
+      "region": "Canadian Valley"
+    },
+    {
+      "teamName": "Lindsay Leopards",
+      "teamUrl": "https://www.maxpreps.com/ok/lindsay/lindsay-leopards/basketball/",
+      "region": "Canadian Valley"
+    },
+    {
+      "teamName": "Bridge Creek Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ok/blanchard/bridge-creek-bobcats/basketball/",
+      "region": "Canadian Valley"
+    },
+    {
+      "teamName": "Marlow Outlaws",
+      "teamUrl": "https://www.maxpreps.com/ok/marlow/marlow-outlaws/basketball/",
+      "region": "Canadian Valley"
+    },
+    {
+      "teamName": "Washington Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/washington/washington-warriors/basketball/",
+      "region": "Canadian Valley"
+    },
+    {
+      "teamName": "Comanche Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/comanche/comanche-indians/basketball/",
+      "region": "Canadian Valley"
+    },
+    {
+      "teamName": "Pauls Valley Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/pauls-valley/pauls-valley-panthers/basketball/",
+      "region": "Canadian Valley"
+    },
+    {
+      "teamName": "Chattanooga Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/chattanooga/chattanooga-warriors/basketball/",
+      "region": "Bi County"
+    },
+    {
+      "teamName": "Rattan Rams",
+      "teamUrl": "https://www.maxpreps.com/ok/rattan/rattan-rams/basketball/",
+      "region": "Mccurtain Six"
+    },
+    {
+      "teamName": "Wright City Lumberjax",
+      "teamUrl": "https://www.maxpreps.com/ok/wright-city/wright-city-lumberjax/basketball/",
+      "region": "Mccurtain Six"
+    },
+    {
+      "teamName": "Battiest Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/battiest/battiest-panthers/basketball/",
+      "region": "Mccurtain Six"
+    },
+    {
+      "teamName": "Valliant Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/valliant/valliant-bulldogs/basketball/",
+      "region": "Mccurtain Six"
+    },
+    {
+      "teamName": "Eagletown Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/eagletown/eagletown-eagles/basketball/",
+      "region": "Mccurtain Six"
+    },
+    {
+      "teamName": "Smithville Braves",
+      "teamUrl": "https://www.maxpreps.com/ok/smithville/smithville-braves/basketball/",
+      "region": "Mccurtain Six"
+    },
+    {
+      "teamName": "Haworth Lions",
+      "teamUrl": "https://www.maxpreps.com/ok/haworth/haworth-lions/basketball/",
+      "region": "Mccurtain Six"
+    },
+    {
+      "teamName": "Fort Towson Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/fort-towson/fort-towson-tigers/basketball/",
+      "region": "Mccurtain Six"
+    },
+    {
+      "teamName": "Eagle Point Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/sapulpa/eagle-point-christian-academy-eagles/basketball/",
+      "region": "Green Country Christian"
+    },
+    {
+      "teamName": "Echo",
+      "teamUrl": "https://www.maxpreps.com/ok/tahlequah/echo/basketball/",
+      "region": "Green Country Christian"
+    },
+    {
+      "teamName": "Dewar Dragons",
+      "teamUrl": "https://www.maxpreps.com/ok/dewar/dewar-dragons/basketball/",
+      "region": "Crossroads"
+    },
+    {
+      "teamName": "Weleetka Outlaws",
+      "teamUrl": "https://www.maxpreps.com/ok/weleetka/weleetka-outlaws/basketball/",
+      "region": "Crossroads"
+    },
+    {
+      "teamName": "Graham Dustin Riverhawk",
+      "teamUrl": "https://www.maxpreps.com/ok/weleetka/graham-dustin-riverhawk/basketball/",
+      "region": "Crossroads"
+    },
+    {
+      "teamName": "Wetumka Chieftains",
+      "teamUrl": "https://www.maxpreps.com/ok/wetumka/wetumka-chieftains/basketball/",
+      "region": "Crossroads"
+    },
+    {
+      "teamName": "Midway Chargers",
+      "teamUrl": "https://www.maxpreps.com/ok/council-hill/midway-chargers/basketball/",
+      "region": "Crossroads"
+    },
+    {
+      "teamName": "Schulter Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/schulter/schulter-bulldogs/basketball/",
+      "region": "Crossroads"
+    },
+    {
+      "teamName": "Hanna Dragons",
+      "teamUrl": "https://www.maxpreps.com/ok/hanna/hanna-dragons/basketball/",
+      "region": "Crossroads"
+    },
+    {
+      "teamName": "Butner Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/cromwell/butner-eagles/basketball/",
+      "region": "Crossroads"
+    },
+    {
+      "teamName": "Wewoka Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/wewoka/wewoka-tigers/basketball/",
+      "region": "Crossroads"
+    },
+    {
+      "teamName": "Wilson Henryetta Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/henryetta/wilson-henryetta-tigers/basketball/",
+      "region": "Crossroads"
+    },
+    {
+      "teamName": "Memorial Chargers",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/memorial-chargers/basketball/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "East Central Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/east-central-cardinals/basketball/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Mcalester Buffaloes",
+      "teamUrl": "https://www.maxpreps.com/ok/mcalester/mcalester-buffaloes/basketball/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Claremore Zebras",
+      "teamUrl": "https://www.maxpreps.com/ok/claremore/claremore-zebras/basketball/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Durant Lions",
+      "teamUrl": "https://www.maxpreps.com/ok/durant/durant-lions/basketball/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Tahlequah Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/tahlequah/tahlequah-tigers/basketball/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Pryor Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/pryor/pryor-tigers/basketball/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Glenpool Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/glenpool/glenpool-warriors/basketball/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Calumet Chieftains",
+      "teamUrl": "https://www.maxpreps.com/ok/calumet/calumet-chieftains/basketball/",
+      "region": "Washita Valley"
+    },
+    {
+      "teamName": "Binger Oney Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ok/binger/binger-oney-bobcats/basketball/",
+      "region": "Washita Valley"
+    },
+    {
+      "teamName": "Corn Bible Academy Crusaders",
+      "teamUrl": "https://www.maxpreps.com/ok/corn/corn-bible-academy-crusaders/basketball/",
+      "region": "Washita Valley"
+    },
+    {
+      "teamName": "Hydro Eakly Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ok/hydro/hydro-eakly-bobcats/basketball/",
+      "region": "Washita Valley"
+    },
+    {
+      "teamName": "Union City Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/union-city/union-city-tigers/basketball/",
+      "region": "Washita Valley"
+    },
+    {
+      "teamName": "Geary Bison",
+      "teamUrl": "https://www.maxpreps.com/ok/geary/geary-bison/basketball/",
+      "region": "Washita Valley"
+    },
+    {
+      "teamName": "Lookeba Sickles Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/lookeba/lookeba-sickles-panthers/basketball/",
+      "region": "Washita Valley"
+    },
+    {
+      "teamName": "Gracemont Lions",
+      "teamUrl": "https://www.maxpreps.com/ok/gracemont/gracemont-lions/basketball/",
+      "region": "Washita Valley"
+    },
+    {
+      "teamName": "Frederick Bombers",
+      "teamUrl": "https://www.maxpreps.com/ok/frederick/frederick-bombers/basketball/",
+      "region": "Southern Eight"
+    },
+    {
+      "teamName": "Empire Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/duncan/empire-bulldogs/basketball/",
+      "region": "Southern Eight"
+    },
+    {
+      "teamName": "Big Pasture Rangers",
+      "teamUrl": "https://www.maxpreps.com/ok/randlett/big-pasture-rangers/basketball/",
+      "region": "Southern Eight"
+    },
+    {
+      "teamName": "Waurika Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/waurika/waurika-eagles/basketball/",
+      "region": "Southern Eight"
+    },
+    {
+      "teamName": "Grandfield Bearcats",
+      "teamUrl": "https://www.maxpreps.com/ok/grandfield/grandfield-bearcats/basketball/",
+      "region": "Southern Eight"
+    },
+    {
+      "teamName": "Geronimo Blue Jays",
+      "teamUrl": "https://www.maxpreps.com/ok/geronimo/geronimo-blue-jays/basketball/",
+      "region": "Southern Eight"
+    },
+    {
+      "teamName": "Ryan Cowboys",
+      "teamUrl": "https://www.maxpreps.com/ok/ryan/ryan-cowboys/basketball/",
+      "region": "Southern Eight"
+    },
+    {
+      "teamName": "Temple Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/temple/temple-tigers/basketball/",
+      "region": "Southern Eight"
+    },
+    {
+      "teamName": "Cascia Hall Commandos",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/cascia-hall-commandos/basketball/",
+      "region": "Pinnacle"
+    },
+    {
+      "teamName": "Rejoice Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/owasso/rejoice-christian-eagles/basketball/",
+      "region": "Pinnacle"
+    },
+    {
+      "teamName": "Lincoln Christian Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/lincoln-christian-bulldogs/basketball/",
+      "region": "Pinnacle"
+    },
+    {
+      "teamName": "Victory Christian Conquerors",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/victory-christian-conquerors/basketball/",
+      "region": "Pinnacle"
+    },
+    {
+      "teamName": "Metro Christian Patriots",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/metro-christian-patriots/basketball/",
+      "region": "Pinnacle"
+    },
+    {
+      "teamName": "Regent Prep",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/regent-prep/basketball/",
+      "region": "Pinnacle"
+    },
+    {
+      "teamName": "Pocola Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/pocola/pocola-indians/basketball/",
+      "region": "Black Diamond"
+    },
+    {
+      "teamName": "Hartshorne Miners",
+      "teamUrl": "https://www.maxpreps.com/ok/hartshorne/hartshorne-miners/basketball/",
+      "region": "Black Diamond"
+    },
+    {
+      "teamName": "Talihina Golden Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/talihina/talihina-golden-tigers/basketball/",
+      "region": "Black Diamond"
+    },
+    {
+      "teamName": "Stigler Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/stigler/stigler-panthers/basketball/",
+      "region": "Black Diamond"
+    },
+    {
+      "teamName": "Wilburton Diggers",
+      "teamUrl": "https://www.maxpreps.com/ok/wilburton/wilburton-diggers/basketball/",
+      "region": "Black Diamond"
+    },
+    {
+      "teamName": "Heavener Wolves",
+      "teamUrl": "https://www.maxpreps.com/ok/heavener/heavener-wolves/basketball/",
+      "region": "Black Diamond"
+    },
+    {
+      "teamName": "Hollis Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/hollis/hollis-tigers/basketball/",
+      "region": "Shortgrass"
+    },
+    {
+      "teamName": "Mangum Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/mangum/mangum-tigers/basketball/",
+      "region": "Shortgrass"
+    },
+    {
+      "teamName": "Burns Flat Dill City Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/burns-flat/burns-flat-dill-city-eagles/basketball/",
+      "region": "Shortgrass"
+    },
+    {
+      "teamName": "Sayre Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/sayre/sayre-eagles/basketball/",
+      "region": "Shortgrass"
+    },
+    {
+      "teamName": "Navajo Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/altus/navajo-indians/basketball/",
+      "region": "Shortgrass"
+    },
+    {
+      "teamName": "Cordell Blue Devils",
+      "teamUrl": "https://www.maxpreps.com/ok/cordell/cordell-blue-devils/basketball/",
+      "region": "Shortgrass"
+    },
+    {
+      "teamName": "Snyder Cyclones",
+      "teamUrl": "https://www.maxpreps.com/ok/snyder/snyder-cyclones/basketball/",
+      "region": "Shortgrass"
+    },
+    {
+      "teamName": "Keota Lions",
+      "teamUrl": "https://www.maxpreps.com/ok/keota/keota-lions/basketball/",
+      "region": "Green Valley"
+    },
+    {
+      "teamName": "Arkoma Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ok/arkoma/arkoma-mustangs/basketball/",
+      "region": "Green Valley"
+    },
+    {
+      "teamName": "Mccurtain Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/mccurtain/mccurtain-bulldogs/basketball/",
+      "region": "Green Valley"
+    },
+    {
+      "teamName": "Bokoshe Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/bokoshe/bokoshe-tigers/basketball/",
+      "region": "Green Valley"
+    },
+    {
+      "teamName": "Quinton Savages",
+      "teamUrl": "https://www.maxpreps.com/ok/quinton/quinton-savages/basketball/",
+      "region": "Green Valley"
+    },
+    {
+      "teamName": "Wister Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/wister/wister-wildcats/basketball/",
+      "region": "Green Valley"
+    },
+    {
+      "teamName": "Chandler Lions",
+      "teamUrl": "https://www.maxpreps.com/ok/chandler/chandler-lions/basketball/",
+      "region": "66"
+    },
+    {
+      "teamName": "Mcloud Redskins",
+      "teamUrl": "https://www.maxpreps.com/ok/mcloud/mcloud-redskins/basketball/",
+      "region": "66"
+    },
+    {
+      "teamName": "Okemah Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/okemah/okemah-panthers/basketball/",
+      "region": "66"
+    },
+    {
+      "teamName": "Holdenville Wolverines",
+      "teamUrl": "https://www.maxpreps.com/ok/holdenville/holdenville-wolverines/basketball/",
+      "region": "66"
+    },
+    {
+      "teamName": "Stroud Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/stroud/stroud-tigers/basketball/",
+      "region": "66"
+    },
+    {
+      "teamName": "Meeker Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/meeker/meeker-bulldogs/basketball/",
+      "region": "66"
+    },
+    {
+      "teamName": "Seminole Chieftains",
+      "teamUrl": "https://www.maxpreps.com/ok/seminole/seminole-chieftains/basketball/",
+      "region": "66"
+    },
+    {
+      "teamName": "Prague Red Devils",
+      "teamUrl": "https://www.maxpreps.com/ok/prague/prague-red-devils/basketball/",
+      "region": "66"
+    },
+    {
+      "teamName": "Woodland Cougars",
+      "teamUrl": "https://www.maxpreps.com/ok/fairfax/woodland-cougars/basketball/",
+      "region": "Northern Oklahoma"
+    },
+    {
+      "teamName": "Barnsdall Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/barnsdall/barnsdall-panthers/basketball/",
+      "region": "Northern Oklahoma"
+    },
+    {
+      "teamName": "Shidler Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/shidler/shidler-tigers/basketball/",
+      "region": "Northern Oklahoma"
+    },
+    {
+      "teamName": "Copan Hornets",
+      "teamUrl": "https://www.maxpreps.com/ok/copan/copan-hornets/basketball/",
+      "region": "Northern Oklahoma"
+    },
+    {
+      "teamName": "Hooker Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/hooker/hooker-bulldogs/basketball/",
+      "region": "Panhandle Six"
+    },
+    {
+      "teamName": "Texhoma Red Devils",
+      "teamUrl": "https://www.maxpreps.com/ok/texhoma/texhoma-red-devils/basketball/",
+      "region": "Panhandle Six"
+    },
+    {
+      "teamName": "Turpin Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ok/turpin/turpin-cardinals/basketball/",
+      "region": "Panhandle Six"
+    },
+    {
+      "teamName": "Amber Pocasset Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/amber/amber-pocasset-panthers/basketball/",
+      "region": "Grady County"
+    },
+    {
+      "teamName": "Verden Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/verden/verden-tigers/basketball/",
+      "region": "Grady County"
+    },
+    {
+      "teamName": "Minco Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/minco/minco-bulldogs/basketball/",
+      "region": "Grady County"
+    },
+    {
+      "teamName": "Ninnekah Owls",
+      "teamUrl": "https://www.maxpreps.com/ok/ninnekah/ninnekah-owls/basketball/",
+      "region": "Grady County"
+    },
+    {
+      "teamName": "Alex Longhorns",
+      "teamUrl": "https://www.maxpreps.com/ok/alex/alex-longhorns/basketball/",
+      "region": "Grady County"
+    },
+    {
+      "teamName": "Rush Springs Redskins",
+      "teamUrl": "https://www.maxpreps.com/ok/rush-springs/rush-springs-redskins/basketball/",
+      "region": "Grady County"
+    },
+    {
+      "teamName": "Varnum Whippets",
+      "teamUrl": "https://www.maxpreps.com/ok/seminole/varnum-whippets/basketball/",
+      "region": "Little River"
+    },
+    {
+      "teamName": "Sasakwa Vikings",
+      "teamUrl": "https://www.maxpreps.com/ok/sasakwa/sasakwa-vikings/basketball/",
+      "region": "Little River"
+    },
+    {
+      "teamName": "Paden Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/paden/paden-pirates/basketball/",
+      "region": "Little River"
+    },
+    {
+      "teamName": "Earlsboro Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/earlsboro/earlsboro-wildcats/basketball/",
+      "region": "Little River"
+    },
+    {
+      "teamName": "Strother Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ok/seminole/strother-yellowjackets/basketball/",
+      "region": "Little River"
+    },
+    {
+      "teamName": "Bowlegs Bison",
+      "teamUrl": "https://www.maxpreps.com/ok/bowlegs/bowlegs-bison/basketball/",
+      "region": "Little River"
+    },
+    {
+      "teamName": "Macomb Hornets",
+      "teamUrl": "https://www.maxpreps.com/ok/macomb/macomb-hornets/basketball/",
+      "region": "Little River"
+    },
+    {
+      "teamName": "Moss Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/holdenville/moss-pirates/basketball/",
+      "region": "Little River"
+    },
+    {
+      "teamName": "New Lima Falcons Falconettes",
+      "teamUrl": "https://www.maxpreps.com/ok/new-lima/new-lima-falcons-falconettes/basketball/",
+      "region": "Little River"
+    },
+    {
+      "teamName": "Mason Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/mason/mason-eagles/basketball/",
+      "region": "Little River"
+    },
+    {
+      "teamName": "Cyril Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/cyril/cyril-pirates/basketball/",
+      "region": "Caddo Comanche"
+    },
+    {
+      "teamName": "Sterling Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/sterling/sterling-tigers/basketball/",
+      "region": "Caddo Comanche"
+    },
+    {
+      "teamName": "Apache Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/apache/apache-warriors/basketball/",
+      "region": "Caddo Comanche"
+    },
+    {
+      "teamName": "Fletcher Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/fletcher/fletcher-wildcats/basketball/",
+      "region": "Caddo Comanche"
+    },
+    {
+      "teamName": "Hulbert Riders",
+      "teamUrl": "https://www.maxpreps.com/ok/hulbert/hulbert-riders/basketball/",
+      "region": "Next Era Energy"
+    },
+    {
+      "teamName": "Haskell Haymakers",
+      "teamUrl": "https://www.maxpreps.com/ok/haskell/haskell-haymakers/basketball/",
+      "region": "Next Era Energy"
+    },
+    {
+      "teamName": "Chouteau Mazie Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/chouteau/chouteau-mazie-wildcats/basketball/",
+      "region": "Next Era Energy"
+    },
+    {
+      "teamName": "Porter Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/porter/porter-pirates/basketball/",
+      "region": "Next Era Energy"
+    },
+    {
+      "teamName": "Mounds Golden Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/mounds/mounds-golden-eagles/basketball/",
+      "region": "Next Era Energy"
+    },
+    {
+      "teamName": "Anadarko Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/anadarko/anadarko-warriors/basketball/",
+      "region": "Western  South"
+    },
+    {
+      "teamName": "Cache Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/cache/cache-bulldogs/basketball/",
+      "region": "Western  South"
+    },
+    {
+      "teamName": "Putnam City North Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/putnam-city-north-panthers/basketball/",
+      "region": "6A District 2"
+    },
+    {
+      "teamName": "Norman Timberwolves",
+      "teamUrl": "https://www.maxpreps.com/ok/norman/norman-timberwolves/basketball/",
+      "region": "6A District 2"
+    },
+    {
+      "teamName": "Choctaw Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ok/choctaw/choctaw-yellowjackets/basketball/",
+      "region": "6A District 2"
+    },
+    {
+      "teamName": "Piedmont Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/piedmont/piedmont-wildcats/basketball/",
+      "region": "6A District 2"
+    },
+    {
+      "teamName": "Edmond Santa Fe Wolves",
+      "teamUrl": "https://www.maxpreps.com/ok/edmond/edmond-santa-fe-wolves/basketball/",
+      "region": "6A District 2"
+    },
+    {
+      "teamName": "Eisenhower Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/lawton/eisenhower-eagles/basketball/",
+      "region": "6A District 2"
+    },
+    {
+      "teamName": "Moore Lions",
+      "teamUrl": "https://www.maxpreps.com/ok/moore/moore-lions/basketball/",
+      "region": "6A District 2"
+    },
+    {
+      "teamName": "Capitol Hill Redwolves",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/capitol-hill-redwolves/basketball/",
+      "region": "6A District 2"
+    },
+    {
+      "teamName": "Wayne Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/wayne/wayne-bulldogs/basketball/",
+      "region": "Big 8"
+    },
+    {
+      "teamName": "Wynnewood Savages",
+      "teamUrl": "https://www.maxpreps.com/ok/wynnewood/wynnewood-savages/basketball/",
+      "region": "Big 8"
+    },
+    {
+      "teamName": "Okay Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ok/okay/okay-mustangs/basketball/",
+      "region": "Big 8"
+    },
+    {
+      "teamName": "Fox Foxes",
+      "teamUrl": "https://www.maxpreps.com/ok/fox/fox-foxes/basketball/",
+      "region": "Big 8"
+    },
+    {
+      "teamName": "Stratford Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/stratford/stratford-bulldogs/basketball/",
+      "region": "Big 8"
+    },
+    {
+      "teamName": "Warner Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/warner/warner-eagles/basketball/",
+      "region": "Big 8"
+    },
+    {
+      "teamName": "Dibble Demons",
+      "teamUrl": "https://www.maxpreps.com/ok/dibble/dibble-demons/basketball/",
+      "region": "Big 8"
+    },
+    {
+      "teamName": "Konawa Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/konawa/konawa-tigers/basketball/",
+      "region": "Big 8"
+    },
+    {
+      "teamName": "Paoli Pugs",
+      "teamUrl": "https://www.maxpreps.com/ok/paoli/paoli-pugs/basketball/",
+      "region": "Big 8"
+    },
+    {
+      "teamName": "Maysville Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/maysville/maysville-warriors/basketball/",
+      "region": "Big 8"
+    },
+    {
+      "teamName": "Gore Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/gore/gore-pirates/basketball/",
+      "region": "Big 8"
+    },
+    {
+      "teamName": "Community Christian Royals",
+      "teamUrl": "https://www.maxpreps.com/ok/norman/community-christian-royals/basketball/",
+      "region": "Big 8"
+    },
+    {
+      "teamName": "Millwood Falcons",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/millwood-falcons/basketball/",
+      "region": "Greater Metro"
+    },
+    {
+      "teamName": "Casady Cyclones",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/casady-cyclones/basketball/",
+      "region": "Greater Metro"
+    },
+    {
+      "teamName": "Davis Wolves",
+      "teamUrl": "https://www.maxpreps.com/ok/davis/davis-wolves/basketball/",
+      "region": "Greater Metro"
+    },
+    {
+      "teamName": "Timberlake Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/helena/timberlake-tigers/basketball/",
+      "region": "Orient"
+    },
+    {
+      "teamName": "Cherokee Chiefs",
+      "teamUrl": "https://www.maxpreps.com/ok/cherokee/cherokee-chiefs/basketball/",
+      "region": "Orient"
+    },
+    {
+      "teamName": "Ringwood Red Devils",
+      "teamUrl": "https://www.maxpreps.com/ok/ringwood/ringwood-red-devils/basketball/",
+      "region": "Orient"
+    },
+    {
+      "teamName": "Waynoka Railroaders",
+      "teamUrl": "https://www.maxpreps.com/ok/waynoka/waynoka-railroaders/basketball/",
+      "region": "Orient"
+    },
+    {
+      "teamName": "Oklahoma School For The Deaf Bison",
+      "teamUrl": "https://www.maxpreps.com/ok/sulphur/oklahoma-school-for-the-deaf-bison/basketball/",
+      "region": "Great Plains Deaf"
+    },
+    {
+      "teamName": "Iowa School For The Deaf Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ia/council-bluffs/iowa-school-for-the-deaf-bobcats/basketball/",
+      "region": "Great Plains Deaf"
+    },
+    {
+      "teamName": "Kansas School For The Deaf Jackrabbits",
+      "teamUrl": "https://www.maxpreps.com/ks/olathe/kansas-school-for-the-deaf-jackrabbits/basketball/",
+      "region": "Great Plains Deaf"
+    },
+    {
+      "teamName": "Minnesota State Academy For The Deaf Trojans",
+      "teamUrl": "https://www.maxpreps.com/mn/faribault/minnesota-state-academy-for-the-deaf-trojans/basketball/",
+      "region": "Great Plains Deaf"
+    },
+    {
+      "teamName": "Arkansas School For The Deaf Leopards",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/arkansas-school-for-the-deaf-leopards/basketball/",
+      "region": "Great Plains Deaf"
+    },
+    {
+      "teamName": "Wisconsin School For The Deaf Firebirds",
+      "teamUrl": "https://www.maxpreps.com/wi/delavan/wisconsin-school-for-the-deaf-firebirds/basketball/",
+      "region": "Great Plains Deaf"
+    },
+    {
+      "teamName": "Waukomis Chiefs",
+      "teamUrl": "https://www.maxpreps.com/ok/waukomis/waukomis-chiefs/basketball/",
+      "region": "Skeltur"
+    },
+    {
+      "teamName": "Dover Longhorns",
+      "teamUrl": "https://www.maxpreps.com/ok/dover/dover-longhorns/basketball/",
+      "region": "Skeltur"
+    },
+    {
+      "teamName": "Drummond Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/drummond/drummond-bulldogs/basketball/",
+      "region": "Skeltur"
+    },
+    {
+      "teamName": "Pond Creek Hunter Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/pond-creek/pond-creek-hunter-panthers/basketball/",
+      "region": "Skeltur"
+    },
+    {
+      "teamName": "Cimarron Trailblazers",
+      "teamUrl": "https://www.maxpreps.com/ok/lahoma/cimarron-trailblazers/basketball/",
+      "region": "Skeltur"
+    },
+    {
+      "teamName": "Kremlin Hillsdale Broncs",
+      "teamUrl": "https://www.maxpreps.com/ok/kremlin/kremlin-hillsdale-broncs/basketball/",
+      "region": "Skeltur"
+    },
+    {
+      "teamName": "Garber Wolverines",
+      "teamUrl": "https://www.maxpreps.com/ok/garber/garber-wolverines/basketball/",
+      "region": "Skeltur"
+    },
+    {
+      "teamName": "Pioneer Pleasant Vale Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ok/waukomis/pioneer-pleasant-vale-mustangs/basketball/",
+      "region": "Skeltur"
+    },
+    {
+      "teamName": "Covington Douglas Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/covington/covington-douglas-wildcats/basketball/",
+      "region": "Skeltur"
+    },
+    {
+      "teamName": "Skiatook Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/skiatook/skiatook-bulldogs/basketball/",
+      "region": "Verdigris Valley"
+    },
+    {
+      "teamName": "Fort Gibson Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/fort-gibson/fort-gibson-tigers/basketball/",
+      "region": "Verdigris Valley"
+    },
+    {
+      "teamName": "Catoosa Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/catoosa/catoosa-indians/basketball/",
+      "region": "Verdigris Valley"
+    },
+    {
+      "teamName": "Miami Wardogs",
+      "teamUrl": "https://www.maxpreps.com/ok/miami/miami-wardogs/basketball/",
+      "region": "Verdigris Valley"
+    },
+    {
+      "teamName": "Oologah Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ok/oologah/oologah-mustangs/basketball/",
+      "region": "Verdigris Valley"
+    },
+    {
+      "teamName": "Vinita Hornets",
+      "teamUrl": "https://www.maxpreps.com/ok/vinita/vinita-hornets/basketball/",
+      "region": "Verdigris Valley"
+    },
+    {
+      "teamName": "Hilldale Hornets",
+      "teamUrl": "https://www.maxpreps.com/ok/muskogee/hilldale-hornets/basketball/",
+      "region": "Verdigris Valley"
+    },
+    {
+      "teamName": "Locust Grove Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/locust-grove/locust-grove-pirates/basketball/",
+      "region": "Verdigris Valley"
+    },
+    {
+      "teamName": "Verdigris Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ok/claremore/verdigris-cardinals/basketball/",
+      "region": "Verdigris Valley"
+    },
+    {
+      "teamName": "Wagoner Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/wagoner/wagoner-bulldogs/basketball/",
+      "region": "Verdigris Valley"
+    },
+    {
+      "teamName": "Roland Rangers",
+      "teamUrl": "https://www.maxpreps.com/ok/roland/roland-rangers/basketball/",
+      "region": "Noaa"
+    },
+    {
+      "teamName": "Muldrow Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/muldrow/muldrow-bulldogs/basketball/",
+      "region": "Noaa"
+    },
+    {
+      "teamName": "Stilwell Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/stilwell/stilwell-indians/basketball/",
+      "region": "Noaa"
+    },
+    {
+      "teamName": "Sallisaw Black Diamonds",
+      "teamUrl": "https://www.maxpreps.com/ok/sallisaw/sallisaw-black-diamonds/basketball/",
+      "region": "Noaa"
+    },
+    {
+      "teamName": "Checotah Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/checotah/checotah-wildcats/basketball/",
+      "region": "Noaa"
+    },
+    {
+      "teamName": "Poteau Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/poteau/poteau-pirates/basketball/",
+      "region": "Noaa"
+    },
+    {
+      "teamName": "Spiro Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/spiro/spiro-bulldogs/basketball/",
+      "region": "Noaa"
+    },
+    {
+      "teamName": "Seiling Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/seiling/seiling-wildcats/basketball/",
+      "region": "Will Rogers"
+    },
+    {
+      "teamName": "Vici Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/vici/vici-indians/basketball/",
+      "region": "270"
+    },
+    {
+      "teamName": "Arnett Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/arnett/arnett-wildcats/basketball/",
+      "region": "270"
+    },
+    {
+      "teamName": "Buffalo Bison",
+      "teamUrl": "https://www.maxpreps.com/ok/buffalo/buffalo-bison/basketball/",
+      "region": "270"
+    },
+    {
+      "teamName": "Mooreland Bearcats",
+      "teamUrl": "https://www.maxpreps.com/ok/mooreland/mooreland-bearcats/basketball/",
+      "region": "270"
+    },
+    {
+      "teamName": "Laverne Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/laverne/laverne-tigers/basketball/",
+      "region": "270"
+    },
+    {
+      "teamName": "Canton Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/canton/canton-tigers/basketball/",
+      "region": "270"
+    },
+    {
+      "teamName": "Leedey Bison",
+      "teamUrl": "https://www.maxpreps.com/ok/leedey/leedey-bison/basketball/",
+      "region": "270"
+    },
+    {
+      "teamName": "Shattuck Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/shattuck/shattuck-indians/basketball/",
+      "region": "270"
+    },
+    {
+      "teamName": "Beaver Dusters",
+      "teamUrl": "https://www.maxpreps.com/ok/beaver/beaver-dusters/basketball/",
+      "region": "270"
+    },
+    {
+      "teamName": "Sharon Mutual Trojans",
+      "teamUrl": "https://www.maxpreps.com/ok/mutual/sharon-mutual-trojans/basketball/",
+      "region": "270"
+    },
+    {
+      "teamName": "Fargo Gage Fort Supply",
+      "teamUrl": "https://www.maxpreps.com/ok/fargo/fargo-gage-fort-supply/basketball/",
+      "region": "270"
+    },
+    {
+      "teamName": "Caddo Bruins",
+      "teamUrl": "https://www.maxpreps.com/ok/caddo/caddo-bruins/basketball/",
+      "region": "Bryan County"
+    },
+    {
+      "teamName": "Colbert Leopards",
+      "teamUrl": "https://www.maxpreps.com/ok/colbert/colbert-leopards/basketball/",
+      "region": "Bryan County"
+    },
+    {
+      "teamName": "Boswell Scorpions",
+      "teamUrl": "https://www.maxpreps.com/ok/boswell/boswell-scorpions/basketball/",
+      "region": "Bryan County"
+    },
+    {
+      "teamName": "Rock Creek Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ok/bokchito/rock-creek-mustangs/basketball/",
+      "region": "Bryan County"
+    },
+    {
+      "teamName": "Calera Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/calera/calera-bulldogs/basketball/",
+      "region": "Bryan County"
+    },
+    {
+      "teamName": "Achille Golden Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/achille/achille-golden-eagles/basketball/",
+      "region": "Bryan County"
+    },
+    {
+      "teamName": "Tushka Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/atoka/tushka-tigers/basketball/",
+      "region": "Bryan County"
+    },
+    {
+      "teamName": "Silo Rebels",
+      "teamUrl": "https://www.maxpreps.com/ok/silo/silo-rebels/basketball/",
+      "region": "Bryan County"
+    },
+    {
+      "teamName": "Maud Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/maud/maud-tigers/basketball/",
+      "region": "East Central"
+    },
+    {
+      "teamName": "Broken Bow Savages",
+      "teamUrl": "https://www.maxpreps.com/ok/broken-bow/broken-bow-savages/basketball/",
+      "region": "Southeast Six"
+    },
+    {
+      "teamName": "Idabel Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/idabel/idabel-warriors/basketball/",
+      "region": "Southeast Six"
+    },
+    {
+      "teamName": "Hugo Buffaloes",
+      "teamUrl": "https://www.maxpreps.com/ok/hugo/hugo-buffaloes/basketball/",
+      "region": "Southeast Six"
+    },
+    {
+      "teamName": "Allen Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ok/allen/allen-mustangs/basketball/",
+      "region": "Pontotoc"
+    },
+    {
+      "teamName": "Vanoss Wolves",
+      "teamUrl": "https://www.maxpreps.com/ok/ada/vanoss-wolves/basketball/",
+      "region": "Pontotoc"
+    },
+    {
+      "teamName": "Asher Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/asher/asher-indians/basketball/",
+      "region": "Pontotoc"
+    },
+    {
+      "teamName": "Stonewall Longhorns",
+      "teamUrl": "https://www.maxpreps.com/ok/stonewall/stonewall-longhorns/basketball/",
+      "region": "Pontotoc"
+    },
+    {
+      "teamName": "Calvin Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/calvin/calvin-bulldogs/basketball/",
+      "region": "Pontotoc"
+    },
+    {
+      "teamName": "Tupelo Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/tupelo/tupelo-tigers/basketball/",
+      "region": "Pontotoc"
+    },
+    {
+      "teamName": "Roff Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/roff/roff-tigers/basketball/",
+      "region": "Pontotoc"
+    },
+    {
+      "teamName": "Wanette Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/wanette/wanette-tigers/basketball/",
+      "region": "Pontotoc"
+    },
+    {
+      "teamName": "Carl Albert Titans",
+      "teamUrl": "https://www.maxpreps.com/ok/midwest-city/carl-albert-titans/basketball/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Noble Bears",
+      "teamUrl": "https://www.maxpreps.com/ok/noble/noble-bears/basketball/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Macarthur Highlanders",
+      "teamUrl": "https://www.maxpreps.com/ok/lawton/macarthur-highlanders/basketball/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Southeast Spartans",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/southeast-spartans/basketball/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "El Reno Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/el-reno/el-reno-indians/basketball/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Santa Fe South Saints",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/santa-fe-south-saints/basketball/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Guymon Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/guymon/guymon-tigers/basketball/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Elgin Owls",
+      "teamUrl": "https://www.maxpreps.com/ok/elgin/elgin-owls/basketball/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Mustang Broncos",
+      "teamUrl": "https://www.maxpreps.com/ok/mustang/mustang-broncos/basketball/",
+      "region": "6A District 1"
+    },
+    {
+      "teamName": "Southmoore Sabercats",
+      "teamUrl": "https://www.maxpreps.com/ok/moore/southmoore-sabercats/basketball/",
+      "region": "6A District 1"
+    },
+    {
+      "teamName": "Grant Generals",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/grant-generals/basketball/",
+      "region": "6A District 1"
+    },
+    {
+      "teamName": "Edmond Memorial Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/edmond/edmond-memorial-bulldogs/basketball/",
+      "region": "6A District 1"
+    },
+    {
+      "teamName": "Norman North Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/norman/norman-north-tigers/basketball/",
+      "region": "6A District 1"
+    },
+    {
+      "teamName": "Yukon Millers",
+      "teamUrl": "https://www.maxpreps.com/ok/yukon/yukon-millers/basketball/",
+      "region": "6A District 1"
+    },
+    {
+      "teamName": "Deer Creek Antlers",
+      "teamUrl": "https://www.maxpreps.com/ok/edmond/deer-creek-antlers/basketball/",
+      "region": "6A District 1"
+    },
+    {
+      "teamName": "Putnam City Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/putnam-city-pirates/basketball/",
+      "region": "6A District 1"
+    },
+    {
+      "teamName": "Davenport Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/davenport/davenport-bulldogs/basketball/",
+      "region": "Central 7"
+    },
+    {
+      "teamName": "Hominy Bucks",
+      "teamUrl": "https://www.maxpreps.com/ok/hominy/hominy-bucks/basketball/",
+      "region": "Central 7"
+    },
+    {
+      "teamName": "Depew Hornets",
+      "teamUrl": "https://www.maxpreps.com/ok/depew/depew-hornets/basketball/",
+      "region": "Central 7"
+    },
+    {
+      "teamName": "Oilton Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/oilton/oilton-panthers/basketball/",
+      "region": "Central 7"
+    },
+    {
+      "teamName": "Olive Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/drumright/olive-wildcats/basketball/",
+      "region": "Central 7"
+    },
+    {
+      "teamName": "Drumright Tornadoes",
+      "teamUrl": "https://www.maxpreps.com/ok/drumright/drumright-tornadoes/basketball/",
+      "region": "Central 7"
+    },
+    {
+      "teamName": "Duke Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/duke/duke-tigers/basketball/",
+      "region": "Cottonbelt"
+    },
+    {
+      "teamName": "Sweetwater Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/sweetwater/sweetwater-bulldogs/basketball/",
+      "region": "Cottonbelt"
+    },
+    {
+      "teamName": "Granite",
+      "teamUrl": "https://www.maxpreps.com/ok/granite/granite/basketball/",
+      "region": "Cottonbelt"
+    },
+    {
+      "teamName": "Blair Broncs",
+      "teamUrl": "https://www.maxpreps.com/ok/blair/blair-broncs/basketball/",
+      "region": "Cottonbelt"
+    },
+    {
+      "teamName": "Tipton Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/tipton/tipton-tigers/basketball/",
+      "region": "Cottonbelt"
+    },
+    {
+      "teamName": "Indiahoma Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/indiahoma/indiahoma-warriors/basketball/",
+      "region": "Cottonbelt"
+    },
+    {
+      "teamName": "Olustee Eldorado",
+      "teamUrl": "https://www.maxpreps.com/ok/olustee/olustee-eldorado/basketball/",
+      "region": "Cottonbelt"
+    },
+    {
+      "teamName": "Erick Bearcats",
+      "teamUrl": "https://www.maxpreps.com/ok/erick/erick-bearcats/basketball/",
+      "region": "Cottonbelt"
+    },
+    {
+      "teamName": "Weatherford Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/weatherford/weatherford-eagles/basketball/",
+      "region": "Western  North"
+    },
+    {
+      "teamName": "Blanchard Lions",
+      "teamUrl": "https://www.maxpreps.com/ok/blanchard/blanchard-lions/basketball/",
+      "region": "Western  North"
+    },
+    {
+      "teamName": "Newcastle Racers",
+      "teamUrl": "https://www.maxpreps.com/ok/newcastle/newcastle-racers/basketball/",
+      "region": "Western  North"
+    },
+    {
+      "teamName": "Kingfisher Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ok/kingfisher/kingfisher-yellowjackets/basketball/",
+      "region": "Western  North"
+    },
+    {
+      "teamName": "Chickasha Fightin Chicks",
+      "teamUrl": "https://www.maxpreps.com/ok/chickasha/chickasha-fightin-chicks/basketball/",
+      "region": "Western  North"
+    },
+    {
+      "teamName": "Bethany Bronchos",
+      "teamUrl": "https://www.maxpreps.com/ok/bethany/bethany-bronchos/basketball/",
+      "region": "Western  North"
+    },
+    {
+      "teamName": "Clinton Red Tornadoes",
+      "teamUrl": "https://www.maxpreps.com/ok/clinton/clinton-red-tornadoes/basketball/",
+      "region": "Western  North"
+    },
+    {
+      "teamName": "Elk City Elks",
+      "teamUrl": "https://www.maxpreps.com/ok/elk-city/elk-city-elks/basketball/",
+      "region": "Western  North"
+    },
+    {
+      "teamName": "Tuttle Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/tuttle/tuttle-tigers/basketball/",
+      "region": "Western  North"
+    },
+    {
+      "teamName": "Summit Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/broken-arrow/summit-christian-academy-eagles/basketball/",
+      "region": "Frisco"
+    },
+    {
+      "teamName": "Liberty Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/mounds/liberty-tigers/basketball/",
+      "region": "Frisco"
+    },
+    {
+      "teamName": "Mid Moore Christian Tornados",
+      "teamUrl": "https://www.maxpreps.com/ok/moore/mid-moore-christian-tornados/basketball/",
+      "region": "Metro"
+    },
+    {
+      "teamName": "Crooked Oak Ruf Nex",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/crooked-oak-ruf-nex/basketball/",
+      "region": "Metro"
+    },
+    {
+      "teamName": "Booker T Washington Hornets",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/booker-t-washington-hornets/basketball/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Collinsville Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ok/collinsville/collinsville-cardinals/basketball/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Shawnee Wolves",
+      "teamUrl": "https://www.maxpreps.com/ok/shawnee/shawnee-wolves/basketball/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Guthrie Bluejays",
+      "teamUrl": "https://www.maxpreps.com/ok/guthrie/guthrie-bluejays/basketball/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Bishop Kelley Comets",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/bishop-kelley-comets/basketball/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Nathan Hale Rangers",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/nathan-hale-rangers/basketball/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Glencoe Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/glencoe/glencoe-panthers/basketball/",
+      "region": "Cimarron Valley"
+    },
+    {
+      "teamName": "Coyle Bluejackets",
+      "teamUrl": "https://www.maxpreps.com/ok/coyle/coyle-bluejackets/basketball/",
+      "region": "Cimarron Valley"
+    },
+    {
+      "teamName": "Ripley Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/ripley/ripley-warriors/basketball/",
+      "region": "Cimarron Valley"
+    },
+    {
+      "teamName": "Carney Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/carney/carney-bulldogs/basketball/",
+      "region": "Cimarron Valley"
+    },
+    {
+      "teamName": "Mulhall Orlando Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/orlando/mulhall-orlando-panthers/basketball/",
+      "region": "Cimarron Valley"
+    },
+    {
+      "teamName": "Agra Bearcats",
+      "teamUrl": "https://www.maxpreps.com/ok/agra/agra-bearcats/basketball/",
+      "region": "Cimarron Valley"
+    },
+    {
+      "teamName": "Milburn Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/milburn/milburn-eagles/basketball/",
+      "region": "Big 5"
+    },
+    {
+      "teamName": "Stringtown Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/stringtown/stringtown-tigers/basketball/",
+      "region": "Big 5"
+    },
+    {
+      "teamName": "Mill Creek Bullfrogs",
+      "teamUrl": "https://www.maxpreps.com/ok/mill-creek/mill-creek-bullfrogs/basketball/",
+      "region": "Big 5"
+    },
+    {
+      "teamName": "Coleman Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/coleman/coleman-wildcats/basketball/",
+      "region": "Big 5"
+    },
+    {
+      "teamName": "Caney Cougars",
+      "teamUrl": "https://www.maxpreps.com/ok/caney/caney-cougars/basketball/",
+      "region": "Big 5"
+    },
+    {
+      "teamName": "Wapanucka Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/wapanucka/wapanucka-indians/basketball/",
+      "region": "Big 5"
+    },
+    {
+      "teamName": "Little Axe Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/norman/little-axe-indians/basketball/",
+      "region": "Big 5"
+    },
+    {
+      "teamName": "Eufaula Ironheads",
+      "teamUrl": "https://www.maxpreps.com/ok/eufaula/eufaula-ironheads/basketball/",
+      "region": "Big Eight Star"
+    },
+    {
+      "teamName": "Kellyville Ponies",
+      "teamUrl": "https://www.maxpreps.com/ok/kellyville/kellyville-ponies/basketball/",
+      "region": "Big Eight Star"
+    },
+    {
+      "teamName": "Preston Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/preston/preston-pirates/basketball/",
+      "region": "Big Eight Star"
+    },
+    {
+      "teamName": "Beggs Golden Demons",
+      "teamUrl": "https://www.maxpreps.com/ok/beggs/beggs-golden-demons/basketball/",
+      "region": "Big Eight Star"
+    },
+    {
+      "teamName": "Henryetta Knights",
+      "teamUrl": "https://www.maxpreps.com/ok/henryetta/henryetta-knights/basketball/",
+      "region": "Big Eight Star"
+    },
+    {
+      "teamName": "Morris Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/morris/morris-eagles/basketball/",
+      "region": "Big Eight Star"
+    },
+    {
+      "teamName": "Broken Arrow Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/broken-arrow/broken-arrow-tigers/basketball/",
+      "region": "6A District 4"
+    },
+    {
+      "teamName": "Sand Springs Sandites",
+      "teamUrl": "https://www.maxpreps.com/ok/sand-springs/sand-springs-sandites/basketball/",
+      "region": "6A District 4"
+    },
+    {
+      "teamName": "Jenks Trojans",
+      "teamUrl": "https://www.maxpreps.com/ok/jenks/jenks-trojans/basketball/",
+      "region": "6A District 4"
+    },
+    {
+      "teamName": "Edmond North Huskies",
+      "teamUrl": "https://www.maxpreps.com/ok/edmond/edmond-north-huskies/basketball/",
+      "region": "6A District 4"
+    },
+    {
+      "teamName": "Northwest Classen Knights",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/northwest-classen-knights/basketball/",
+      "region": "6A District 4"
+    },
+    {
+      "teamName": "Sapulpa Chieftains",
+      "teamUrl": "https://www.maxpreps.com/ok/sapulpa/sapulpa-chieftains/basketball/",
+      "region": "6A District 4"
+    },
+    {
+      "teamName": "Enid Pacer Plainsmen",
+      "teamUrl": "https://www.maxpreps.com/ok/enid/enid-pacer-plainsmen/basketball/",
+      "region": "6A District 4"
+    },
+    {
+      "teamName": "Bartlesville Bruins",
+      "teamUrl": "https://www.maxpreps.com/ok/bartlesville/bartlesville-bruins/basketball/",
+      "region": "6A District 4"
+    },
+    {
+      "teamName": "Dale Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/dale/dale-pirates/basketball/",
+      "region": "Pottawatomie County"
+    },
+    {
+      "teamName": "Hammon Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/hammon/hammon-warriors/basketball/",
+      "region": "Five County"
+    },
+    {
+      "teamName": "Sentinel",
+      "teamUrl": "https://www.maxpreps.com/ok/sentinel/sentinel/basketball/",
+      "region": "Five County"
+    },
+    {
+      "teamName": "Cheyenne Reydon Bears",
+      "teamUrl": "https://www.maxpreps.com/ok/cheyenne/cheyenne-reydon-bears/basketball/",
+      "region": "Five County"
+    },
+    {
+      "teamName": "Canute Trojans",
+      "teamUrl": "https://www.maxpreps.com/ok/canute/canute-trojans/basketball/",
+      "region": "Five County"
+    },
+    {
+      "teamName": "Merritt Oilers",
+      "teamUrl": "https://www.maxpreps.com/ok/elk-city/merritt-oilers/basketball/",
+      "region": "Five County"
+    },
+    {
+      "teamName": "Panama Razorbacks",
+      "teamUrl": "https://www.maxpreps.com/ok/panama/panama-razorbacks/basketball/",
+      "region": "Rock Island"
+    },
+    {
+      "teamName": "Whitesboro Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/whitesboro/whitesboro-bulldogs/basketball/",
+      "region": "Rock Island"
+    },
+    {
+      "teamName": "Buffalo Valley Buffaloes",
+      "teamUrl": "https://www.maxpreps.com/ok/talihina/buffalo-valley-buffaloes/basketball/",
+      "region": "Rock Island"
+    },
+    {
+      "teamName": "Kinta Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/kinta/kinta-eagles/basketball/",
+      "region": "Rock Island"
+    },
+    {
+      "teamName": "Leflore Savages",
+      "teamUrl": "https://www.maxpreps.com/ok/leflore/leflore-savages/basketball/",
+      "region": "Rock Island"
+    },
+    {
+      "teamName": "Clayton Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/clayton/clayton-bulldogs/basketball/",
+      "region": "Rock Island"
+    },
+    {
+      "teamName": "Red Oak Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/red-oak/red-oak-eagles/basketball/",
+      "region": "Rock Island"
+    },
+    {
+      "teamName": "Wesleyan Christian Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ok/bartlesville/wesleyan-christian-mustangs/basketball/",
+      "region": "Cherokee"
+    },
+    {
+      "teamName": "Prue Rockets",
+      "teamUrl": "https://www.maxpreps.com/ok/prue/prue-rockets/basketball/",
+      "region": "Cherokee"
+    },
+    {
+      "teamName": "Mclain Science And Tech Titans",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/mclain-science-and-tech-titans/basketball/",
+      "region": "Green Country"
+    },
+    {
+      "teamName": "Webster Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/webster-warriors/basketball/",
+      "region": "Green Country"
+    },
+    {
+      "teamName": "Central Braves",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/central-braves/basketball/",
+      "region": "Green Country"
+    },
+    {
+      "teamName": "Dewey Bulldoggers",
+      "teamUrl": "https://www.maxpreps.com/ok/dewey/dewey-bulldoggers/basketball/",
+      "region": "Northeast Valley"
+    },
+    {
+      "teamName": "Nowata Ironmen",
+      "teamUrl": "https://www.maxpreps.com/ok/nowata/nowata-ironmen/basketball/",
+      "region": "Northeast Valley"
+    },
+    {
+      "teamName": "Chelsea Dragons",
+      "teamUrl": "https://www.maxpreps.com/ok/chelsea/chelsea-dragons/basketball/",
+      "region": "Northeast Valley"
+    },
+    {
+      "teamName": "Oklahoma Union Cougars",
+      "teamUrl": "https://www.maxpreps.com/ok/south-coffeyville/oklahoma-union-cougars/basketball/",
+      "region": "Northeast Valley"
+    },
+    {
+      "teamName": "Douglass Trojans",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/douglass-trojans/basketball/",
+      "region": "All City"
+    },
+    {
+      "teamName": "Star Spencer Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ok/spencer/star-spencer-bobcats/basketball/",
+      "region": "All City"
+    },
+    {
+      "teamName": "Chisholm Longhorns",
+      "teamUrl": "https://www.maxpreps.com/ok/enid/chisholm-longhorns/basketball/",
+      "region": "89Er  West"
+    },
+    {
+      "teamName": "Frontier Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ok/red-rock/frontier-mustangs/basketball/",
+      "region": "89Er  West"
+    },
+    {
+      "teamName": "Fairview Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ok/fairview/fairview-yellowjackets/basketball/",
+      "region": "89Er  West"
+    },
+    {
+      "teamName": "Tonkawa Buccaneers",
+      "teamUrl": "https://www.maxpreps.com/ok/tonkawa/tonkawa-buccaneers/basketball/",
+      "region": "89Er  West"
+    },
+    {
+      "teamName": "Alva Goldbugs",
+      "teamUrl": "https://www.maxpreps.com/ok/alva/alva-goldbugs/basketball/",
+      "region": "89Er  West"
+    },
+    {
+      "teamName": "Blackwell Maroons",
+      "teamUrl": "https://www.maxpreps.com/ok/blackwell/blackwell-maroons/basketball/",
+      "region": "89Er  West"
+    },
+    {
+      "teamName": "Perry Maroons",
+      "teamUrl": "https://www.maxpreps.com/ok/perry/perry-maroons/basketball/",
+      "region": "89Er  West"
+    },
+    {
+      "teamName": "Newkirk Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/newkirk/newkirk-tigers/basketball/",
+      "region": "89Er  West"
+    },
+    {
+      "teamName": "Immanuel Lutheran Christian Academy N A",
+      "teamUrl": "https://www.maxpreps.com/ok/broken-arrow/immanuel-lutheran-christian-academy-n-a/basketball/",
+      "region": "Oklahoma Christian"
+    },
+    {
+      "teamName": "Bradford Christian Lions",
+      "teamUrl": "https://www.maxpreps.com/ok/pryor/bradford-christian-lions/basketball/",
+      "region": "Oklahoma Christian"
+    },
+    {
+      "teamName": "Lakewood Christian Lions",
+      "teamUrl": "https://www.maxpreps.com/ok/mcalester/lakewood-christian-lions/basketball/",
+      "region": "Oklahoma Christian"
+    },
+    {
+      "teamName": "Cross Christian Academy",
+      "teamUrl": "https://www.maxpreps.com/ok/eucha/cross-christian-academy/basketball/",
+      "region": "Oklahoma Christian"
+    },
+    {
+      "teamName": "Cookson Hills Christian Crusaders",
+      "teamUrl": "https://www.maxpreps.com/ok/kansas/cookson-hills-christian-crusaders/basketball/",
+      "region": "Oklahoma Christian"
+    },
+    {
+      "teamName": "South Coffeyville Lions",
+      "teamUrl": "https://www.maxpreps.com/ok/south-coffeyville/south-coffeyville-lions/basketball/",
+      "region": "Super 6"
+    },
+    {
+      "teamName": "Central Bronchos",
+      "teamUrl": "https://www.maxpreps.com/ok/marlow/central-bronchos/basketball/",
+      "region": "Oilfield"
+    },
+    {
+      "teamName": "Velma Alma Comets",
+      "teamUrl": "https://www.maxpreps.com/ok/velma/velma-alma-comets/basketball/",
+      "region": "Oilfield"
+    },
+    {
+      "teamName": "Wilson Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/wilson/wilson-eagles/basketball/",
+      "region": "Oilfield"
+    },
+    {
+      "teamName": "Elmore City Pernell Badgers",
+      "teamUrl": "https://www.maxpreps.com/ok/elmore-city/elmore-city-pernell-badgers/basketball/",
+      "region": "Oilfield"
+    },
+    {
+      "teamName": "Walters Walters",
+      "teamUrl": "https://www.maxpreps.com/ok/walters/walters-walters/basketball/",
+      "region": "Oilfield"
+    },
+    {
+      "teamName": "Ringling Blue Devils",
+      "teamUrl": "https://www.maxpreps.com/ok/ringling/ringling-blue-devils/basketball/",
+      "region": "Oilfield"
+    },
+    {
+      "teamName": "Healdton Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/healdton/healdton-bulldogs/basketball/",
+      "region": "Oilfield"
+    },
+    {
+      "teamName": "Westville Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ok/westville/westville-yellowjackets/basketball/",
+      "region": "Big Eight"
+    },
+    {
+      "teamName": "Central Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/sallisaw/central-tigers/basketball/",
+      "region": "Big Eight"
+    },
+    {
+      "teamName": "Vian Wolverines",
+      "teamUrl": "https://www.maxpreps.com/ok/vian/vian-wolverines/basketball/",
+      "region": "Big Eight"
+    },
+    {
+      "teamName": "Howe Lions",
+      "teamUrl": "https://www.maxpreps.com/ok/howe/howe-lions/basketball/",
+      "region": "Big Eight"
+    },
+    {
+      "teamName": "Oktaha Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/oktaha/oktaha-tigers/basketball/",
+      "region": "Big Eight"
+    },
+    {
+      "teamName": "Keys Cougars",
+      "teamUrl": "https://www.maxpreps.com/ok/park-hill/keys-cougars/basketball/",
+      "region": "Big Eight"
+    },
+    {
+      "teamName": "Wyandotte Bears",
+      "teamUrl": "https://www.maxpreps.com/ok/wyandotte/wyandotte-bears/basketball/",
+      "region": "Lucky Seven"
+    },
+    {
+      "teamName": "Fairland Owls",
+      "teamUrl": "https://www.maxpreps.com/ok/fairland/fairland-owls/basketball/",
+      "region": "Lucky Seven"
+    },
+    {
+      "teamName": "Colcord Hornets",
+      "teamUrl": "https://www.maxpreps.com/ok/colcord/colcord-hornets/basketball/",
+      "region": "Lucky Seven"
+    },
+    {
+      "teamName": "Bluejacket Chieftains",
+      "teamUrl": "https://www.maxpreps.com/ok/bluejacket/bluejacket-chieftains/basketball/",
+      "region": "Lucky Seven"
+    },
+    {
+      "teamName": "Ketchum Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/ketchum/ketchum-warriors/basketball/",
+      "region": "Lucky Seven"
+    },
+    {
+      "teamName": "Afton Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/afton/afton-eagles/basketball/",
+      "region": "Lucky Seven"
+    },
+    {
+      "teamName": "Quapaw Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/quapaw/quapaw-wildcats/basketball/",
+      "region": "Lucky Seven"
+    },
+    {
+      "teamName": "Commerce Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/commerce/commerce-tigers/basketball/",
+      "region": "Lucky Seven"
+    },
+    {
+      "teamName": "Welch Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/welch/welch-wildcats/basketball/",
+      "region": "Lucky Seven"
+    },
+    {
+      "teamName": "Foyil Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/foyil/foyil-panthers/basketball/",
+      "region": "Lucky Seven"
+    },
+    {
+      "teamName": "Perkins Tryon Demons",
+      "teamUrl": "https://www.maxpreps.com/ok/perkins/perkins-tryon-demons/basketball/",
+      "region": "Tulsa Seven"
+    },
+    {
+      "teamName": "Cleveland Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/cleveland/cleveland-tigers/basketball/",
+      "region": "Tulsa Seven"
+    },
+    {
+      "teamName": "Cushing Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/cushing/cushing-tigers/basketball/",
+      "region": "Tulsa Seven"
+    },
+    {
+      "teamName": "Kiefer Trojans",
+      "teamUrl": "https://www.maxpreps.com/ok/kiefer/kiefer-trojans/basketball/",
+      "region": "Tulsa Seven"
+    },
+    {
+      "teamName": "Mannford Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/mannford/mannford-pirates/basketball/",
+      "region": "Tulsa Seven"
+    },
+    {
+      "teamName": "Berryhill Chiefs",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/berryhill-chiefs/basketball/",
+      "region": "Tulsa Seven"
+    },
+    {
+      "teamName": "Bristow Purple Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/bristow/bristow-purple-pirates/basketball/",
+      "region": "Tulsa Seven"
+    },
+    {
+      "teamName": "Sperry Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/sperry/sperry-pirates/basketball/",
+      "region": "Tulsa Seven"
+    },
+    {
+      "teamName": "Inola Longhorns",
+      "teamUrl": "https://www.maxpreps.com/ok/inola/inola-longhorns/basketball/",
+      "region": "Five Lakes"
+    },
+    {
+      "teamName": "Adair Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/adair/adair-warriors/basketball/",
+      "region": "Five Lakes"
+    },
+    {
+      "teamName": "Sequoyah Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/claremore/sequoyah-eagles/basketball/",
+      "region": "Five Lakes"
+    },
+    {
+      "teamName": "Kansas Comets",
+      "teamUrl": "https://www.maxpreps.com/ok/kansas/kansas-comets/basketball/",
+      "region": "Five Lakes"
+    },
+    {
+      "teamName": "Salina Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/salina/salina-wildcats/basketball/",
+      "region": "Five Lakes"
+    },
+    {
+      "teamName": "Webbers Falls Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/webbers-falls/webbers-falls-warriors/basketball/",
+      "region": "Riverside"
+    },
+    {
+      "teamName": "Porum Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/porum/porum-panthers/basketball/",
+      "region": "Riverside"
+    },
+    {
+      "teamName": "Braggs Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/braggs/braggs-wildcats/basketball/",
+      "region": "Riverside"
+    },
+    {
+      "teamName": "Gans Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/ok/gans/gans-grizzlies/basketball/",
+      "region": "Riverside"
+    },
+    {
+      "teamName": "Dickson Comets",
+      "teamUrl": "https://www.maxpreps.com/ok/ardmore/dickson-comets/basketball/",
+      "region": "Lake Country"
+    },
+    {
+      "teamName": "Kingston Redskins",
+      "teamUrl": "https://www.maxpreps.com/ok/kingston/kingston-redskins/basketball/",
+      "region": "Lake Country"
+    },
+    {
+      "teamName": "Byng Pirates",
+      "teamUrl": "https://www.maxpreps.com/ok/ada/byng-pirates/basketball/",
+      "region": "Lake Country"
+    },
+    {
+      "teamName": "Lone Grove Longhorns",
+      "teamUrl": "https://www.maxpreps.com/ok/lone-grove/lone-grove-longhorns/basketball/",
+      "region": "Lake Country"
+    },
+    {
+      "teamName": "Sulphur Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/sulphur/sulphur-bulldogs/basketball/",
+      "region": "Lake Country"
+    },
+    {
+      "teamName": "Plainview Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/ardmore/plainview-indians/basketball/",
+      "region": "Lake Country"
+    },
+    {
+      "teamName": "Madill Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/madill/madill-wildcats/basketball/",
+      "region": "Lake Country"
+    },
+    {
+      "teamName": "Marietta Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/marietta/marietta-indians/basketball/",
+      "region": "Lake Country"
+    },
+    {
+      "teamName": "Okarche Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/okarche/okarche-warriors/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Cashion Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/cashion/cashion-wildcats/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Okeene Whippets",
+      "teamUrl": "https://www.maxpreps.com/ok/okeene/okeene-whippets/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Crescent Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/crescent/crescent-tigers/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Thomas Fay Custer Terriers",
+      "teamUrl": "https://www.maxpreps.com/ok/thomas/thomas-fay-custer-terriers/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Hennessey Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/hennessey/hennessey-eagles/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Watonga Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/watonga/watonga-eagles/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Tyrone Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ok/tyrone/tyrone-bobcats/basketball/",
+      "region": "Hi Plains"
+    },
+    {
+      "teamName": "Goodwell Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/goodwell/goodwell-eagles/basketball/",
+      "region": "Hi Plains"
+    },
+    {
+      "teamName": "Stuart Hornets",
+      "teamUrl": "https://www.maxpreps.com/ok/stuart/stuart-hornets/basketball/",
+      "region": "Pittsburg Eight"
+    },
+    {
+      "teamName": "Kiowa Cowboys",
+      "teamUrl": "https://www.maxpreps.com/ok/kiowa/kiowa-cowboys/basketball/",
+      "region": "Pittsburg Eight"
+    },
+    {
+      "teamName": "Crowder Demons",
+      "teamUrl": "https://www.maxpreps.com/ok/crowder/crowder-demons/basketball/",
+      "region": "Pittsburg Eight"
+    },
+    {
+      "teamName": "Pittsburg Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/pittsburg/pittsburg-panthers/basketball/",
+      "region": "Pittsburg Eight"
+    },
+    {
+      "teamName": "Savanna Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/savanna/savanna-bulldogs/basketball/",
+      "region": "Pittsburg Eight"
+    },
+    {
+      "teamName": "Haileyville Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/haileyville/haileyville-warriors/basketball/",
+      "region": "Pittsburg Eight"
+    },
+    {
+      "teamName": "Canadian Cougars",
+      "teamUrl": "https://www.maxpreps.com/ok/canadian/canadian-cougars/basketball/",
+      "region": "Pittsburg Eight"
+    },
+    {
+      "teamName": "Indianola Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/indianola/indianola-warriors/basketball/",
+      "region": "Pittsburg Eight"
+    },
+    {
+      "teamName": "Del City Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/del-city/del-city-eagles/basketball/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Midwest City Bombers",
+      "teamUrl": "https://www.maxpreps.com/ok/midwest-city/midwest-city-bombers/basketball/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Western Heights Jets",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/western-heights-jets/basketball/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Classen Sas Comets",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/classen-sas-comets/basketball/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Lawton Wolverines",
+      "teamUrl": "https://www.maxpreps.com/ok/lawton/lawton-wolverines/basketball/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Altus Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/altus/altus-bulldogs/basketball/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Duncan Demons",
+      "teamUrl": "https://www.maxpreps.com/ok/duncan/duncan-demons/basketball/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Marshall Bears",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/marshall-bears/basketball/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Thackerville Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/thackerville/thackerville-wildcats/basketball/",
+      "region": "Red River"
+    },
+    {
+      "teamName": "Cave Springs Hornets",
+      "teamUrl": "https://www.maxpreps.com/ok/bunch/cave-springs-hornets/basketball/",
+      "region": "Arrowhead"
+    },
+    {
+      "teamName": "Oaks Mission Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/oaks/oaks-mission-warriors/basketball/",
+      "region": "Arrowhead"
+    },
+    {
+      "teamName": "Watts Engineers",
+      "teamUrl": "https://www.maxpreps.com/ok/watts/watts-engineers/basketball/",
+      "region": "Arrowhead"
+    },
+    {
+      "teamName": "Heritage Hall Chargers",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/heritage-hall-chargers/basketball/",
+      "region": "Arrowhead"
+    },
+    {
+      "teamName": "Oklahoma City Knights Homeschool Knights",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/oklahoma-city-knights-homeschool-knights/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Bennington Bears",
+      "teamUrl": "https://www.maxpreps.com/ok/bennington/bennington-bears/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Legacy Christian",
+      "teamUrl": "https://www.maxpreps.com/ok/claremore/legacy-christian/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Turner Falcons",
+      "teamUrl": "https://www.maxpreps.com/ok/burneyville/turner-falcons/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Yarbrough Felt",
+      "teamUrl": "https://www.maxpreps.com/ok/goodwell/yarbrough-felt/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Oklahoma Christian Academy Fighting Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/edmond/oklahoma-christian-academy-fighting-eagles/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Holland Hall Dutch",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/holland-hall-dutch/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Oklahoma Bible Trojans",
+      "teamUrl": "https://www.maxpreps.com/ok/enid/oklahoma-bible-trojans/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Yale Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/yale/yale-bulldogs/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "North Rock Creek Cougars",
+      "teamUrl": "https://www.maxpreps.com/ok/shawnee/north-rock-creek-cougars/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Mount St Mary Rockets",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/mount-st-mary-rockets/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Fort Cobb Broxton Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ok/fort-cobb/fort-cobb-broxton-mustangs/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Sequoyah Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/tahlequah/sequoyah-indians/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Ada Cougars",
+      "teamUrl": "https://www.maxpreps.com/ok/ada/ada-cougars/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Hillsdale Christian",
+      "teamUrl": "https://www.maxpreps.com/ok/hillsdale/hillsdale-christian/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Morrison Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/morrison/morrison-wildcats/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Latta Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/ada/latta-panthers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Grove Ridgerunners",
+      "teamUrl": "https://www.maxpreps.com/ok/grove/grove-ridgerunners/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Oklahoma Christian Saints",
+      "teamUrl": "https://www.maxpreps.com/ok/edmond/oklahoma-christian-saints/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Coalgate Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/coalgate/coalgate-wildcats/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Riverside Indian Braves",
+      "teamUrl": "https://www.maxpreps.com/ok/anadarko/riverside-indian-braves/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Tecumseh Savages",
+      "teamUrl": "https://www.maxpreps.com/ok/tecumseh/tecumseh-savages/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Bishop Mcguinness Fighting Irish",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/bishop-mcguinness-fighting-irish/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Aspire Homeschool Trailblazers",
+      "teamUrl": "https://www.maxpreps.com/ok/broken-arrow/aspire-homeschool-trailblazers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Luther Lions",
+      "teamUrl": "https://www.maxpreps.com/ok/luther/luther-lions/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Aline Cleo Cougars",
+      "teamUrl": "https://www.maxpreps.com/ok/aline/aline-cleo-cougars/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Santa Fe South Pathways Middle College",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/santa-fe-south-pathways-middle-college/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Tishomingo Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/tishomingo/tishomingo-indians/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Hinton Comets",
+      "teamUrl": "https://www.maxpreps.com/ok/hinton/hinton-comets/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Dove Science Academy Rockets",
+      "teamUrl": "https://www.maxpreps.com/ok/warr-acres/dove-science-academy-rockets/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Soper Bears",
+      "teamUrl": "https://www.maxpreps.com/ok/soper/soper-bears/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Crossings Christian Knights",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/crossings-christian-knights/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Southwest Covenant Patriots",
+      "teamUrl": "https://www.maxpreps.com/ok/yukon/southwest-covenant-patriots/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Cement Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/cement/cement-bulldogs/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Bethel Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/shawnee/bethel-wildcats/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Taloga Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/taloga/taloga-panthers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Antlers Bearcats",
+      "teamUrl": "https://www.maxpreps.com/ok/antlers/antlers-bearcats/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Mountain View Gotebo Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/mountain-view/mountain-view-gotebo-tigers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Jones Longhorns",
+      "teamUrl": "https://www.maxpreps.com/ok/jones/jones-longhorns/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Oklahoma Flame Flame",
+      "teamUrl": "https://www.maxpreps.com/ok/bixby/oklahoma-flame-flame/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Tulsa Noah Homeschool Jaguars",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/tulsa-noah-homeschool-jaguars/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Oklahoma City Storm Storm",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/oklahoma-city-storm-storm/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Carnegie Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/carnegie/carnegie-wildcats/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Hobart Bearcats",
+      "teamUrl": "https://www.maxpreps.com/ok/hobart/hobart-bearcats/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Harding Fine Arts Fire Hawks",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/harding-fine-arts-fire-hawks/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Astec Charter Comets",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/astec-charter-comets/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Cristo Rey",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/cristo-rey/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Atoka Wampus Cats",
+      "teamUrl": "https://www.maxpreps.com/ok/atoka/atoka-wampus-cats/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Balko Forgan",
+      "teamUrl": "https://www.maxpreps.com/ok/balko/balko-forgan/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Wellston Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/wellston/wellston-tigers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Lexington Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/lexington/lexington-bulldogs/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Harding Prep",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/harding-prep/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Springer Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ok/springer/springer-cardinals/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Woodward Boomers",
+      "teamUrl": "https://www.maxpreps.com/ok/woodward/woodward-boomers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Bray Doyle Donkeys",
+      "teamUrl": "https://www.maxpreps.com/ok/bray/bray-doyle-donkeys/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Parkview Adventist Academy",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/parkview-adventist-academy/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Ardmore Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/ardmore/ardmore-tigers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Caney Valley Trojans",
+      "teamUrl": "https://www.maxpreps.com/ok/ramona/caney-valley-trojans/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Jay Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/jay/jay-bulldogs/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Okmulgee Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/okmulgee/okmulgee-bulldogs/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Moyers Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/moyers/moyers-tigers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Tulsa Chef",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/tulsa-chef/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Billings Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/billings/billings-bulldogs/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Hoops For Christ Warriors",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/hoops-for-christ-warriors/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Christian Heritage Crusaders",
+      "teamUrl": "https://www.maxpreps.com/ok/del-city/christian-heritage-crusaders/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Harrah Panthers",
+      "teamUrl": "https://www.maxpreps.com/ok/harrah/harrah-panthers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Academy Of Classical Christian Studies Griffins",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/academy-of-classical-christian-studies-griffins/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Arapaho Indians",
+      "teamUrl": "https://www.maxpreps.com/ok/arapaho/arapaho-indians/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Boise City Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ok/boise-city/boise-city-wildcats/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Burlington Freedom",
+      "teamUrl": "https://www.maxpreps.com/ok/burlington/burlington-freedom/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Cameron Yellow Jackets",
+      "teamUrl": "https://www.maxpreps.com/ok/cameron/cameron-yellow-jackets/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Destiny Christian Academy",
+      "teamUrl": "https://www.maxpreps.com/ok/wagoner/destiny-christian-academy/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Dove Science Academy Raptors",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/dove-science-academy-raptors/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Epic Charter Comments",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/epic-charter-comments/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Hardesty Bison",
+      "teamUrl": "https://www.maxpreps.com/ok/hardesty/hardesty-bison/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Kipp Tulsa University Prep Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/kipp-tulsa-university-prep-bulldogs/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Lawton Academy Of Arts And Sciences",
+      "teamUrl": "https://www.maxpreps.com/ok/lawton/lawton-academy-of-arts-and-sciences/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Lone Wolf Coyotes",
+      "teamUrl": "https://www.maxpreps.com/ok/lone-wolf/lone-wolf-coyotes/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Okc Storm North",
+      "teamUrl": "https://www.maxpreps.com/ok/edmond/okc-storm-north/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Riverfield Country Day Ravens",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/riverfield-country-day-ravens/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Tulsa Adventist Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/tulsa-adventist-academy-eagles/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Tulsa School Of Arts And Sciences",
+      "teamUrl": "https://www.maxpreps.com/ok/tulsa/tulsa-school-of-arts-and-sciences/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Wynona Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ok/wynona/wynona-yellowjackets/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Pawhuska Huskies",
+      "teamUrl": "https://www.maxpreps.com/ok/pawhuska/pawhuska-huskies/basketball/",
+      "region": "89Er  East"
+    },
+    {
+      "teamName": "Pawnee Black Bears",
+      "teamUrl": "https://www.maxpreps.com/ok/pawnee/pawnee-black-bears/basketball/",
+      "region": "89Er  East"
+    }
+  ]
+}

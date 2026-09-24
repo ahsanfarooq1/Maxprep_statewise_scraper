@@ -1,0 +1,602 @@
+{
+  "meta": {
+    "state": "Nevada",
+    "stateCode": "NV",
+    "sport": "Girls Basketball",
+    "season": "2026-2027",
+    "totalTeams": 116,
+    "processedTeamsCount": 0,
+    "processedTeams": [],
+    "totalGamesChecked": 0,
+    "teamsFullBoxScores": 0,
+    "teamsPartialBoxScores": 0,
+    "teamsNoBoxScores": 0,
+    "errors_count": 116,
+    "last_updated": "2026-09-24 13:36:45"
+  },
+  "teamsFullBoxScores": [],
+  "teamsPartialBoxScores": [],
+  "teamsNoBoxScores": [],
+  "errors": [
+    {
+      "teamName": "Pahranagat Valley Panthers",
+      "teamUrl": "https://www.maxpreps.com/nv/alamo/pahranagat-valley-panthers/basketball/girls/",
+      "region": "1A South"
+    },
+    {
+      "teamName": "Laughlin Cougars",
+      "teamUrl": "https://www.maxpreps.com/nv/laughlin/laughlin-cougars/basketball/girls/",
+      "region": "1A South"
+    },
+    {
+      "teamName": "Beaver Dam Diamondback",
+      "teamUrl": "https://www.maxpreps.com/az/littlefield/beaver-dam-diamondback/basketball/girls/",
+      "region": "1A South"
+    },
+    {
+      "teamName": "Sandy Valley Sidewinders",
+      "teamUrl": "https://www.maxpreps.com/nv/sandy-valley/sandy-valley-sidewinders/basketball/girls/",
+      "region": "1A South"
+    },
+    {
+      "teamName": "Liberty Baptist Academy Knights",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/liberty-baptist-academy-knights/basketball/girls/",
+      "region": "1A South"
+    },
+    {
+      "teamName": "Adelson",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/adelson/basketball/girls/",
+      "region": "1A South"
+    },
+    {
+      "teamName": "Mountain View Christian Saints",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/mountain-view-christian-saints/basketball/girls/",
+      "region": "1A South"
+    },
+    {
+      "teamName": "Word Of Life Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/word-of-life-christian-academy-eagles/basketball/girls/",
+      "region": "1A South"
+    },
+    {
+      "teamName": "Spanish Springs Cougars",
+      "teamUrl": "https://www.maxpreps.com/nv/sparks/spanish-springs-cougars/basketball/girls/",
+      "region": "4A Northern"
+    },
+    {
+      "teamName": "Bishop Manogue Miners",
+      "teamUrl": "https://www.maxpreps.com/nv/reno/bishop-manogue-miners/basketball/girls/",
+      "region": "4A Northern"
+    },
+    {
+      "teamName": "Reno Huskies",
+      "teamUrl": "https://www.maxpreps.com/nv/reno/reno-huskies/basketball/girls/",
+      "region": "4A Northern"
+    },
+    {
+      "teamName": "Galena Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/nv/reno/galena-grizzlies/basketball/girls/",
+      "region": "4A Northern"
+    },
+    {
+      "teamName": "Damonte Ranch Mustangs",
+      "teamUrl": "https://www.maxpreps.com/nv/reno/damonte-ranch-mustangs/basketball/girls/",
+      "region": "4A Northern"
+    },
+    {
+      "teamName": "North Valleys Panthers",
+      "teamUrl": "https://www.maxpreps.com/nv/reno/north-valleys-panthers/basketball/girls/",
+      "region": "4A Northern"
+    },
+    {
+      "teamName": "Reed Raiders",
+      "teamUrl": "https://www.maxpreps.com/nv/sparks/reed-raiders/basketball/girls/",
+      "region": "4A Northern"
+    },
+    {
+      "teamName": "Mcqueen Lancers",
+      "teamUrl": "https://www.maxpreps.com/nv/reno/mcqueen-lancers/basketball/girls/",
+      "region": "4A Northern"
+    },
+    {
+      "teamName": "Douglas Tigers",
+      "teamUrl": "https://www.maxpreps.com/nv/minden/douglas-tigers/basketball/girls/",
+      "region": "4A Northern"
+    },
+    {
+      "teamName": "Carson Senators",
+      "teamUrl": "https://www.maxpreps.com/nv/carson-city/carson-senators/basketball/girls/",
+      "region": "4A Northern"
+    },
+    {
+      "teamName": "Hug Hawks",
+      "teamUrl": "https://www.maxpreps.com/nv/reno/hug-hawks/basketball/girls/",
+      "region": "4A Northern"
+    },
+    {
+      "teamName": "Virgin Valley Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/nv/mesquite/virgin-valley-bulldogs/basketball/girls/",
+      "region": "3A Southern  Southern"
+    },
+    {
+      "teamName": "Coral Academy Of Science Las Vegas Falcons",
+      "teamUrl": "https://www.maxpreps.com/nv/henderson/coral-academy-of-science-las-vegas-falcons/basketball/girls/",
+      "region": "3A Southern  Southern"
+    },
+    {
+      "teamName": "Boulder City Eagles",
+      "teamUrl": "https://www.maxpreps.com/nv/boulder-city/boulder-city-eagles/basketball/girls/",
+      "region": "3A Southern  Southern"
+    },
+    {
+      "teamName": "Pahrump Valley Trojans",
+      "teamUrl": "https://www.maxpreps.com/nv/pahrump/pahrump-valley-trojans/basketball/girls/",
+      "region": "3A Southern  Southern"
+    },
+    {
+      "teamName": "Moapa Valley Pirates",
+      "teamUrl": "https://www.maxpreps.com/nv/overton/moapa-valley-pirates/basketball/girls/",
+      "region": "3A Southern  Southern"
+    },
+    {
+      "teamName": "The Meadows School Mustangs",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/the-meadows-school-mustangs/basketball/girls/",
+      "region": "3A Southern  Southern"
+    },
+    {
+      "teamName": "Cristo Rey St Viator Royals",
+      "teamUrl": "https://www.maxpreps.com/nv/north-las-vegas/cristo-rey-st-viator-royals/basketball/girls/",
+      "region": "3A Southern  Southern"
+    },
+    {
+      "teamName": "Amplus Academy Archers",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/amplus-academy-archers/basketball/girls/",
+      "region": "3A Southern  Southern"
+    },
+    {
+      "teamName": "Bishop Gorman Gaels",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/bishop-gorman-gaels/basketball/girls/",
+      "region": "5A Southern"
+    },
+    {
+      "teamName": "Democracy Prep Agassi Campus Blue Knights",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/democracy-prep-agassi-campus-blue-knights/basketball/girls/",
+      "region": "5A Southern"
+    },
+    {
+      "teamName": "Shadow Ridge Mustangs",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/shadow-ridge-mustangs/basketball/girls/",
+      "region": "5A Southern"
+    },
+    {
+      "teamName": "Coronado Cougars",
+      "teamUrl": "https://www.maxpreps.com/nv/henderson/coronado-cougars/basketball/girls/",
+      "region": "5A Southern"
+    },
+    {
+      "teamName": "Liberty Patriots",
+      "teamUrl": "https://www.maxpreps.com/nv/henderson/liberty-patriots/basketball/girls/",
+      "region": "5A Southern"
+    },
+    {
+      "teamName": "Faith Lutheran Crusaders",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/faith-lutheran-crusaders/basketball/girls/",
+      "region": "5A Southern"
+    },
+    {
+      "teamName": "Centennial Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/centennial-bulldogs/basketball/girls/",
+      "region": "5A Southern"
+    },
+    {
+      "teamName": "Legacy Longhorns",
+      "teamUrl": "https://www.maxpreps.com/nv/north-las-vegas/legacy-longhorns/basketball/girls/",
+      "region": "5A Southern"
+    },
+    {
+      "teamName": "Desert Pines Jaguars",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/desert-pines-jaguars/basketball/girls/",
+      "region": "5A Southern"
+    },
+    {
+      "teamName": "Round Mountain Knights",
+      "teamUrl": "https://www.maxpreps.com/nv/round-mountain/round-mountain-knights/basketball/girls/",
+      "region": "1A Central"
+    },
+    {
+      "teamName": "Tonopah Muckers",
+      "teamUrl": "https://www.maxpreps.com/nv/tonopah/tonopah-muckers/basketball/girls/",
+      "region": "1A Central"
+    },
+    {
+      "teamName": "Beatty Hornets",
+      "teamUrl": "https://www.maxpreps.com/nv/beatty/beatty-hornets/basketball/girls/",
+      "region": "1A Central"
+    },
+    {
+      "teamName": "Indian Springs Thunderbirds",
+      "teamUrl": "https://www.maxpreps.com/nv/indian-springs/indian-springs-thunderbirds/basketball/girls/",
+      "region": "1A Central"
+    },
+    {
+      "teamName": "South Tahoe Vikings",
+      "teamUrl": "https://www.maxpreps.com/ca/south-lake-tahoe/south-tahoe-vikings/basketball/girls/",
+      "region": "3A Northern  West"
+    },
+    {
+      "teamName": "Truckee Wolverines",
+      "teamUrl": "https://www.maxpreps.com/ca/truckee/truckee-wolverines/basketball/girls/",
+      "region": "3A Northern  West"
+    },
+    {
+      "teamName": "Sparks Railroaders",
+      "teamUrl": "https://www.maxpreps.com/nv/sparks/sparks-railroaders/basketball/girls/",
+      "region": "3A Northern  West"
+    },
+    {
+      "teamName": "Incline Highlanders",
+      "teamUrl": "https://www.maxpreps.com/nv/incline-village/incline-highlanders/basketball/girls/",
+      "region": "3A Northern  West"
+    },
+    {
+      "teamName": "Debbie Smith Cte Academy Mavericks",
+      "teamUrl": "https://www.maxpreps.com/nv/reno/debbie-smith-cte-academy-mavericks/basketball/girls/",
+      "region": "3A Northern  West"
+    },
+    {
+      "teamName": "Wooster Colts",
+      "teamUrl": "https://www.maxpreps.com/nv/reno/wooster-colts/basketball/girls/",
+      "region": "3A Northern  West"
+    },
+    {
+      "teamName": "Pyramid Lake Lakers",
+      "teamUrl": "https://www.maxpreps.com/nv/nixon/pyramid-lake-lakers/basketball/girls/",
+      "region": "1A West"
+    },
+    {
+      "teamName": "Smith Valley Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/nv/smith/smith-valley-bulldogs/basketball/girls/",
+      "region": "1A West"
+    },
+    {
+      "teamName": "Virginia City Muckers",
+      "teamUrl": "https://www.maxpreps.com/nv/virginia-city/virginia-city-muckers/basketball/girls/",
+      "region": "1A West"
+    },
+    {
+      "teamName": "Coleville Wolves",
+      "teamUrl": "https://www.maxpreps.com/ca/coleville/coleville-wolves/basketball/girls/",
+      "region": "1A West"
+    },
+    {
+      "teamName": "Sage Ridge Scorpions",
+      "teamUrl": "https://www.maxpreps.com/nv/reno/sage-ridge-scorpions/basketball/girls/",
+      "region": "1A West"
+    },
+    {
+      "teamName": "Mineral County Serpents",
+      "teamUrl": "https://www.maxpreps.com/nv/hawthorne/mineral-county-serpents/basketball/girls/",
+      "region": "1A West"
+    },
+    {
+      "teamName": "Sierra Sage Academy Rite Of Passage Rams",
+      "teamUrl": "https://www.maxpreps.com/nv/yerington/sierra-sage-academy-rite-of-passage-rams/basketball/girls/",
+      "region": "1A West"
+    },
+    {
+      "teamName": "Excel Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/nv/sparks/excel-christian-warriors/basketball/girls/",
+      "region": "1A West"
+    },
+    {
+      "teamName": "Whittell Warriors",
+      "teamUrl": "https://www.maxpreps.com/nv/zephyr-cove/whittell-warriors/basketball/girls/",
+      "region": "1A West"
+    },
+    {
+      "teamName": "Owyhee Braves",
+      "teamUrl": "https://www.maxpreps.com/nv/owyhee/owyhee-braves/basketball/girls/",
+      "region": "1A East"
+    },
+    {
+      "teamName": "Eureka Vandals",
+      "teamUrl": "https://www.maxpreps.com/nv/eureka/eureka-vandals/basketball/girls/",
+      "region": "1A East"
+    },
+    {
+      "teamName": "Wells Leopards",
+      "teamUrl": "https://www.maxpreps.com/nv/wells/wells-leopards/basketball/girls/",
+      "region": "1A East"
+    },
+    {
+      "teamName": "Mcdermitt Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/nv/mcdermitt/mcdermitt-bulldogs/basketball/girls/",
+      "region": "1A East"
+    },
+    {
+      "teamName": "Lund Mustangs",
+      "teamUrl": "https://www.maxpreps.com/nv/lund/lund-mustangs/basketball/girls/",
+      "region": "1A East"
+    },
+    {
+      "teamName": "Jackpot Jaguars",
+      "teamUrl": "https://www.maxpreps.com/nv/jackpot/jackpot-jaguars/basketball/girls/",
+      "region": "1A East"
+    },
+    {
+      "teamName": "Carlin Railroaders",
+      "teamUrl": "https://www.maxpreps.com/nv/carlin/carlin-railroaders/basketball/girls/",
+      "region": "1A East"
+    },
+    {
+      "teamName": "Needles Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ca/needles/needles-mustangs/basketball/girls/",
+      "region": "2A Southern"
+    },
+    {
+      "teamName": "Lincoln County Lynx",
+      "teamUrl": "https://www.maxpreps.com/nv/panaca/lincoln-county-lynx/basketball/girls/",
+      "region": "2A Southern"
+    },
+    {
+      "teamName": "White Pine Bobcats",
+      "teamUrl": "https://www.maxpreps.com/nv/ely/white-pine-bobcats/basketball/girls/",
+      "region": "2A Southern"
+    },
+    {
+      "teamName": "Gv Christian Guardians",
+      "teamUrl": "https://www.maxpreps.com/nv/henderson/gv-christian-guardians/basketball/girls/",
+      "region": "2A Southern"
+    },
+    {
+      "teamName": "American Heritage Academy Patriots",
+      "teamUrl": "https://www.maxpreps.com/nv/henderson/american-heritage-academy-patriots/basketball/girls/",
+      "region": "2A Southern"
+    },
+    {
+      "teamName": "Lake Mead Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/nv/henderson/lake-mead-christian-academy-eagles/basketball/girls/",
+      "region": "2A Southern"
+    },
+    {
+      "teamName": "Founders Classical Academy Centurions",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/founders-classical-academy-centurions/basketball/girls/",
+      "region": "2A Southern"
+    },
+    {
+      "teamName": "Awaken Christian Lions",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/awaken-christian-lions/basketball/girls/",
+      "region": "2A Southern"
+    },
+    {
+      "teamName": "Foothill Falcons",
+      "teamUrl": "https://www.maxpreps.com/nv/henderson/foothill-falcons/basketball/girls/",
+      "region": "4A Southern  Sky"
+    },
+    {
+      "teamName": "Del Sol Dragons",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/del-sol-dragons/basketball/girls/",
+      "region": "4A Southern  Sky"
+    },
+    {
+      "teamName": "Basic Wolves",
+      "teamUrl": "https://www.maxpreps.com/nv/henderson/basic-wolves/basketball/girls/",
+      "region": "4A Southern  Sky"
+    },
+    {
+      "teamName": "Green Valley Gators",
+      "teamUrl": "https://www.maxpreps.com/nv/henderson/green-valley-gators/basketball/girls/",
+      "region": "4A Southern  Sky"
+    },
+    {
+      "teamName": "Sports Leadership And Management Bulls",
+      "teamUrl": "https://www.maxpreps.com/nv/henderson/sports-leadership-and-management-bulls/basketball/girls/",
+      "region": "4A Southern  Sky"
+    },
+    {
+      "teamName": "Pinecrest Academy Cadence Cougars",
+      "teamUrl": "https://www.maxpreps.com/nv/henderson/pinecrest-academy-cadence-cougars/basketball/girls/",
+      "region": "4A Southern  Sky"
+    },
+    {
+      "teamName": "Pinecrest Academy Sloan Canyon Pirate",
+      "teamUrl": "https://www.maxpreps.com/nv/henderson/pinecrest-academy-sloan-canyon-pirate/basketball/girls/",
+      "region": "4A Southern  Sky"
+    },
+    {
+      "teamName": "Silverado Skyhawks",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/silverado-skyhawks/basketball/girls/",
+      "region": "4A Southern  Sky"
+    },
+    {
+      "teamName": "Pershing County Mustangs",
+      "teamUrl": "https://www.maxpreps.com/nv/lovelock/pershing-county-mustangs/basketball/girls/",
+      "region": "2A Northern"
+    },
+    {
+      "teamName": "West Wendover Wolverines",
+      "teamUrl": "https://www.maxpreps.com/nv/west-wendover/west-wendover-wolverines/basketball/girls/",
+      "region": "2A Northern"
+    },
+    {
+      "teamName": "Yerington Lions",
+      "teamUrl": "https://www.maxpreps.com/nv/yerington/yerington-lions/basketball/girls/",
+      "region": "2A Northern"
+    },
+    {
+      "teamName": "Oasis Academy Bighorns",
+      "teamUrl": "https://www.maxpreps.com/nv/fallon/oasis-academy-bighorns/basketball/girls/",
+      "region": "2A Northern"
+    },
+    {
+      "teamName": "Battle Mountain Longhorns",
+      "teamUrl": "https://www.maxpreps.com/nv/battle-mountain/battle-mountain-longhorns/basketball/girls/",
+      "region": "2A Northern"
+    },
+    {
+      "teamName": "North Tahoe Lakers",
+      "teamUrl": "https://www.maxpreps.com/ca/tahoe-city/north-tahoe-lakers/basketball/girls/",
+      "region": "2A Northern"
+    },
+    {
+      "teamName": "Coral Academy Of Science Reno Falcons",
+      "teamUrl": "https://www.maxpreps.com/nv/reno/coral-academy-of-science-reno-falcons/basketball/girls/",
+      "region": "2A Northern"
+    },
+    {
+      "teamName": "Sierra Lutheran Falcons",
+      "teamUrl": "https://www.maxpreps.com/nv/carson-city/sierra-lutheran-falcons/basketball/girls/",
+      "region": "2A Northern"
+    },
+    {
+      "teamName": "Silver Stage Nighthawks",
+      "teamUrl": "https://www.maxpreps.com/nv/silver-springs/silver-stage-nighthawks/basketball/girls/",
+      "region": "2A Northern"
+    },
+    {
+      "teamName": "Mojave Rattlers",
+      "teamUrl": "https://www.maxpreps.com/nv/north-las-vegas/mojave-rattlers/basketball/girls/",
+      "region": "4A Southern  Desert"
+    },
+    {
+      "teamName": "Arbor View Aggies",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/arbor-view-aggies/basketball/girls/",
+      "region": "4A Southern  Desert"
+    },
+    {
+      "teamName": "Palo Verde Panthers",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/palo-verde-panthers/basketball/girls/",
+      "region": "4A Southern  Desert"
+    },
+    {
+      "teamName": "Cimarron Memorial Spartans",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/cimarron-memorial-spartans/basketball/girls/",
+      "region": "4A Southern  Desert"
+    },
+    {
+      "teamName": "Canyon Springs Pioneers",
+      "teamUrl": "https://www.maxpreps.com/nv/north-las-vegas/canyon-springs-pioneers/basketball/girls/",
+      "region": "4A Southern  Desert"
+    },
+    {
+      "teamName": "Doral Academy Red Rock Dragons",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/doral-academy-red-rock-dragons/basketball/girls/",
+      "region": "4A Southern  Desert"
+    },
+    {
+      "teamName": "Cheyenne Desert Shields",
+      "teamUrl": "https://www.maxpreps.com/nv/north-las-vegas/cheyenne-desert-shields/basketball/girls/",
+      "region": "4A Southern  Desert"
+    },
+    {
+      "teamName": "Somerset Academy Losee Lions",
+      "teamUrl": "https://www.maxpreps.com/nv/north-las-vegas/somerset-academy-losee-lions/basketball/girls/",
+      "region": "4A Southern  Lake"
+    },
+    {
+      "teamName": "Mater Academy East Las Vegas Knights",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/mater-academy-east-las-vegas-knights/basketball/girls/",
+      "region": "4A Southern  Lake"
+    },
+    {
+      "teamName": "Las Vegas Wildcats",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/las-vegas-wildcats/basketball/girls/",
+      "region": "4A Southern  Lake"
+    },
+    {
+      "teamName": "Sunrise Mountain Miners",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/sunrise-mountain-miners/basketball/girls/",
+      "region": "4A Southern  Lake"
+    },
+    {
+      "teamName": "Southeast Career Tech Roadrunners",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/southeast-career-tech-roadrunners/basketball/girls/",
+      "region": "4A Southern  Lake"
+    },
+    {
+      "teamName": "Rancho Rams",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/rancho-rams/basketball/girls/",
+      "region": "4A Southern  Lake"
+    },
+    {
+      "teamName": "Eldorado Firehawks",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/eldorado-firehawks/basketball/girls/",
+      "region": "4A Southern  Lake"
+    },
+    {
+      "teamName": "Chaparral Cowboys",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/chaparral-cowboys/basketball/girls/",
+      "region": "4A Southern  Lake"
+    },
+    {
+      "teamName": "Sierra Vista Mountain Lions",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/sierra-vista-mountain-lions/basketball/girls/",
+      "region": "4A Southern  Mountain"
+    },
+    {
+      "teamName": "Desert Oasis Diamondbacks",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/desert-oasis-diamondbacks/basketball/girls/",
+      "region": "4A Southern  Mountain"
+    },
+    {
+      "teamName": "Spring Valley Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/spring-valley-grizzlies/basketball/girls/",
+      "region": "4A Southern  Mountain"
+    },
+    {
+      "teamName": "Western Warriors",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/western-warriors/basketball/girls/",
+      "region": "4A Southern  Mountain"
+    },
+    {
+      "teamName": "Clark Chargers",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/clark-chargers/basketball/girls/",
+      "region": "4A Southern  Mountain"
+    },
+    {
+      "teamName": "Valley Vikings",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/valley-vikings/basketball/girls/",
+      "region": "4A Southern  Mountain"
+    },
+    {
+      "teamName": "Bonanza Bengals",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/bonanza-bengals/basketball/girls/",
+      "region": "4A Southern  Mountain"
+    },
+    {
+      "teamName": "Durango Trailblazers",
+      "teamUrl": "https://www.maxpreps.com/nv/las-vegas/durango-trailblazers/basketball/girls/",
+      "region": "4A Southern  Mountain"
+    },
+    {
+      "teamName": "Churchill County Greenwave",
+      "teamUrl": "https://www.maxpreps.com/nv/fallon/churchill-county-greenwave/basketball/girls/",
+      "region": "3A Northern  East"
+    },
+    {
+      "teamName": "Fernley Vaqueros",
+      "teamUrl": "https://www.maxpreps.com/nv/fernley/fernley-vaqueros/basketball/girls/",
+      "region": "3A Northern  East"
+    },
+    {
+      "teamName": "Elko Indians",
+      "teamUrl": "https://www.maxpreps.com/nv/elko/elko-indians/basketball/girls/",
+      "region": "3A Northern  East"
+    },
+    {
+      "teamName": "Lowry Buckaroos",
+      "teamUrl": "https://www.maxpreps.com/nv/winnemucca/lowry-buckaroos/basketball/girls/",
+      "region": "3A Northern  East"
+    },
+    {
+      "teamName": "Spring Creek Spartans",
+      "teamUrl": "https://www.maxpreps.com/nv/spring-creek/spring-creek-spartans/basketball/girls/",
+      "region": "3A Northern  East"
+    },
+    {
+      "teamName": "Dayton Dust Devils",
+      "teamUrl": "https://www.maxpreps.com/nv/dayton/dayton-dust-devils/basketball/girls/",
+      "region": "3A Northern  East"
+    }
+  ]
+}

@@ -1,0 +1,792 @@
+{
+  "meta": {
+    "state": "New Mexico",
+    "stateCode": "NM",
+    "sport": "Girls Basketball",
+    "season": "2026-2027",
+    "totalTeams": 154,
+    "processedTeamsCount": 0,
+    "processedTeams": [],
+    "totalGamesChecked": 0,
+    "teamsFullBoxScores": 0,
+    "teamsPartialBoxScores": 0,
+    "teamsNoBoxScores": 0,
+    "errors_count": 154,
+    "last_updated": "2026-09-24 13:44:35"
+  },
+  "teamsFullBoxScores": [],
+  "teamsPartialBoxScores": [],
+  "teamsNoBoxScores": [],
+  "errors": [
+    {
+      "teamName": "Hobbs Eagles",
+      "teamUrl": "https://www.maxpreps.com/nm/hobbs/hobbs-eagles/basketball/girls/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Clovis Wildcats",
+      "teamUrl": "https://www.maxpreps.com/nm/clovis/clovis-wildcats/basketball/girls/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Carlsbad Cavemen Cavegirls",
+      "teamUrl": "https://www.maxpreps.com/nm/carlsbad/carlsbad-cavemen-cavegirls/basketball/girls/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Roswell Coyotes",
+      "teamUrl": "https://www.maxpreps.com/nm/roswell/roswell-coyotes/basketball/girls/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Lordsburg Mavericks",
+      "teamUrl": "https://www.maxpreps.com/nm/lordsburg/lordsburg-mavericks/basketball/girls/",
+      "region": "2A District 3"
+    },
+    {
+      "teamName": "Mescalero Apache Chiefs",
+      "teamUrl": "https://www.maxpreps.com/nm/mescalero/mescalero-apache-chiefs/basketball/girls/",
+      "region": "2A District 3"
+    },
+    {
+      "teamName": "Cloudcroft Bears",
+      "teamUrl": "https://www.maxpreps.com/nm/cloudcroft/cloudcroft-bears/basketball/girls/",
+      "region": "2A District 3"
+    },
+    {
+      "teamName": "Capitan Tigers",
+      "teamUrl": "https://www.maxpreps.com/nm/capitan/capitan-tigers/basketball/girls/",
+      "region": "2A District 3"
+    },
+    {
+      "teamName": "Mesilla Valley Christian School Sonblazers",
+      "teamUrl": "https://www.maxpreps.com/nm/las-cruces/mesilla-valley-christian-school-sonblazers/basketball/girls/",
+      "region": "2A District 3"
+    },
+    {
+      "teamName": "Melrose Buffaloes",
+      "teamUrl": "https://www.maxpreps.com/nm/melrose/melrose-buffaloes/basketball/girls/",
+      "region": "A District 4"
+    },
+    {
+      "teamName": "Elida Tigers",
+      "teamUrl": "https://www.maxpreps.com/nm/elida/elida-tigers/basketball/girls/",
+      "region": "A District 4"
+    },
+    {
+      "teamName": "Dora Coyotes",
+      "teamUrl": "https://www.maxpreps.com/nm/dora/dora-coyotes/basketball/girls/",
+      "region": "A District 4"
+    },
+    {
+      "teamName": "Gateway Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/nm/roswell/gateway-christian-warriors/basketball/girls/",
+      "region": "A District 4"
+    },
+    {
+      "teamName": "Floyd Broncos",
+      "teamUrl": "https://www.maxpreps.com/nm/floyd/floyd-broncos/basketball/girls/",
+      "region": "A District 4"
+    },
+    {
+      "teamName": "Lake Arthur Panthers",
+      "teamUrl": "https://www.maxpreps.com/nm/lake-arthur/lake-arthur-panthers/basketball/girls/",
+      "region": "A District 4"
+    },
+    {
+      "teamName": "Albuquerque Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/albuquerque-bulldogs/basketball/girls/",
+      "region": "5A District 5"
+    },
+    {
+      "teamName": "Los Lunas Tigers",
+      "teamUrl": "https://www.maxpreps.com/nm/los-lunas/los-lunas-tigers/basketball/girls/",
+      "region": "5A District 5"
+    },
+    {
+      "teamName": "Rio Grande Ravens",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/rio-grande-ravens/basketball/girls/",
+      "region": "5A District 5"
+    },
+    {
+      "teamName": "West Mesa Mustangs",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/west-mesa-mustangs/basketball/girls/",
+      "region": "5A District 5"
+    },
+    {
+      "teamName": "Atrisco Heritage Academy Jaguars",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/atrisco-heritage-academy-jaguars/basketball/girls/",
+      "region": "5A District 5"
+    },
+    {
+      "teamName": "Kirtland Central Broncos",
+      "teamUrl": "https://www.maxpreps.com/nm/kirtland/kirtland-central-broncos/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "Gallup Bengals",
+      "teamUrl": "https://www.maxpreps.com/nm/gallup/gallup-bengals/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "Shiprock Chieftains",
+      "teamUrl": "https://www.maxpreps.com/nm/shiprock/shiprock-chieftains/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "Aztec Tigers",
+      "teamUrl": "https://www.maxpreps.com/nm/aztec/aztec-tigers/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "Miyamura Patriots",
+      "teamUrl": "https://www.maxpreps.com/nm/gallup/miyamura-patriots/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "Bloomfield Bobcats",
+      "teamUrl": "https://www.maxpreps.com/nm/bloomfield/bloomfield-bobcats/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "Santa Fe Indian Braves And Lady Braves",
+      "teamUrl": "https://www.maxpreps.com/nm/santa-fe/santa-fe-indian-braves-and-lady-braves/basketball/girls/",
+      "region": "3A District 2"
+    },
+    {
+      "teamName": "Robertson Cardinals",
+      "teamUrl": "https://www.maxpreps.com/nm/las-vegas/robertson-cardinals/basketball/girls/",
+      "region": "3A District 2"
+    },
+    {
+      "teamName": "St Michaels Horsemen",
+      "teamUrl": "https://www.maxpreps.com/nm/santa-fe/st-michaels-horsemen/basketball/girls/",
+      "region": "3A District 2"
+    },
+    {
+      "teamName": "West Las Vegas Dons",
+      "teamUrl": "https://www.maxpreps.com/nm/las-vegas/west-las-vegas-dons/basketball/girls/",
+      "region": "3A District 2"
+    },
+    {
+      "teamName": "Academy For Technology And The Classics",
+      "teamUrl": "https://www.maxpreps.com/nm/santa-fe/academy-for-technology-and-the-classics/basketball/girls/",
+      "region": "3A District 2"
+    },
+    {
+      "teamName": "Santa Fe Prep Blue Griffin",
+      "teamUrl": "https://www.maxpreps.com/nm/santa-fe/santa-fe-prep-blue-griffin/basketball/girls/",
+      "region": "3A District 2"
+    },
+    {
+      "teamName": "Albuquerque Homeschool Saints",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/albuquerque-homeschool-saints/basketball/girls/",
+      "region": "Albuquerque Charter"
+    },
+    {
+      "teamName": "Chesterton Academy Saints",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/chesterton-academy-saints/basketball/girls/",
+      "region": "Albuquerque Charter"
+    },
+    {
+      "teamName": "Sandia View Academy",
+      "teamUrl": "https://www.maxpreps.com/nm/corrales/sandia-view-academy/basketball/girls/",
+      "region": "Albuquerque Charter"
+    },
+    {
+      "teamName": "Laguna Acoma Hawks",
+      "teamUrl": "https://www.maxpreps.com/nm/new-laguna/laguna-acoma-hawks/basketball/girls/",
+      "region": "2A District 1"
+    },
+    {
+      "teamName": "Ramah Mustangs",
+      "teamUrl": "https://www.maxpreps.com/nm/ramah/ramah-mustangs/basketball/girls/",
+      "region": "2A District 1"
+    },
+    {
+      "teamName": "Rehoboth Christian Lynx",
+      "teamUrl": "https://www.maxpreps.com/nm/rehoboth/rehoboth-christian-lynx/basketball/girls/",
+      "region": "2A District 1"
+    },
+    {
+      "teamName": "Hozho Academy Wolves",
+      "teamUrl": "https://www.maxpreps.com/nm/gallup/hozho-academy-wolves/basketball/girls/",
+      "region": "2A District 1"
+    },
+    {
+      "teamName": "Dulce Hawks",
+      "teamUrl": "https://www.maxpreps.com/nm/dulce/dulce-hawks/basketball/girls/",
+      "region": "2A District 1"
+    },
+    {
+      "teamName": "Navajo Pine Warriors",
+      "teamUrl": "https://www.maxpreps.com/nm/navajo/navajo-pine-warriors/basketball/girls/",
+      "region": "2A District 1"
+    },
+    {
+      "teamName": "Portales Rams",
+      "teamUrl": "https://www.maxpreps.com/nm/portales/portales-rams/basketball/girls/",
+      "region": "4A District 4"
+    },
+    {
+      "teamName": "Lovington Wildcats",
+      "teamUrl": "https://www.maxpreps.com/nm/lovington/lovington-wildcats/basketball/girls/",
+      "region": "4A District 4"
+    },
+    {
+      "teamName": "Artesia Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/nm/artesia/artesia-bulldogs/basketball/girls/",
+      "region": "4A District 4"
+    },
+    {
+      "teamName": "Goddard Rockets",
+      "teamUrl": "https://www.maxpreps.com/nm/roswell/goddard-rockets/basketball/girls/",
+      "region": "4A District 4"
+    },
+    {
+      "teamName": "Silver Slvr Ftg Colts",
+      "teamUrl": "https://www.maxpreps.com/nm/silver-city/silver-slvr-ftg-colts/basketball/girls/",
+      "region": "4A District 3"
+    },
+    {
+      "teamName": "Deming Wildcats",
+      "teamUrl": "https://www.maxpreps.com/nm/deming/deming-wildcats/basketball/girls/",
+      "region": "4A District 3"
+    },
+    {
+      "teamName": "Chaparral Lobos",
+      "teamUrl": "https://www.maxpreps.com/nm/chaparral/chaparral-lobos/basketball/girls/",
+      "region": "4A District 3"
+    },
+    {
+      "teamName": "Santa Teresa Warriors",
+      "teamUrl": "https://www.maxpreps.com/nm/santa-teresa/santa-teresa-warriors/basketball/girls/",
+      "region": "4A District 3"
+    },
+    {
+      "teamName": "Albuquerque Academy Chargers",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/albuquerque-academy-chargers/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "Hope Christian Huskies",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/hope-christian-huskies/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "Bernalillo Spartans",
+      "teamUrl": "https://www.maxpreps.com/nm/bernalillo/bernalillo-spartans/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "Del Norte Knights",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/del-norte-knights/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "Valley Vikings",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/valley-vikings/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "Dexter Demons",
+      "teamUrl": "https://www.maxpreps.com/nm/dexter/dexter-demons/basketball/girls/",
+      "region": "3A District 4"
+    },
+    {
+      "teamName": "Tularosa Wildcats",
+      "teamUrl": "https://www.maxpreps.com/nm/tularosa/tularosa-wildcats/basketball/girls/",
+      "region": "3A District 4"
+    },
+    {
+      "teamName": "Ruidoso Warriors",
+      "teamUrl": "https://www.maxpreps.com/nm/ruidoso/ruidoso-warriors/basketball/girls/",
+      "region": "3A District 4"
+    },
+    {
+      "teamName": "New Mexico Military Institute Colts",
+      "teamUrl": "https://www.maxpreps.com/nm/roswell/new-mexico-military-institute-colts/basketball/girls/",
+      "region": "3A District 4"
+    },
+    {
+      "teamName": "Cliff Cowboys Cowgirls",
+      "teamUrl": "https://www.maxpreps.com/nm/cliff/cliff-cowboys-cowgirls/basketball/girls/",
+      "region": "A District 2"
+    },
+    {
+      "teamName": "Quemado Eagles",
+      "teamUrl": "https://www.maxpreps.com/nm/quemado/quemado-eagles/basketball/girls/",
+      "region": "A District 2"
+    },
+    {
+      "teamName": "Magdalena Steers",
+      "teamUrl": "https://www.maxpreps.com/nm/magdalena/magdalena-steers/basketball/girls/",
+      "region": "A District 2"
+    },
+    {
+      "teamName": "Reserve Mountaineers",
+      "teamUrl": "https://www.maxpreps.com/nm/reserve/reserve-mountaineers/basketball/girls/",
+      "region": "A District 2"
+    },
+    {
+      "teamName": "Animas Panthers",
+      "teamUrl": "https://www.maxpreps.com/nm/animas/animas-panthers/basketball/girls/",
+      "region": "A District 2"
+    },
+    {
+      "teamName": "Valencia Jaguars",
+      "teamUrl": "https://www.maxpreps.com/nm/los-lunas/valencia-jaguars/basketball/girls/",
+      "region": "4A District 5"
+    },
+    {
+      "teamName": "Highland Hornets",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/highland-hornets/basketball/girls/",
+      "region": "4A District 5"
+    },
+    {
+      "teamName": "St Pius X Sartans",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/st-pius-x-sartans/basketball/girls/",
+      "region": "4A District 5"
+    },
+    {
+      "teamName": "Grants Pirates",
+      "teamUrl": "https://www.maxpreps.com/nm/grants/grants-pirates/basketball/girls/",
+      "region": "4A District 5"
+    },
+    {
+      "teamName": "Belen Eagles",
+      "teamUrl": "https://www.maxpreps.com/nm/belen/belen-eagles/basketball/girls/",
+      "region": "4A District 5"
+    },
+    {
+      "teamName": "Espanola Valley Sundevils",
+      "teamUrl": "https://www.maxpreps.com/nm/espanola/espanola-valley-sundevils/basketball/girls/",
+      "region": "4A District 2"
+    },
+    {
+      "teamName": "Pojoaque Valley Elks",
+      "teamUrl": "https://www.maxpreps.com/nm/pojoaque/pojoaque-valley-elks/basketball/girls/",
+      "region": "4A District 2"
+    },
+    {
+      "teamName": "Los Alamos Hilltoppers",
+      "teamUrl": "https://www.maxpreps.com/nm/los-alamos/los-alamos-hilltoppers/basketball/girls/",
+      "region": "4A District 2"
+    },
+    {
+      "teamName": "Taos Tigers",
+      "teamUrl": "https://www.maxpreps.com/nm/taos/taos-tigers/basketball/girls/",
+      "region": "4A District 2"
+    },
+    {
+      "teamName": "Moriarty Pintos",
+      "teamUrl": "https://www.maxpreps.com/nm/moriarty/moriarty-pintos/basketball/girls/",
+      "region": "4A District 2"
+    },
+    {
+      "teamName": "Navajo Prep Fighting Eagles",
+      "teamUrl": "https://www.maxpreps.com/nm/farmington/navajo-prep-fighting-eagles/basketball/girls/",
+      "region": "3A District 1"
+    },
+    {
+      "teamName": "Crownpoint Eagles",
+      "teamUrl": "https://www.maxpreps.com/nm/crownpoint/crownpoint-eagles/basketball/girls/",
+      "region": "3A District 1"
+    },
+    {
+      "teamName": "Newcomb Skyhawks",
+      "teamUrl": "https://www.maxpreps.com/nm/newcomb/newcomb-skyhawks/basketball/girls/",
+      "region": "3A District 1"
+    },
+    {
+      "teamName": "Tohatchi Cougars",
+      "teamUrl": "https://www.maxpreps.com/nm/tohatchi/tohatchi-cougars/basketball/girls/",
+      "region": "3A District 1"
+    },
+    {
+      "teamName": "Zuni Thunderbirds",
+      "teamUrl": "https://www.maxpreps.com/nm/zuni/zuni-thunderbirds/basketball/girls/",
+      "region": "3A District 1"
+    },
+    {
+      "teamName": "Thoreau Hawks",
+      "teamUrl": "https://www.maxpreps.com/nm/thoreau/thoreau-hawks/basketball/girls/",
+      "region": "3A District 1"
+    },
+    {
+      "teamName": "Wingate",
+      "teamUrl": "https://www.maxpreps.com/nm/fort-wingate/wingate/basketball/girls/",
+      "region": "3A District 1"
+    },
+    {
+      "teamName": "Centennial Hawks",
+      "teamUrl": "https://www.maxpreps.com/nm/las-cruces/centennial-hawks/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Las Cruces Bulldawgs",
+      "teamUrl": "https://www.maxpreps.com/nm/las-cruces/las-cruces-bulldawgs/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Mayfield Trojans",
+      "teamUrl": "https://www.maxpreps.com/nm/las-cruces/mayfield-trojans/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Organ Mountain Knights",
+      "teamUrl": "https://www.maxpreps.com/nm/las-cruces/organ-mountain-knights/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Gadsden Panthers",
+      "teamUrl": "https://www.maxpreps.com/nm/anthony/gadsden-panthers/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Alamogordo Tigers",
+      "teamUrl": "https://www.maxpreps.com/nm/alamogordo/alamogordo-tigers/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "East Mountain Timberwolves",
+      "teamUrl": "https://www.maxpreps.com/nm/sandia-park/east-mountain-timberwolves/basketball/girls/",
+      "region": "3A District 5"
+    },
+    {
+      "teamName": "Sandia Prep",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/sandia-prep/basketball/girls/",
+      "region": "3A District 5"
+    },
+    {
+      "teamName": "Cuba Rams",
+      "teamUrl": "https://www.maxpreps.com/nm/cuba/cuba-rams/basketball/girls/",
+      "region": "3A District 5"
+    },
+    {
+      "teamName": "Cottonwood Classical Prep Coyotes",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/cottonwood-classical-prep-coyotes/basketball/girls/",
+      "region": "3A District 5"
+    },
+    {
+      "teamName": "Bosque Bobcats",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/bosque-bobcats/basketball/girls/",
+      "region": "3A District 5"
+    },
+    {
+      "teamName": "Sandia Matadors",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/sandia-matadors/basketball/girls/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "La Cueva Bears",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/la-cueva-bears/basketball/girls/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Santa Fe Demons",
+      "teamUrl": "https://www.maxpreps.com/nm/santa-fe/santa-fe-demons/basketball/girls/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Eldorado Golden Eagles",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/eldorado-golden-eagles/basketball/girls/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Capital Jaguars",
+      "teamUrl": "https://www.maxpreps.com/nm/santa-fe/capital-jaguars/basketball/girls/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Manzano Monarchs",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/manzano-monarchs/basketball/girls/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Cobre Indians",
+      "teamUrl": "https://www.maxpreps.com/nm/bayard/cobre-indians/basketball/girls/",
+      "region": "3A District 3"
+    },
+    {
+      "teamName": "Hot Springs Tigers",
+      "teamUrl": "https://www.maxpreps.com/nm/truth-or-consequences/hot-springs-tigers/basketball/girls/",
+      "region": "3A District 3"
+    },
+    {
+      "teamName": "Hatch Valley Bears",
+      "teamUrl": "https://www.maxpreps.com/nm/hatch/hatch-valley-bears/basketball/girls/",
+      "region": "3A District 3"
+    },
+    {
+      "teamName": "Socorro Warriors",
+      "teamUrl": "https://www.maxpreps.com/nm/socorro/socorro-warriors/basketball/girls/",
+      "region": "3A District 3"
+    },
+    {
+      "teamName": "Fort Sumner House",
+      "teamUrl": "https://www.maxpreps.com/nm/fort-sumner/fort-sumner-house/basketball/girls/",
+      "region": "A District 6"
+    },
+    {
+      "teamName": "Logan Longhorns",
+      "teamUrl": "https://www.maxpreps.com/nm/logan/logan-longhorns/basketball/girls/",
+      "region": "A District 6"
+    },
+    {
+      "teamName": "Grady Bronchos",
+      "teamUrl": "https://www.maxpreps.com/nm/grady/grady-bronchos/basketball/girls/",
+      "region": "A District 6"
+    },
+    {
+      "teamName": "Clovis Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/nm/clovis/clovis-christian-eagles/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "San Jon Coyotes",
+      "teamUrl": "https://www.maxpreps.com/nm/san-jon/san-jon-coyotes/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Walatowa Charter Cougars",
+      "teamUrl": "https://www.maxpreps.com/nm/jemez-pueblo/walatowa-charter-cougars/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Farmington Scorpions",
+      "teamUrl": "https://www.maxpreps.com/nm/farmington/farmington-scorpions/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Rio Rancho Rams",
+      "teamUrl": "https://www.maxpreps.com/nm/rio-rancho/rio-rancho-rams/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Volcano Vista Hawks",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/volcano-vista-hawks/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Cleveland The Storm",
+      "teamUrl": "https://www.maxpreps.com/nm/rio-rancho/cleveland-the-storm/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Piedra Vista Panthers",
+      "teamUrl": "https://www.maxpreps.com/nm/farmington/piedra-vista-panthers/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Cibola Cougars",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/cibola-cougars/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Clayton Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/nm/clayton/clayton-yellowjackets/basketball/girls/",
+      "region": "2A District 6"
+    },
+    {
+      "teamName": "Santa Rosa Lions",
+      "teamUrl": "https://www.maxpreps.com/nm/santa-rosa/santa-rosa-lions/basketball/girls/",
+      "region": "2A District 6"
+    },
+    {
+      "teamName": "Pecos Panthers",
+      "teamUrl": "https://www.maxpreps.com/nm/pecos/pecos-panthers/basketball/girls/",
+      "region": "2A District 6"
+    },
+    {
+      "teamName": "Tucumcari Rattlers",
+      "teamUrl": "https://www.maxpreps.com/nm/tucumcari/tucumcari-rattlers/basketball/girls/",
+      "region": "2A District 6"
+    },
+    {
+      "teamName": "Estancia Bears",
+      "teamUrl": "https://www.maxpreps.com/nm/estancia/estancia-bears/basketball/girls/",
+      "region": "2A District 6"
+    },
+    {
+      "teamName": "Raton Tigers",
+      "teamUrl": "https://www.maxpreps.com/nm/raton/raton-tigers/basketball/girls/",
+      "region": "2A District 6"
+    },
+    {
+      "teamName": "Legacy Academy Silverbacks",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/legacy-academy-silverbacks/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Native American Community Academy Evangel Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/native-american-community-academy-evangel-christian-academy-eagles/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Jemez Valley Warrior",
+      "teamUrl": "https://www.maxpreps.com/nm/jemez-pueblo/jemez-valley-warrior/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Oak Grove Classical Academy Owls",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/oak-grove-classical-academy-owls/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Monte Del Sol Charter Dragons",
+      "teamUrl": "https://www.maxpreps.com/nm/santa-fe/monte-del-sol-charter-dragons/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Menaul Panthers",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/menaul-panthers/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Texico Wolverines",
+      "teamUrl": "https://www.maxpreps.com/nm/texico/texico-wolverines/basketball/girls/",
+      "region": "2A District 4"
+    },
+    {
+      "teamName": "Tatum Coyotes",
+      "teamUrl": "https://www.maxpreps.com/nm/tatum/tatum-coyotes/basketball/girls/",
+      "region": "2A District 4"
+    },
+    {
+      "teamName": "Jal Panthers",
+      "teamUrl": "https://www.maxpreps.com/nm/jal/jal-panthers/basketball/girls/",
+      "region": "2A District 4"
+    },
+    {
+      "teamName": "Eunice Cardinals",
+      "teamUrl": "https://www.maxpreps.com/nm/eunice/eunice-cardinals/basketball/girls/",
+      "region": "2A District 4"
+    },
+    {
+      "teamName": "Loving Falcons",
+      "teamUrl": "https://www.maxpreps.com/nm/loving/loving-falcons/basketball/girls/",
+      "region": "2A District 4"
+    },
+    {
+      "teamName": "Hagerman Bobcats",
+      "teamUrl": "https://www.maxpreps.com/nm/hagerman/hagerman-bobcats/basketball/girls/",
+      "region": "2A District 4"
+    },
+    {
+      "teamName": "Mesa Vista Trojans",
+      "teamUrl": "https://www.maxpreps.com/nm/ojo-caliente/mesa-vista-trojans/basketball/girls/",
+      "region": "2A District 5"
+    },
+    {
+      "teamName": "Penasco Panthers",
+      "teamUrl": "https://www.maxpreps.com/nm/penasco/penasco-panthers/basketball/girls/",
+      "region": "2A District 5"
+    },
+    {
+      "teamName": "Mccurdy Bobcats",
+      "teamUrl": "https://www.maxpreps.com/nm/espanola/mccurdy-bobcats/basketball/girls/",
+      "region": "2A District 5"
+    },
+    {
+      "teamName": "Escalante Lobos",
+      "teamUrl": "https://www.maxpreps.com/nm/tierra-amarilla/escalante-lobos/basketball/girls/",
+      "region": "2A District 5"
+    },
+    {
+      "teamName": "Questa Wildcats",
+      "teamUrl": "https://www.maxpreps.com/nm/questa/questa-wildcats/basketball/girls/",
+      "region": "2A District 5"
+    },
+    {
+      "teamName": "Mora Rangers Rangerettes",
+      "teamUrl": "https://www.maxpreps.com/nm/mora/mora-rangers-rangerettes/basketball/girls/",
+      "region": "2A District 5"
+    },
+    {
+      "teamName": "Alamo Navajo Cougars",
+      "teamUrl": "https://www.maxpreps.com/nm/magdalena/alamo-navajo-cougars/basketball/girls/",
+      "region": "A District 3"
+    },
+    {
+      "teamName": "Hondo Valley Eagles",
+      "teamUrl": "https://www.maxpreps.com/nm/hondo/hondo-valley-eagles/basketball/girls/",
+      "region": "A District 3"
+    },
+    {
+      "teamName": "Mountainair Mustangs",
+      "teamUrl": "https://www.maxpreps.com/nm/mountainair/mountainair-mustangs/basketball/girls/",
+      "region": "A District 3"
+    },
+    {
+      "teamName": "Carrizozo Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/nm/carrizozo/carrizozo-grizzlies/basketball/girls/",
+      "region": "A District 3"
+    },
+    {
+      "teamName": "Corona Cardinals",
+      "teamUrl": "https://www.maxpreps.com/nm/corona/corona-cardinals/basketball/girls/",
+      "region": "A District 3"
+    },
+    {
+      "teamName": "Roy Mosquero Blue Lady Blue",
+      "teamUrl": "https://www.maxpreps.com/nm/roy/roy-mosquero-blue-lady-blue/basketball/girls/",
+      "region": "A District 5"
+    },
+    {
+      "teamName": "Springer Red Devils",
+      "teamUrl": "https://www.maxpreps.com/nm/springer/springer-red-devils/basketball/girls/",
+      "region": "A District 5"
+    },
+    {
+      "teamName": "Des Moines Demons",
+      "teamUrl": "https://www.maxpreps.com/nm/des-moines/des-moines-demons/basketball/girls/",
+      "region": "A District 5"
+    },
+    {
+      "teamName": "Cimarron Rams",
+      "teamUrl": "https://www.maxpreps.com/nm/cimarron/cimarron-rams/basketball/girls/",
+      "region": "A District 5"
+    },
+    {
+      "teamName": "Maxwell Bears",
+      "teamUrl": "https://www.maxpreps.com/nm/maxwell/maxwell-bears/basketball/girls/",
+      "region": "A District 5"
+    },
+    {
+      "teamName": "New Mexico School For The Deaf Roadrunners",
+      "teamUrl": "https://www.maxpreps.com/nm/santa-fe/new-mexico-school-for-the-deaf-roadrunners/basketball/girls/",
+      "region": "A District 5"
+    },
+    {
+      "teamName": "Wagon Mound Trojans",
+      "teamUrl": "https://www.maxpreps.com/nm/wagon-mound/wagon-mound-trojans/basketball/girls/",
+      "region": "A District 5"
+    },
+    {
+      "teamName": "Tohajiilee Warriors",
+      "teamUrl": "https://www.maxpreps.com/nm/tohajiilee/tohajiilee-warriors/basketball/girls/",
+      "region": "A District 1"
+    },
+    {
+      "teamName": "Pine Hill Warriors",
+      "teamUrl": "https://www.maxpreps.com/nm/pine-hill/pine-hill-warriors/basketball/girls/",
+      "region": "A District 1"
+    },
+    {
+      "teamName": "Coronado Leopards",
+      "teamUrl": "https://www.maxpreps.com/nm/gallina/coronado-leopards/basketball/girls/",
+      "region": "A District 1"
+    },
+    {
+      "teamName": "Tse Yi Gai Warriors",
+      "teamUrl": "https://www.maxpreps.com/nm/cuba/tse-yi-gai-warriors/basketball/girls/",
+      "region": "A District 1"
+    },
+    {
+      "teamName": "Northwest Falcons",
+      "teamUrl": "https://www.maxpreps.com/nm/shiprock/northwest-falcons/basketball/girls/",
+      "region": "A District 1"
+    }
+  ]
+}

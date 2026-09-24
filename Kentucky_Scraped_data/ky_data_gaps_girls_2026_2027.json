@@ -1,0 +1,1497 @@
+{
+  "meta": {
+    "state": "Kentucky",
+    "stateCode": "KY",
+    "sport": "Girls Basketball",
+    "season": "2026-2027",
+    "totalTeams": 295,
+    "processedTeamsCount": 0,
+    "processedTeams": [],
+    "totalGamesChecked": 0,
+    "teamsFullBoxScores": 0,
+    "teamsPartialBoxScores": 0,
+    "teamsNoBoxScores": 0,
+    "errors_count": 295,
+    "last_updated": "2026-09-24 12:41:29"
+  },
+  "teamsFullBoxScores": [],
+  "teamsPartialBoxScores": [],
+  "teamsNoBoxScores": [],
+  "errors": [
+    {
+      "teamName": "Crittenden County Rockets",
+      "teamUrl": "https://www.maxpreps.com/ky/marion/crittenden-county-rockets/basketball/girls/",
+      "region": "District 5"
+    },
+    {
+      "teamName": "Lyon County Lyons",
+      "teamUrl": "https://www.maxpreps.com/ky/eddyville/lyon-county-lyons/basketball/girls/",
+      "region": "District 5"
+    },
+    {
+      "teamName": "Trigg County Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/cadiz/trigg-county-wildcats/basketball/girls/",
+      "region": "District 5"
+    },
+    {
+      "teamName": "Livingston Central Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ky/smithland/livingston-central-cardinals/basketball/girls/",
+      "region": "District 5"
+    },
+    {
+      "teamName": "Bluegrass Blazers",
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/bluegrass-blazers/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Cornerstone Christian Academy Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ky/shelbyville/cornerstone-christian-academy-bulldogs/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Grace M James Academy Of Excellence Gems",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/grace-m-james-academy-of-excellence-gems/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Kentucky Christian Knights",
+      "teamUrl": "https://www.maxpreps.com/ky/lawrenceburg/kentucky-christian-knights/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Northside Baptist Christian Lions",
+      "teamUrl": "https://www.maxpreps.com/ky/mayfield/northside-baptist-christian-lions/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Bell County Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ky/pineville/bell-county-bobcats/basketball/girls/",
+      "region": "District 52"
+    },
+    {
+      "teamName": "Harlan County Black Bears",
+      "teamUrl": "https://www.maxpreps.com/ky/harlan/harlan-county-black-bears/basketball/girls/",
+      "region": "District 52"
+    },
+    {
+      "teamName": "Middlesboro Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ky/middlesboro/middlesboro-yellowjackets/basketball/girls/",
+      "region": "District 52"
+    },
+    {
+      "teamName": "Harlan Green Dragons",
+      "teamUrl": "https://www.maxpreps.com/ky/harlan/harlan-green-dragons/basketball/girls/",
+      "region": "District 52"
+    },
+    {
+      "teamName": "Fern Creek Tigers",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/fern-creek-tigers/basketball/girls/",
+      "region": "District 24"
+    },
+    {
+      "teamName": "Mercy Jaguars",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/mercy-jaguars/basketball/girls/",
+      "region": "District 24"
+    },
+    {
+      "teamName": "Jeffersontown Chargers",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/jeffersontown-chargers/basketball/girls/",
+      "region": "District 24"
+    },
+    {
+      "teamName": "Whitefield Academy Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/whitefield-academy-wildcats/basketball/girls/",
+      "region": "District 24"
+    },
+    {
+      "teamName": "Bullitt East Chargers",
+      "teamUrl": "https://www.maxpreps.com/ky/mt-washington/bullitt-east-chargers/basketball/girls/",
+      "region": "District 24"
+    },
+    {
+      "teamName": "Bethlehem Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/bardstown/bethlehem-eagles/basketball/girls/",
+      "region": "District 19"
+    },
+    {
+      "teamName": "Bardstown Tigers",
+      "teamUrl": "https://www.maxpreps.com/ky/bardstown/bardstown-tigers/basketball/girls/",
+      "region": "District 19"
+    },
+    {
+      "teamName": "Nelson County Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ky/bardstown/nelson-county-cardinals/basketball/girls/",
+      "region": "District 19"
+    },
+    {
+      "teamName": "Thomas Nelson Generals",
+      "teamUrl": "https://www.maxpreps.com/ky/bardstown/thomas-nelson-generals/basketball/girls/",
+      "region": "District 19"
+    },
+    {
+      "teamName": "Washington County Commanders",
+      "teamUrl": "https://www.maxpreps.com/ky/springfield/washington-county-commanders/basketball/girls/",
+      "region": "District 19"
+    },
+    {
+      "teamName": "Green County Dragons",
+      "teamUrl": "https://www.maxpreps.com/ky/greensburg/green-county-dragons/basketball/girls/",
+      "region": "District 18"
+    },
+    {
+      "teamName": "Larue County Hawks",
+      "teamUrl": "https://www.maxpreps.com/ky/hodgenville/larue-county-hawks/basketball/girls/",
+      "region": "District 18"
+    },
+    {
+      "teamName": "Hart County Raiders",
+      "teamUrl": "https://www.maxpreps.com/ky/munfordville/hart-county-raiders/basketball/girls/",
+      "region": "District 18"
+    },
+    {
+      "teamName": "Caverna Colonels",
+      "teamUrl": "https://www.maxpreps.com/ky/horse-cave/caverna-colonels/basketball/girls/",
+      "region": "District 18"
+    },
+    {
+      "teamName": "Rockcastle County Rockets",
+      "teamUrl": "https://www.maxpreps.com/ky/mt-vernon/rockcastle-county-rockets/basketball/girls/",
+      "region": "District 47"
+    },
+    {
+      "teamName": "Pulaski County Maroons",
+      "teamUrl": "https://www.maxpreps.com/ky/somerset/pulaski-county-maroons/basketball/girls/",
+      "region": "District 47"
+    },
+    {
+      "teamName": "Casey County Rebels",
+      "teamUrl": "https://www.maxpreps.com/ky/liberty/casey-county-rebels/basketball/girls/",
+      "region": "District 47"
+    },
+    {
+      "teamName": "Somerset Briar Jumpers",
+      "teamUrl": "https://www.maxpreps.com/ky/somerset/somerset-briar-jumpers/basketball/girls/",
+      "region": "District 47"
+    },
+    {
+      "teamName": "Christian County Colonels",
+      "teamUrl": "https://www.maxpreps.com/ky/hopkinsville/christian-county-colonels/basketball/girls/",
+      "region": "District 8"
+    },
+    {
+      "teamName": "Hopkinsville Tigers",
+      "teamUrl": "https://www.maxpreps.com/ky/hopkinsville/hopkinsville-tigers/basketball/girls/",
+      "region": "District 8"
+    },
+    {
+      "teamName": "Heritage Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/hopkinsville/heritage-christian-academy-eagles/basketball/girls/",
+      "region": "District 8"
+    },
+    {
+      "teamName": "Fort Campbell Falcons",
+      "teamUrl": "https://www.maxpreps.com/ky/fort-campbell/fort-campbell-falcons/basketball/girls/",
+      "region": "District 8"
+    },
+    {
+      "teamName": "University Heights Blazers",
+      "teamUrl": "https://www.maxpreps.com/ky/hopkinsville/university-heights-blazers/basketball/girls/",
+      "region": "District 8"
+    },
+    {
+      "teamName": "Madison Southern Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/berea/madison-southern-eagles/basketball/girls/",
+      "region": "District 44"
+    },
+    {
+      "teamName": "Madison Central Indians",
+      "teamUrl": "https://www.maxpreps.com/ky/richmond/madison-central-indians/basketball/girls/",
+      "region": "District 44"
+    },
+    {
+      "teamName": "Berea Pirates",
+      "teamUrl": "https://www.maxpreps.com/ky/berea/berea-pirates/basketball/girls/",
+      "region": "District 44"
+    },
+    {
+      "teamName": "Model Patriots",
+      "teamUrl": "https://www.maxpreps.com/ky/richmond/model-patriots/basketball/girls/",
+      "region": "District 44"
+    },
+    {
+      "teamName": "Cumberland County Panthers",
+      "teamUrl": "https://www.maxpreps.com/ky/burkesville/cumberland-county-panthers/basketball/girls/",
+      "region": "District 16"
+    },
+    {
+      "teamName": "Monroe County Falcons",
+      "teamUrl": "https://www.maxpreps.com/ky/tompkinsville/monroe-county-falcons/basketball/girls/",
+      "region": "District 16"
+    },
+    {
+      "teamName": "Metcalfe County Hornets",
+      "teamUrl": "https://www.maxpreps.com/ky/edmonton/metcalfe-county-hornets/basketball/girls/",
+      "region": "District 16"
+    },
+    {
+      "teamName": "Russell County Lakers",
+      "teamUrl": "https://www.maxpreps.com/ky/russell-springs/russell-county-lakers/basketball/girls/",
+      "region": "District 16"
+    },
+    {
+      "teamName": "Clinton County Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ky/albany/clinton-county-bulldogs/basketball/girls/",
+      "region": "District 16"
+    },
+    {
+      "teamName": "Johnson Central Golden Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/paintsville/johnson-central-golden-eagles/basketball/girls/",
+      "region": "District 57"
+    },
+    {
+      "teamName": "Paintsville Tigers",
+      "teamUrl": "https://www.maxpreps.com/ky/paintsville/paintsville-tigers/basketball/girls/",
+      "region": "District 57"
+    },
+    {
+      "teamName": "Martin County Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ky/inez/martin-county-cardinals/basketball/girls/",
+      "region": "District 57"
+    },
+    {
+      "teamName": "Magoffin County Hornets",
+      "teamUrl": "https://www.maxpreps.com/ky/salyersville/magoffin-county-hornets/basketball/girls/",
+      "region": "District 57"
+    },
+    {
+      "teamName": "Portland Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/portland-christian-eagles/basketball/girls/",
+      "region": "District 25"
+    },
+    {
+      "teamName": "Central Yellow Jackets",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/central-yellow-jackets/basketball/girls/",
+      "region": "District 25"
+    },
+    {
+      "teamName": "Dupont Manual Crimsons",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/dupont-manual-crimsons/basketball/girls/",
+      "region": "District 25"
+    },
+    {
+      "teamName": "Francis Parker Wyverns",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/francis-parker-wyverns/basketball/girls/",
+      "region": "District 25"
+    },
+    {
+      "teamName": "Shawnee Golden Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/shawnee-golden-eagles/basketball/girls/",
+      "region": "District 25"
+    },
+    {
+      "teamName": "Presentation Toppers",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/presentation-toppers/basketball/girls/",
+      "region": "District 25"
+    },
+    {
+      "teamName": "West Jessamine Colts",
+      "teamUrl": "https://www.maxpreps.com/ky/nicholasville/west-jessamine-colts/basketball/girls/",
+      "region": "District 46"
+    },
+    {
+      "teamName": "Burgin Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ky/burgin/burgin-bulldogs/basketball/girls/",
+      "region": "District 46"
+    },
+    {
+      "teamName": "Mercer County Titans",
+      "teamUrl": "https://www.maxpreps.com/ky/harrodsburg/mercer-county-titans/basketball/girls/",
+      "region": "District 46"
+    },
+    {
+      "teamName": "East Jessamine Jaguars",
+      "teamUrl": "https://www.maxpreps.com/ky/nicholasville/east-jessamine-jaguars/basketball/girls/",
+      "region": "District 46"
+    },
+    {
+      "teamName": "Trinity Christian Academy Titans",
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/trinity-christian-academy-titans/basketball/girls/",
+      "region": "District 46"
+    },
+    {
+      "teamName": "Breckinridge County Fighting Tigers",
+      "teamUrl": "https://www.maxpreps.com/ky/harned/breckinridge-county-fighting-tigers/basketball/girls/",
+      "region": "District 11"
+    },
+    {
+      "teamName": "Meade County Green Waves",
+      "teamUrl": "https://www.maxpreps.com/ky/brandenburg/meade-county-green-waves/basketball/girls/",
+      "region": "District 11"
+    },
+    {
+      "teamName": "Hancock County Hornets",
+      "teamUrl": "https://www.maxpreps.com/ky/lewisport/hancock-county-hornets/basketball/girls/",
+      "region": "District 11"
+    },
+    {
+      "teamName": "Cloverport Aces",
+      "teamUrl": "https://www.maxpreps.com/ky/cloverport/cloverport-aces/basketball/girls/",
+      "region": "District 11"
+    },
+    {
+      "teamName": "Frederick Douglass Broncos",
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/frederick-douglass-broncos/basketball/girls/",
+      "region": "District 42"
+    },
+    {
+      "teamName": "Henry Clay Blue Devils",
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/henry-clay-blue-devils/basketball/girls/",
+      "region": "District 42"
+    },
+    {
+      "teamName": "Bryan Station Defenders",
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/bryan-station-defenders/basketball/girls/",
+      "region": "District 42"
+    },
+    {
+      "teamName": "Scott County Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ky/georgetown/scott-county-cardinals/basketball/girls/",
+      "region": "District 42"
+    },
+    {
+      "teamName": "Sayre Spartans",
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/sayre-spartans/basketball/girls/",
+      "region": "District 42"
+    },
+    {
+      "teamName": "Mccracken County Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ky/paducah/mccracken-county-mustangs/basketball/girls/",
+      "region": "District 2"
+    },
+    {
+      "teamName": "St Mary Vikings",
+      "teamUrl": "https://www.maxpreps.com/ky/paducah/st-mary-vikings/basketball/girls/",
+      "region": "District 2"
+    },
+    {
+      "teamName": "Paducah Tilghman Blue Tornado",
+      "teamUrl": "https://www.maxpreps.com/ky/paducah/paducah-tilghman-blue-tornado/basketball/girls/",
+      "region": "District 2"
+    },
+    {
+      "teamName": "Community Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/ky/paducah/community-christian-warriors/basketball/girls/",
+      "region": "District 2"
+    },
+    {
+      "teamName": "Hopkins County Central Storm",
+      "teamUrl": "https://www.maxpreps.com/ky/madisonville/hopkins-county-central-storm/basketball/girls/",
+      "region": "District 7"
+    },
+    {
+      "teamName": "Caldwell County Tigers",
+      "teamUrl": "https://www.maxpreps.com/ky/princeton/caldwell-county-tigers/basketball/girls/",
+      "region": "District 7"
+    },
+    {
+      "teamName": "Madisonville North Hopkins Maroons",
+      "teamUrl": "https://www.maxpreps.com/ky/madisonville/madisonville-north-hopkins-maroons/basketball/girls/",
+      "region": "District 7"
+    },
+    {
+      "teamName": "Dawson Springs Panthers",
+      "teamUrl": "https://www.maxpreps.com/ky/dawson-springs/dawson-springs-panthers/basketball/girls/",
+      "region": "District 7"
+    },
+    {
+      "teamName": "Estill County Engineers",
+      "teamUrl": "https://www.maxpreps.com/ky/irvine/estill-county-engineers/basketball/girls/",
+      "region": "District 56"
+    },
+    {
+      "teamName": "Owsley County Owls Lady Owls",
+      "teamUrl": "https://www.maxpreps.com/ky/booneville/owsley-county-owls-lady-owls/basketball/girls/",
+      "region": "District 56"
+    },
+    {
+      "teamName": "Powell County Pirates",
+      "teamUrl": "https://www.maxpreps.com/ky/stanton/powell-county-pirates/basketball/girls/",
+      "region": "District 56"
+    },
+    {
+      "teamName": "Lee County Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ky/beattyville/lee-county-bobcats/basketball/girls/",
+      "region": "District 56"
+    },
+    {
+      "teamName": "Blazer Tomcats",
+      "teamUrl": "https://www.maxpreps.com/ky/ashland/blazer-tomcats/basketball/girls/",
+      "region": "District 64"
+    },
+    {
+      "teamName": "Boyd County Lions",
+      "teamUrl": "https://www.maxpreps.com/ky/ashland/boyd-county-lions/basketball/girls/",
+      "region": "District 64"
+    },
+    {
+      "teamName": "Fairview Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/ashland/fairview-eagles/basketball/girls/",
+      "region": "District 64"
+    },
+    {
+      "teamName": "Rose Hill Christian Royals",
+      "teamUrl": "https://www.maxpreps.com/ky/ashland/rose-hill-christian-royals/basketball/girls/",
+      "region": "District 64"
+    },
+    {
+      "teamName": "Southwestern Warriors",
+      "teamUrl": "https://www.maxpreps.com/ky/somerset/southwestern-warriors/basketball/girls/",
+      "region": "District 48"
+    },
+    {
+      "teamName": "Wayne County Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ky/monticello/wayne-county-cardinals/basketball/girls/",
+      "region": "District 48"
+    },
+    {
+      "teamName": "Mccreary Central Raiders",
+      "teamUrl": "https://www.maxpreps.com/ky/stearns/mccreary-central-raiders/basketball/girls/",
+      "region": "District 48"
+    },
+    {
+      "teamName": "Somerset Christian Cougars",
+      "teamUrl": "https://www.maxpreps.com/ky/somerset/somerset-christian-cougars/basketball/girls/",
+      "region": "District 48"
+    },
+    {
+      "teamName": "Boyle County Rebels",
+      "teamUrl": "https://www.maxpreps.com/ky/danville/boyle-county-rebels/basketball/girls/",
+      "region": "District 45"
+    },
+    {
+      "teamName": "Danville Christian Academy Warriors",
+      "teamUrl": "https://www.maxpreps.com/ky/danville/danville-christian-academy-warriors/basketball/girls/",
+      "region": "District 45"
+    },
+    {
+      "teamName": "Lincoln County Patriots",
+      "teamUrl": "https://www.maxpreps.com/ky/stanford/lincoln-county-patriots/basketball/girls/",
+      "region": "District 45"
+    },
+    {
+      "teamName": "Danville Admirals",
+      "teamUrl": "https://www.maxpreps.com/ky/danville/danville-admirals/basketball/girls/",
+      "region": "District 45"
+    },
+    {
+      "teamName": "Garrard County Golden Lions",
+      "teamUrl": "https://www.maxpreps.com/ky/lancaster/garrard-county-golden-lions/basketball/girls/",
+      "region": "District 45"
+    },
+    {
+      "teamName": "Kentucky School For The Deaf Colonels",
+      "teamUrl": "https://www.maxpreps.com/ky/danville/kentucky-school-for-the-deaf-colonels/basketball/girls/",
+      "region": "District 45"
+    },
+    {
+      "teamName": "Franklin County Flyers",
+      "teamUrl": "https://www.maxpreps.com/ky/frankfort/franklin-county-flyers/basketball/girls/",
+      "region": "District 41"
+    },
+    {
+      "teamName": "Western Hills Wolverines",
+      "teamUrl": "https://www.maxpreps.com/ky/frankfort/western-hills-wolverines/basketball/girls/",
+      "region": "District 41"
+    },
+    {
+      "teamName": "Great Crossing Warhawks",
+      "teamUrl": "https://www.maxpreps.com/ky/georgetown/great-crossing-warhawks/basketball/girls/",
+      "region": "District 41"
+    },
+    {
+      "teamName": "Frankfort Panthers",
+      "teamUrl": "https://www.maxpreps.com/ky/frankfort/frankfort-panthers/basketball/girls/",
+      "region": "District 41"
+    },
+    {
+      "teamName": "Frankfort Christian Academy Royals",
+      "teamUrl": "https://www.maxpreps.com/ky/frankfort/frankfort-christian-academy-royals/basketball/girls/",
+      "region": "District 41"
+    },
+    {
+      "teamName": "Lafayette Generals",
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/lafayette-generals/basketball/girls/",
+      "region": "District 43"
+    },
+    {
+      "teamName": "Paul Laurence Dunbar Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/paul-laurence-dunbar-bulldogs/basketball/girls/",
+      "region": "District 43"
+    },
+    {
+      "teamName": "Lexington Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/lexington-christian-eagles/basketball/girls/",
+      "region": "District 43"
+    },
+    {
+      "teamName": "Tates Creek Commodores",
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/tates-creek-commodores/basketball/girls/",
+      "region": "District 43"
+    },
+    {
+      "teamName": "Lexington Catholic Knights",
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/lexington-catholic-knights/basketball/girls/",
+      "region": "District 43"
+    },
+    {
+      "teamName": "Spencer County Bears",
+      "teamUrl": "https://www.maxpreps.com/ky/taylorsville/spencer-county-bears/basketball/girls/",
+      "region": "District 30"
+    },
+    {
+      "teamName": "Anderson County Bearcats",
+      "teamUrl": "https://www.maxpreps.com/ky/lawrenceburg/anderson-county-bearcats/basketball/girls/",
+      "region": "District 30"
+    },
+    {
+      "teamName": "Woodford County Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ky/versailles/woodford-county-yellowjackets/basketball/girls/",
+      "region": "District 30"
+    },
+    {
+      "teamName": "Collins Titans",
+      "teamUrl": "https://www.maxpreps.com/ky/shelbyville/collins-titans/basketball/girls/",
+      "region": "District 30"
+    },
+    {
+      "teamName": "Shelby County Rockets",
+      "teamUrl": "https://www.maxpreps.com/ky/shelbyville/shelby-county-rockets/basketball/girls/",
+      "region": "District 30"
+    },
+    {
+      "teamName": "George Rogers Clark Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ky/winchester/george-rogers-clark-cardinals/basketball/girls/",
+      "region": "District 40"
+    },
+    {
+      "teamName": "Montgomery County Indians",
+      "teamUrl": "https://www.maxpreps.com/ky/mt-sterling/montgomery-county-indians/basketball/girls/",
+      "region": "District 40"
+    },
+    {
+      "teamName": "Paris Greyhounds",
+      "teamUrl": "https://www.maxpreps.com/ky/paris/paris-greyhounds/basketball/girls/",
+      "region": "District 40"
+    },
+    {
+      "teamName": "Bourbon County Colonels",
+      "teamUrl": "https://www.maxpreps.com/ky/paris/bourbon-county-colonels/basketball/girls/",
+      "region": "District 40"
+    },
+    {
+      "teamName": "Highlands Bluebirds",
+      "teamUrl": "https://www.maxpreps.com/ky/fort-thomas/highlands-bluebirds/basketball/girls/",
+      "region": "District 36"
+    },
+    {
+      "teamName": "Newport Central Catholic Thoroughbreds",
+      "teamUrl": "https://www.maxpreps.com/ky/newport/newport-central-catholic-thoroughbreds/basketball/girls/",
+      "region": "District 36"
+    },
+    {
+      "teamName": "Bellevue Tigers",
+      "teamUrl": "https://www.maxpreps.com/ky/bellevue/bellevue-tigers/basketball/girls/",
+      "region": "District 36"
+    },
+    {
+      "teamName": "Dayton Greendevils",
+      "teamUrl": "https://www.maxpreps.com/ky/dayton/dayton-greendevils/basketball/girls/",
+      "region": "District 36"
+    },
+    {
+      "teamName": "Newport Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/newport/newport-wildcats/basketball/girls/",
+      "region": "District 36"
+    },
+    {
+      "teamName": "Edmonson County Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/brownsville/edmonson-county-wildcats/basketball/girls/",
+      "region": "District 12"
+    },
+    {
+      "teamName": "Grayson County Cougars",
+      "teamUrl": "https://www.maxpreps.com/ky/leitchfield/grayson-county-cougars/basketball/girls/",
+      "region": "District 12"
+    },
+    {
+      "teamName": "Butler County Bears",
+      "teamUrl": "https://www.maxpreps.com/ky/morgantown/butler-county-bears/basketball/girls/",
+      "region": "District 12"
+    },
+    {
+      "teamName": "Trinity Raiders",
+      "teamUrl": "https://www.maxpreps.com/ky/whitesville/trinity-raiders/basketball/girls/",
+      "region": "District 12"
+    },
+    {
+      "teamName": "Bowling Green Purples",
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/bowling-green-purples/basketball/girls/",
+      "region": "District 14"
+    },
+    {
+      "teamName": "Greenwood Gators",
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/greenwood-gators/basketball/girls/",
+      "region": "District 14"
+    },
+    {
+      "teamName": "South Warren Spartans",
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/south-warren-spartans/basketball/girls/",
+      "region": "District 14"
+    },
+    {
+      "teamName": "Warren Central Dragons",
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/warren-central-dragons/basketball/girls/",
+      "region": "District 14"
+    },
+    {
+      "teamName": "Foundation Christian Academy Falcons",
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/foundation-christian-academy-falcons/basketball/girls/",
+      "region": "District 14"
+    },
+    {
+      "teamName": "Belfry Pirates",
+      "teamUrl": "https://www.maxpreps.com/ky/belfry/belfry-pirates/basketball/girls/",
+      "region": "District 60"
+    },
+    {
+      "teamName": "Pike County Central Hawks",
+      "teamUrl": "https://www.maxpreps.com/ky/pikeville/pike-county-central-hawks/basketball/girls/",
+      "region": "District 60"
+    },
+    {
+      "teamName": "Phelps Hornets",
+      "teamUrl": "https://www.maxpreps.com/ky/phelps/phelps-hornets/basketball/girls/",
+      "region": "District 60"
+    },
+    {
+      "teamName": "Butler Bears",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/butler-bears/basketball/girls/",
+      "region": "District 22"
+    },
+    {
+      "teamName": "Doss Dragons",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/doss-dragons/basketball/girls/",
+      "region": "District 22"
+    },
+    {
+      "teamName": "Iroquois Raiders",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/iroquois-raiders/basketball/girls/",
+      "region": "District 22"
+    },
+    {
+      "teamName": "Western Warriors",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/western-warriors/basketball/girls/",
+      "region": "District 22"
+    },
+    {
+      "teamName": "Desales Colts",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/desales-colts/basketball/girls/",
+      "region": "District 22"
+    },
+    {
+      "teamName": "Knox Central Panthers",
+      "teamUrl": "https://www.maxpreps.com/ky/barbourville/knox-central-panthers/basketball/girls/",
+      "region": "District 51"
+    },
+    {
+      "teamName": "Pineville Mountain Lions",
+      "teamUrl": "https://www.maxpreps.com/ky/pineville/pineville-mountain-lions/basketball/girls/",
+      "region": "District 51"
+    },
+    {
+      "teamName": "Barbourville Tigers",
+      "teamUrl": "https://www.maxpreps.com/ky/barbourville/barbourville-tigers/basketball/girls/",
+      "region": "District 51"
+    },
+    {
+      "teamName": "Lynn Camp Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/corbin/lynn-camp-wildcats/basketball/girls/",
+      "region": "District 51"
+    },
+    {
+      "teamName": "Dixie Heights Colonels",
+      "teamUrl": "https://www.maxpreps.com/ky/edgewood/dixie-heights-colonels/basketball/girls/",
+      "region": "District 34"
+    },
+    {
+      "teamName": "St Henry Crusaders",
+      "teamUrl": "https://www.maxpreps.com/ky/erlanger/st-henry-crusaders/basketball/girls/",
+      "region": "District 34"
+    },
+    {
+      "teamName": "Lloyd Memorial Juggernauts",
+      "teamUrl": "https://www.maxpreps.com/ky/erlanger/lloyd-memorial-juggernauts/basketball/girls/",
+      "region": "District 34"
+    },
+    {
+      "teamName": "Ludlow Panthers",
+      "teamUrl": "https://www.maxpreps.com/ky/ludlow/ludlow-panthers/basketball/girls/",
+      "region": "District 34"
+    },
+    {
+      "teamName": "Villa Madonna Vikings",
+      "teamUrl": "https://www.maxpreps.com/ky/covington/villa-madonna-vikings/basketball/girls/",
+      "region": "District 34"
+    },
+    {
+      "teamName": "Assumption Rockets",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/assumption-rockets/basketball/girls/",
+      "region": "District 26"
+    },
+    {
+      "teamName": "Male Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/male-bulldogs/basketball/girls/",
+      "region": "District 26"
+    },
+    {
+      "teamName": "Louisville Collegiate Amazons And Titans",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/louisville-collegiate-amazons-and-titans/basketball/girls/",
+      "region": "District 26"
+    },
+    {
+      "teamName": "Brown Bears",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/brown-bears/basketball/girls/",
+      "region": "District 26"
+    },
+    {
+      "teamName": "St Xavier Tigers",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/st-xavier-tigers/basketball/girls/",
+      "region": "District 26"
+    },
+    {
+      "teamName": "Web Dubois Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/web-dubois-academy-lions/basketball/girls/",
+      "region": "District 26"
+    },
+    {
+      "teamName": "Owen County Rebels",
+      "teamUrl": "https://www.maxpreps.com/ky/owenton/owen-county-rebels/basketball/girls/",
+      "region": "District 31"
+    },
+    {
+      "teamName": "Gallatin County Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/warsaw/gallatin-county-wildcats/basketball/girls/",
+      "region": "District 31"
+    },
+    {
+      "teamName": "Eminence Warriors",
+      "teamUrl": "https://www.maxpreps.com/ky/eminence/eminence-warriors/basketball/girls/",
+      "region": "District 31"
+    },
+    {
+      "teamName": "Trimble County Raiders",
+      "teamUrl": "https://www.maxpreps.com/ky/bedford/trimble-county-raiders/basketball/girls/",
+      "region": "District 31"
+    },
+    {
+      "teamName": "Henry County Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/new-castle/henry-county-wildcats/basketball/girls/",
+      "region": "District 31"
+    },
+    {
+      "teamName": "Carroll County Panthers",
+      "teamUrl": "https://www.maxpreps.com/ky/carrollton/carroll-county-panthers/basketball/girls/",
+      "region": "District 31"
+    },
+    {
+      "teamName": "Knott County Central Patriots",
+      "teamUrl": "https://www.maxpreps.com/ky/hindman/knott-county-central-patriots/basketball/girls/",
+      "region": "District 53"
+    },
+    {
+      "teamName": "Letcher County Central Cougars Lady Cougars",
+      "teamUrl": "https://www.maxpreps.com/ky/whitesburg/letcher-county-central-cougars-lady-cougars/basketball/girls/",
+      "region": "District 53"
+    },
+    {
+      "teamName": "June Buchanan Crusaders",
+      "teamUrl": "https://www.maxpreps.com/ky/pippa-passes/june-buchanan-crusaders/basketball/girls/",
+      "region": "District 53"
+    },
+    {
+      "teamName": "Jenkins Cavaliers",
+      "teamUrl": "https://www.maxpreps.com/ky/jenkins/jenkins-cavaliers/basketball/girls/",
+      "region": "District 53"
+    },
+    {
+      "teamName": "Cordia Lions",
+      "teamUrl": "https://www.maxpreps.com/ky/hazard/cordia-lions/basketball/girls/",
+      "region": "District 53"
+    },
+    {
+      "teamName": "Calloway County Lakers",
+      "teamUrl": "https://www.maxpreps.com/ky/murray/calloway-county-lakers/basketball/girls/",
+      "region": "District 4"
+    },
+    {
+      "teamName": "Marshall County Marshalls",
+      "teamUrl": "https://www.maxpreps.com/ky/benton/marshall-county-marshalls/basketball/girls/",
+      "region": "District 4"
+    },
+    {
+      "teamName": "Murray Tigers",
+      "teamUrl": "https://www.maxpreps.com/ky/murray/murray-tigers/basketball/girls/",
+      "region": "District 4"
+    },
+    {
+      "teamName": "Christian Fellowship Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/benton/christian-fellowship-eagles/basketball/girls/",
+      "region": "District 4"
+    },
+    {
+      "teamName": "Taylor County Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ky/campbellsville/taylor-county-cardinals/basketball/girls/",
+      "region": "District 20"
+    },
+    {
+      "teamName": "Campbellsville Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/campbellsville/campbellsville-eagles/basketball/girls/",
+      "region": "District 20"
+    },
+    {
+      "teamName": "Adair County Indians",
+      "teamUrl": "https://www.maxpreps.com/ky/columbia/adair-county-indians/basketball/girls/",
+      "region": "District 20"
+    },
+    {
+      "teamName": "Marion County Knights",
+      "teamUrl": "https://www.maxpreps.com/ky/lebanon/marion-county-knights/basketball/girls/",
+      "region": "District 20"
+    },
+    {
+      "teamName": "North Laurel Jaguars",
+      "teamUrl": "https://www.maxpreps.com/ky/london/north-laurel-jaguars/basketball/girls/",
+      "region": "District 49"
+    },
+    {
+      "teamName": "Clay County Tigers",
+      "teamUrl": "https://www.maxpreps.com/ky/manchester/clay-county-tigers/basketball/girls/",
+      "region": "District 49"
+    },
+    {
+      "teamName": "Oneida Baptist Institute Mountanieers",
+      "teamUrl": "https://www.maxpreps.com/ky/oneida/oneida-baptist-institute-mountanieers/basketball/girls/",
+      "region": "District 49"
+    },
+    {
+      "teamName": "Jackson County Generals",
+      "teamUrl": "https://www.maxpreps.com/ky/mckee/jackson-county-generals/basketball/girls/",
+      "region": "District 49"
+    },
+    {
+      "teamName": "Red Bird Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ky/beverly/red-bird-cardinals/basketball/girls/",
+      "region": "District 49"
+    },
+    {
+      "teamName": "North Hardin Trojans",
+      "teamUrl": "https://www.maxpreps.com/ky/radcliff/north-hardin-trojans/basketball/girls/",
+      "region": "District 17"
+    },
+    {
+      "teamName": "Elizabethtown Panthers",
+      "teamUrl": "https://www.maxpreps.com/ky/elizabethtown/elizabethtown-panthers/basketball/girls/",
+      "region": "District 17"
+    },
+    {
+      "teamName": "John Hardin Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ky/elizabethtown/john-hardin-bulldogs/basketball/girls/",
+      "region": "District 17"
+    },
+    {
+      "teamName": "Central Hardin Bruins",
+      "teamUrl": "https://www.maxpreps.com/ky/cecilia/central-hardin-bruins/basketball/girls/",
+      "region": "District 17"
+    },
+    {
+      "teamName": "Fort Knox Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/fort-knox/fort-knox-eagles/basketball/girls/",
+      "region": "District 17"
+    },
+    {
+      "teamName": "North Hardin Christian Falcons",
+      "teamUrl": "https://www.maxpreps.com/ky/radcliff/north-hardin-christian-falcons/basketball/girls/",
+      "region": "District 17"
+    },
+    {
+      "teamName": "Pikeville Panthers",
+      "teamUrl": "https://www.maxpreps.com/ky/pikeville/pikeville-panthers/basketball/girls/",
+      "region": "District 59"
+    },
+    {
+      "teamName": "Shelby Valley Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/pikeville/shelby-valley-wildcats/basketball/girls/",
+      "region": "District 59"
+    },
+    {
+      "teamName": "East Ridge Warriors",
+      "teamUrl": "https://www.maxpreps.com/ky/lick-creek/east-ridge-warriors/basketball/girls/",
+      "region": "District 59"
+    },
+    {
+      "teamName": "Mayfield Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ky/mayfield/mayfield-cardinals/basketball/girls/",
+      "region": "District 3"
+    },
+    {
+      "teamName": "Graves County Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/mayfield/graves-county-eagles/basketball/girls/",
+      "region": "District 3"
+    },
+    {
+      "teamName": "Ballard Memorial Bombers",
+      "teamUrl": "https://www.maxpreps.com/ky/barlow/ballard-memorial-bombers/basketball/girls/",
+      "region": "District 3"
+    },
+    {
+      "teamName": "Floyd Central Jaguars",
+      "teamUrl": "https://www.maxpreps.com/ky/eastern/floyd-central-jaguars/basketball/girls/",
+      "region": "District 58"
+    },
+    {
+      "teamName": "Prestonsburg Blackcats",
+      "teamUrl": "https://www.maxpreps.com/ky/prestonsburg/prestonsburg-blackcats/basketball/girls/",
+      "region": "District 58"
+    },
+    {
+      "teamName": "Betsy Layne Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ky/betsy-layne/betsy-layne-bobcats/basketball/girls/",
+      "region": "District 58"
+    },
+    {
+      "teamName": "Lawrence County Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ky/louisa/lawrence-county-bulldogs/basketball/girls/",
+      "region": "District 58"
+    },
+    {
+      "teamName": "Lky Saints",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/lky-saints/basketball/girls/",
+      "region": "Ohio River Homeschool"
+    },
+    {
+      "teamName": "Christian Educational Consortium Cougars",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/christian-educational-consortium-cougars/basketball/girls/",
+      "region": "Ohio River Homeschool"
+    },
+    {
+      "teamName": "Bluegrass United Bluehawk",
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/bluegrass-united-bluehawk/basketball/girls/",
+      "region": "Ohio River Homeschool"
+    },
+    {
+      "teamName": "Evansville Homeschool Racers Racers",
+      "teamUrl": "https://www.maxpreps.com/in/evansville/evansville-homeschool-racers-racers/basketball/girls/",
+      "region": "Ohio River Homeschool"
+    },
+    {
+      "teamName": "Richmond Homeschool Guardians",
+      "teamUrl": "https://www.maxpreps.com/ky/richmond/richmond-homeschool-guardians/basketball/girls/",
+      "region": "Ohio River Homeschool"
+    },
+    {
+      "teamName": "East Carter Raiders",
+      "teamUrl": "https://www.maxpreps.com/ky/grayson/east-carter-raiders/basketball/girls/",
+      "region": "District 62"
+    },
+    {
+      "teamName": "Morgan County Cougars",
+      "teamUrl": "https://www.maxpreps.com/ky/west-liberty/morgan-county-cougars/basketball/girls/",
+      "region": "District 62"
+    },
+    {
+      "teamName": "West Carter Comets",
+      "teamUrl": "https://www.maxpreps.com/ky/olive-hill/west-carter-comets/basketball/girls/",
+      "region": "District 62"
+    },
+    {
+      "teamName": "Elliott County Lions",
+      "teamUrl": "https://www.maxpreps.com/ky/sandy-hook/elliott-county-lions/basketball/girls/",
+      "region": "District 62"
+    },
+    {
+      "teamName": "Pleasure Ridge Park Panthers",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/pleasure-ridge-park-panthers/basketball/girls/",
+      "region": "District 21"
+    },
+    {
+      "teamName": "Valley Vikings",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/valley-vikings/basketball/girls/",
+      "region": "District 21"
+    },
+    {
+      "teamName": "Holy Cross Cougars",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/holy-cross-cougars/basketball/girls/",
+      "region": "District 21"
+    },
+    {
+      "teamName": "Fairdale Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ky/fairdale/fairdale-bulldogs/basketball/girls/",
+      "region": "District 21"
+    },
+    {
+      "teamName": "Beth Haven Bearcats",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/beth-haven-bearcats/basketball/girls/",
+      "region": "District 21"
+    },
+    {
+      "teamName": "Henderson County Colonels",
+      "teamUrl": "https://www.maxpreps.com/ky/henderson/henderson-county-colonels/basketball/girls/",
+      "region": "District 6"
+    },
+    {
+      "teamName": "Union County Braves",
+      "teamUrl": "https://www.maxpreps.com/ky/morganfield/union-county-braves/basketball/girls/",
+      "region": "District 6"
+    },
+    {
+      "teamName": "Webster County Trojans",
+      "teamUrl": "https://www.maxpreps.com/ky/dixon/webster-county-trojans/basketball/girls/",
+      "region": "District 6"
+    },
+    {
+      "teamName": "Breathitt County Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ky/jackson/breathitt-county-bobcats/basketball/girls/",
+      "region": "District 55"
+    },
+    {
+      "teamName": "Wolfe County Wolves",
+      "teamUrl": "https://www.maxpreps.com/ky/campton/wolfe-county-wolves/basketball/girls/",
+      "region": "District 55"
+    },
+    {
+      "teamName": "Jackson City Tigers",
+      "teamUrl": "https://www.maxpreps.com/ky/jackson/jackson-city-tigers/basketball/girls/",
+      "region": "District 55"
+    },
+    {
+      "teamName": "Ballard Bruins",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/ballard-bruins/basketball/girls/",
+      "region": "District 28"
+    },
+    {
+      "teamName": "Christian Academy Louisville Centurions",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/christian-academy-louisville-centurions/basketball/girls/",
+      "region": "District 28"
+    },
+    {
+      "teamName": "Kentucky Country Day Bearcats",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/kentucky-country-day-bearcats/basketball/girls/",
+      "region": "District 28"
+    },
+    {
+      "teamName": "Eastern Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/eastern-eagles/basketball/girls/",
+      "region": "District 28"
+    },
+    {
+      "teamName": "North Bullitt Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/shepherdsville/north-bullitt-eagles/basketball/girls/",
+      "region": "District 23"
+    },
+    {
+      "teamName": "Bullitt Central Cougars",
+      "teamUrl": "https://www.maxpreps.com/ky/shepherdsville/bullitt-central-cougars/basketball/girls/",
+      "region": "District 23"
+    },
+    {
+      "teamName": "Moore Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/moore-mustangs/basketball/girls/",
+      "region": "District 23"
+    },
+    {
+      "teamName": "Southern Trojans",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/southern-trojans/basketball/girls/",
+      "region": "District 23"
+    },
+    {
+      "teamName": "Evangel Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/evangel-christian-eagles/basketball/girls/",
+      "region": "District 23"
+    },
+    {
+      "teamName": "Nicholas County Bluejackets",
+      "teamUrl": "https://www.maxpreps.com/ky/carlisle/nicholas-county-bluejackets/basketball/girls/",
+      "region": "District 38"
+    },
+    {
+      "teamName": "Pendleton County Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/falmouth/pendleton-county-wildcats/basketball/girls/",
+      "region": "District 38"
+    },
+    {
+      "teamName": "Harrison County Thorobreds Fillies",
+      "teamUrl": "https://www.maxpreps.com/ky/cynthiana/harrison-county-thorobreds-fillies/basketball/girls/",
+      "region": "District 38"
+    },
+    {
+      "teamName": "Robertson County Black Devils",
+      "teamUrl": "https://www.maxpreps.com/ky/mt-olivet/robertson-county-black-devils/basketball/girls/",
+      "region": "District 38"
+    },
+    {
+      "teamName": "South Oldham Dragons",
+      "teamUrl": "https://www.maxpreps.com/ky/crestwood/south-oldham-dragons/basketball/girls/",
+      "region": "District 29"
+    },
+    {
+      "teamName": "North Oldham Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ky/goshen/north-oldham-mustangs/basketball/girls/",
+      "region": "District 29"
+    },
+    {
+      "teamName": "Oldham County Colonels",
+      "teamUrl": "https://www.maxpreps.com/ky/buckner/oldham-county-colonels/basketball/girls/",
+      "region": "District 29"
+    },
+    {
+      "teamName": "Carlisle County Comets",
+      "teamUrl": "https://www.maxpreps.com/ky/bardwell/carlisle-county-comets/basketball/girls/",
+      "region": "District 1"
+    },
+    {
+      "teamName": "Hickman County Falcons",
+      "teamUrl": "https://www.maxpreps.com/ky/clinton/hickman-county-falcons/basketball/girls/",
+      "region": "District 1"
+    },
+    {
+      "teamName": "Fulton County Pilots",
+      "teamUrl": "https://www.maxpreps.com/ky/hickman/fulton-county-pilots/basketball/girls/",
+      "region": "District 1"
+    },
+    {
+      "teamName": "Fulton City Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ky/fulton/fulton-city-bulldogs/basketball/girls/",
+      "region": "District 1"
+    },
+    {
+      "teamName": "Sacred Heart Valkyries",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/sacred-heart-valkyries/basketball/girls/",
+      "region": "District 27"
+    },
+    {
+      "teamName": "Atherton Ravens",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/atherton-ravens/basketball/girls/",
+      "region": "District 27"
+    },
+    {
+      "teamName": "Seneca Red Hawks",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/seneca-red-hawks/basketball/girls/",
+      "region": "District 27"
+    },
+    {
+      "teamName": "Waggener Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/waggener-wildcats/basketball/girls/",
+      "region": "District 27"
+    },
+    {
+      "teamName": "Highlands Latin Highlanders",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/highlands-latin-highlanders/basketball/girls/",
+      "region": "District 27"
+    },
+    {
+      "teamName": "Trinity Shamrocks",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/trinity-shamrocks/basketball/girls/",
+      "region": "District 27"
+    },
+    {
+      "teamName": "Ryle Raiders",
+      "teamUrl": "https://www.maxpreps.com/ky/union/ryle-raiders/basketball/girls/",
+      "region": "District 33"
+    },
+    {
+      "teamName": "Cooper Jaguars",
+      "teamUrl": "https://www.maxpreps.com/ky/union/cooper-jaguars/basketball/girls/",
+      "region": "District 33"
+    },
+    {
+      "teamName": "Conner Cougars",
+      "teamUrl": "https://www.maxpreps.com/ky/hebron/conner-cougars/basketball/girls/",
+      "region": "District 33"
+    },
+    {
+      "teamName": "Boone County Rebels",
+      "teamUrl": "https://www.maxpreps.com/ky/florence/boone-county-rebels/basketball/girls/",
+      "region": "District 33"
+    },
+    {
+      "teamName": "Heritage Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/florence/heritage-academy-eagles/basketball/girls/",
+      "region": "District 33"
+    },
+    {
+      "teamName": "Notre Dame Academy Pandas",
+      "teamUrl": "https://www.maxpreps.com/ky/park-hills/notre-dame-academy-pandas/basketball/girls/",
+      "region": "District 35"
+    },
+    {
+      "teamName": "Holy Cross Indians",
+      "teamUrl": "https://www.maxpreps.com/ky/covington/holy-cross-indians/basketball/girls/",
+      "region": "District 35"
+    },
+    {
+      "teamName": "Beechwood Tigers",
+      "teamUrl": "https://www.maxpreps.com/ky/fort-mitchell/beechwood-tigers/basketball/girls/",
+      "region": "District 35"
+    },
+    {
+      "teamName": "Holmes Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ky/covington/holmes-bulldogs/basketball/girls/",
+      "region": "District 35"
+    },
+    {
+      "teamName": "Covington Catholic Colonels",
+      "teamUrl": "https://www.maxpreps.com/ky/park-hills/covington-catholic-colonels/basketball/girls/",
+      "region": "District 35"
+    },
+    {
+      "teamName": "Covington Latin Trojans",
+      "teamUrl": "https://www.maxpreps.com/ky/covington/covington-latin-trojans/basketball/girls/",
+      "region": "District 35"
+    },
+    {
+      "teamName": "Simon Kenton Pioneers",
+      "teamUrl": "https://www.maxpreps.com/ky/independence/simon-kenton-pioneers/basketball/girls/",
+      "region": "District 32"
+    },
+    {
+      "teamName": "Walton Verona Bearcats",
+      "teamUrl": "https://www.maxpreps.com/ky/walton/walton-verona-bearcats/basketball/girls/",
+      "region": "District 32"
+    },
+    {
+      "teamName": "Grant County Braves",
+      "teamUrl": "https://www.maxpreps.com/ky/dry-ridge/grant-county-braves/basketball/girls/",
+      "region": "District 32"
+    },
+    {
+      "teamName": "Williamstown Demons",
+      "teamUrl": "https://www.maxpreps.com/ky/williamstown/williamstown-demons/basketball/girls/",
+      "region": "District 32"
+    },
+    {
+      "teamName": "Rowan County Vikings",
+      "teamUrl": "https://www.maxpreps.com/ky/morehead/rowan-county-vikings/basketball/girls/",
+      "region": "District 61"
+    },
+    {
+      "teamName": "Menifee County Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/frenchburg/menifee-county-wildcats/basketball/girls/",
+      "region": "District 61"
+    },
+    {
+      "teamName": "Fleming County Panthers",
+      "teamUrl": "https://www.maxpreps.com/ky/flemingsburg/fleming-county-panthers/basketball/girls/",
+      "region": "District 61"
+    },
+    {
+      "teamName": "Bath County Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/owingsville/bath-county-wildcats/basketball/girls/",
+      "region": "District 61"
+    },
+    {
+      "teamName": "Mclean County Cougars",
+      "teamUrl": "https://www.maxpreps.com/ky/calhoun/mclean-county-cougars/basketball/girls/",
+      "region": "District 10"
+    },
+    {
+      "teamName": "Ohio County Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/hartford/ohio-county-eagles/basketball/girls/",
+      "region": "District 10"
+    },
+    {
+      "teamName": "Muhlenberg County Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ky/greenville/muhlenberg-county-mustangs/basketball/girls/",
+      "region": "District 10"
+    },
+    {
+      "teamName": "South Laurel Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ky/london/south-laurel-cardinals/basketball/girls/",
+      "region": "District 50"
+    },
+    {
+      "teamName": "Whitley County Colonels",
+      "teamUrl": "https://www.maxpreps.com/ky/williamsburg/whitley-county-colonels/basketball/girls/",
+      "region": "District 50"
+    },
+    {
+      "teamName": "Corbin Redhounds",
+      "teamUrl": "https://www.maxpreps.com/ky/corbin/corbin-redhounds/basketball/girls/",
+      "region": "District 50"
+    },
+    {
+      "teamName": "Williamsburg Yellow Jackets",
+      "teamUrl": "https://www.maxpreps.com/ky/williamsburg/williamsburg-yellow-jackets/basketball/girls/",
+      "region": "District 50"
+    },
+    {
+      "teamName": "Russell Red Devils",
+      "teamUrl": "https://www.maxpreps.com/ky/russell/russell-red-devils/basketball/girls/",
+      "region": "District 63"
+    },
+    {
+      "teamName": "Raceland Rams",
+      "teamUrl": "https://www.maxpreps.com/ky/raceland/raceland-rams/basketball/girls/",
+      "region": "District 63"
+    },
+    {
+      "teamName": "Greenup County Musketeers",
+      "teamUrl": "https://www.maxpreps.com/ky/greenup/greenup-county-musketeers/basketball/girls/",
+      "region": "District 63"
+    },
+    {
+      "teamName": "Lewis County Lions",
+      "teamUrl": "https://www.maxpreps.com/ky/vanceburg/lewis-county-lions/basketball/girls/",
+      "region": "District 63"
+    },
+    {
+      "teamName": "Mason County Royals",
+      "teamUrl": "https://www.maxpreps.com/ky/maysville/mason-county-royals/basketball/girls/",
+      "region": "District 39"
+    },
+    {
+      "teamName": "Bracken County Polar Bears",
+      "teamUrl": "https://www.maxpreps.com/ky/brooksville/bracken-county-polar-bears/basketball/girls/",
+      "region": "District 39"
+    },
+    {
+      "teamName": "Augusta Panthers",
+      "teamUrl": "https://www.maxpreps.com/ky/augusta/augusta-panthers/basketball/girls/",
+      "region": "District 39"
+    },
+    {
+      "teamName": "St Patrick Saints",
+      "teamUrl": "https://www.maxpreps.com/ky/maysville/st-patrick-saints/basketball/girls/",
+      "region": "District 39"
+    },
+    {
+      "teamName": "Barren County Trojans",
+      "teamUrl": "https://www.maxpreps.com/ky/glasgow/barren-county-trojans/basketball/girls/",
+      "region": "District 15"
+    },
+    {
+      "teamName": "Allen County Scottsville Patriots",
+      "teamUrl": "https://www.maxpreps.com/ky/scottsville/allen-county-scottsville-patriots/basketball/girls/",
+      "region": "District 15"
+    },
+    {
+      "teamName": "Glasgow Scotties",
+      "teamUrl": "https://www.maxpreps.com/ky/glasgow/glasgow-scotties/basketball/girls/",
+      "region": "District 15"
+    },
+    {
+      "teamName": "Warren East Raiders",
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/warren-east-raiders/basketball/girls/",
+      "region": "District 15"
+    },
+    {
+      "teamName": "Hazard Bulldogs Lady Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ky/hazard/hazard-bulldogs-lady-bulldogs/basketball/girls/",
+      "region": "District 54"
+    },
+    {
+      "teamName": "Leslie County Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/hyden/leslie-county-eagles/basketball/girls/",
+      "region": "District 54"
+    },
+    {
+      "teamName": "Perry County Central Commodores",
+      "teamUrl": "https://www.maxpreps.com/ky/hazard/perry-county-central-commodores/basketball/girls/",
+      "region": "District 54"
+    },
+    {
+      "teamName": "Buckhorn Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/buckhorn/buckhorn-wildcats/basketball/girls/",
+      "region": "District 54"
+    },
+    {
+      "teamName": "Franklin Simpson Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ky/franklin/franklin-simpson-wildcats/basketball/girls/",
+      "region": "District 13"
+    },
+    {
+      "teamName": "Logan County Cougars",
+      "teamUrl": "https://www.maxpreps.com/ky/russellville/logan-county-cougars/basketball/girls/",
+      "region": "District 13"
+    },
+    {
+      "teamName": "Russellville Panthers",
+      "teamUrl": "https://www.maxpreps.com/ky/russellville/russellville-panthers/basketball/girls/",
+      "region": "District 13"
+    },
+    {
+      "teamName": "Todd County Central Rebels",
+      "teamUrl": "https://www.maxpreps.com/ky/elkton/todd-county-central-rebels/basketball/girls/",
+      "region": "District 13"
+    },
+    {
+      "teamName": "Campbell County Camels",
+      "teamUrl": "https://www.maxpreps.com/ky/alexandria/campbell-county-camels/basketball/girls/",
+      "region": "District 37"
+    },
+    {
+      "teamName": "Bishop Brossart Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ky/alexandria/bishop-brossart-mustangs/basketball/girls/",
+      "region": "District 37"
+    },
+    {
+      "teamName": "Scott Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/covington/scott-eagles/basketball/girls/",
+      "region": "District 37"
+    },
+    {
+      "teamName": "Calvary Christian Cougars",
+      "teamUrl": "https://www.maxpreps.com/ky/covington/calvary-christian-cougars/basketball/girls/",
+      "region": "District 37"
+    },
+    {
+      "teamName": "Community Christian Academy Crusaders",
+      "teamUrl": "https://www.maxpreps.com/ky/independence/community-christian-academy-crusaders/basketball/girls/",
+      "region": "Kentucky Christian"
+    },
+    {
+      "teamName": "Oak Ridge Christian Academy Warriors",
+      "teamUrl": "https://www.maxpreps.com/ky/morgantown/oak-ridge-christian-academy-warriors/basketball/girls/",
+      "region": "Kentucky Christian"
+    },
+    {
+      "teamName": "Micah Christian",
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/micah-christian/basketball/girls/",
+      "region": "Kentucky Christian"
+    },
+    {
+      "teamName": "Summit Christian Academy Warriors",
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/summit-christian-academy-warriors/basketball/girls/",
+      "region": "Kentucky Christian"
+    },
+    {
+      "teamName": "Owensboro Catholic Aces",
+      "teamUrl": "https://www.maxpreps.com/ky/owensboro/owensboro-catholic-aces/basketball/girls/",
+      "region": "District 9"
+    },
+    {
+      "teamName": "Daviess County Panthers",
+      "teamUrl": "https://www.maxpreps.com/ky/owensboro/daviess-county-panthers/basketball/girls/",
+      "region": "District 9"
+    },
+    {
+      "teamName": "Owensboro Red Devils",
+      "teamUrl": "https://www.maxpreps.com/ky/owensboro/owensboro-red-devils/basketball/girls/",
+      "region": "District 9"
+    },
+    {
+      "teamName": "Apollo Eagles",
+      "teamUrl": "https://www.maxpreps.com/ky/owensboro/apollo-eagles/basketball/girls/",
+      "region": "District 9"
+    }
+  ]
+}

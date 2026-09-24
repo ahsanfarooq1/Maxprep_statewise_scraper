@@ -1,0 +1,1957 @@
+{
+  "meta": {
+    "state": "Washington",
+    "stateCode": "WA",
+    "sport": "Boys Basketball",
+    "season": "2026-2027",
+    "totalTeams": 387,
+    "processedTeamsCount": 0,
+    "processedTeams": [],
+    "totalGamesChecked": 0,
+    "teamsFullBoxScores": 0,
+    "teamsPartialBoxScores": 0,
+    "teamsNoBoxScores": 0,
+    "errors_count": 387,
+    "last_updated": "2026-09-24 16:40:41"
+  },
+  "teamsFullBoxScores": [],
+  "teamsPartialBoxScores": [],
+  "teamsNoBoxScores": [],
+  "errors": [
+    {
+      "teamName": "Garfield Palouse Vikings",
+      "teamUrl": "https://www.maxpreps.com/wa/palouse/garfield-palouse-vikings/basketball/",
+      "region": "1B Southeast"
+    },
+    {
+      "teamName": "Oakesdale Nighthawks",
+      "teamUrl": "https://www.maxpreps.com/wa/oakesdale/oakesdale-nighthawks/basketball/",
+      "region": "1B Southeast"
+    },
+    {
+      "teamName": "Pomeroy Pirates",
+      "teamUrl": "https://www.maxpreps.com/wa/pomeroy/pomeroy-pirates/basketball/",
+      "region": "1B Southeast"
+    },
+    {
+      "teamName": "Dayton Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/dayton/dayton-bulldogs/basketball/",
+      "region": "1B Southeast"
+    },
+    {
+      "teamName": "Waitsburg Cardinals",
+      "teamUrl": "https://www.maxpreps.com/wa/waitsburg/waitsburg-cardinals/basketball/",
+      "region": "1B Southeast"
+    },
+    {
+      "teamName": "St John Endicott Lacrosse",
+      "teamUrl": "https://www.maxpreps.com/wa/st-john/st-john-endicott-lacrosse/basketball/",
+      "region": "1B Southeast"
+    },
+    {
+      "teamName": "Colton Wildcats",
+      "teamUrl": "https://www.maxpreps.com/wa/colton/colton-wildcats/basketball/",
+      "region": "1B Southeast"
+    },
+    {
+      "teamName": "Tekoa Rosalia Nighthawks",
+      "teamUrl": "https://www.maxpreps.com/wa/tekoa/tekoa-rosalia-nighthawks/basketball/",
+      "region": "1B Southeast"
+    },
+    {
+      "teamName": "Mount Vernon Christian Hurricanes",
+      "teamUrl": "https://www.maxpreps.com/wa/mount-vernon/mount-vernon-christian-hurricanes/basketball/",
+      "region": "1B 2B Northwest"
+    },
+    {
+      "teamName": "Orcas Island Vikings",
+      "teamUrl": "https://www.maxpreps.com/wa/eastsound/orcas-island-vikings/basketball/",
+      "region": "1B 2B Northwest"
+    },
+    {
+      "teamName": "Darrington Loggers",
+      "teamUrl": "https://www.maxpreps.com/wa/darrington/darrington-loggers/basketball/",
+      "region": "1B 2B Northwest"
+    },
+    {
+      "teamName": "Friday Harbor Wolverines",
+      "teamUrl": "https://www.maxpreps.com/wa/friday-harbor/friday-harbor-wolverines/basketball/",
+      "region": "1B 2B Northwest"
+    },
+    {
+      "teamName": "Coupeville Wolves",
+      "teamUrl": "https://www.maxpreps.com/wa/coupeville/coupeville-wolves/basketball/",
+      "region": "1B 2B Northwest"
+    },
+    {
+      "teamName": "Concrete Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/concrete/concrete-lions/basketball/",
+      "region": "1B 2B Northwest"
+    },
+    {
+      "teamName": "La Conner Braves",
+      "teamUrl": "https://www.maxpreps.com/wa/la-conner/la-conner-braves/basketball/",
+      "region": "1B 2B Northwest"
+    },
+    {
+      "teamName": "Desales Fighting Irish",
+      "teamUrl": "https://www.maxpreps.com/wa/walla-walla/desales-fighting-irish/basketball/",
+      "region": "1B Southeast Grape"
+    },
+    {
+      "teamName": "Liberty Christian Patriots",
+      "teamUrl": "https://www.maxpreps.com/wa/richland/liberty-christian-patriots/basketball/",
+      "region": "1B Southeast Grape"
+    },
+    {
+      "teamName": "Sunnyside Christian Knights",
+      "teamUrl": "https://www.maxpreps.com/wa/sunnyside/sunnyside-christian-knights/basketball/",
+      "region": "1B Southeast Grape"
+    },
+    {
+      "teamName": "Touchet Redhawks",
+      "teamUrl": "https://www.maxpreps.com/wa/touchet/touchet-redhawks/basketball/",
+      "region": "1B Southeast Grape"
+    },
+    {
+      "teamName": "Riverside Christian Crusaders",
+      "teamUrl": "https://www.maxpreps.com/wa/yakima/riverside-christian-crusaders/basketball/",
+      "region": "1B Southeast Grape"
+    },
+    {
+      "teamName": "Walla Walla Valley Academy Knights",
+      "teamUrl": "https://www.maxpreps.com/wa/college-place/walla-walla-valley-academy-knights/basketball/",
+      "region": "1B Southeast Grape"
+    },
+    {
+      "teamName": "Yakama Nation Tribal Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/toppenish/yakama-nation-tribal-eagles/basketball/",
+      "region": "1B Southeast Grape"
+    },
+    {
+      "teamName": "Prescott Tigers",
+      "teamUrl": "https://www.maxpreps.com/wa/prescott/prescott-tigers/basketball/",
+      "region": "1B Southeast Grape"
+    },
+    {
+      "teamName": "Summit Classical Christian School Archers",
+      "teamUrl": "https://www.maxpreps.com/wa/bellevue/summit-classical-christian-school-archers/basketball/",
+      "region": "1B 2B Sea Tac"
+    },
+    {
+      "teamName": "Muckleshoot Tribal Kings",
+      "teamUrl": "https://www.maxpreps.com/wa/auburn/muckleshoot-tribal-kings/basketball/",
+      "region": "1B 2B Sea Tac"
+    },
+    {
+      "teamName": "Concordia Christian Academy Hawks",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/concordia-christian-academy-hawks/basketball/",
+      "region": "1B 2B Sea Tac"
+    },
+    {
+      "teamName": "Auburn Adventist Falcons",
+      "teamUrl": "https://www.maxpreps.com/wa/auburn/auburn-adventist-falcons/basketball/",
+      "region": "1B 2B Sea Tac"
+    },
+    {
+      "teamName": "Northwest Yeshiva None",
+      "teamUrl": "https://www.maxpreps.com/wa/mercer-island/northwest-yeshiva-none/basketball/",
+      "region": "1B 2B Sea Tac"
+    },
+    {
+      "teamName": "Evergreen Lutheran Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/evergreen-lutheran-eagles/basketball/",
+      "region": "1B 2B Sea Tac"
+    },
+    {
+      "teamName": "Crosspoint Christian Wildcats",
+      "teamUrl": "https://www.maxpreps.com/wa/bremerton/crosspoint-christian-wildcats/basketball/",
+      "region": "1B 2B Sea Tac"
+    },
+    {
+      "teamName": "Quilcene Rangers",
+      "teamUrl": "https://www.maxpreps.com/wa/quilcene/quilcene-rangers/basketball/",
+      "region": "1B 2B Sea Tac"
+    },
+    {
+      "teamName": "Pope John Paul Ii Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/lacey/pope-john-paul-ii-eagles/basketball/",
+      "region": "1B 2B Sea Tac"
+    },
+    {
+      "teamName": "Northwest Christian Wolverines",
+      "teamUrl": "https://www.maxpreps.com/wa/lacey/northwest-christian-wolverines/basketball/",
+      "region": "1B 2B Sea Tac"
+    },
+    {
+      "teamName": "Puget Sound Adventist Sharks",
+      "teamUrl": "https://www.maxpreps.com/wa/kirkland/puget-sound-adventist-sharks/basketball/",
+      "region": "1B 2B Sea Tac"
+    },
+    {
+      "teamName": "Summit Atlas Orcas",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/summit-atlas-orcas/basketball/",
+      "region": "1B 2B Sea Tac"
+    },
+    {
+      "teamName": "Redeemer Christian School Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/covington/redeemer-christian-school-eagles/basketball/",
+      "region": "1B 2B Sea Tac"
+    },
+    {
+      "teamName": "Neah Bay Red Devils Lady Reds",
+      "teamUrl": "https://www.maxpreps.com/wa/neah-bay/neah-bay-red-devils-lady-reds/basketball/",
+      "region": "1B North Olympic"
+    },
+    {
+      "teamName": "Clallam Bay Bruins",
+      "teamUrl": "https://www.maxpreps.com/wa/clallam-bay/clallam-bay-bruins/basketball/",
+      "region": "1B North Olympic"
+    },
+    {
+      "teamName": "Crescent Loggers",
+      "teamUrl": "https://www.maxpreps.com/wa/joyce/crescent-loggers/basketball/",
+      "region": "1B North Olympic"
+    },
+    {
+      "teamName": "Chief Kitsap Academy Bears",
+      "teamUrl": "https://www.maxpreps.com/wa/poulsbo/chief-kitsap-academy-bears/basketball/",
+      "region": "1B North Olympic"
+    },
+    {
+      "teamName": "Richland Bombers",
+      "teamUrl": "https://www.maxpreps.com/wa/richland/richland-bombers/basketball/",
+      "region": "3A 4A Mid Columbia"
+    },
+    {
+      "teamName": "Chiawana Riverhawks",
+      "teamUrl": "https://www.maxpreps.com/wa/pasco/chiawana-riverhawks/basketball/",
+      "region": "3A 4A Mid Columbia"
+    },
+    {
+      "teamName": "Kamiakin Braves",
+      "teamUrl": "https://www.maxpreps.com/wa/kennewick/kamiakin-braves/basketball/",
+      "region": "3A 4A Mid Columbia"
+    },
+    {
+      "teamName": "Kennewick Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/kennewick/kennewick-lions/basketball/",
+      "region": "3A 4A Mid Columbia"
+    },
+    {
+      "teamName": "Southridge Suns",
+      "teamUrl": "https://www.maxpreps.com/wa/kennewick/southridge-suns/basketball/",
+      "region": "3A 4A Mid Columbia"
+    },
+    {
+      "teamName": "Sageview Lobos",
+      "teamUrl": "https://www.maxpreps.com/wa/pasco/sageview-lobos/basketball/",
+      "region": "3A 4A Mid Columbia"
+    },
+    {
+      "teamName": "Walla Walla Blue Devils",
+      "teamUrl": "https://www.maxpreps.com/wa/walla-walla/walla-walla-blue-devils/basketball/",
+      "region": "3A 4A Mid Columbia"
+    },
+    {
+      "teamName": "Hermiston Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/hermiston/hermiston-bulldogs/basketball/",
+      "region": "3A 4A Mid Columbia"
+    },
+    {
+      "teamName": "Hanford Falcons",
+      "teamUrl": "https://www.maxpreps.com/wa/richland/hanford-falcons/basketball/",
+      "region": "3A 4A Mid Columbia"
+    },
+    {
+      "teamName": "Pasco Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/pasco/pasco-bulldogs/basketball/",
+      "region": "3A 4A Mid Columbia"
+    },
+    {
+      "teamName": "Prairie Falcons",
+      "teamUrl": "https://www.maxpreps.com/wa/vancouver/prairie-falcons/basketball/",
+      "region": "3A Greater St Helens"
+    },
+    {
+      "teamName": "Evergreen Plainsmen",
+      "teamUrl": "https://www.maxpreps.com/wa/vancouver/evergreen-plainsmen/basketball/",
+      "region": "3A Greater St Helens"
+    },
+    {
+      "teamName": "Mountain View Thunder",
+      "teamUrl": "https://www.maxpreps.com/wa/vancouver/mountain-view-thunder/basketball/",
+      "region": "3A Greater St Helens"
+    },
+    {
+      "teamName": "Kelso Hilanders",
+      "teamUrl": "https://www.maxpreps.com/wa/kelso/kelso-hilanders/basketball/",
+      "region": "3A Greater St Helens"
+    },
+    {
+      "teamName": "Heritage Timberwolves",
+      "teamUrl": "https://www.maxpreps.com/wa/vancouver/heritage-timberwolves/basketball/",
+      "region": "3A Greater St Helens"
+    },
+    {
+      "teamName": "Bellevue Wolverines",
+      "teamUrl": "https://www.maxpreps.com/wa/bellevue/bellevue-wolverines/basketball/",
+      "region": "3A Kingco  Other"
+    },
+    {
+      "teamName": "Interlake Saints",
+      "teamUrl": "https://www.maxpreps.com/wa/bellevue/interlake-saints/basketball/",
+      "region": "3A Kingco  Other"
+    },
+    {
+      "teamName": "Mercer Island Islanders",
+      "teamUrl": "https://www.maxpreps.com/wa/mercer-island/mercer-island-islanders/basketball/",
+      "region": "3A Kingco  Other"
+    },
+    {
+      "teamName": "Liberty Patriots",
+      "teamUrl": "https://www.maxpreps.com/wa/issaquah/liberty-patriots/basketball/",
+      "region": "3A Kingco  Other"
+    },
+    {
+      "teamName": "Sammamish Redhawks",
+      "teamUrl": "https://www.maxpreps.com/wa/bellevue/sammamish-redhawks/basketball/",
+      "region": "3A Kingco  Other"
+    },
+    {
+      "teamName": "Gonzaga Prep Bullpups",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/gonzaga-prep-bullpups/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "Pullman Greyhounds",
+      "teamUrl": "https://www.maxpreps.com/wa/pullman/pullman-greyhounds/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "North Central Wolfpack",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/north-central-wolfpack/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "Mt Spokane Wildcats",
+      "teamUrl": "https://www.maxpreps.com/wa/mead/mt-spokane-wildcats/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "Central Valley Bears",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane-valley/central-valley-bears/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "West Valley Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/west-valley-eagles/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "Ridgeline Falcons",
+      "teamUrl": "https://www.maxpreps.com/wa/liberty-lake/ridgeline-falcons/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "Lewis And Clark Tigers",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/lewis-and-clark-tigers/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "University Titans",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/university-titans/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "Rogers Pirates",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/rogers-pirates/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "Cheney Blackhawks",
+      "teamUrl": "https://www.maxpreps.com/wa/cheney/cheney-blackhawks/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "Mead Panthers",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/mead-panthers/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "East Valley Knights",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/east-valley-knights/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "Clarkston Bantams",
+      "teamUrl": "https://www.maxpreps.com/wa/clarkston/clarkston-bantams/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "Ferris Saxons",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/ferris-saxons/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "Deer Park Stags",
+      "teamUrl": "https://www.maxpreps.com/wa/deer-park/deer-park-stags/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "Shadle Park Highlanders",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/shadle-park-highlanders/basketball/",
+      "region": "2A 3A 4A Greater Spokane"
+    },
+    {
+      "teamName": "Edmonds Woodway Warriors",
+      "teamUrl": "https://www.maxpreps.com/wa/edmonds/edmonds-woodway-warriors/basketball/",
+      "region": "2A 3A Wesco  South"
+    },
+    {
+      "teamName": "Shorewood Stormrays",
+      "teamUrl": "https://www.maxpreps.com/wa/shoreline/shorewood-stormrays/basketball/",
+      "region": "2A 3A Wesco  South"
+    },
+    {
+      "teamName": "Meadowdale Mavericks",
+      "teamUrl": "https://www.maxpreps.com/wa/lynnwood/meadowdale-mavericks/basketball/",
+      "region": "2A 3A Wesco  South"
+    },
+    {
+      "teamName": "Archbishop Murphy Wildcats",
+      "teamUrl": "https://www.maxpreps.com/wa/everett/archbishop-murphy-wildcats/basketball/",
+      "region": "2A 3A Wesco  South"
+    },
+    {
+      "teamName": "Shorecrest Scots",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/shorecrest-scots/basketball/",
+      "region": "2A 3A Wesco  South"
+    },
+    {
+      "teamName": "Mountlake Terrace Hawks",
+      "teamUrl": "https://www.maxpreps.com/wa/mountlake-terrace/mountlake-terrace-hawks/basketball/",
+      "region": "2A 3A Wesco  South"
+    },
+    {
+      "teamName": "Lynnwood Royals",
+      "teamUrl": "https://www.maxpreps.com/wa/bothell/lynnwood-royals/basketball/",
+      "region": "2A 3A Wesco  South"
+    },
+    {
+      "teamName": "Selah Vikings",
+      "teamUrl": "https://www.maxpreps.com/wa/selah/selah-vikings/basketball/",
+      "region": "2A Central Washington"
+    },
+    {
+      "teamName": "Grandview Greyhounds",
+      "teamUrl": "https://www.maxpreps.com/wa/grandview/grandview-greyhounds/basketball/",
+      "region": "2A Central Washington"
+    },
+    {
+      "teamName": "Prosser Mustangs",
+      "teamUrl": "https://www.maxpreps.com/wa/prosser/prosser-mustangs/basketball/",
+      "region": "2A Central Washington"
+    },
+    {
+      "teamName": "Ellensburg Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/ellensburg/ellensburg-bulldogs/basketball/",
+      "region": "2A Central Washington"
+    },
+    {
+      "teamName": "Toppenish Wildcats",
+      "teamUrl": "https://www.maxpreps.com/wa/toppenish/toppenish-wildcats/basketball/",
+      "region": "2A Central Washington"
+    },
+    {
+      "teamName": "Othello Huskies",
+      "teamUrl": "https://www.maxpreps.com/wa/othello/othello-huskies/basketball/",
+      "region": "2A Central Washington"
+    },
+    {
+      "teamName": "East Valley Red Devils",
+      "teamUrl": "https://www.maxpreps.com/wa/yakima/east-valley-red-devils/basketball/",
+      "region": "2A Central Washington"
+    },
+    {
+      "teamName": "Quincy Jackrabbits",
+      "teamUrl": "https://www.maxpreps.com/wa/quincy/quincy-jackrabbits/basketball/",
+      "region": "2A Central Washington"
+    },
+    {
+      "teamName": "Ephrata Tigers",
+      "teamUrl": "https://www.maxpreps.com/wa/ephrata/ephrata-tigers/basketball/",
+      "region": "2A Central Washington"
+    },
+    {
+      "teamName": "Snohomish Panthers",
+      "teamUrl": "https://www.maxpreps.com/wa/snohomish/snohomish-panthers/basketball/",
+      "region": "2A 3A Wesco  North"
+    },
+    {
+      "teamName": "Monroe Bearcats",
+      "teamUrl": "https://www.maxpreps.com/wa/monroe/monroe-bearcats/basketball/",
+      "region": "2A 3A Wesco  North"
+    },
+    {
+      "teamName": "Everett Seagulls",
+      "teamUrl": "https://www.maxpreps.com/wa/everett/everett-seagulls/basketball/",
+      "region": "2A 3A Wesco  North"
+    },
+    {
+      "teamName": "Stanwood Spartans",
+      "teamUrl": "https://www.maxpreps.com/wa/stanwood/stanwood-spartans/basketball/",
+      "region": "2A 3A Wesco  North"
+    },
+    {
+      "teamName": "Marysville Pilchuck Tomahawks",
+      "teamUrl": "https://www.maxpreps.com/wa/marysville/marysville-pilchuck-tomahawks/basketball/",
+      "region": "2A 3A Wesco  North"
+    },
+    {
+      "teamName": "Marysville Getchell",
+      "teamUrl": "https://www.maxpreps.com/wa/marysville/marysville-getchell/basketball/",
+      "region": "2A 3A Wesco  North"
+    },
+    {
+      "teamName": "Fort Vancouver Trappers",
+      "teamUrl": "https://www.maxpreps.com/wa/vancouver/fort-vancouver-trappers/basketball/",
+      "region": "1A Trico"
+    },
+    {
+      "teamName": "Kings Way Christian Knights",
+      "teamUrl": "https://www.maxpreps.com/wa/vancouver/kings-way-christian-knights/basketball/",
+      "region": "1A Trico"
+    },
+    {
+      "teamName": "La Center Wildcats",
+      "teamUrl": "https://www.maxpreps.com/wa/la-center/la-center-wildcats/basketball/",
+      "region": "1A Trico"
+    },
+    {
+      "teamName": "Kalama Chinooks",
+      "teamUrl": "https://www.maxpreps.com/wa/kalama/kalama-chinooks/basketball/",
+      "region": "1A Trico"
+    },
+    {
+      "teamName": "Columbia Bruins",
+      "teamUrl": "https://www.maxpreps.com/wa/white-salmon/columbia-bruins/basketball/",
+      "region": "1A Trico"
+    },
+    {
+      "teamName": "Seton Catholic Cougars",
+      "teamUrl": "https://www.maxpreps.com/wa/vancouver/seton-catholic-cougars/basketball/",
+      "region": "1A Trico"
+    },
+    {
+      "teamName": "Castle Rock Rockets",
+      "teamUrl": "https://www.maxpreps.com/wa/castle-rock/castle-rock-rockets/basketball/",
+      "region": "1A Trico"
+    },
+    {
+      "teamName": "Stevenson Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/stevenson/stevenson-bulldogs/basketball/",
+      "region": "1A Trico"
+    },
+    {
+      "teamName": "Cleveland Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/cleveland-eagles/basketball/",
+      "region": "2A Metro"
+    },
+    {
+      "teamName": "Nathan Hale Raiders",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/nathan-hale-raiders/basketball/",
+      "region": "2A Metro"
+    },
+    {
+      "teamName": "Annie Wright Gators",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/annie-wright-gators/basketball/",
+      "region": "1A Nisqually"
+    },
+    {
+      "teamName": "Seattle Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/wa/seatac/seattle-christian-warriors/basketball/",
+      "region": "1A Nisqually"
+    },
+    {
+      "teamName": "Bellevue Christian Vikings",
+      "teamUrl": "https://www.maxpreps.com/wa/clyde-hill/bellevue-christian-vikings/basketball/",
+      "region": "1A Nisqually"
+    },
+    {
+      "teamName": "Cascade Christian Cougars",
+      "teamUrl": "https://www.maxpreps.com/wa/puyallup/cascade-christian-cougars/basketball/",
+      "region": "1A Nisqually"
+    },
+    {
+      "teamName": "Vashon Island Pirates",
+      "teamUrl": "https://www.maxpreps.com/wa/vashon-island/vashon-island-pirates/basketball/",
+      "region": "1A Nisqually"
+    },
+    {
+      "teamName": "East Jefferson Port Townsend Chimacum Rivals",
+      "teamUrl": "https://www.maxpreps.com/wa/port-townsend/east-jefferson-port-townsend-chimacum-rivals/basketball/",
+      "region": "1A Nisqually"
+    },
+    {
+      "teamName": "Life Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/life-christian-academy-eagles/basketball/",
+      "region": "1A Nisqually"
+    },
+    {
+      "teamName": "Klahowya Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/silverdale/klahowya-eagles/basketball/",
+      "region": "1A Nisqually"
+    },
+    {
+      "teamName": "Charles Wright Tarriers",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/charles-wright-tarriers/basketball/",
+      "region": "1A Nisqually"
+    },
+    {
+      "teamName": "Adna Pirates",
+      "teamUrl": "https://www.maxpreps.com/wa/adna/adna-pirates/basketball/",
+      "region": "2B Central"
+    },
+    {
+      "teamName": "Toledo Riverhawks",
+      "teamUrl": "https://www.maxpreps.com/wa/toledo/toledo-riverhawks/basketball/",
+      "region": "2B Central"
+    },
+    {
+      "teamName": "Napavine Tigers",
+      "teamUrl": "https://www.maxpreps.com/wa/napavine/napavine-tigers/basketball/",
+      "region": "2B Central"
+    },
+    {
+      "teamName": "Onalaska Loggers",
+      "teamUrl": "https://www.maxpreps.com/wa/onalaska/onalaska-loggers/basketball/",
+      "region": "2B Central"
+    },
+    {
+      "teamName": "Rainier Mountaineers",
+      "teamUrl": "https://www.maxpreps.com/wa/rainier/rainier-mountaineers/basketball/",
+      "region": "2B Central"
+    },
+    {
+      "teamName": "Toutle Lake Fighting Ducks",
+      "teamUrl": "https://www.maxpreps.com/wa/toutle/toutle-lake-fighting-ducks/basketball/",
+      "region": "2B Central"
+    },
+    {
+      "teamName": "Mossyrock Vikings",
+      "teamUrl": "https://www.maxpreps.com/wa/mossyrock/mossyrock-vikings/basketball/",
+      "region": "2B Central"
+    },
+    {
+      "teamName": "Morton White Pass Huskies",
+      "teamUrl": "https://www.maxpreps.com/wa/morton/morton-white-pass-huskies/basketball/",
+      "region": "2B Central"
+    },
+    {
+      "teamName": "Winlock Cardinals",
+      "teamUrl": "https://www.maxpreps.com/wa/winlock/winlock-cardinals/basketball/",
+      "region": "2B Central"
+    },
+    {
+      "teamName": "Willapa Valley Vikings",
+      "teamUrl": "https://www.maxpreps.com/wa/menlo/willapa-valley-vikings/basketball/",
+      "region": "1B Coastal"
+    },
+    {
+      "teamName": "Taholah Chitwhins",
+      "teamUrl": "https://www.maxpreps.com/wa/taholah/taholah-chitwhins/basketball/",
+      "region": "1B Coastal"
+    },
+    {
+      "teamName": "Naselle Comets",
+      "teamUrl": "https://www.maxpreps.com/wa/naselle/naselle-comets/basketball/",
+      "region": "1B Coastal"
+    },
+    {
+      "teamName": "Ocosta Wildcats",
+      "teamUrl": "https://www.maxpreps.com/wa/westport/ocosta-wildcats/basketball/",
+      "region": "1B Coastal"
+    },
+    {
+      "teamName": "Lake Quinault Elks",
+      "teamUrl": "https://www.maxpreps.com/wa/amanda-park/lake-quinault-elks/basketball/",
+      "region": "1B Coastal"
+    },
+    {
+      "teamName": "Mary M Knight Owls",
+      "teamUrl": "https://www.maxpreps.com/wa/elma/mary-m-knight-owls/basketball/",
+      "region": "1B Coastal"
+    },
+    {
+      "teamName": "Wishkah Valley Loggers",
+      "teamUrl": "https://www.maxpreps.com/wa/aberdeen/wishkah-valley-loggers/basketball/",
+      "region": "1B Coastal"
+    },
+    {
+      "teamName": "Bellarmine Prep Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/bellarmine-prep-lions/basketball/",
+      "region": "3A Puget Sound"
+    },
+    {
+      "teamName": "Lincoln Abes",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/lincoln-abes/basketball/",
+      "region": "3A Puget Sound"
+    },
+    {
+      "teamName": "River Ridge Hawks",
+      "teamUrl": "https://www.maxpreps.com/wa/lacey/river-ridge-hawks/basketball/",
+      "region": "3A Puget Sound"
+    },
+    {
+      "teamName": "Lakes Lancers",
+      "teamUrl": "https://www.maxpreps.com/wa/lakewood/lakes-lancers/basketball/",
+      "region": "3A Puget Sound"
+    },
+    {
+      "teamName": "Gig Harbor Tides",
+      "teamUrl": "https://www.maxpreps.com/wa/gig-harbor/gig-harbor-tides/basketball/",
+      "region": "3A Puget Sound"
+    },
+    {
+      "teamName": "Silas Rams",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/silas-rams/basketball/",
+      "region": "3A Puget Sound"
+    },
+    {
+      "teamName": "Mount Tahoma Thunderbirds",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/mount-tahoma-thunderbirds/basketball/",
+      "region": "3A Puget Sound"
+    },
+    {
+      "teamName": "Timberline Blazers",
+      "teamUrl": "https://www.maxpreps.com/wa/lacey/timberline-blazers/basketball/",
+      "region": "3A Puget Sound"
+    },
+    {
+      "teamName": "Central Kitsap Cougars",
+      "teamUrl": "https://www.maxpreps.com/wa/silverdale/central-kitsap-cougars/basketball/",
+      "region": "3A Puget Sound"
+    },
+    {
+      "teamName": "Peninsula Seahawks",
+      "teamUrl": "https://www.maxpreps.com/wa/gig-harbor/peninsula-seahawks/basketball/",
+      "region": "3A Puget Sound"
+    },
+    {
+      "teamName": "North Thurston Rams",
+      "teamUrl": "https://www.maxpreps.com/wa/lacey/north-thurston-rams/basketball/",
+      "region": "3A Puget Sound"
+    },
+    {
+      "teamName": "Capital Cougars",
+      "teamUrl": "https://www.maxpreps.com/wa/olympia/capital-cougars/basketball/",
+      "region": "3A Puget Sound"
+    },
+    {
+      "teamName": "Zillah Leopards",
+      "teamUrl": "https://www.maxpreps.com/wa/zillah/zillah-leopards/basketball/",
+      "region": "1A South Central"
+    },
+    {
+      "teamName": "Royal Knights",
+      "teamUrl": "https://www.maxpreps.com/wa/royal-city/royal-knights/basketball/",
+      "region": "1A South Central"
+    },
+    {
+      "teamName": "Wapato Wolves",
+      "teamUrl": "https://www.maxpreps.com/wa/wapato/wapato-wolves/basketball/",
+      "region": "1A South Central"
+    },
+    {
+      "teamName": "Connell Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/connell/connell-eagles/basketball/",
+      "region": "1A South Central"
+    },
+    {
+      "teamName": "Cashmere Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/cashmere/cashmere-bulldogs/basketball/",
+      "region": "1A South Central"
+    },
+    {
+      "teamName": "Wahluke Warriors",
+      "teamUrl": "https://www.maxpreps.com/wa/mattawa/wahluke-warriors/basketball/",
+      "region": "1A South Central"
+    },
+    {
+      "teamName": "Naches Valley Rangers",
+      "teamUrl": "https://www.maxpreps.com/wa/naches/naches-valley-rangers/basketball/",
+      "region": "1A South Central"
+    },
+    {
+      "teamName": "College Place Hawks",
+      "teamUrl": "https://www.maxpreps.com/wa/college-place/college-place-hawks/basketball/",
+      "region": "1A South Central"
+    },
+    {
+      "teamName": "Kiona Benton Bears",
+      "teamUrl": "https://www.maxpreps.com/wa/benton-city/kiona-benton-bears/basketball/",
+      "region": "1A South Central"
+    },
+    {
+      "teamName": "Thorp",
+      "teamUrl": "https://www.maxpreps.com/wa/thorp/thorp/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Sultan Turks",
+      "teamUrl": "https://www.maxpreps.com/wa/sultan/sultan-turks/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Glenwood Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/glenwood/glenwood-eagles/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Bickleton Pirates",
+      "teamUrl": "https://www.maxpreps.com/wa/bickleton/bickleton-pirates/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Easton Jaguars",
+      "teamUrl": "https://www.maxpreps.com/wa/easton/easton-jaguars/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Almira Coulee Hartline Warriors",
+      "teamUrl": "https://www.maxpreps.com/wa/coulee-city/almira-coulee-hartline-warriors/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Northport Mustangs",
+      "teamUrl": "https://www.maxpreps.com/wa/northport/northport-mustangs/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Inchelium Hornets",
+      "teamUrl": "https://www.maxpreps.com/wa/inchelium/inchelium-hornets/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Republic Tigers",
+      "teamUrl": "https://www.maxpreps.com/wa/republic/republic-tigers/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Valley Christian Panthers",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/valley-christian-panthers/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Wellpinit Redskins",
+      "teamUrl": "https://www.maxpreps.com/wa/wellpinit/wellpinit-redskins/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Cusick Panthers",
+      "teamUrl": "https://www.maxpreps.com/wa/cusick/cusick-panthers/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Wilbur Creston Keller Wildcats",
+      "teamUrl": "https://www.maxpreps.com/wa/creston/wilbur-creston-keller-wildcats/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Selkirk Rangers",
+      "teamUrl": "https://www.maxpreps.com/wa/ione/selkirk-rangers/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Mary Walker Chargers",
+      "teamUrl": "https://www.maxpreps.com/wa/springdale/mary-walker-chargers/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Chesterton Academy Of Notre Dame Knights",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/chesterton-academy-of-notre-dame-knights/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Curlew Cougars",
+      "teamUrl": "https://www.maxpreps.com/wa/curlew/curlew-cougars/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Odessa Tigers",
+      "teamUrl": "https://www.maxpreps.com/wa/odessa/odessa-tigers/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Columbia Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/hunters/columbia-lions/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Nespelem",
+      "teamUrl": "https://www.maxpreps.com/wa/nespelem/nespelem/basketball/",
+      "region": "1B Northeast"
+    },
+    {
+      "teamName": "Camas Papermakers",
+      "teamUrl": "https://www.maxpreps.com/wa/camas/camas-papermakers/basketball/",
+      "region": "4A Greater St Helens"
+    },
+    {
+      "teamName": "Skyview Storm",
+      "teamUrl": "https://www.maxpreps.com/wa/vancouver/skyview-storm/basketball/",
+      "region": "4A Greater St Helens"
+    },
+    {
+      "teamName": "Union Titans",
+      "teamUrl": "https://www.maxpreps.com/wa/vancouver/union-titans/basketball/",
+      "region": "4A Greater St Helens"
+    },
+    {
+      "teamName": "Battle Ground Tigers",
+      "teamUrl": "https://www.maxpreps.com/wa/battle-ground/battle-ground-tigers/basketball/",
+      "region": "4A Greater St Helens"
+    },
+    {
+      "teamName": "Tri Cities Prep Jaguars",
+      "teamUrl": "https://www.maxpreps.com/wa/pasco/tri-cities-prep-jaguars/basketball/",
+      "region": "2B Eastern Washington  East"
+    },
+    {
+      "teamName": "Warden Cougars",
+      "teamUrl": "https://www.maxpreps.com/wa/warden/warden-cougars/basketball/",
+      "region": "2B Eastern Washington  East"
+    },
+    {
+      "teamName": "Columbia Coyotes",
+      "teamUrl": "https://www.maxpreps.com/wa/burbank/columbia-coyotes/basketball/",
+      "region": "2B Eastern Washington  East"
+    },
+    {
+      "teamName": "River View Panthers",
+      "teamUrl": "https://www.maxpreps.com/wa/kennewick/river-view-panthers/basketball/",
+      "region": "2B Eastern Washington  East"
+    },
+    {
+      "teamName": "Granger Spartans",
+      "teamUrl": "https://www.maxpreps.com/wa/granger/granger-spartans/basketball/",
+      "region": "2B Eastern Washington  East"
+    },
+    {
+      "teamName": "Mabton Vikings",
+      "teamUrl": "https://www.maxpreps.com/wa/mabton/mabton-vikings/basketball/",
+      "region": "2B Eastern Washington  East"
+    },
+    {
+      "teamName": "Glacier Peak Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/wa/snohomish/glacier-peak-grizzlies/basketball/",
+      "region": "4A Wesco"
+    },
+    {
+      "teamName": "Lake Stevens Vikings",
+      "teamUrl": "https://www.maxpreps.com/wa/lake-stevens/lake-stevens-vikings/basketball/",
+      "region": "4A Wesco"
+    },
+    {
+      "teamName": "Jackson Timberwolves",
+      "teamUrl": "https://www.maxpreps.com/wa/mill-creek/jackson-timberwolves/basketball/",
+      "region": "4A Wesco"
+    },
+    {
+      "teamName": "Arlington Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/arlington/arlington-eagles/basketball/",
+      "region": "4A Wesco"
+    },
+    {
+      "teamName": "Kamiak Kamiak Knights",
+      "teamUrl": "https://www.maxpreps.com/wa/mukilteo/kamiak-kamiak-knights/basketball/",
+      "region": "4A Wesco"
+    },
+    {
+      "teamName": "Mariner Marauders",
+      "teamUrl": "https://www.maxpreps.com/wa/everett/mariner-marauders/basketball/",
+      "region": "4A Wesco"
+    },
+    {
+      "teamName": "Cascade Bruins",
+      "teamUrl": "https://www.maxpreps.com/wa/everett/cascade-bruins/basketball/",
+      "region": "4A Wesco"
+    },
+    {
+      "teamName": "Enumclaw Hornets",
+      "teamUrl": "https://www.maxpreps.com/wa/enumclaw/enumclaw-hornets/basketball/",
+      "region": "3A North Puget Sound"
+    },
+    {
+      "teamName": "Auburn Mountainview Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/auburn/auburn-mountainview-lions/basketball/",
+      "region": "3A North Puget Sound"
+    },
+    {
+      "teamName": "Beamer Titans",
+      "teamUrl": "https://www.maxpreps.com/wa/federal-way/beamer-titans/basketball/",
+      "region": "3A North Puget Sound"
+    },
+    {
+      "teamName": "White River Hornets",
+      "teamUrl": "https://www.maxpreps.com/wa/buckley/white-river-hornets/basketball/",
+      "region": "3A North Puget Sound"
+    },
+    {
+      "teamName": "Federal Way Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/federal-way/federal-way-eagles/basketball/",
+      "region": "3A North Puget Sound"
+    },
+    {
+      "teamName": "Jefferson Raiders",
+      "teamUrl": "https://www.maxpreps.com/wa/auburn/jefferson-raiders/basketball/",
+      "region": "3A North Puget Sound"
+    },
+    {
+      "teamName": "Decatur Gators",
+      "teamUrl": "https://www.maxpreps.com/wa/federal-way/decatur-gators/basketball/",
+      "region": "3A North Puget Sound"
+    },
+    {
+      "teamName": "Kent Meridian Royals",
+      "teamUrl": "https://www.maxpreps.com/wa/kent/kent-meridian-royals/basketball/",
+      "region": "3A North Puget Sound"
+    },
+    {
+      "teamName": "Kentlake Falcons",
+      "teamUrl": "https://www.maxpreps.com/wa/kent/kentlake-falcons/basketball/",
+      "region": "3A North Puget Sound"
+    },
+    {
+      "teamName": "Emerald Ridge Jaguars",
+      "teamUrl": "https://www.maxpreps.com/wa/south-hill/emerald-ridge-jaguars/basketball/",
+      "region": "4A South Puget Sound  North"
+    },
+    {
+      "teamName": "Puyallup Vikings",
+      "teamUrl": "https://www.maxpreps.com/wa/puyallup/puyallup-vikings/basketball/",
+      "region": "4A South Puget Sound  North"
+    },
+    {
+      "teamName": "Sumner Spartans",
+      "teamUrl": "https://www.maxpreps.com/wa/sumner/sumner-spartans/basketball/",
+      "region": "4A South Puget Sound  North"
+    },
+    {
+      "teamName": "Curtis Vikings",
+      "teamUrl": "https://www.maxpreps.com/wa/university-place/curtis-vikings/basketball/",
+      "region": "4A South Puget Sound  North"
+    },
+    {
+      "teamName": "Rogers Rams",
+      "teamUrl": "https://www.maxpreps.com/wa/puyallup/rogers-rams/basketball/",
+      "region": "4A South Puget Sound  North"
+    },
+    {
+      "teamName": "South Kitsap Wolves",
+      "teamUrl": "https://www.maxpreps.com/wa/port-orchard/south-kitsap-wolves/basketball/",
+      "region": "4A South Puget Sound  North"
+    },
+    {
+      "teamName": "Foster Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/tukwila/foster-bulldogs/basketball/",
+      "region": "2A Kingco"
+    },
+    {
+      "teamName": "Renton Red Hawks",
+      "teamUrl": "https://www.maxpreps.com/wa/renton/renton-red-hawks/basketball/",
+      "region": "2A Kingco"
+    },
+    {
+      "teamName": "Cedarcrest Red Wolves",
+      "teamUrl": "https://www.maxpreps.com/wa/duvall/cedarcrest-red-wolves/basketball/",
+      "region": "2A Kingco"
+    },
+    {
+      "teamName": "Evergreen Wolverines",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/evergreen-wolverines/basketball/",
+      "region": "2A Kingco"
+    },
+    {
+      "teamName": "Rainier Beach Vikings",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/rainier-beach-vikings/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Odea Fighting Irish",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/odea-fighting-irish/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Seattle Academy Cardinals",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/seattle-academy-cardinals/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Franklin Quakers",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/franklin-quakers/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Eastside Catholic Crusaders",
+      "teamUrl": "https://www.maxpreps.com/wa/sammamish/eastside-catholic-crusaders/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Ballard Beavers",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/ballard-beavers/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Seattle Prep Panthers",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/seattle-prep-panthers/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Lakeside Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/lakeside-lions/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Lincoln Lynx",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/lincoln-lynx/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Garfield Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/garfield-bulldogs/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Roosevelt Roughriders",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/roosevelt-roughriders/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Bishop Blanchet Bears",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/bishop-blanchet-bears/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "West Seattle",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/west-seattle/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Chief Sealth Seahawks",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/chief-sealth-seahawks/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Ingraham Rams",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/ingraham-rams/basketball/",
+      "region": "3A Metro"
+    },
+    {
+      "teamName": "Okanogan Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/okanogan/okanogan-bulldogs/basketball/",
+      "region": "2B Central Washington"
+    },
+    {
+      "teamName": "Liberty Bell Mountain Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/winthrop/liberty-bell-mountain-lions/basketball/",
+      "region": "2B Central Washington"
+    },
+    {
+      "teamName": "Tonasket Tigers",
+      "teamUrl": "https://www.maxpreps.com/wa/tonasket/tonasket-tigers/basketball/",
+      "region": "2B Central Washington"
+    },
+    {
+      "teamName": "Bridgeport Mustangs And Fillies",
+      "teamUrl": "https://www.maxpreps.com/wa/bridgeport/bridgeport-mustangs-and-fillies/basketball/",
+      "region": "2B Central Washington"
+    },
+    {
+      "teamName": "Lake Roosevelt Raiders",
+      "teamUrl": "https://www.maxpreps.com/wa/coulee-dam/lake-roosevelt-raiders/basketball/",
+      "region": "2B Central Washington"
+    },
+    {
+      "teamName": "Brewster Bears",
+      "teamUrl": "https://www.maxpreps.com/wa/brewster/brewster-bears/basketball/",
+      "region": "2B Central Washington"
+    },
+    {
+      "teamName": "Manson Trojans",
+      "teamUrl": "https://www.maxpreps.com/wa/manson/manson-trojans/basketball/",
+      "region": "2B Central Washington"
+    },
+    {
+      "teamName": "Lummi Blackhawks",
+      "teamUrl": "https://www.maxpreps.com/wa/bellingham/lummi-blackhawks/basketball/",
+      "region": "1B Northwest"
+    },
+    {
+      "teamName": "Tulalip Heritage Hawks",
+      "teamUrl": "https://www.maxpreps.com/wa/marysville/tulalip-heritage-hawks/basketball/",
+      "region": "1B Northwest"
+    },
+    {
+      "teamName": "Grace Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/marysville/grace-academy-eagles/basketball/",
+      "region": "1B Northwest"
+    },
+    {
+      "teamName": "Lopez Lobos",
+      "teamUrl": "https://www.maxpreps.com/wa/lopez/lopez-lobos/basketball/",
+      "region": "1B Northwest"
+    },
+    {
+      "teamName": "Shoreline Christian Chargers",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/shoreline-christian-chargers/basketball/",
+      "region": "1B Northwest"
+    },
+    {
+      "teamName": "Cedar Park Christian Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/mountlake-terrace/cedar-park-christian-lions/basketball/",
+      "region": "1B Northwest"
+    },
+    {
+      "teamName": "Providence Classical Christian Highlanders",
+      "teamUrl": "https://www.maxpreps.com/wa/kirkland/providence-classical-christian-highlanders/basketball/",
+      "region": "1B Northwest"
+    },
+    {
+      "teamName": "Inglemoor Vikings",
+      "teamUrl": "https://www.maxpreps.com/wa/kenmore/inglemoor-vikings/basketball/",
+      "region": "3A Kingco  Lake"
+    },
+    {
+      "teamName": "Lindbergh Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/renton/lindbergh-eagles/basketball/",
+      "region": "3A Kingco  Lake"
+    },
+    {
+      "teamName": "Highline Pirates",
+      "teamUrl": "https://www.maxpreps.com/wa/burien/highline-pirates/basketball/",
+      "region": "3A Kingco  Lake"
+    },
+    {
+      "teamName": "Tyee Titans",
+      "teamUrl": "https://www.maxpreps.com/wa/seatac/tyee-titans/basketball/",
+      "region": "3A Kingco  Lake"
+    },
+    {
+      "teamName": "Chelan Mountain Goats",
+      "teamUrl": "https://www.maxpreps.com/wa/chelan/chelan-mountain-goats/basketball/",
+      "region": "1A Caribou Trail"
+    },
+    {
+      "teamName": "Omak Pioneers",
+      "teamUrl": "https://www.maxpreps.com/wa/omak/omak-pioneers/basketball/",
+      "region": "1A Caribou Trail"
+    },
+    {
+      "teamName": "Cascade Kodiaks",
+      "teamUrl": "https://www.maxpreps.com/wa/leavenworth/cascade-kodiaks/basketball/",
+      "region": "1A Caribou Trail"
+    },
+    {
+      "teamName": "Auburn Trojans",
+      "teamUrl": "https://www.maxpreps.com/wa/auburn/auburn-trojans/basketball/",
+      "region": "4A North Puget Sound"
+    },
+    {
+      "teamName": "Kentridge Chargers",
+      "teamUrl": "https://www.maxpreps.com/wa/kent/kentridge-chargers/basketball/",
+      "region": "4A North Puget Sound"
+    },
+    {
+      "teamName": "Kentwood Conquerors",
+      "teamUrl": "https://www.maxpreps.com/wa/covington/kentwood-conquerors/basketball/",
+      "region": "4A North Puget Sound"
+    },
+    {
+      "teamName": "Kennedy Catholic Lancers",
+      "teamUrl": "https://www.maxpreps.com/wa/burien/kennedy-catholic-lancers/basketball/",
+      "region": "4A North Puget Sound"
+    },
+    {
+      "teamName": "Tahoma Bears",
+      "teamUrl": "https://www.maxpreps.com/wa/maple-valley/tahoma-bears/basketball/",
+      "region": "4A North Puget Sound"
+    },
+    {
+      "teamName": "Mt Rainier Rams",
+      "teamUrl": "https://www.maxpreps.com/wa/des-moines/mt-rainier-rams/basketball/",
+      "region": "4A North Puget Sound"
+    },
+    {
+      "teamName": "Stadium Tigers",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/stadium-tigers/basketball/",
+      "region": "4A North Puget Sound"
+    },
+    {
+      "teamName": "Auburn Riverside Ravens",
+      "teamUrl": "https://www.maxpreps.com/wa/auburn/auburn-riverside-ravens/basketball/",
+      "region": "4A North Puget Sound"
+    },
+    {
+      "teamName": "Montesano Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/montesano/montesano-bulldogs/basketball/",
+      "region": "1A Evergreen"
+    },
+    {
+      "teamName": "Elma Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/elma/elma-eagles/basketball/",
+      "region": "1A Evergreen"
+    },
+    {
+      "teamName": "Hoquiam Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/wa/hoquiam/hoquiam-grizzlies/basketball/",
+      "region": "1A Evergreen"
+    },
+    {
+      "teamName": "Rochester Warriors",
+      "teamUrl": "https://www.maxpreps.com/wa/rochester/rochester-warriors/basketball/",
+      "region": "1A Evergreen"
+    },
+    {
+      "teamName": "Tenino Beavers",
+      "teamUrl": "https://www.maxpreps.com/wa/tenino/tenino-beavers/basketball/",
+      "region": "1A Evergreen"
+    },
+    {
+      "teamName": "Ra Long Lumberjacks",
+      "teamUrl": "https://www.maxpreps.com/wa/longview/ra-long-lumberjacks/basketball/",
+      "region": "2A Greater St Helens"
+    },
+    {
+      "teamName": "Columbia River Rapids",
+      "teamUrl": "https://www.maxpreps.com/wa/vancouver/columbia-river-rapids/basketball/",
+      "region": "2A Greater St Helens"
+    },
+    {
+      "teamName": "Woodland Beavers",
+      "teamUrl": "https://www.maxpreps.com/wa/woodland/woodland-beavers/basketball/",
+      "region": "2A Greater St Helens"
+    },
+    {
+      "teamName": "Washougal Panthers",
+      "teamUrl": "https://www.maxpreps.com/wa/washougal/washougal-panthers/basketball/",
+      "region": "2A Greater St Helens"
+    },
+    {
+      "teamName": "Ridgefield Spudders",
+      "teamUrl": "https://www.maxpreps.com/wa/ridgefield/ridgefield-spudders/basketball/",
+      "region": "2A Greater St Helens"
+    },
+    {
+      "teamName": "Mark Morris Monarchs",
+      "teamUrl": "https://www.maxpreps.com/wa/longview/mark-morris-monarchs/basketball/",
+      "region": "2A Greater St Helens"
+    },
+    {
+      "teamName": "Hudsons Bay Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/vancouver/hudsons-bay-eagles/basketball/",
+      "region": "2A Greater St Helens"
+    },
+    {
+      "teamName": "Hockinson Hawks",
+      "teamUrl": "https://www.maxpreps.com/wa/brush-prairie/hockinson-hawks/basketball/",
+      "region": "2A Greater St Helens"
+    },
+    {
+      "teamName": "Lynden Christian Lyncs",
+      "teamUrl": "https://www.maxpreps.com/wa/lynden/lynden-christian-lyncs/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Anacortes Seahawks",
+      "teamUrl": "https://www.maxpreps.com/wa/anacortes/anacortes-seahawks/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Sedro Woolley Cubs",
+      "teamUrl": "https://www.maxpreps.com/wa/sedro-woolley/sedro-woolley-cubs/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Lynden Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/lynden/lynden-lions/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Lakewood Cougars",
+      "teamUrl": "https://www.maxpreps.com/wa/arlington/lakewood-cougars/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Sehome Mariners",
+      "teamUrl": "https://www.maxpreps.com/wa/bellingham/sehome-mariners/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Burlington Edison Tigers",
+      "teamUrl": "https://www.maxpreps.com/wa/burlington/burlington-edison-tigers/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Mount Vernon Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/mount-vernon/mount-vernon-bulldogs/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Ferndale Golden Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/ferndale/ferndale-golden-eagles/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Squalicum Storm",
+      "teamUrl": "https://www.maxpreps.com/wa/bellingham/squalicum-storm/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Oak Harbor Wildcats",
+      "teamUrl": "https://www.maxpreps.com/wa/oak-harbor/oak-harbor-wildcats/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Nooksack Valley Pioneers",
+      "teamUrl": "https://www.maxpreps.com/wa/everson/nooksack-valley-pioneers/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Meridian Trojans",
+      "teamUrl": "https://www.maxpreps.com/wa/bellingham/meridian-trojans/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Bellingham Bayhawks",
+      "teamUrl": "https://www.maxpreps.com/wa/bellingham/bellingham-bayhawks/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Blaine Borderites",
+      "teamUrl": "https://www.maxpreps.com/wa/blaine/blaine-borderites/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "Mt Baker Mountaineers",
+      "teamUrl": "https://www.maxpreps.com/wa/deming/mt-baker-mountaineers/basketball/",
+      "region": "1A 2A 3A Northwest"
+    },
+    {
+      "teamName": "West Valley Rams",
+      "teamUrl": "https://www.maxpreps.com/wa/yakima/west-valley-rams/basketball/",
+      "region": "4A Columbia Basin Big 9"
+    },
+    {
+      "teamName": "Sunnyside Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/wa/sunnyside/sunnyside-grizzlies/basketball/",
+      "region": "4A Columbia Basin Big 9"
+    },
+    {
+      "teamName": "Davis Pirates",
+      "teamUrl": "https://www.maxpreps.com/wa/yakima/davis-pirates/basketball/",
+      "region": "4A Columbia Basin Big 9"
+    },
+    {
+      "teamName": "Moses Lake Mavericks",
+      "teamUrl": "https://www.maxpreps.com/wa/moses-lake/moses-lake-mavericks/basketball/",
+      "region": "4A Columbia Basin Big 9"
+    },
+    {
+      "teamName": "Eisenhower Cadets",
+      "teamUrl": "https://www.maxpreps.com/wa/yakima/eisenhower-cadets/basketball/",
+      "region": "4A Columbia Basin Big 9"
+    },
+    {
+      "teamName": "Wenatchee Panthers",
+      "teamUrl": "https://www.maxpreps.com/wa/wenatchee/wenatchee-panthers/basketball/",
+      "region": "4A Columbia Basin Big 9"
+    },
+    {
+      "teamName": "Eastmont Wildcats",
+      "teamUrl": "https://www.maxpreps.com/wa/east-wenatchee/eastmont-wildcats/basketball/",
+      "region": "4A Columbia Basin Big 9"
+    },
+    {
+      "teamName": "Clover Park Timberwolves",
+      "teamUrl": "https://www.maxpreps.com/wa/lakewood/clover-park-timberwolves/basketball/",
+      "region": "2A South Puget Sound"
+    },
+    {
+      "teamName": "Franklin Pierce Cardinals",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/franklin-pierce-cardinals/basketball/",
+      "region": "2A South Puget Sound"
+    },
+    {
+      "teamName": "Fife Trojans",
+      "teamUrl": "https://www.maxpreps.com/wa/fife/fife-trojans/basketball/",
+      "region": "2A South Puget Sound"
+    },
+    {
+      "teamName": "Washington Patriots",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/washington-patriots/basketball/",
+      "region": "2A South Puget Sound"
+    },
+    {
+      "teamName": "Orting Cardinals",
+      "teamUrl": "https://www.maxpreps.com/wa/orting/orting-cardinals/basketball/",
+      "region": "2A South Puget Sound"
+    },
+    {
+      "teamName": "Eatonville Cruisers",
+      "teamUrl": "https://www.maxpreps.com/wa/eatonville/eatonville-cruisers/basketball/",
+      "region": "2A South Puget Sound"
+    },
+    {
+      "teamName": "Foss Falcons",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/foss-falcons/basketball/",
+      "region": "2A South Puget Sound"
+    },
+    {
+      "teamName": "Steilacoom Sentinels",
+      "teamUrl": "https://www.maxpreps.com/wa/steilacoom/steilacoom-sentinels/basketball/",
+      "region": "2A South Puget Sound"
+    },
+    {
+      "teamName": "Moses Lake Christian Academy Covenant Christian Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/moses-lake/moses-lake-christian-academy-covenant-christian-lions/basketball/",
+      "region": "1B Central Washington"
+    },
+    {
+      "teamName": "Entiat Tigers",
+      "teamUrl": "https://www.maxpreps.com/wa/entiat/entiat-tigers/basketball/",
+      "region": "1B Central Washington"
+    },
+    {
+      "teamName": "Oroville Hornets",
+      "teamUrl": "https://www.maxpreps.com/wa/oroville/oroville-hornets/basketball/",
+      "region": "1B Central Washington"
+    },
+    {
+      "teamName": "Wilson Creek Devils",
+      "teamUrl": "https://www.maxpreps.com/wa/wilson-creek/wilson-creek-devils/basketball/",
+      "region": "1B Central Washington"
+    },
+    {
+      "teamName": "Cascade Christian Academy",
+      "teamUrl": "https://www.maxpreps.com/wa/wenatchee/cascade-christian-academy/basketball/",
+      "region": "1B Central Washington"
+    },
+    {
+      "teamName": "Soap Lake Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/soap-lake/soap-lake-eagles/basketball/",
+      "region": "1B Central Washington"
+    },
+    {
+      "teamName": "Waterville Mansfield",
+      "teamUrl": "https://www.maxpreps.com/wa/waterville/waterville-mansfield/basketball/",
+      "region": "1B Central Washington"
+    },
+    {
+      "teamName": "Pateros Billy Goats",
+      "teamUrl": "https://www.maxpreps.com/wa/pateros/pateros-billy-goats/basketball/",
+      "region": "1B Central Washington"
+    },
+    {
+      "teamName": "Bear Creek Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/wa/redmond/bear-creek-grizzlies/basketball/",
+      "region": "1A Emerald Sound"
+    },
+    {
+      "teamName": "Kings Knights",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/kings-knights/basketball/",
+      "region": "1A Emerald Sound"
+    },
+    {
+      "teamName": "Overlake Owls",
+      "teamUrl": "https://www.maxpreps.com/wa/redmond/overlake-owls/basketball/",
+      "region": "1A Emerald Sound"
+    },
+    {
+      "teamName": "University Prep Pumas",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/university-prep-pumas/basketball/",
+      "region": "1A Emerald Sound"
+    },
+    {
+      "teamName": "Eastside Prep",
+      "teamUrl": "https://www.maxpreps.com/wa/kirkland/eastside-prep/basketball/",
+      "region": "1A Emerald Sound"
+    },
+    {
+      "teamName": "Cedar Park Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/bothell/cedar-park-christian-eagles/basketball/",
+      "region": "1A Emerald Sound"
+    },
+    {
+      "teamName": "South Whidbey Falcons",
+      "teamUrl": "https://www.maxpreps.com/wa/langley/south-whidbey-falcons/basketball/",
+      "region": "1A Emerald Sound"
+    },
+    {
+      "teamName": "Granite Falls Tigers",
+      "teamUrl": "https://www.maxpreps.com/wa/granite-falls/granite-falls-tigers/basketball/",
+      "region": "1A Emerald Sound"
+    },
+    {
+      "teamName": "Northwest House",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/northwest-house/basketball/",
+      "region": "1A Emerald Sound"
+    },
+    {
+      "teamName": "Bush Blazers",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/bush-blazers/basketball/",
+      "region": "1A Emerald Sound"
+    },
+    {
+      "teamName": "Summit Sierra Spartans",
+      "teamUrl": "https://www.maxpreps.com/wa/seattle/summit-sierra-spartans/basketball/",
+      "region": "1A Emerald Sound"
+    },
+    {
+      "teamName": "Olympia Bears",
+      "teamUrl": "https://www.maxpreps.com/wa/olympia/olympia-bears/basketball/",
+      "region": "4A South Puget Sound  South"
+    },
+    {
+      "teamName": "Bonney Lake Panthers",
+      "teamUrl": "https://www.maxpreps.com/wa/bonney-lake/bonney-lake-panthers/basketball/",
+      "region": "4A South Puget Sound  South"
+    },
+    {
+      "teamName": "Graham Kapowsin Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/graham/graham-kapowsin-eagles/basketball/",
+      "region": "4A South Puget Sound  South"
+    },
+    {
+      "teamName": "Spanaway Lake Sentinels",
+      "teamUrl": "https://www.maxpreps.com/wa/spanaway/spanaway-lake-sentinels/basketball/",
+      "region": "4A South Puget Sound  South"
+    },
+    {
+      "teamName": "Bethel Bison",
+      "teamUrl": "https://www.maxpreps.com/wa/spanaway/bethel-bison/basketball/",
+      "region": "4A South Puget Sound  South"
+    },
+    {
+      "teamName": "Yelm Tornados",
+      "teamUrl": "https://www.maxpreps.com/wa/yelm/yelm-tornados/basketball/",
+      "region": "4A South Puget Sound  South"
+    },
+    {
+      "teamName": "Wahkiakum Mules",
+      "teamUrl": "https://www.maxpreps.com/wa/cathlamet/wahkiakum-mules/basketball/",
+      "region": "1B Columbia Valley"
+    },
+    {
+      "teamName": "Columbia Adventist Academy Kodiaks",
+      "teamUrl": "https://www.maxpreps.com/wa/battle-ground/columbia-adventist-academy-kodiaks/basketball/",
+      "region": "1B Columbia Valley"
+    },
+    {
+      "teamName": "Firm Foundation Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/battle-ground/firm-foundation-christian-eagles/basketball/",
+      "region": "1B Columbia Valley"
+    },
+    {
+      "teamName": "Pe Ell Trojans",
+      "teamUrl": "https://www.maxpreps.com/wa/pe-ell/pe-ell-trojans/basketball/",
+      "region": "1B Columbia Valley"
+    },
+    {
+      "teamName": "Oakville Acorns",
+      "teamUrl": "https://www.maxpreps.com/wa/oakville/oakville-acorns/basketball/",
+      "region": "1B Columbia Valley"
+    },
+    {
+      "teamName": "Three Rivers Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/longview/three-rivers-christian-eagles/basketball/",
+      "region": "1B Columbia Valley"
+    },
+    {
+      "teamName": "Agape Christian Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/camas/agape-christian-academy-lions/basketball/",
+      "region": "1B Columbia Valley"
+    },
+    {
+      "teamName": "Washington School For The Deaf Terriers",
+      "teamUrl": "https://www.maxpreps.com/wa/vancouver/washington-school-for-the-deaf-terriers/basketball/",
+      "region": "1B Columbia Valley"
+    },
+    {
+      "teamName": "Cornerstone Christian Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/battleground/cornerstone-christian-academy-lions/basketball/",
+      "region": "1B Columbia Valley"
+    },
+    {
+      "teamName": "Mount Si Wildcats",
+      "teamUrl": "https://www.maxpreps.com/wa/snoqualmie/mount-si-wildcats/basketball/",
+      "region": "4A Kingco"
+    },
+    {
+      "teamName": "Lake Washington Kangaroos",
+      "teamUrl": "https://www.maxpreps.com/wa/kirkland/lake-washington-kangaroos/basketball/",
+      "region": "4A Kingco"
+    },
+    {
+      "teamName": "Redmond Mustangs",
+      "teamUrl": "https://www.maxpreps.com/wa/redmond/redmond-mustangs/basketball/",
+      "region": "4A Kingco"
+    },
+    {
+      "teamName": "Woodinville Falcons",
+      "teamUrl": "https://www.maxpreps.com/wa/woodinville/woodinville-falcons/basketball/",
+      "region": "4A Kingco"
+    },
+    {
+      "teamName": "Hazen Highlanders",
+      "teamUrl": "https://www.maxpreps.com/wa/renton/hazen-highlanders/basketball/",
+      "region": "4A Kingco"
+    },
+    {
+      "teamName": "Issaquah Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/issaquah/issaquah-eagles/basketball/",
+      "region": "4A Kingco"
+    },
+    {
+      "teamName": "North Creek Jaguars",
+      "teamUrl": "https://www.maxpreps.com/wa/bothell/north-creek-jaguars/basketball/",
+      "region": "4A Kingco"
+    },
+    {
+      "teamName": "Newport Bellevue Knights",
+      "teamUrl": "https://www.maxpreps.com/wa/bellevue/newport-bellevue-knights/basketball/",
+      "region": "4A Kingco"
+    },
+    {
+      "teamName": "Eastlake Wolves",
+      "teamUrl": "https://www.maxpreps.com/wa/sammamish/eastlake-wolves/basketball/",
+      "region": "4A Kingco"
+    },
+    {
+      "teamName": "Skyline Spartans",
+      "teamUrl": "https://www.maxpreps.com/wa/sammamish/skyline-spartans/basketball/",
+      "region": "4A Kingco"
+    },
+    {
+      "teamName": "Bothell Cougars",
+      "teamUrl": "https://www.maxpreps.com/wa/bothell/bothell-cougars/basketball/",
+      "region": "4A Kingco"
+    },
+    {
+      "teamName": "Juanita Ravens",
+      "teamUrl": "https://www.maxpreps.com/wa/kirkland/juanita-ravens/basketball/",
+      "region": "4A Kingco"
+    },
+    {
+      "teamName": "Bremerton Knights",
+      "teamUrl": "https://www.maxpreps.com/wa/bremerton/bremerton-knights/basketball/",
+      "region": "2A Olympic"
+    },
+    {
+      "teamName": "Bainbridge Spartans",
+      "teamUrl": "https://www.maxpreps.com/wa/bainbridge-island/bainbridge-spartans/basketball/",
+      "region": "2A Olympic"
+    },
+    {
+      "teamName": "Port Angeles Roughriders",
+      "teamUrl": "https://www.maxpreps.com/wa/port-angeles/port-angeles-roughriders/basketball/",
+      "region": "2A Olympic"
+    },
+    {
+      "teamName": "Sequim Wolves",
+      "teamUrl": "https://www.maxpreps.com/wa/sequim/sequim-wolves/basketball/",
+      "region": "2A Olympic"
+    },
+    {
+      "teamName": "Kingston Buccaneers",
+      "teamUrl": "https://www.maxpreps.com/wa/kingston/kingston-buccaneers/basketball/",
+      "region": "2A Olympic"
+    },
+    {
+      "teamName": "North Mason Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/belfair/north-mason-bulldogs/basketball/",
+      "region": "2A Olympic"
+    },
+    {
+      "teamName": "Olympic Trojans",
+      "teamUrl": "https://www.maxpreps.com/wa/bremerton/olympic-trojans/basketball/",
+      "region": "2A Olympic"
+    },
+    {
+      "teamName": "North Kitsap Vikings",
+      "teamUrl": "https://www.maxpreps.com/wa/poulsbo/north-kitsap-vikings/basketball/",
+      "region": "2A Olympic"
+    },
+    {
+      "teamName": "Lakeside Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/nine-mile-falls/lakeside-eagles/basketball/",
+      "region": "1A Northeast"
+    },
+    {
+      "teamName": "Medical Lake Cardinals",
+      "teamUrl": "https://www.maxpreps.com/wa/medical-lake/medical-lake-cardinals/basketball/",
+      "region": "1A Northeast"
+    },
+    {
+      "teamName": "Riverside Rams",
+      "teamUrl": "https://www.maxpreps.com/wa/chattaroy/riverside-rams/basketball/",
+      "region": "1A Northeast"
+    },
+    {
+      "teamName": "Colville Crimson Hawks",
+      "teamUrl": "https://www.maxpreps.com/wa/colville/colville-crimson-hawks/basketball/",
+      "region": "1A Northeast"
+    },
+    {
+      "teamName": "Goldendale Timberwolves",
+      "teamUrl": "https://www.maxpreps.com/wa/goldendale/goldendale-timberwolves/basketball/",
+      "region": "2B Eastern Washington  West"
+    },
+    {
+      "teamName": "Kittitas Coyotes",
+      "teamUrl": "https://www.maxpreps.com/wa/kittitas/kittitas-coyotes/basketball/",
+      "region": "2B Eastern Washington  West"
+    },
+    {
+      "teamName": "Cle Elum Roslyn Warriors",
+      "teamUrl": "https://www.maxpreps.com/wa/cle-elum/cle-elum-roslyn-warriors/basketball/",
+      "region": "2B Eastern Washington  West"
+    },
+    {
+      "teamName": "La Salle Lightning",
+      "teamUrl": "https://www.maxpreps.com/wa/union-gap/la-salle-lightning/basketball/",
+      "region": "2B Eastern Washington  West"
+    },
+    {
+      "teamName": "White Swan Cougars",
+      "teamUrl": "https://www.maxpreps.com/wa/white-swan/white-swan-cougars/basketball/",
+      "region": "2B Eastern Washington  West"
+    },
+    {
+      "teamName": "Highland Scotties",
+      "teamUrl": "https://www.maxpreps.com/wa/cowiche/highland-scotties/basketball/",
+      "region": "2B Eastern Washington  West"
+    },
+    {
+      "teamName": "Northwest Christian School Crusaders",
+      "teamUrl": "https://www.maxpreps.com/wa/colbert/northwest-christian-school-crusaders/basketball/",
+      "region": "2B Northeast  North"
+    },
+    {
+      "teamName": "Reardan Screaming Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/reardan/reardan-screaming-eagles/basketball/",
+      "region": "2B Northeast  North"
+    },
+    {
+      "teamName": "Davenport Gorillas",
+      "teamUrl": "https://www.maxpreps.com/wa/davenport/davenport-gorillas/basketball/",
+      "region": "2B Northeast  North"
+    },
+    {
+      "teamName": "Kettle Falls Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/kettle-falls/kettle-falls-bulldogs/basketball/",
+      "region": "2B Northeast  North"
+    },
+    {
+      "teamName": "Chewelah Cougars",
+      "teamUrl": "https://www.maxpreps.com/wa/chewelah/chewelah-cougars/basketball/",
+      "region": "2B Northeast  North"
+    },
+    {
+      "teamName": "St Georges Dragons",
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/st-georges-dragons/basketball/",
+      "region": "2B Northeast  North"
+    },
+    {
+      "teamName": "Newport Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/wa/newport/newport-grizzlies/basketball/",
+      "region": "2B Northeast  North"
+    },
+    {
+      "teamName": "Ilwaco Fishermen",
+      "teamUrl": "https://www.maxpreps.com/wa/ilwaco/ilwaco-fishermen/basketball/",
+      "region": "2B Pacific"
+    },
+    {
+      "teamName": "Forks Spartans",
+      "teamUrl": "https://www.maxpreps.com/wa/forks/forks-spartans/basketball/",
+      "region": "2B Pacific"
+    },
+    {
+      "teamName": "Raymond South Bend Ravens",
+      "teamUrl": "https://www.maxpreps.com/wa/raymond/raymond-south-bend-ravens/basketball/",
+      "region": "2B Pacific"
+    },
+    {
+      "teamName": "North Beach Hyaks",
+      "teamUrl": "https://www.maxpreps.com/wa/ocean-shores/north-beach-hyaks/basketball/",
+      "region": "2B Pacific"
+    },
+    {
+      "teamName": "Chief Leschi Warriors",
+      "teamUrl": "https://www.maxpreps.com/wa/puyallup/chief-leschi-warriors/basketball/",
+      "region": "2B Pacific"
+    },
+    {
+      "teamName": "Colfax Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/wa/colfax/colfax-bulldogs/basketball/",
+      "region": "2B Northeast  South"
+    },
+    {
+      "teamName": "Liberty Lancers",
+      "teamUrl": "https://www.maxpreps.com/wa/spangle/liberty-lancers/basketball/",
+      "region": "2B Northeast  South"
+    },
+    {
+      "teamName": "Freeman Scotties",
+      "teamUrl": "https://www.maxpreps.com/wa/rockford/freeman-scotties/basketball/",
+      "region": "2B Northeast  South"
+    },
+    {
+      "teamName": "Asotin Panthers",
+      "teamUrl": "https://www.maxpreps.com/wa/asotin/asotin-panthers/basketball/",
+      "region": "2B Northeast  South"
+    },
+    {
+      "teamName": "Lind Ritzville Sprague Washtucna Broncos",
+      "teamUrl": "https://www.maxpreps.com/wa/ritzville/lind-ritzville-sprague-washtucna-broncos/basketball/",
+      "region": "2B Northeast  South"
+    },
+    {
+      "teamName": "Upper Columbia Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/spangle/upper-columbia-academy-lions/basketball/",
+      "region": "2B Northeast  South"
+    },
+    {
+      "teamName": "Tumwater Thunderbirds",
+      "teamUrl": "https://www.maxpreps.com/wa/tumwater/tumwater-thunderbirds/basketball/",
+      "region": "2A Evergreen"
+    },
+    {
+      "teamName": "Black Hills Wolves",
+      "teamUrl": "https://www.maxpreps.com/wa/tumwater/black-hills-wolves/basketball/",
+      "region": "2A Evergreen"
+    },
+    {
+      "teamName": "Wf West Bearcats",
+      "teamUrl": "https://www.maxpreps.com/wa/chehalis/wf-west-bearcats/basketball/",
+      "region": "2A Evergreen"
+    },
+    {
+      "teamName": "Shelton Highclimbers",
+      "teamUrl": "https://www.maxpreps.com/wa/shelton/shelton-highclimbers/basketball/",
+      "region": "2A Evergreen"
+    },
+    {
+      "teamName": "Aberdeen Bobcats",
+      "teamUrl": "https://www.maxpreps.com/wa/aberdeen/aberdeen-bobcats/basketball/",
+      "region": "2A Evergreen"
+    },
+    {
+      "teamName": "Centralia Tigers",
+      "teamUrl": "https://www.maxpreps.com/wa/centralia/centralia-tigers/basketball/",
+      "region": "2A Evergreen"
+    }
+  ]
+}

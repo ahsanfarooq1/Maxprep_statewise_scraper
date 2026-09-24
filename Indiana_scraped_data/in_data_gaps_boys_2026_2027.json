@@ -1,0 +1,2437 @@
+{
+  "meta": {
+    "state": "Indiana",
+    "stateCode": "IN",
+    "sport": "Boys Basketball",
+    "season": "2026-2027",
+    "totalTeams": 483,
+    "processedTeamsCount": 0,
+    "processedTeams": [],
+    "totalGamesChecked": 0,
+    "teamsFullBoxScores": 0,
+    "teamsPartialBoxScores": 0,
+    "teamsNoBoxScores": 0,
+    "errors_count": 483,
+    "last_updated": "2026-09-24 12:17:50"
+  },
+  "teamsFullBoxScores": [],
+  "teamsPartialBoxScores": [],
+  "teamsNoBoxScores": [],
+  "errors": [
+    {
+      "teamName": "Hauser Jets",
+      "teamUrl": "https://www.maxpreps.com/in/hope/hauser-jets/basketball/",
+      "region": "Mid Hoosier"
+    },
+    {
+      "teamName": "Morristown Yellow Jackets",
+      "teamUrl": "https://www.maxpreps.com/in/morristown/morristown-yellow-jackets/basketball/",
+      "region": "Mid Hoosier"
+    },
+    {
+      "teamName": "North Decatur Chargers",
+      "teamUrl": "https://www.maxpreps.com/in/greensburg/north-decatur-chargers/basketball/",
+      "region": "Mid Hoosier"
+    },
+    {
+      "teamName": "South Decatur Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/greensburg/south-decatur-cougars/basketball/",
+      "region": "Mid Hoosier"
+    },
+    {
+      "teamName": "Waldron Mohawks",
+      "teamUrl": "https://www.maxpreps.com/in/waldron/waldron-mohawks/basketball/",
+      "region": "Mid Hoosier"
+    },
+    {
+      "teamName": "Edinburgh Lancers",
+      "teamUrl": "https://www.maxpreps.com/in/edinburgh/edinburgh-lancers/basketball/",
+      "region": "Mid Hoosier"
+    },
+    {
+      "teamName": "Southwestern Spartans",
+      "teamUrl": "https://www.maxpreps.com/in/shelbyville/southwestern-spartans/basketball/",
+      "region": "Mid Hoosier"
+    },
+    {
+      "teamName": "Mt Vernon Marauders",
+      "teamUrl": "https://www.maxpreps.com/in/fortville/mt-vernon-marauders/basketball/",
+      "region": "Hoosier Heritage"
+    },
+    {
+      "teamName": "Pendleton Heights Arabians",
+      "teamUrl": "https://www.maxpreps.com/in/pendleton/pendleton-heights-arabians/basketball/",
+      "region": "Hoosier Heritage"
+    },
+    {
+      "teamName": "Shelbyville Golden Bears",
+      "teamUrl": "https://www.maxpreps.com/in/shelbyville/shelbyville-golden-bears/basketball/",
+      "region": "Hoosier Heritage"
+    },
+    {
+      "teamName": "New Palestine Dragons",
+      "teamUrl": "https://www.maxpreps.com/in/new-palestine/new-palestine-dragons/basketball/",
+      "region": "Hoosier Heritage"
+    },
+    {
+      "teamName": "Yorktown Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/yorktown/yorktown-tigers/basketball/",
+      "region": "Hoosier Heritage"
+    },
+    {
+      "teamName": "Greenfield Central Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/greenfield/greenfield-central-cougars/basketball/",
+      "region": "Hoosier Heritage"
+    },
+    {
+      "teamName": "Delta Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/muncie/delta-eagles/basketball/",
+      "region": "Hoosier Heritage"
+    },
+    {
+      "teamName": "New Castle Trojans",
+      "teamUrl": "https://www.maxpreps.com/in/new-castle/new-castle-trojans/basketball/",
+      "region": "Hoosier Heritage"
+    },
+    {
+      "teamName": "Barr Reeve Vikings",
+      "teamUrl": "https://www.maxpreps.com/in/montgomery/barr-reeve-vikings/basketball/",
+      "region": "Blue Chip"
+    },
+    {
+      "teamName": "Wood Memorial Trojans",
+      "teamUrl": "https://www.maxpreps.com/in/oakland-city/wood-memorial-trojans/basketball/",
+      "region": "Blue Chip"
+    },
+    {
+      "teamName": "Northeast Dubois Jeeps",
+      "teamUrl": "https://www.maxpreps.com/in/dubois/northeast-dubois-jeeps/basketball/",
+      "region": "Blue Chip"
+    },
+    {
+      "teamName": "South Knox Spartans",
+      "teamUrl": "https://www.maxpreps.com/in/vincennes/south-knox-spartans/basketball/",
+      "region": "Blue Chip"
+    },
+    {
+      "teamName": "Loogootee Lions",
+      "teamUrl": "https://www.maxpreps.com/in/loogootee/loogootee-lions/basketball/",
+      "region": "Blue Chip"
+    },
+    {
+      "teamName": "North Knox Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/bicknell/north-knox-warriors/basketball/",
+      "region": "Blue Chip"
+    },
+    {
+      "teamName": "Vincennes Rivet Patriots",
+      "teamUrl": "https://www.maxpreps.com/in/vincennes/vincennes-rivet-patriots/basketball/",
+      "region": "Blue Chip"
+    },
+    {
+      "teamName": "Shoals Jug Rox",
+      "teamUrl": "https://www.maxpreps.com/in/shoals/shoals-jug-rox/basketball/",
+      "region": "Blue Chip"
+    },
+    {
+      "teamName": "Washington Catholic Cardinals",
+      "teamUrl": "https://www.maxpreps.com/in/washington/washington-catholic-cardinals/basketball/",
+      "region": "Blue Chip"
+    },
+    {
+      "teamName": "Phalen Leadership Academy Falcon",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/phalen-leadership-academy-falcon/basketball/",
+      "region": "Indy Athletic Alliance"
+    },
+    {
+      "teamName": "Believe Circle City Cyclones",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/believe-circle-city-cyclones/basketball/",
+      "region": "Indy Athletic Alliance"
+    },
+    {
+      "teamName": "Thrival Indy Academy Aviators",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/thrival-indy-academy-aviators/basketball/",
+      "region": "Indy Athletic Alliance"
+    },
+    {
+      "teamName": "New Haven Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/in/new-haven/new-haven-bulldogs/basketball/",
+      "region": "Northeast 8"
+    },
+    {
+      "teamName": "Columbia City Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/columbia-city/columbia-city-eagles/basketball/",
+      "region": "Northeast 8"
+    },
+    {
+      "teamName": "Dekalb Barons",
+      "teamUrl": "https://www.maxpreps.com/in/waterloo/dekalb-barons/basketball/",
+      "region": "Northeast 8"
+    },
+    {
+      "teamName": "Huntington North Vikings",
+      "teamUrl": "https://www.maxpreps.com/in/huntington/huntington-north-vikings/basketball/",
+      "region": "Northeast 8"
+    },
+    {
+      "teamName": "Norwell Knights",
+      "teamUrl": "https://www.maxpreps.com/in/ossian/norwell-knights/basketball/",
+      "region": "Northeast 8"
+    },
+    {
+      "teamName": "Leo Lions",
+      "teamUrl": "https://www.maxpreps.com/in/leo/leo-lions/basketball/",
+      "region": "Northeast 8"
+    },
+    {
+      "teamName": "East Noble Knights",
+      "teamUrl": "https://www.maxpreps.com/in/kendallville/east-noble-knights/basketball/",
+      "region": "Northeast 8"
+    },
+    {
+      "teamName": "Bellmont Braves",
+      "teamUrl": "https://www.maxpreps.com/in/decatur/bellmont-braves/basketball/",
+      "region": "Northeast 8"
+    },
+    {
+      "teamName": "Pike Red Devils",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/pike-red-devils/basketball/",
+      "region": "Metropolitan"
+    },
+    {
+      "teamName": "Lawrence North Wildcats",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/lawrence-north-wildcats/basketball/",
+      "region": "Metropolitan"
+    },
+    {
+      "teamName": "Ben Davis Giants",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/ben-davis-giants/basketball/",
+      "region": "Metropolitan"
+    },
+    {
+      "teamName": "Lawrence Central Bears",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/lawrence-central-bears/basketball/",
+      "region": "Metropolitan"
+    },
+    {
+      "teamName": "Warren Central Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/warren-central-warriors/basketball/",
+      "region": "Metropolitan"
+    },
+    {
+      "teamName": "North Central Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/north-central-panthers/basketball/",
+      "region": "Metropolitan"
+    },
+    {
+      "teamName": "Fort Wayne South Side Archers",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/fort-wayne-south-side-archers/basketball/",
+      "region": "Summit"
+    },
+    {
+      "teamName": "Carroll Chargers",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/carroll-chargers/basketball/",
+      "region": "Summit"
+    },
+    {
+      "teamName": "Fort Wayne Snider Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/fort-wayne-snider-panthers/basketball/",
+      "region": "Summit"
+    },
+    {
+      "teamName": "Homestead Spartans",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/homestead-spartans/basketball/",
+      "region": "Summit"
+    },
+    {
+      "teamName": "Fort Wayne Wayne Generals",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/fort-wayne-wayne-generals/basketball/",
+      "region": "Summit"
+    },
+    {
+      "teamName": "Fort Wayne Bishop Luers Knights",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/fort-wayne-bishop-luers-knights/basketball/",
+      "region": "Summit"
+    },
+    {
+      "teamName": "Fort Wayne North Side Legends",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/fort-wayne-north-side-legends/basketball/",
+      "region": "Summit"
+    },
+    {
+      "teamName": "Fort Wayne Bishop Dwenger Saints Tuffy",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/fort-wayne-bishop-dwenger-saints-tuffy/basketball/",
+      "region": "Summit"
+    },
+    {
+      "teamName": "Fort Wayne Northrop Bruins",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/fort-wayne-northrop-bruins/basketball/",
+      "region": "Summit"
+    },
+    {
+      "teamName": "Fort Wayne Concordia Lutheran Cadets",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/fort-wayne-concordia-lutheran-cadets/basketball/",
+      "region": "Summit"
+    },
+    {
+      "teamName": "Northwestern Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/kokomo/northwestern-tigers/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Southwood Knights",
+      "teamUrl": "https://www.maxpreps.com/in/wabash/southwood-knights/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Lewis Cass Kings",
+      "teamUrl": "https://www.maxpreps.com/in/walton/lewis-cass-kings/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Manchester Squires",
+      "teamUrl": "https://www.maxpreps.com/in/north-manchester/manchester-squires/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Peru Bengal Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/peru/peru-bengal-tigers/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Rochester Zebras",
+      "teamUrl": "https://www.maxpreps.com/in/rochester/rochester-zebras/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Whitko Wildcats",
+      "teamUrl": "https://www.maxpreps.com/in/south-whitley/whitko-wildcats/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Wabash Apaches",
+      "teamUrl": "https://www.maxpreps.com/in/wabash/wabash-apaches/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Maconaquah Braves",
+      "teamUrl": "https://www.maxpreps.com/in/bunker-hill/maconaquah-braves/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Northfield Norsemen",
+      "teamUrl": "https://www.maxpreps.com/in/wabash/northfield-norsemen/basketball/",
+      "region": "Three Rivers"
+    },
+    {
+      "teamName": "Pleasant View Christian Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/in/montgomery/pleasant-view-christian-bulldogs/basketball/",
+      "region": "Southern Roads"
+    },
+    {
+      "teamName": "Medora Hornets",
+      "teamUrl": "https://www.maxpreps.com/in/medora/medora-hornets/basketball/",
+      "region": "Southern Roads"
+    },
+    {
+      "teamName": "Lighthouse Christian Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/in/bloomington/lighthouse-christian-academy-lions/basketball/",
+      "region": "Southern Roads"
+    },
+    {
+      "teamName": "Columbus Christian Crusaders",
+      "teamUrl": "https://www.maxpreps.com/in/columbus/columbus-christian-crusaders/basketball/",
+      "region": "Southern Roads"
+    },
+    {
+      "teamName": "Cannelton Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/in/cannelton/cannelton-bulldogs/basketball/",
+      "region": "Southern Roads"
+    },
+    {
+      "teamName": "Christian Academy Of Madison Defenders",
+      "teamUrl": "https://www.maxpreps.com/in/madison/christian-academy-of-madison-defenders/basketball/",
+      "region": "Southern Roads"
+    },
+    {
+      "teamName": "Seven Oaks Classical Firehawks",
+      "teamUrl": "https://www.maxpreps.com/in/ellettsville/seven-oaks-classical-firehawks/basketball/",
+      "region": "Southern Roads"
+    },
+    {
+      "teamName": "Parke Heritage Wolves",
+      "teamUrl": "https://www.maxpreps.com/in/rockville/parke-heritage-wolves/basketball/",
+      "region": "Wabash River"
+    },
+    {
+      "teamName": "Seeger Patriots",
+      "teamUrl": "https://www.maxpreps.com/in/west-lebanon/seeger-patriots/basketball/",
+      "region": "Wabash River"
+    },
+    {
+      "teamName": "North Vermillion Falcons",
+      "teamUrl": "https://www.maxpreps.com/in/cayuga/north-vermillion-falcons/basketball/",
+      "region": "Wabash River"
+    },
+    {
+      "teamName": "Riverton Parke Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/montezuma/riverton-parke-panthers/basketball/",
+      "region": "Wabash River"
+    },
+    {
+      "teamName": "Covington Trojans",
+      "teamUrl": "https://www.maxpreps.com/in/covington/covington-trojans/basketball/",
+      "region": "Wabash River"
+    },
+    {
+      "teamName": "Fountain Central Mustangs",
+      "teamUrl": "https://www.maxpreps.com/in/veedersburg/fountain-central-mustangs/basketball/",
+      "region": "Wabash River"
+    },
+    {
+      "teamName": "Attica Red Ramblers",
+      "teamUrl": "https://www.maxpreps.com/in/attica/attica-red-ramblers/basketball/",
+      "region": "Wabash River"
+    },
+    {
+      "teamName": "South Vermillion Wildcats",
+      "teamUrl": "https://www.maxpreps.com/in/clinton/south-vermillion-wildcats/basketball/",
+      "region": "Wabash River"
+    },
+    {
+      "teamName": "Hobart Brickies",
+      "teamUrl": "https://www.maxpreps.com/in/hobart/hobart-brickies/basketball/",
+      "region": "Northwest Crossroads"
+    },
+    {
+      "teamName": "Munster Mustangs",
+      "teamUrl": "https://www.maxpreps.com/in/munster/munster-mustangs/basketball/",
+      "region": "Northwest Crossroads"
+    },
+    {
+      "teamName": "Andrean Fighting 59Ers",
+      "teamUrl": "https://www.maxpreps.com/in/merrillville/andrean-fighting-59ers/basketball/",
+      "region": "Northwest Crossroads"
+    },
+    {
+      "teamName": "Hanover Central Wildcats",
+      "teamUrl": "https://www.maxpreps.com/in/cedar-lake/hanover-central-wildcats/basketball/",
+      "region": "Northwest Crossroads"
+    },
+    {
+      "teamName": "Kankakee Valley Kougars",
+      "teamUrl": "https://www.maxpreps.com/in/wheatfield/kankakee-valley-kougars/basketball/",
+      "region": "Northwest Crossroads"
+    },
+    {
+      "teamName": "Highland Trojans",
+      "teamUrl": "https://www.maxpreps.com/in/highland/highland-trojans/basketball/",
+      "region": "Northwest Crossroads"
+    },
+    {
+      "teamName": "Lowell Red Devils",
+      "teamUrl": "https://www.maxpreps.com/in/lowell/lowell-red-devils/basketball/",
+      "region": "Northwest Crossroads"
+    },
+    {
+      "teamName": "Indianapolis Homeschool Wildcats",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indianapolis-homeschool-wildcats/basketball/",
+      "region": "Midwest Christian Homeschool"
+    },
+    {
+      "teamName": "Hea Firebirds Homeschool",
+      "teamUrl": "https://www.maxpreps.com/mi/wayne/hea-firebirds-homeschool/basketball/",
+      "region": "Midwest Christian Homeschool"
+    },
+    {
+      "teamName": "Northside Lions Lions",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/northside-lions-lions/basketball/",
+      "region": "Midwest Christian Homeschool"
+    },
+    {
+      "teamName": "Homeschool Resource Center Patriots",
+      "teamUrl": "https://www.maxpreps.com/il/monee/homeschool-resource-center-patriots/basketball/",
+      "region": "Midwest Christian Homeschool"
+    },
+    {
+      "teamName": "Indianapolis Northwest Warriors Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indianapolis-northwest-warriors-warriors/basketball/",
+      "region": "Midwest Christian Homeschool"
+    },
+    {
+      "teamName": "Crossroads Christian Cru",
+      "teamUrl": "https://www.maxpreps.com/il/big-rock/crossroads-christian-cru/basketball/",
+      "region": "Midwest Christian Homeschool"
+    },
+    {
+      "teamName": "Columbus Homeschool Hawks",
+      "teamUrl": "https://www.maxpreps.com/in/columbus/columbus-homeschool-hawks/basketball/",
+      "region": "Midwest Christian Homeschool"
+    },
+    {
+      "teamName": "Cincinnati Trailblazers Homeschool Trailblazers",
+      "teamUrl": "https://www.maxpreps.com/oh/cincinnati/cincinnati-trailblazers-homeschool-trailblazers/basketball/",
+      "region": "Midwest Christian Homeschool"
+    },
+    {
+      "teamName": "Crown Point Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/in/crown-point/crown-point-bulldogs/basketball/",
+      "region": "Duneland"
+    },
+    {
+      "teamName": "Chesterton Trojans",
+      "teamUrl": "https://www.maxpreps.com/in/chesterton/chesterton-trojans/basketball/",
+      "region": "Duneland"
+    },
+    {
+      "teamName": "Portage Indians",
+      "teamUrl": "https://www.maxpreps.com/in/portage/portage-indians/basketball/",
+      "region": "Duneland"
+    },
+    {
+      "teamName": "La Porte Slicers",
+      "teamUrl": "https://www.maxpreps.com/in/la-porte/la-porte-slicers/basketball/",
+      "region": "Duneland"
+    },
+    {
+      "teamName": "Michigan City Wolves",
+      "teamUrl": "https://www.maxpreps.com/in/michigan-city/michigan-city-wolves/basketball/",
+      "region": "Duneland"
+    },
+    {
+      "teamName": "Merrillville Pirates",
+      "teamUrl": "https://www.maxpreps.com/in/merrillville/merrillville-pirates/basketball/",
+      "region": "Duneland"
+    },
+    {
+      "teamName": "Valparaiso Vikings",
+      "teamUrl": "https://www.maxpreps.com/in/valparaiso/valparaiso-vikings/basketball/",
+      "region": "Duneland"
+    },
+    {
+      "teamName": "Lake Central Indians",
+      "teamUrl": "https://www.maxpreps.com/in/st-john/lake-central-indians/basketball/",
+      "region": "Duneland"
+    },
+    {
+      "teamName": "Life Academy Royals",
+      "teamUrl": "https://www.maxpreps.com/in/terre-haute/life-academy-royals/basketball/",
+      "region": "Greater Indiana Christian"
+    },
+    {
+      "teamName": "South Ripley Raiders",
+      "teamUrl": "https://www.maxpreps.com/in/versailles/south-ripley-raiders/basketball/",
+      "region": "Ohio River Valley"
+    },
+    {
+      "teamName": "Southwestern Rebels",
+      "teamUrl": "https://www.maxpreps.com/in/hanover/southwestern-rebels/basketball/",
+      "region": "Ohio River Valley"
+    },
+    {
+      "teamName": "Milan Indians",
+      "teamUrl": "https://www.maxpreps.com/in/milan/milan-indians/basketball/",
+      "region": "Ohio River Valley"
+    },
+    {
+      "teamName": "Jac Cen Del Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/osgood/jac-cen-del-eagles/basketball/",
+      "region": "Ohio River Valley"
+    },
+    {
+      "teamName": "Rising Sun Shiners",
+      "teamUrl": "https://www.maxpreps.com/in/rising-sun/rising-sun-shiners/basketball/",
+      "region": "Ohio River Valley"
+    },
+    {
+      "teamName": "Shawe Memorial Hilltoppers",
+      "teamUrl": "https://www.maxpreps.com/in/madison/shawe-memorial-hilltoppers/basketball/",
+      "region": "Ohio River Valley"
+    },
+    {
+      "teamName": "Switzerland County Pacers",
+      "teamUrl": "https://www.maxpreps.com/in/vevay/switzerland-county-pacers/basketball/",
+      "region": "Ohio River Valley"
+    },
+    {
+      "teamName": "Hammond Bishop Noll Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/hammond/hammond-bishop-noll-warriors/basketball/",
+      "region": "Greater South Shore"
+    },
+    {
+      "teamName": "Griffith Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/griffith/griffith-panthers/basketball/",
+      "region": "Greater South Shore"
+    },
+    {
+      "teamName": "Illiana Christian Vikings",
+      "teamUrl": "https://www.maxpreps.com/in/dyer/illiana-christian-vikings/basketball/",
+      "region": "Greater South Shore"
+    },
+    {
+      "teamName": "River Forest Ingots",
+      "teamUrl": "https://www.maxpreps.com/in/hobart/river-forest-ingots/basketball/",
+      "region": "Greater South Shore"
+    },
+    {
+      "teamName": "Lake Station Edison Fighting Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/lake-station/lake-station-edison-fighting-eagles/basketball/",
+      "region": "Greater South Shore"
+    },
+    {
+      "teamName": "Calumet New Tech Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/gary/calumet-new-tech-warriors/basketball/",
+      "region": "Greater South Shore"
+    },
+    {
+      "teamName": "Wheeler Bearcats",
+      "teamUrl": "https://www.maxpreps.com/in/valparaiso/wheeler-bearcats/basketball/",
+      "region": "Greater South Shore"
+    },
+    {
+      "teamName": "Whiting Oilers",
+      "teamUrl": "https://www.maxpreps.com/in/whiting/whiting-oilers/basketball/",
+      "region": "Greater South Shore"
+    },
+    {
+      "teamName": "South Bend Saint Joseph Huskies",
+      "teamUrl": "https://www.maxpreps.com/in/south-bend/south-bend-saint-joseph-huskies/basketball/",
+      "region": "Northern Indiana"
+    },
+    {
+      "teamName": "South Bend Riley Wildcats",
+      "teamUrl": "https://www.maxpreps.com/in/south-bend/south-bend-riley-wildcats/basketball/",
+      "region": "Northern Indiana"
+    },
+    {
+      "teamName": "Penn Kingsmen",
+      "teamUrl": "https://www.maxpreps.com/in/mishawaka/penn-kingsmen/basketball/",
+      "region": "Northern Indiana"
+    },
+    {
+      "teamName": "Mishawaka Marian Knights",
+      "teamUrl": "https://www.maxpreps.com/in/mishawaka/mishawaka-marian-knights/basketball/",
+      "region": "Northern Indiana"
+    },
+    {
+      "teamName": "Elkhart Lions",
+      "teamUrl": "https://www.maxpreps.com/in/elkhart/elkhart-lions/basketball/",
+      "region": "Northern Indiana"
+    },
+    {
+      "teamName": "South Bend Adams Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/south-bend/south-bend-adams-eagles/basketball/",
+      "region": "Northern Indiana"
+    },
+    {
+      "teamName": "South Bend Washington Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/south-bend/south-bend-washington-panthers/basketball/",
+      "region": "Northern Indiana"
+    },
+    {
+      "teamName": "New Prairie Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/new-carlisle/new-prairie-cougars/basketball/",
+      "region": "Northern Indiana"
+    },
+    {
+      "teamName": "West Lafayette Red Devils",
+      "teamUrl": "https://www.maxpreps.com/in/west-lafayette/west-lafayette-red-devils/basketball/",
+      "region": "Hoosier  West"
+    },
+    {
+      "teamName": "Benton Central Bison",
+      "teamUrl": "https://www.maxpreps.com/in/oxford/benton-central-bison/basketball/",
+      "region": "Hoosier  West"
+    },
+    {
+      "teamName": "Lafayette Central Catholic Knights",
+      "teamUrl": "https://www.maxpreps.com/in/lafayette/lafayette-central-catholic-knights/basketball/",
+      "region": "Hoosier  West"
+    },
+    {
+      "teamName": "Twin Lakes Indians",
+      "teamUrl": "https://www.maxpreps.com/in/monticello/twin-lakes-indians/basketball/",
+      "region": "Hoosier  West"
+    },
+    {
+      "teamName": "Rensselaer Central Bombers",
+      "teamUrl": "https://www.maxpreps.com/in/rensselaer/rensselaer-central-bombers/basketball/",
+      "region": "Hoosier  West"
+    },
+    {
+      "teamName": "Sheridan Blackhawks",
+      "teamUrl": "https://www.maxpreps.com/in/sheridan/sheridan-blackhawks/basketball/",
+      "region": "Hoosier Heartland"
+    },
+    {
+      "teamName": "Rossville Hornets",
+      "teamUrl": "https://www.maxpreps.com/in/rossville/rossville-hornets/basketball/",
+      "region": "Hoosier Heartland"
+    },
+    {
+      "teamName": "Taylor Titans",
+      "teamUrl": "https://www.maxpreps.com/in/kokomo/taylor-titans/basketball/",
+      "region": "Hoosier Heartland"
+    },
+    {
+      "teamName": "Eastern Comets",
+      "teamUrl": "https://www.maxpreps.com/in/greentown/eastern-comets/basketball/",
+      "region": "Hoosier Heartland"
+    },
+    {
+      "teamName": "Delphi Community Oracles",
+      "teamUrl": "https://www.maxpreps.com/in/delphi/delphi-community-oracles/basketball/",
+      "region": "Hoosier Heartland"
+    },
+    {
+      "teamName": "Carroll Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/flora/carroll-cougars/basketball/",
+      "region": "Hoosier Heartland"
+    },
+    {
+      "teamName": "Tri Central Trojans",
+      "teamUrl": "https://www.maxpreps.com/in/sharpsville/tri-central-trojans/basketball/",
+      "region": "Hoosier Heartland"
+    },
+    {
+      "teamName": "Clinton Prairie Gophers",
+      "teamUrl": "https://www.maxpreps.com/in/frankfort/clinton-prairie-gophers/basketball/",
+      "region": "Hoosier Heartland"
+    },
+    {
+      "teamName": "Clinton Central Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/in/michigantown/clinton-central-bulldogs/basketball/",
+      "region": "Hoosier Heartland"
+    },
+    {
+      "teamName": "Fishers Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/fishers/fishers-tigers/basketball/",
+      "region": "Hoosier Crossroads"
+    },
+    {
+      "teamName": "Brownsburg Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/in/brownsburg/brownsburg-bulldogs/basketball/",
+      "region": "Hoosier Crossroads"
+    },
+    {
+      "teamName": "Zionsville Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/zionsville/zionsville-eagles/basketball/",
+      "region": "Hoosier Crossroads"
+    },
+    {
+      "teamName": "Hamilton Southeastern Royals",
+      "teamUrl": "https://www.maxpreps.com/in/fishers/hamilton-southeastern-royals/basketball/",
+      "region": "Hoosier Crossroads"
+    },
+    {
+      "teamName": "Noblesville Millers",
+      "teamUrl": "https://www.maxpreps.com/in/noblesville/noblesville-millers/basketball/",
+      "region": "Hoosier Crossroads"
+    },
+    {
+      "teamName": "Westfield Rocks",
+      "teamUrl": "https://www.maxpreps.com/in/westfield/westfield-rocks/basketball/",
+      "region": "Hoosier Crossroads"
+    },
+    {
+      "teamName": "Avon Orioles",
+      "teamUrl": "https://www.maxpreps.com/in/avon/avon-orioles/basketball/",
+      "region": "Hoosier Crossroads"
+    },
+    {
+      "teamName": "Franklin Central Flashes",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/franklin-central-flashes/basketball/",
+      "region": "Hoosier Crossroads"
+    },
+    {
+      "teamName": "Westview Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/topeka/westview-warriors/basketball/",
+      "region": "Northeast Corner"
+    },
+    {
+      "teamName": "Fairfield Falcons",
+      "teamUrl": "https://www.maxpreps.com/in/goshen/fairfield-falcons/basketball/",
+      "region": "Northeast Corner"
+    },
+    {
+      "teamName": "Angola Hornets",
+      "teamUrl": "https://www.maxpreps.com/in/angola/angola-hornets/basketball/",
+      "region": "Northeast Corner"
+    },
+    {
+      "teamName": "Lakeland Lakers",
+      "teamUrl": "https://www.maxpreps.com/in/lagrange/lakeland-lakers/basketball/",
+      "region": "Northeast Corner"
+    },
+    {
+      "teamName": "Prairie Heights Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/lagrange/prairie-heights-panthers/basketball/",
+      "region": "Northeast Corner"
+    },
+    {
+      "teamName": "Central Noble Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/albion/central-noble-cougars/basketball/",
+      "region": "Northeast Corner"
+    },
+    {
+      "teamName": "Garrett Railroaders",
+      "teamUrl": "https://www.maxpreps.com/in/garrett/garrett-railroaders/basketball/",
+      "region": "Northeast Corner"
+    },
+    {
+      "teamName": "West Noble Chargers",
+      "teamUrl": "https://www.maxpreps.com/in/ligonier/west-noble-chargers/basketball/",
+      "region": "Northeast Corner"
+    },
+    {
+      "teamName": "Eastside Blazers",
+      "teamUrl": "https://www.maxpreps.com/in/butler/eastside-blazers/basketball/",
+      "region": "Northeast Corner"
+    },
+    {
+      "teamName": "Churubusco Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/churubusco/churubusco-eagles/basketball/",
+      "region": "Northeast Corner"
+    },
+    {
+      "teamName": "Fremont Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/fremont/fremont-eagles/basketball/",
+      "region": "Northeast Corner"
+    },
+    {
+      "teamName": "Northridge",
+      "teamUrl": "https://www.maxpreps.com/in/middlebury/northridge/basketball/",
+      "region": "Northern Lakes"
+    },
+    {
+      "teamName": "Northwood Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/nappanee/northwood-panthers/basketball/",
+      "region": "Northern Lakes"
+    },
+    {
+      "teamName": "Wawasee Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/syracuse/wawasee-warriors/basketball/",
+      "region": "Northern Lakes"
+    },
+    {
+      "teamName": "Warsaw Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/warsaw/warsaw-tigers/basketball/",
+      "region": "Northern Lakes"
+    },
+    {
+      "teamName": "Goshen Redhawks",
+      "teamUrl": "https://www.maxpreps.com/in/goshen/goshen-redhawks/basketball/",
+      "region": "Northern Lakes"
+    },
+    {
+      "teamName": "Mishawaka Cavemen",
+      "teamUrl": "https://www.maxpreps.com/in/mishawaka/mishawaka-cavemen/basketball/",
+      "region": "Northern Lakes"
+    },
+    {
+      "teamName": "Concord Minutemen",
+      "teamUrl": "https://www.maxpreps.com/in/elkhart/concord-minutemen/basketball/",
+      "region": "Northern Lakes"
+    },
+    {
+      "teamName": "Plymouth Pilgrims Rockies",
+      "teamUrl": "https://www.maxpreps.com/in/plymouth/plymouth-pilgrims-rockies/basketball/",
+      "region": "Northern Lakes"
+    },
+    {
+      "teamName": "Triton Central Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/fairland/triton-central-tigers/basketball/",
+      "region": "Hoosier Legends"
+    },
+    {
+      "teamName": "Tri West Hendricks Bruins",
+      "teamUrl": "https://www.maxpreps.com/in/lizton/tri-west-hendricks-bruins/basketball/",
+      "region": "Hoosier Legends"
+    },
+    {
+      "teamName": "Speedway Sparkplugs",
+      "teamUrl": "https://www.maxpreps.com/in/speedway/speedway-sparkplugs/basketball/",
+      "region": "Hoosier Legends"
+    },
+    {
+      "teamName": "Monrovia Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/in/monrovia/monrovia-bulldogs/basketball/",
+      "region": "Hoosier Legends"
+    },
+    {
+      "teamName": "Beech Grove Hornets",
+      "teamUrl": "https://www.maxpreps.com/in/beech-grove/beech-grove-hornets/basketball/",
+      "region": "Hoosier Legends"
+    },
+    {
+      "teamName": "Indian Creek Braves",
+      "teamUrl": "https://www.maxpreps.com/in/trafalgar/indian-creek-braves/basketball/",
+      "region": "Hoosier Legends"
+    },
+    {
+      "teamName": "Batesville Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/in/batesville/batesville-bulldogs/basketball/",
+      "region": "Eastern Indiana"
+    },
+    {
+      "teamName": "East Central Trojans",
+      "teamUrl": "https://www.maxpreps.com/in/st-leon/east-central-trojans/basketball/",
+      "region": "Eastern Indiana"
+    },
+    {
+      "teamName": "Connersville Spartans",
+      "teamUrl": "https://www.maxpreps.com/in/connersville/connersville-spartans/basketball/",
+      "region": "Eastern Indiana"
+    },
+    {
+      "teamName": "Greensburg Pirates",
+      "teamUrl": "https://www.maxpreps.com/in/greensburg/greensburg-pirates/basketball/",
+      "region": "Eastern Indiana"
+    },
+    {
+      "teamName": "South Dearborn Knights",
+      "teamUrl": "https://www.maxpreps.com/in/aurora/south-dearborn-knights/basketball/",
+      "region": "Eastern Indiana"
+    },
+    {
+      "teamName": "Rushville Lions",
+      "teamUrl": "https://www.maxpreps.com/in/rushville/rushville-lions/basketball/",
+      "region": "Eastern Indiana"
+    },
+    {
+      "teamName": "Lawrenceburg Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/lawrenceburg/lawrenceburg-tigers/basketball/",
+      "region": "Eastern Indiana"
+    },
+    {
+      "teamName": "Franklin County Wildcats",
+      "teamUrl": "https://www.maxpreps.com/in/brookville/franklin-county-wildcats/basketball/",
+      "region": "Eastern Indiana"
+    },
+    {
+      "teamName": "Silver Creek Dragons",
+      "teamUrl": "https://www.maxpreps.com/in/sellersburg/silver-creek-dragons/basketball/",
+      "region": "Mid Southern"
+    },
+    {
+      "teamName": "Charlestown Pirates",
+      "teamUrl": "https://www.maxpreps.com/in/charlestown/charlestown-pirates/basketball/",
+      "region": "Mid Southern"
+    },
+    {
+      "teamName": "Corydon Central Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/corydon/corydon-central-panthers/basketball/",
+      "region": "Mid Southern"
+    },
+    {
+      "teamName": "Brownstown Central Braves",
+      "teamUrl": "https://www.maxpreps.com/in/brownstown/brownstown-central-braves/basketball/",
+      "region": "Mid Southern"
+    },
+    {
+      "teamName": "Scottsburg Warriors And Warriorettes",
+      "teamUrl": "https://www.maxpreps.com/in/scottsburg/scottsburg-warriors-and-warriorettes/basketball/",
+      "region": "Mid Southern"
+    },
+    {
+      "teamName": "Austin Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/austin/austin-eagles/basketball/",
+      "region": "Mid Southern"
+    },
+    {
+      "teamName": "Salem Lions",
+      "teamUrl": "https://www.maxpreps.com/in/salem/salem-lions/basketball/",
+      "region": "Mid Southern"
+    },
+    {
+      "teamName": "North Harrison Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/ramsey/north-harrison-cougars/basketball/",
+      "region": "Mid Southern"
+    },
+    {
+      "teamName": "Bloomington South Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/bloomington/bloomington-south-panthers/basketball/",
+      "region": "Conference Indiana"
+    },
+    {
+      "teamName": "Terre Haute North Vigo Patriots",
+      "teamUrl": "https://www.maxpreps.com/in/terre-haute/terre-haute-north-vigo-patriots/basketball/",
+      "region": "Conference Indiana"
+    },
+    {
+      "teamName": "Bloomington North Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/bloomington/bloomington-north-cougars/basketball/",
+      "region": "Conference Indiana"
+    },
+    {
+      "teamName": "Southport Cardinals",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/southport-cardinals/basketball/",
+      "region": "Conference Indiana"
+    },
+    {
+      "teamName": "Columbus North Bull Dogs",
+      "teamUrl": "https://www.maxpreps.com/in/columbus/columbus-north-bull-dogs/basketball/",
+      "region": "Conference Indiana"
+    },
+    {
+      "teamName": "Terre Haute South Vigo Braves",
+      "teamUrl": "https://www.maxpreps.com/in/terre-haute/terre-haute-south-vigo-braves/basketball/",
+      "region": "Conference Indiana"
+    },
+    {
+      "teamName": "Henryville Hornets",
+      "teamUrl": "https://www.maxpreps.com/in/henryville/henryville-hornets/basketball/",
+      "region": "Southern"
+    },
+    {
+      "teamName": "South Central Rebels",
+      "teamUrl": "https://www.maxpreps.com/in/elizabeth/south-central-rebels/basketball/",
+      "region": "Southern"
+    },
+    {
+      "teamName": "Borden Braves",
+      "teamUrl": "https://www.maxpreps.com/in/borden/borden-braves/basketball/",
+      "region": "Southern"
+    },
+    {
+      "teamName": "Lanesville Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/lanesville/lanesville-eagles/basketball/",
+      "region": "Southern"
+    },
+    {
+      "teamName": "Crothersville Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/crothersville/crothersville-tigers/basketball/",
+      "region": "Southern"
+    },
+    {
+      "teamName": "Clarksville Generals",
+      "teamUrl": "https://www.maxpreps.com/in/clarksville/clarksville-generals/basketball/",
+      "region": "Southern"
+    },
+    {
+      "teamName": "New Washington Mustangs",
+      "teamUrl": "https://www.maxpreps.com/in/new-washington/new-washington-mustangs/basketball/",
+      "region": "Southern"
+    },
+    {
+      "teamName": "Eastern Musketeers",
+      "teamUrl": "https://www.maxpreps.com/in/pekin/eastern-musketeers/basketball/",
+      "region": "Southern"
+    },
+    {
+      "teamName": "Park Tudor Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/park-tudor-panthers/basketball/",
+      "region": "Pioneer  South"
+    },
+    {
+      "teamName": "Indianapolis Shortridge Blue Devils",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indianapolis-shortridge-blue-devils/basketball/",
+      "region": "Pioneer  South"
+    },
+    {
+      "teamName": "Bethesda Christian Patriots",
+      "teamUrl": "https://www.maxpreps.com/in/brownsburg/bethesda-christian-patriots/basketball/",
+      "region": "Pioneer  South"
+    },
+    {
+      "teamName": "Herron Achaeans",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/herron-achaeans/basketball/",
+      "region": "Pioneer  South"
+    },
+    {
+      "teamName": "International Gryphons",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/international-gryphons/basketball/",
+      "region": "Pioneer  South"
+    },
+    {
+      "teamName": "Paoli Rams",
+      "teamUrl": "https://www.maxpreps.com/in/paoli/paoli-rams/basketball/",
+      "region": "Patoka Lake"
+    },
+    {
+      "teamName": "Orleans Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/in/orleans/orleans-bulldogs/basketball/",
+      "region": "Patoka Lake"
+    },
+    {
+      "teamName": "West Washington Senators",
+      "teamUrl": "https://www.maxpreps.com/in/campbellsburg/west-washington-senators/basketball/",
+      "region": "Patoka Lake"
+    },
+    {
+      "teamName": "Mitchell Bluejackets",
+      "teamUrl": "https://www.maxpreps.com/in/mitchell/mitchell-bluejackets/basketball/",
+      "region": "Patoka Lake"
+    },
+    {
+      "teamName": "Springs Valley Blackhawks",
+      "teamUrl": "https://www.maxpreps.com/in/french-lick/springs-valley-blackhawks/basketball/",
+      "region": "Patoka Lake"
+    },
+    {
+      "teamName": "Perry Central Commodores",
+      "teamUrl": "https://www.maxpreps.com/in/leopold/perry-central-commodores/basketball/",
+      "region": "Patoka Lake"
+    },
+    {
+      "teamName": "Crawford County Wolfpack",
+      "teamUrl": "https://www.maxpreps.com/in/marengo/crawford-county-wolfpack/basketball/",
+      "region": "Patoka Lake"
+    },
+    {
+      "teamName": "Northview Knights",
+      "teamUrl": "https://www.maxpreps.com/in/brazil/northview-knights/basketball/",
+      "region": "Western Indiana"
+    },
+    {
+      "teamName": "Sullivan Golden Arrows",
+      "teamUrl": "https://www.maxpreps.com/in/sullivan/sullivan-golden-arrows/basketball/",
+      "region": "Western Indiana"
+    },
+    {
+      "teamName": "West Vigo Vikings",
+      "teamUrl": "https://www.maxpreps.com/in/west-terre-haute/west-vigo-vikings/basketball/",
+      "region": "Western Indiana"
+    },
+    {
+      "teamName": "Edgewood Mustangs",
+      "teamUrl": "https://www.maxpreps.com/in/ellettsville/edgewood-mustangs/basketball/",
+      "region": "Western Indiana"
+    },
+    {
+      "teamName": "South Putnam Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/greencastle/south-putnam-eagles/basketball/",
+      "region": "Western Indiana"
+    },
+    {
+      "teamName": "Cloverdale Clovers",
+      "teamUrl": "https://www.maxpreps.com/in/cloverdale/cloverdale-clovers/basketball/",
+      "region": "Western Indiana"
+    },
+    {
+      "teamName": "Brown County Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/nashville/brown-county-eagles/basketball/",
+      "region": "Western Indiana"
+    },
+    {
+      "teamName": "Owen Valley Patriots",
+      "teamUrl": "https://www.maxpreps.com/in/spencer/owen-valley-patriots/basketball/",
+      "region": "Western Indiana"
+    },
+    {
+      "teamName": "Bremen Lions",
+      "teamUrl": "https://www.maxpreps.com/in/bremen/bremen-lions/basketball/",
+      "region": "Indiana Northern State"
+    },
+    {
+      "teamName": "Jimtown Jimmies",
+      "teamUrl": "https://www.maxpreps.com/in/elkhart/jimtown-jimmies/basketball/",
+      "region": "Indiana Northern State"
+    },
+    {
+      "teamName": "Tippecanoe Valley Vikings",
+      "teamUrl": "https://www.maxpreps.com/in/akron/tippecanoe-valley-vikings/basketball/",
+      "region": "Indiana Northern State"
+    },
+    {
+      "teamName": "Laville Lancers",
+      "teamUrl": "https://www.maxpreps.com/in/lakeville/laville-lancers/basketball/",
+      "region": "Indiana Northern State"
+    },
+    {
+      "teamName": "Knox Redskins",
+      "teamUrl": "https://www.maxpreps.com/in/knox/knox-redskins/basketball/",
+      "region": "Indiana Northern State"
+    },
+    {
+      "teamName": "Glenn Falcons",
+      "teamUrl": "https://www.maxpreps.com/in/walkerton/glenn-falcons/basketball/",
+      "region": "Indiana Northern State"
+    },
+    {
+      "teamName": "Bethany Christian Bruins",
+      "teamUrl": "https://www.maxpreps.com/in/goshen/bethany-christian-bruins/basketball/",
+      "region": "Hoosier Plains"
+    },
+    {
+      "teamName": "Elkhart Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/elkhart/elkhart-christian-academy-eagles/basketball/",
+      "region": "Hoosier Plains"
+    },
+    {
+      "teamName": "South Bend Career Academy Trail Blazers",
+      "teamUrl": "https://www.maxpreps.com/in/south-bend/south-bend-career-academy-trail-blazers/basketball/",
+      "region": "Hoosier Plains"
+    },
+    {
+      "teamName": "Lakeland Christian Academy Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/winona-lake/lakeland-christian-academy-cougars/basketball/",
+      "region": "Hoosier Plains"
+    },
+    {
+      "teamName": "Hamilton Marines",
+      "teamUrl": "https://www.maxpreps.com/in/hamilton/hamilton-marines/basketball/",
+      "region": "Hoosier Plains"
+    },
+    {
+      "teamName": "Gary West Side Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/gary/gary-west-side-cougars/basketball/",
+      "region": "Great Lakes"
+    },
+    {
+      "teamName": "East Chicago Central Cardinals",
+      "teamUrl": "https://www.maxpreps.com/in/east-chicago/east-chicago-central-cardinals/basketball/",
+      "region": "Great Lakes"
+    },
+    {
+      "teamName": "Hammond Central Wolves",
+      "teamUrl": "https://www.maxpreps.com/in/hammond/hammond-central-wolves/basketball/",
+      "region": "Great Lakes"
+    },
+    {
+      "teamName": "Hammond Morton Governors",
+      "teamUrl": "https://www.maxpreps.com/in/hammond/hammond-morton-governors/basketball/",
+      "region": "Great Lakes"
+    },
+    {
+      "teamName": "Triton Trojans",
+      "teamUrl": "https://www.maxpreps.com/in/bourbon/triton-trojans/basketball/",
+      "region": "Hoosier North"
+    },
+    {
+      "teamName": "Winamac Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/winamac/winamac-warriors/basketball/",
+      "region": "Hoosier North"
+    },
+    {
+      "teamName": "Caston Comets",
+      "teamUrl": "https://www.maxpreps.com/in/fulton/caston-comets/basketball/",
+      "region": "Hoosier North"
+    },
+    {
+      "teamName": "North Miami Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/denver/north-miami-warriors/basketball/",
+      "region": "Hoosier North"
+    },
+    {
+      "teamName": "Culver Community Cavaliers",
+      "teamUrl": "https://www.maxpreps.com/in/culver/culver-community-cavaliers/basketball/",
+      "region": "Hoosier North"
+    },
+    {
+      "teamName": "North Judson San Pierre Bluejays",
+      "teamUrl": "https://www.maxpreps.com/in/north-judson/north-judson-san-pierre-bluejays/basketball/",
+      "region": "Hoosier North"
+    },
+    {
+      "teamName": "Argos Dragons",
+      "teamUrl": "https://www.maxpreps.com/in/argos/argos-dragons/basketball/",
+      "region": "Hoosier North"
+    },
+    {
+      "teamName": "Pioneer Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/royal-center/pioneer-panthers/basketball/",
+      "region": "Hoosier North"
+    },
+    {
+      "teamName": "Oregon Davis Bobcats",
+      "teamUrl": "https://www.maxpreps.com/in/hamlet/oregon-davis-bobcats/basketball/",
+      "region": "Hoosier North"
+    },
+    {
+      "teamName": "Evansville North Huskies",
+      "teamUrl": "https://www.maxpreps.com/in/evansville/evansville-north-huskies/basketball/",
+      "region": "Southern Indiana"
+    },
+    {
+      "teamName": "Evansville Bosse Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/in/evansville/evansville-bosse-bulldogs/basketball/",
+      "region": "Southern Indiana"
+    },
+    {
+      "teamName": "Jasper Wildcats",
+      "teamUrl": "https://www.maxpreps.com/in/jasper/jasper-wildcats/basketball/",
+      "region": "Southern Indiana"
+    },
+    {
+      "teamName": "Evansville Reitz Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/evansville/evansville-reitz-panthers/basketball/",
+      "region": "Southern Indiana"
+    },
+    {
+      "teamName": "Evansville Harrison Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/evansville/evansville-harrison-warriors/basketball/",
+      "region": "Southern Indiana"
+    },
+    {
+      "teamName": "Evansville Mater Dei Wildcats",
+      "teamUrl": "https://www.maxpreps.com/in/evansville/evansville-mater-dei-wildcats/basketball/",
+      "region": "Southern Indiana"
+    },
+    {
+      "teamName": "Evansville Memorial Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/evansville/evansville-memorial-tigers/basketball/",
+      "region": "Southern Indiana"
+    },
+    {
+      "teamName": "Castle Knights",
+      "teamUrl": "https://www.maxpreps.com/in/newburgh/castle-knights/basketball/",
+      "region": "Southern Indiana"
+    },
+    {
+      "teamName": "Vincennes Lincoln Alices",
+      "teamUrl": "https://www.maxpreps.com/in/vincennes/vincennes-lincoln-alices/basketball/",
+      "region": "Southern Indiana"
+    },
+    {
+      "teamName": "Evansville Central Bears",
+      "teamUrl": "https://www.maxpreps.com/in/evansville/evansville-central-bears/basketball/",
+      "region": "Southern Indiana"
+    },
+    {
+      "teamName": "Guerin Catholic Golden Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/noblesville/guerin-catholic-golden-eagles/basketball/",
+      "region": "Circle City"
+    },
+    {
+      "teamName": "Brebeuf Jesuit Preparatory Braves",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/brebeuf-jesuit-preparatory-braves/basketball/",
+      "region": "Circle City"
+    },
+    {
+      "teamName": "Roncalli Royals",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/roncalli-royals/basketball/",
+      "region": "Circle City"
+    },
+    {
+      "teamName": "Indianapolis Bishop Chatard Trojans",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indianapolis-bishop-chatard-trojans/basketball/",
+      "region": "Circle City"
+    },
+    {
+      "teamName": "Oak Hill Golden Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/converse/oak-hill-golden-eagles/basketball/",
+      "region": "Central Indiana"
+    },
+    {
+      "teamName": "Blackford Bruins",
+      "teamUrl": "https://www.maxpreps.com/in/hartford-city/blackford-bruins/basketball/",
+      "region": "Central Indiana"
+    },
+    {
+      "teamName": "Eastbrook Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/marion/eastbrook-panthers/basketball/",
+      "region": "Central Indiana"
+    },
+    {
+      "teamName": "Alexandria Monroe Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/alexandria/alexandria-monroe-tigers/basketball/",
+      "region": "Central Indiana"
+    },
+    {
+      "teamName": "Frankton Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/frankton/frankton-eagles/basketball/",
+      "region": "Central Indiana"
+    },
+    {
+      "teamName": "Mississinewa Indians",
+      "teamUrl": "https://www.maxpreps.com/in/gas-city/mississinewa-indians/basketball/",
+      "region": "Central Indiana"
+    },
+    {
+      "teamName": "Elwood Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/elwood/elwood-panthers/basketball/",
+      "region": "Central Indiana"
+    },
+    {
+      "teamName": "Madison Grant Argylls",
+      "teamUrl": "https://www.maxpreps.com/in/fairmount/madison-grant-argylls/basketball/",
+      "region": "Central Indiana"
+    },
+    {
+      "teamName": "New Albany Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/in/new-albany/new-albany-bulldogs/basketball/",
+      "region": "Hoosier Hills"
+    },
+    {
+      "teamName": "Jeffersonville Red Devils",
+      "teamUrl": "https://www.maxpreps.com/in/jeffersonville/jeffersonville-red-devils/basketball/",
+      "region": "Hoosier Hills"
+    },
+    {
+      "teamName": "Seymour Owls",
+      "teamUrl": "https://www.maxpreps.com/in/seymour/seymour-owls/basketball/",
+      "region": "Hoosier Hills"
+    },
+    {
+      "teamName": "Floyd Central Highlanders",
+      "teamUrl": "https://www.maxpreps.com/in/floyds-knobs/floyd-central-highlanders/basketball/",
+      "region": "Hoosier Hills"
+    },
+    {
+      "teamName": "Columbus East Olympians",
+      "teamUrl": "https://www.maxpreps.com/in/columbus/columbus-east-olympians/basketball/",
+      "region": "Hoosier Hills"
+    },
+    {
+      "teamName": "Jennings County Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/north-vernon/jennings-county-panthers/basketball/",
+      "region": "Hoosier Hills"
+    },
+    {
+      "teamName": "Bedford North Lawrence Stars",
+      "teamUrl": "https://www.maxpreps.com/in/bedford/bedford-north-lawrence-stars/basketball/",
+      "region": "Hoosier Hills"
+    },
+    {
+      "teamName": "Harrison Raiders",
+      "teamUrl": "https://www.maxpreps.com/in/west-lafayette/harrison-raiders/basketball/",
+      "region": "Sagamore"
+    },
+    {
+      "teamName": "Lebanon Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/lebanon/lebanon-tigers/basketball/",
+      "region": "Sagamore"
+    },
+    {
+      "teamName": "Danville Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/danville/danville-warriors/basketball/",
+      "region": "Sagamore"
+    },
+    {
+      "teamName": "Indianapolis Crispus Attucks Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indianapolis-crispus-attucks-tigers/basketball/",
+      "region": "Capital City"
+    },
+    {
+      "teamName": "Indianapolis Arsenal Technical Titans",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indianapolis-arsenal-technical-titans/basketball/",
+      "region": "Capital City"
+    },
+    {
+      "teamName": "Christel House Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/christel-house-eagles/basketball/",
+      "region": "Capital City"
+    },
+    {
+      "teamName": "Indianapolis Washington Continentals",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indianapolis-washington-continentals/basketball/",
+      "region": "Capital City"
+    },
+    {
+      "teamName": "Tindley Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/tindley-tigers/basketball/",
+      "region": "Capital City"
+    },
+    {
+      "teamName": "Christel House At Manual Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/christel-house-at-manual-eagles/basketball/",
+      "region": "Capital City"
+    },
+    {
+      "teamName": "Purdue Poly Englewood",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/purdue-poly-englewood/basketball/",
+      "region": "Capital City"
+    },
+    {
+      "teamName": "Indiana Christian Academy Whirlwinds",
+      "teamUrl": "https://www.maxpreps.com/in/anderson/indiana-christian-academy-whirlwinds/basketball/",
+      "region": "Central Indiana Christian"
+    },
+    {
+      "teamName": "Crosspointe Christian Academy Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/crosspointe-christian-academy-panthers/basketball/",
+      "region": "Central Indiana Christian"
+    },
+    {
+      "teamName": "Suburban Christian Crusaders",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/suburban-christian-crusaders/basketball/",
+      "region": "Central Indiana Christian"
+    },
+    {
+      "teamName": "Heartland Christian Saints",
+      "teamUrl": "https://www.maxpreps.com/in/new-castle/heartland-christian-saints/basketball/",
+      "region": "Central Indiana Christian"
+    },
+    {
+      "teamName": "Calvary Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/calvary-christian-eagles/basketball/",
+      "region": "Central Indiana Christian"
+    },
+    {
+      "teamName": "Tabernacle Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/martinsville/tabernacle-christian-eagles/basketball/",
+      "region": "Central Indiana Christian"
+    },
+    {
+      "teamName": "Colonial Christian Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/colonial-christian-cougars/basketball/",
+      "region": "Central Indiana Christian"
+    },
+    {
+      "teamName": "Heritage Hall Christian Patriots",
+      "teamUrl": "https://www.maxpreps.com/in/muncie/heritage-hall-christian-patriots/basketball/",
+      "region": "Central Indiana Christian"
+    },
+    {
+      "teamName": "Legacy Elite Academy Skyhawks",
+      "teamUrl": "https://www.maxpreps.com/in/clayton/legacy-elite-academy-skyhawks/basketball/",
+      "region": "Central Indiana Christian"
+    },
+    {
+      "teamName": "Cascade Cadets",
+      "teamUrl": "https://www.maxpreps.com/in/clayton/cascade-cadets/basketball/",
+      "region": "Monon Athletic Conference"
+    },
+    {
+      "teamName": "Greencastle Tiger Cubs",
+      "teamUrl": "https://www.maxpreps.com/in/greencastle/greencastle-tiger-cubs/basketball/",
+      "region": "Monon Athletic Conference"
+    },
+    {
+      "teamName": "Crawfordsville Athenians",
+      "teamUrl": "https://www.maxpreps.com/in/crawfordsville/crawfordsville-athenians/basketball/",
+      "region": "Monon Athletic Conference"
+    },
+    {
+      "teamName": "Western Boone Stars",
+      "teamUrl": "https://www.maxpreps.com/in/thorntown/western-boone-stars/basketball/",
+      "region": "Monon Athletic Conference"
+    },
+    {
+      "teamName": "Southmont Mounties",
+      "teamUrl": "https://www.maxpreps.com/in/crawfordsville/southmont-mounties/basketball/",
+      "region": "Monon Athletic Conference"
+    },
+    {
+      "teamName": "North Putnam Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/roachdale/north-putnam-cougars/basketball/",
+      "region": "Monon Athletic Conference"
+    },
+    {
+      "teamName": "North Montgomery Chargin Chargers",
+      "teamUrl": "https://www.maxpreps.com/in/crawfordsville/north-montgomery-chargin-chargers/basketball/",
+      "region": "Monon Athletic Conference"
+    },
+    {
+      "teamName": "Frankfort Hot Dogs",
+      "teamUrl": "https://www.maxpreps.com/in/frankfort/frankfort-hot-dogs/basketball/",
+      "region": "Monon Athletic Conference"
+    },
+    {
+      "teamName": "Plainfield Quakers",
+      "teamUrl": "https://www.maxpreps.com/in/plainfield/plainfield-quakers/basketball/",
+      "region": "Mid State"
+    },
+    {
+      "teamName": "Decatur Central Hawks",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/decatur-central-hawks/basketball/",
+      "region": "Mid State"
+    },
+    {
+      "teamName": "Whiteland Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/whiteland/whiteland-warriors/basketball/",
+      "region": "Mid State"
+    },
+    {
+      "teamName": "Perry Meridian Falcons",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/perry-meridian-falcons/basketball/",
+      "region": "Mid State"
+    },
+    {
+      "teamName": "Franklin Community Grizzly Cubs",
+      "teamUrl": "https://www.maxpreps.com/in/franklin/franklin-community-grizzly-cubs/basketball/",
+      "region": "Mid State"
+    },
+    {
+      "teamName": "Greenwood Woodmen",
+      "teamUrl": "https://www.maxpreps.com/in/greenwood/greenwood-woodmen/basketball/",
+      "region": "Mid State"
+    },
+    {
+      "teamName": "Mooresville Pioneers",
+      "teamUrl": "https://www.maxpreps.com/in/mooresville/mooresville-pioneers/basketball/",
+      "region": "Mid State"
+    },
+    {
+      "teamName": "Martinsville Artesians",
+      "teamUrl": "https://www.maxpreps.com/in/martinsville/martinsville-artesians/basketball/",
+      "region": "Mid State"
+    },
+    {
+      "teamName": "Capital Homeschool",
+      "teamUrl": "https://www.maxpreps.com/mi/east-lansing/capital-homeschool/basketball/",
+      "region": "Great Lakes Homeschool"
+    },
+    {
+      "teamName": "Novi Homeschool",
+      "teamUrl": "https://www.maxpreps.com/mi/novi/novi-homeschool/basketball/",
+      "region": "Great Lakes Homeschool"
+    },
+    {
+      "teamName": "Benton Homeschool Bucks",
+      "teamUrl": "https://www.maxpreps.com/in/new-paris/benton-homeschool-bucks/basketball/",
+      "region": "Great Lakes Homeschool"
+    },
+    {
+      "teamName": "Fort Wayne Guard Homeschool Guard",
+      "teamUrl": "https://www.maxpreps.com/in/roanoke/fort-wayne-guard-homeschool-guard/basketball/",
+      "region": "Great Lakes Homeschool"
+    },
+    {
+      "teamName": "Kokomo Homeschool Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/kokomo/kokomo-homeschool-eagles/basketball/",
+      "region": "Great Lakes Homeschool"
+    },
+    {
+      "teamName": "Noble Whitley Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/columbia-city/noble-whitley-warriors/basketball/",
+      "region": "Great Lakes Homeschool"
+    },
+    {
+      "teamName": "Fort Wayne Homeschool Hawks",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/fort-wayne-homeschool-hawks/basketball/",
+      "region": "Great Lakes Homeschool"
+    },
+    {
+      "teamName": "West Central Trojans",
+      "teamUrl": "https://www.maxpreps.com/in/francesville/west-central-trojans/basketball/",
+      "region": "Midwest"
+    },
+    {
+      "teamName": "Frontier Falcons",
+      "teamUrl": "https://www.maxpreps.com/in/chalmers/frontier-falcons/basketball/",
+      "region": "Midwest"
+    },
+    {
+      "teamName": "Demotte Christian Knights",
+      "teamUrl": "https://www.maxpreps.com/in/demotte/demotte-christian-knights/basketball/",
+      "region": "Midwest"
+    },
+    {
+      "teamName": "Faith Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/lafayette/faith-christian-eagles/basketball/",
+      "region": "Midwest"
+    },
+    {
+      "teamName": "Tri County Cavaliers",
+      "teamUrl": "https://www.maxpreps.com/in/wolcott/tri-county-cavaliers/basketball/",
+      "region": "Midwest"
+    },
+    {
+      "teamName": "North Newton Spartans",
+      "teamUrl": "https://www.maxpreps.com/in/morocco/north-newton-spartans/basketball/",
+      "region": "Midwest"
+    },
+    {
+      "teamName": "South Newton Rebels",
+      "teamUrl": "https://www.maxpreps.com/in/kentland/south-newton-rebels/basketball/",
+      "region": "Midwest"
+    },
+    {
+      "teamName": "North White Vikings",
+      "teamUrl": "https://www.maxpreps.com/in/monon/north-white-vikings/basketball/",
+      "region": "Midwest"
+    },
+    {
+      "teamName": "Jay County Patriots",
+      "teamUrl": "https://www.maxpreps.com/in/portland/jay-county-patriots/basketball/",
+      "region": "Allen County"
+    },
+    {
+      "teamName": "Bluffton Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/bluffton/bluffton-tigers/basketball/",
+      "region": "Allen County"
+    },
+    {
+      "teamName": "Heritage Patriots",
+      "teamUrl": "https://www.maxpreps.com/in/monroeville/heritage-patriots/basketball/",
+      "region": "Allen County"
+    },
+    {
+      "teamName": "Adams Central Jets",
+      "teamUrl": "https://www.maxpreps.com/in/monroe/adams-central-jets/basketball/",
+      "region": "Allen County"
+    },
+    {
+      "teamName": "Woodlan Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/woodburn/woodlan-warriors/basketball/",
+      "region": "Allen County"
+    },
+    {
+      "teamName": "South Adams Starfires",
+      "teamUrl": "https://www.maxpreps.com/in/berne/south-adams-starfires/basketball/",
+      "region": "Allen County"
+    },
+    {
+      "teamName": "Southern Wells Raiders",
+      "teamUrl": "https://www.maxpreps.com/in/poneto/southern-wells-raiders/basketball/",
+      "region": "Allen County"
+    },
+    {
+      "teamName": "Pierceton Woods Academy",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/pierceton-woods-academy/basketball/",
+      "region": "Allen County"
+    },
+    {
+      "teamName": "Liberty Christian Lions",
+      "teamUrl": "https://www.maxpreps.com/in/anderson/liberty-christian-lions/basketball/",
+      "region": "Pioneer  North"
+    },
+    {
+      "teamName": "University Trailblazers",
+      "teamUrl": "https://www.maxpreps.com/in/carmel/university-trailblazers/basketball/",
+      "region": "Pioneer  North"
+    },
+    {
+      "teamName": "Seton Catholic Cardinals",
+      "teamUrl": "https://www.maxpreps.com/in/richmond/seton-catholic-cardinals/basketball/",
+      "region": "Pioneer  North"
+    },
+    {
+      "teamName": "Anderson Prep Academy Jets",
+      "teamUrl": "https://www.maxpreps.com/in/anderson/anderson-prep-academy-jets/basketball/",
+      "region": "Pioneer  North"
+    },
+    {
+      "teamName": "Muncie Burris Owls",
+      "teamUrl": "https://www.maxpreps.com/in/muncie/muncie-burris-owls/basketball/",
+      "region": "Pioneer  North"
+    },
+    {
+      "teamName": "Monroe Central Golden Bears",
+      "teamUrl": "https://www.maxpreps.com/in/parker-city/monroe-central-golden-bears/basketball/",
+      "region": "Mid Eastern"
+    },
+    {
+      "teamName": "Wapahani Raiders",
+      "teamUrl": "https://www.maxpreps.com/in/selma/wapahani-raiders/basketball/",
+      "region": "Mid Eastern"
+    },
+    {
+      "teamName": "Shenandoah Raiders",
+      "teamUrl": "https://www.maxpreps.com/in/middletown/shenandoah-raiders/basketball/",
+      "region": "Mid Eastern"
+    },
+    {
+      "teamName": "Eastern Hancock Royals",
+      "teamUrl": "https://www.maxpreps.com/in/charlottesville/eastern-hancock-royals/basketball/",
+      "region": "Mid Eastern"
+    },
+    {
+      "teamName": "Randolph Southern Rebels",
+      "teamUrl": "https://www.maxpreps.com/in/lynn/randolph-southern-rebels/basketball/",
+      "region": "Mid Eastern"
+    },
+    {
+      "teamName": "Cowan Blackhawks",
+      "teamUrl": "https://www.maxpreps.com/in/muncie/cowan-blackhawks/basketball/",
+      "region": "Mid Eastern"
+    },
+    {
+      "teamName": "Wes Del Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/gaston/wes-del-warriors/basketball/",
+      "region": "Mid Eastern"
+    },
+    {
+      "teamName": "Daleville Broncos",
+      "teamUrl": "https://www.maxpreps.com/in/daleville/daleville-broncos/basketball/",
+      "region": "Mid Eastern"
+    },
+    {
+      "teamName": "Union Rockets",
+      "teamUrl": "https://www.maxpreps.com/in/modoc/union-rockets/basketball/",
+      "region": "Mid Eastern"
+    },
+    {
+      "teamName": "Blue River Valley Vikings",
+      "teamUrl": "https://www.maxpreps.com/in/mt-summit/blue-river-valley-vikings/basketball/",
+      "region": "Mid Eastern"
+    },
+    {
+      "teamName": "Kouts Mustangs And Fillies",
+      "teamUrl": "https://www.maxpreps.com/in/kouts/kouts-mustangs-and-fillies/basketball/",
+      "region": "Porter County"
+    },
+    {
+      "teamName": "Washington Township Senators",
+      "teamUrl": "https://www.maxpreps.com/in/valparaiso/washington-township-senators/basketball/",
+      "region": "Porter County"
+    },
+    {
+      "teamName": "South Central Satellites",
+      "teamUrl": "https://www.maxpreps.com/in/union-mills/south-central-satellites/basketball/",
+      "region": "Porter County"
+    },
+    {
+      "teamName": "Hebron Hawks",
+      "teamUrl": "https://www.maxpreps.com/in/hebron/hebron-hawks/basketball/",
+      "region": "Porter County"
+    },
+    {
+      "teamName": "Boone Grove Wolves",
+      "teamUrl": "https://www.maxpreps.com/in/valparaiso/boone-grove-wolves/basketball/",
+      "region": "Porter County"
+    },
+    {
+      "teamName": "Morgan Township Cherokees",
+      "teamUrl": "https://www.maxpreps.com/in/valparaiso/morgan-township-cherokees/basketball/",
+      "region": "Porter County"
+    },
+    {
+      "teamName": "Westville Blackhawks",
+      "teamUrl": "https://www.maxpreps.com/in/westville/westville-blackhawks/basketball/",
+      "region": "Porter County"
+    },
+    {
+      "teamName": "Tri Township Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/lacrosse/tri-township-tigers/basketball/",
+      "region": "Porter County"
+    },
+    {
+      "teamName": "Boonville Pioneers",
+      "teamUrl": "https://www.maxpreps.com/in/boonville/boonville-pioneers/basketball/",
+      "region": "Pocket"
+    },
+    {
+      "teamName": "Princeton Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/princeton/princeton-tigers/basketball/",
+      "region": "Pocket"
+    },
+    {
+      "teamName": "Heritage Hills Patriots",
+      "teamUrl": "https://www.maxpreps.com/in/lincoln-city/heritage-hills-patriots/basketball/",
+      "region": "Pocket"
+    },
+    {
+      "teamName": "Gibson Southern Titans",
+      "teamUrl": "https://www.maxpreps.com/in/fort-branch/gibson-southern-titans/basketball/",
+      "region": "Pocket"
+    },
+    {
+      "teamName": "Mt Vernon Wildcats",
+      "teamUrl": "https://www.maxpreps.com/in/mt-vernon/mt-vernon-wildcats/basketball/",
+      "region": "Pocket"
+    },
+    {
+      "teamName": "Southridge Raiders",
+      "teamUrl": "https://www.maxpreps.com/in/huntingburg/southridge-raiders/basketball/",
+      "region": "Pocket"
+    },
+    {
+      "teamName": "Forest Park Rangers",
+      "teamUrl": "https://www.maxpreps.com/in/ferdinand/forest-park-rangers/basketball/",
+      "region": "Pocket"
+    },
+    {
+      "teamName": "Washington Hatch",
+      "teamUrl": "https://www.maxpreps.com/in/washington/washington-hatch/basketball/",
+      "region": "Pocket"
+    },
+    {
+      "teamName": "South Spencer Rebels",
+      "teamUrl": "https://www.maxpreps.com/in/rockport/south-spencer-rebels/basketball/",
+      "region": "Pocket"
+    },
+    {
+      "teamName": "North Posey Vikings",
+      "teamUrl": "https://www.maxpreps.com/in/poseyville/north-posey-vikings/basketball/",
+      "region": "Pocket"
+    },
+    {
+      "teamName": "Pike Central Chargers",
+      "teamUrl": "https://www.maxpreps.com/in/petersburg/pike-central-chargers/basketball/",
+      "region": "Pocket"
+    },
+    {
+      "teamName": "Tecumseh Braves",
+      "teamUrl": "https://www.maxpreps.com/in/lynnville/tecumseh-braves/basketball/",
+      "region": "Pocket"
+    },
+    {
+      "teamName": "Tell City Marksmen",
+      "teamUrl": "https://www.maxpreps.com/in/tell-city/tell-city-marksmen/basketball/",
+      "region": "Pocket"
+    },
+    {
+      "teamName": "La Lumiere Blue Lakers",
+      "teamUrl": "https://www.maxpreps.com/in/la-porte/la-lumiere-blue-lakers/basketball/",
+      "region": "South Shore"
+    },
+    {
+      "teamName": "Saint Thomas More Academy Griffins",
+      "teamUrl": "https://www.maxpreps.com/in/south-bend/saint-thomas-more-academy-griffins/basketball/",
+      "region": "South Shore"
+    },
+    {
+      "teamName": "Victory Christian Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/in/valparaiso/victory-christian-academy-lions/basketball/",
+      "region": "South Shore"
+    },
+    {
+      "teamName": "Calumet Christian Patriots",
+      "teamUrl": "https://www.maxpreps.com/in/griffith/calumet-christian-patriots/basketball/",
+      "region": "South Shore"
+    },
+    {
+      "teamName": "Heritage Christian Defenders",
+      "teamUrl": "https://www.maxpreps.com/in/dyer/heritage-christian-defenders/basketball/",
+      "region": "South Shore"
+    },
+    {
+      "teamName": "Hammond Academy Of Science And Tech Hawks",
+      "teamUrl": "https://www.maxpreps.com/in/hammond/hammond-academy-of-science-and-tech-hawks/basketball/",
+      "region": "South Shore"
+    },
+    {
+      "teamName": "Granger Christian Knights",
+      "teamUrl": "https://www.maxpreps.com/in/granger/granger-christian-knights/basketball/",
+      "region": "South Shore"
+    },
+    {
+      "teamName": "Clinton Christian Couriers",
+      "teamUrl": "https://www.maxpreps.com/in/goshen/clinton-christian-couriers/basketball/",
+      "region": "South Shore"
+    },
+    {
+      "teamName": "Portage Christian",
+      "teamUrl": "https://www.maxpreps.com/in/portage/portage-christian/basketball/",
+      "region": "South Shore"
+    },
+    {
+      "teamName": "Kankakee Trinity Academy",
+      "teamUrl": "https://www.maxpreps.com/il/kankakee/kankakee-trinity-academy/basketball/",
+      "region": "South Shore"
+    },
+    {
+      "teamName": "Riverside Argonauts",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/riverside-argonauts/basketball/",
+      "region": "Greater Indianapolis"
+    },
+    {
+      "teamName": "Irvington Preparatory Academy",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/irvington-preparatory-academy/basketball/",
+      "region": "Greater Indianapolis"
+    },
+    {
+      "teamName": "Purdue Broad Ripple Lynx",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/purdue-broad-ripple-lynx/basketball/",
+      "region": "Greater Indianapolis"
+    },
+    {
+      "teamName": "Indiana Math And Science Academy North Knights",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indiana-math-and-science-academy-north-knights/basketball/",
+      "region": "Greater Indianapolis"
+    },
+    {
+      "teamName": "Victory College Prep Firehawks",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/victory-college-prep-firehawks/basketball/",
+      "region": "Greater Indianapolis"
+    },
+    {
+      "teamName": "Central Christian Academy Chargers",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/central-christian-academy-chargers/basketball/",
+      "region": "Greater Indianapolis"
+    },
+    {
+      "teamName": "Centerville Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/in/centerville/centerville-bulldogs/basketball/",
+      "region": "Tri Eastern"
+    },
+    {
+      "teamName": "Winchester Community Falcons",
+      "teamUrl": "https://www.maxpreps.com/in/winchester/winchester-community-falcons/basketball/",
+      "region": "Tri Eastern"
+    },
+    {
+      "teamName": "Northeastern Knights",
+      "teamUrl": "https://www.maxpreps.com/in/fountain-city/northeastern-knights/basketball/",
+      "region": "Tri Eastern"
+    },
+    {
+      "teamName": "Hagerstown Tigers",
+      "teamUrl": "https://www.maxpreps.com/in/hagerstown/hagerstown-tigers/basketball/",
+      "region": "Tri Eastern"
+    },
+    {
+      "teamName": "Tri Titans",
+      "teamUrl": "https://www.maxpreps.com/in/straughn/tri-titans/basketball/",
+      "region": "Tri Eastern"
+    },
+    {
+      "teamName": "Knightstown Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/knightstown/knightstown-panthers/basketball/",
+      "region": "Tri Eastern"
+    },
+    {
+      "teamName": "Union City Indians",
+      "teamUrl": "https://www.maxpreps.com/in/union-city/union-city-indians/basketball/",
+      "region": "Tri Eastern"
+    },
+    {
+      "teamName": "Union County Patriots",
+      "teamUrl": "https://www.maxpreps.com/in/liberty/union-county-patriots/basketball/",
+      "region": "Tri Eastern"
+    },
+    {
+      "teamName": "Cambridge City Lincoln Golden Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/cambridge-city/cambridge-city-lincoln-golden-eagles/basketball/",
+      "region": "Tri Eastern"
+    },
+    {
+      "teamName": "Indianapolis Scecina Memorial Crusaders",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indianapolis-scecina-memorial-crusaders/basketball/",
+      "region": "Indiana Crossroads"
+    },
+    {
+      "teamName": "Covenant Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/covenant-christian-warriors/basketball/",
+      "region": "Indiana Crossroads"
+    },
+    {
+      "teamName": "Indianapolis Cardinal Ritter Raiders",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indianapolis-cardinal-ritter-raiders/basketball/",
+      "region": "Indiana Crossroads"
+    },
+    {
+      "teamName": "Heritage Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/heritage-christian-eagles/basketball/",
+      "region": "Indiana Crossroads"
+    },
+    {
+      "teamName": "Greenwood Christian Academy Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/greenwood/greenwood-christian-academy-cougars/basketball/",
+      "region": "Indiana Crossroads"
+    },
+    {
+      "teamName": "Indianapolis Lutheran Saints",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indianapolis-lutheran-saints/basketball/",
+      "region": "Indiana Crossroads"
+    },
+    {
+      "teamName": "Kokomo Wildkats",
+      "teamUrl": "https://www.maxpreps.com/in/kokomo/kokomo-wildkats/basketball/",
+      "region": "North Central"
+    },
+    {
+      "teamName": "Muncie Central Bearcats",
+      "teamUrl": "https://www.maxpreps.com/in/muncie/muncie-central-bearcats/basketball/",
+      "region": "North Central"
+    },
+    {
+      "teamName": "Anderson Indians",
+      "teamUrl": "https://www.maxpreps.com/in/anderson/anderson-indians/basketball/",
+      "region": "North Central"
+    },
+    {
+      "teamName": "Lafayette Jefferson Bronchos",
+      "teamUrl": "https://www.maxpreps.com/in/lafayette/lafayette-jefferson-bronchos/basketball/",
+      "region": "North Central"
+    },
+    {
+      "teamName": "Marion Giants",
+      "teamUrl": "https://www.maxpreps.com/in/marion/marion-giants/basketball/",
+      "region": "North Central"
+    },
+    {
+      "teamName": "Richmond Red Devils",
+      "teamUrl": "https://www.maxpreps.com/in/richmond/richmond-red-devils/basketball/",
+      "region": "North Central"
+    },
+    {
+      "teamName": "Western Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/russiaville/western-panthers/basketball/",
+      "region": "Hoosier  East"
+    },
+    {
+      "teamName": "Logansport Berries",
+      "teamUrl": "https://www.maxpreps.com/in/logansport/logansport-berries/basketball/",
+      "region": "Hoosier  East"
+    },
+    {
+      "teamName": "Hamilton Heights Huskies",
+      "teamUrl": "https://www.maxpreps.com/in/arcadia/hamilton-heights-huskies/basketball/",
+      "region": "Hoosier  East"
+    },
+    {
+      "teamName": "Tipton Blue Devils",
+      "teamUrl": "https://www.maxpreps.com/in/tipton/tipton-blue-devils/basketball/",
+      "region": "Hoosier  East"
+    },
+    {
+      "teamName": "Hammond Baptist Swordsmen",
+      "teamUrl": "https://www.maxpreps.com/in/schererville/hammond-baptist-swordsmen/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Carmel Greyhounds",
+      "teamUrl": "https://www.maxpreps.com/in/carmel/carmel-greyhounds/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Kosciusko County Homeschool",
+      "teamUrl": "https://www.maxpreps.com/in/warsaw/kosciusko-county-homeschool/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Evansville Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/evansville/evansville-christian-eagles/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Horizon Christian",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/horizon-christian/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Indiana School For The Deaf Deaf Hoosiers",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indiana-school-for-the-deaf-deaf-hoosiers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Christ The King Jaguars",
+      "teamUrl": "https://www.maxpreps.com/mi/ann-arbor/christ-the-king-jaguars/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Culver Academies Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/culver/culver-academies-eagles/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Grace Baptist Christian",
+      "teamUrl": "https://www.maxpreps.com/in/plymouth/grace-baptist-christian/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Trinity Lutheran Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/seymour/trinity-lutheran-cougars/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Hudsonville Hornets Hornets",
+      "teamUrl": "https://www.maxpreps.com/mi/hudsonville/hudsonville-hornets-hornets/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Fort Wayne Canterbury Cavaliers",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/fort-wayne-canterbury-cavaliers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Providence Pioneers",
+      "teamUrl": "https://www.maxpreps.com/in/clarksville/providence-pioneers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Rock Creek Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/in/sellersburg/rock-creek-academy-lions/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Emmanuel Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/wabash/emmanuel-christian-eagles/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Plum Creek Christian Academy Explorers",
+      "teamUrl": "https://www.maxpreps.com/in/dyer/plum-creek-christian-academy-explorers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Legacy Christian Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/in/noblesville/legacy-christian-grizzlies/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Christian Academy Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/new-albany/christian-academy-warriors/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Mccutcheon Mavericks",
+      "teamUrl": "https://www.maxpreps.com/in/lafayette/mccutcheon-mavericks/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Angola Homeschool Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/angola/angola-homeschool-warriors/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Smith Academy Fighting 54Th",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/smith-academy-fighting-54th/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Purdue Polytechnic Techies",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/purdue-polytechnic-techies/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Cornerstone Baptist Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/cornerstone-baptist-academy-eagles/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Harlan Christian",
+      "teamUrl": "https://www.maxpreps.com/in/harlan/harlan-christian/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Oldenburg Academy Twisters",
+      "teamUrl": "https://www.maxpreps.com/in/oldenburg/oldenburg-academy-twisters/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Indy Warriors Fc Homeschool",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indy-warriors-fc-homeschool/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Emmanuel Baptist Academy Ambassadors",
+      "teamUrl": "https://www.maxpreps.com/in/valparaiso/emmanuel-baptist-academy-ambassadors/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Kings Academy",
+      "teamUrl": "https://www.maxpreps.com/in/jonesboro/kings-academy/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Evansville Day Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/evansville/evansville-day-eagles/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Madison Cubs",
+      "teamUrl": "https://www.maxpreps.com/in/madison/madison-cubs/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Hebron Christian Academy Mustang",
+      "teamUrl": "https://www.maxpreps.com/in/hebron/hebron-christian-academy-mustang/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "21St Century Charter Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/gary/21st-century-charter-cougars/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Anderson Homeschool Sons",
+      "teamUrl": "https://www.maxpreps.com/in/anderson/anderson-homeschool-sons/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Bible Baptist Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/highland/bible-baptist-eagles/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Bowman Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/gary/bowman-academy-eagles/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Cathedral Fighting Irish",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/cathedral-fighting-irish/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Center Grove Trojans",
+      "teamUrl": "https://www.maxpreps.com/in/greenwood/center-grove-trojans/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "City Baptist School Overcomers",
+      "teamUrl": "https://www.maxpreps.com/in/hammond/city-baptist-school-overcomers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Community Baptist Christian Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/south-bend/community-baptist-christian-cougars/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Community Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/connersville/community-christian-eagles/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Fairhaven Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/chesterton/fairhaven-christian-academy-eagles/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Fishers Christian Academy Knights",
+      "teamUrl": "https://www.maxpreps.com/in/fishers/fishers-christian-academy-knights/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Fort Wayne Blackhawk Christian Braves",
+      "teamUrl": "https://www.maxpreps.com/in/fort-wayne/fort-wayne-blackhawk-christian-braves/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Fortune Academy",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/fortune-academy/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Geo Next Generation Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/geo-next-generation-eagles/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Howell Christian Homeschool",
+      "teamUrl": "https://www.maxpreps.com/mi/howell/howell-christian-homeschool/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Indianapolis Homeschool Trailblazers",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indianapolis-homeschool-trailblazers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Kipp Legacy Lions",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/kipp-legacy-lions/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Lakewood Park Christian Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/auburn/lakewood-park-christian-panthers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Lapel Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/in/lapel/lapel-bulldogs/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Laurel Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/west-harrison/laurel-panthers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Legacy Christian Academy Crusaders",
+      "teamUrl": "https://www.maxpreps.com/in/rochester/legacy-christian-academy-crusaders/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Lighthouse College Prep Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/in/gary/lighthouse-college-prep-academy-lions/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Living Water Homeschool Marlins",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/living-water-homeschool-marlins/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Marquette Catholic Blazers",
+      "teamUrl": "https://www.maxpreps.com/in/michigan-city/marquette-catholic-blazers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Mti School Of Knowledge",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/mti-school-of-knowledge/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Northpoint Homeschool Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/fishers/northpoint-homeschool-panthers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Oak Farm Montessori Falcons",
+      "teamUrl": "https://www.maxpreps.com/in/avilla/oak-farm-montessori-falcons/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Providence Cristo Rey Wolves",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/providence-cristo-rey-wolves/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "River City Jaguars Jaguars",
+      "teamUrl": "https://www.maxpreps.com/in/jeffersonville/river-city-jaguars-jaguars/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Roanoke Baptist",
+      "teamUrl": "https://www.maxpreps.com/in/roanoke/roanoke-baptist/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Rooted School Royals",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/rooted-school-royals/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "St Sebastians Soldiers Homeschool Soldiers",
+      "teamUrl": "https://www.maxpreps.com/in/marion/st-sebastians-soldiers-homeschool-soldiers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Tippecanoe Homeschool Tornados",
+      "teamUrl": "https://www.maxpreps.com/in/lafayette/tippecanoe-homeschool-tornados/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Traders Point Christian Knights",
+      "teamUrl": "https://www.maxpreps.com/in/whitestown/traders-point-christian-knights/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Trinity Christian Saints",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/trinity-christian-saints/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Wabash Valley Homeschool Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/terre-haute/wabash-valley-homeschool-warriors/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Linton Stockton Miners",
+      "teamUrl": "https://www.maxpreps.com/in/linton/linton-stockton-miners/basketball/",
+      "region": "Southwestern Indiana"
+    },
+    {
+      "teamName": "Bloomfield Cardinals",
+      "teamUrl": "https://www.maxpreps.com/in/bloomfield/bloomfield-cardinals/basketball/",
+      "region": "Southwestern Indiana"
+    },
+    {
+      "teamName": "Eastern Greene Thunderbirds",
+      "teamUrl": "https://www.maxpreps.com/in/bloomfield/eastern-greene-thunderbirds/basketball/",
+      "region": "Southwestern Indiana"
+    },
+    {
+      "teamName": "North Daviess Cougars",
+      "teamUrl": "https://www.maxpreps.com/in/elnora/north-daviess-cougars/basketball/",
+      "region": "Southwestern Indiana"
+    },
+    {
+      "teamName": "North Central Thunderbirds",
+      "teamUrl": "https://www.maxpreps.com/in/farmersburg/north-central-thunderbirds/basketball/",
+      "region": "Southwestern Indiana"
+    },
+    {
+      "teamName": "Clay City Eels",
+      "teamUrl": "https://www.maxpreps.com/in/clay-city/clay-city-eels/basketball/",
+      "region": "Southwestern Indiana"
+    },
+    {
+      "teamName": "Shakamak Lakers",
+      "teamUrl": "https://www.maxpreps.com/in/jasonville/shakamak-lakers/basketball/",
+      "region": "Southwestern Indiana"
+    },
+    {
+      "teamName": "White River Valley Wolverines",
+      "teamUrl": "https://www.maxpreps.com/in/switz-city/white-river-valley-wolverines/basketball/",
+      "region": "Southwestern Indiana"
+    }
+  ]
+}

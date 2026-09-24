@@ -1,0 +1,802 @@
+{
+  "meta": {
+    "state": "Utah",
+    "stateCode": "UT",
+    "sport": "Boys Basketball",
+    "season": "2026-2027",
+    "totalTeams": 156,
+    "processedTeamsCount": 0,
+    "processedTeams": [],
+    "totalGamesChecked": 0,
+    "teamsFullBoxScores": 0,
+    "teamsPartialBoxScores": 0,
+    "teamsNoBoxScores": 0,
+    "errors_count": 156,
+    "last_updated": "2026-09-24 16:29:43"
+  },
+  "teamsFullBoxScores": [],
+  "teamsPartialBoxScores": [],
+  "teamsNoBoxScores": [],
+  "errors": [
+    {
+      "teamName": "Richfield Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ut/richfield/richfield-wildcats/basketball/",
+      "region": "3A Region 14"
+    },
+    {
+      "teamName": "Canyon View Falcons",
+      "teamUrl": "https://www.maxpreps.com/ut/cedar-city/canyon-view-falcons/basketball/",
+      "region": "3A Region 14"
+    },
+    {
+      "teamName": "Delta Rabbits",
+      "teamUrl": "https://www.maxpreps.com/ut/delta/delta-rabbits/basketball/",
+      "region": "3A Region 14"
+    },
+    {
+      "teamName": "Juab Wasps",
+      "teamUrl": "https://www.maxpreps.com/ut/nephi/juab-wasps/basketball/",
+      "region": "3A Region 14"
+    },
+    {
+      "teamName": "Providence Hall Patriots",
+      "teamUrl": "https://www.maxpreps.com/ut/herriman/providence-hall-patriots/basketball/",
+      "region": "3A Region 14"
+    },
+    {
+      "teamName": "Cyprus Pirates",
+      "teamUrl": "https://www.maxpreps.com/ut/magna/cyprus-pirates/basketball/",
+      "region": "5A Region 4"
+    },
+    {
+      "teamName": "Hillcrest Huskies",
+      "teamUrl": "https://www.maxpreps.com/ut/midvale/hillcrest-huskies/basketball/",
+      "region": "5A Region 4"
+    },
+    {
+      "teamName": "West Panthers",
+      "teamUrl": "https://www.maxpreps.com/ut/salt-lake-city/west-panthers/basketball/",
+      "region": "5A Region 4"
+    },
+    {
+      "teamName": "West Jordan Jaguars",
+      "teamUrl": "https://www.maxpreps.com/ut/west-jordan/west-jordan-jaguars/basketball/",
+      "region": "5A Region 4"
+    },
+    {
+      "teamName": "Kearns Cougars",
+      "teamUrl": "https://www.maxpreps.com/ut/kearns/kearns-cougars/basketball/",
+      "region": "5A Region 4"
+    },
+    {
+      "teamName": "Granger Lancers",
+      "teamUrl": "https://www.maxpreps.com/ut/west-valley-city/granger-lancers/basketball/",
+      "region": "5A Region 4"
+    },
+    {
+      "teamName": "Taylorsville Warriors",
+      "teamUrl": "https://www.maxpreps.com/ut/taylorsville/taylorsville-warriors/basketball/",
+      "region": "5A Region 4"
+    },
+    {
+      "teamName": "Hunter Wolverines",
+      "teamUrl": "https://www.maxpreps.com/ut/west-valley-city/hunter-wolverines/basketball/",
+      "region": "5A Region 4"
+    },
+    {
+      "teamName": "Kanab Cowboys",
+      "teamUrl": "https://www.maxpreps.com/ut/kanab/kanab-cowboys/basketball/",
+      "region": "2A Region 18"
+    },
+    {
+      "teamName": "South Sevier Rams",
+      "teamUrl": "https://www.maxpreps.com/ut/monroe/south-sevier-rams/basketball/",
+      "region": "2A Region 18"
+    },
+    {
+      "teamName": "San Juan Broncos",
+      "teamUrl": "https://www.maxpreps.com/ut/blanding/san-juan-broncos/basketball/",
+      "region": "2A Region 18"
+    },
+    {
+      "teamName": "Parowan Rams",
+      "teamUrl": "https://www.maxpreps.com/ut/parowan/parowan-rams/basketball/",
+      "region": "2A Region 18"
+    },
+    {
+      "teamName": "Enterprise Wolves",
+      "teamUrl": "https://www.maxpreps.com/ut/enterprise/enterprise-wolves/basketball/",
+      "region": "2A Region 18"
+    },
+    {
+      "teamName": "Beaver Beavers",
+      "teamUrl": "https://www.maxpreps.com/ut/beaver/beaver-beavers/basketball/",
+      "region": "2A Region 18"
+    },
+    {
+      "teamName": "Grand County Red Devils",
+      "teamUrl": "https://www.maxpreps.com/ut/moab/grand-county-red-devils/basketball/",
+      "region": "2A Region 18"
+    },
+    {
+      "teamName": "Cottonwood Colts",
+      "teamUrl": "https://www.maxpreps.com/ut/salt-lake-city/cottonwood-colts/basketball/",
+      "region": "4A Region 10"
+    },
+    {
+      "teamName": "Juan Diego Catholic Soaring Eagle",
+      "teamUrl": "https://www.maxpreps.com/ut/draper/juan-diego-catholic-soaring-eagle/basketball/",
+      "region": "4A Region 10"
+    },
+    {
+      "teamName": "East Leopards",
+      "teamUrl": "https://www.maxpreps.com/ut/salt-lake-city/east-leopards/basketball/",
+      "region": "4A Region 10"
+    },
+    {
+      "teamName": "Murray Spartans",
+      "teamUrl": "https://www.maxpreps.com/ut/murray/murray-spartans/basketball/",
+      "region": "4A Region 10"
+    },
+    {
+      "teamName": "Judge Memorial Catholic Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ut/salt-lake-city/judge-memorial-catholic-bulldogs/basketball/",
+      "region": "4A Region 10"
+    },
+    {
+      "teamName": "Jordan Beetdiggers",
+      "teamUrl": "https://www.maxpreps.com/ut/sandy/jordan-beetdiggers/basketball/",
+      "region": "4A Region 10"
+    },
+    {
+      "teamName": "Park City Miners",
+      "teamUrl": "https://www.maxpreps.com/ut/park-city/park-city-miners/basketball/",
+      "region": "4A Region 10"
+    },
+    {
+      "teamName": "Green River Pirates",
+      "teamUrl": "https://www.maxpreps.com/ut/green-river/green-river-pirates/basketball/",
+      "region": "1A Region 19"
+    },
+    {
+      "teamName": "Monticello Buckaroo",
+      "teamUrl": "https://www.maxpreps.com/ut/monticello/monticello-buckaroo/basketball/",
+      "region": "1A Region 19"
+    },
+    {
+      "teamName": "Whitehorse Raiders",
+      "teamUrl": "https://www.maxpreps.com/ut/montezuma-creek/whitehorse-raiders/basketball/",
+      "region": "1A Region 19"
+    },
+    {
+      "teamName": "Pinnacle Panthers",
+      "teamUrl": "https://www.maxpreps.com/ut/price/pinnacle-panthers/basketball/",
+      "region": "1A Region 19"
+    },
+    {
+      "teamName": "Monument Valley Cougars",
+      "teamUrl": "https://www.maxpreps.com/ut/monument-valley/monument-valley-cougars/basketball/",
+      "region": "1A Region 19"
+    },
+    {
+      "teamName": "Lake Powell Scorprions",
+      "teamUrl": "https://www.maxpreps.com/ut/lake-powell/lake-powell-scorprions/basketball/",
+      "region": "1A Region 19"
+    },
+    {
+      "teamName": "Navajo Mountain",
+      "teamUrl": "https://www.maxpreps.com/ut/navajo-mountain/navajo-mountain/basketball/",
+      "region": "1A Region 19"
+    },
+    {
+      "teamName": "American Prep Wv Eagles",
+      "teamUrl": "https://www.maxpreps.com/ut/west-valley-city/american-prep-wv-eagles/basketball/",
+      "region": "2A Region 16"
+    },
+    {
+      "teamName": "Utah Military Academy Camp Williams Marauders",
+      "teamUrl": "https://www.maxpreps.com/ut/lehi/utah-military-academy-camp-williams-marauders/basketball/",
+      "region": "2A Region 16"
+    },
+    {
+      "teamName": "Merit Preparatory Academy Mongoose",
+      "teamUrl": "https://www.maxpreps.com/ut/springville/merit-preparatory-academy-mongoose/basketball/",
+      "region": "2A Region 16"
+    },
+    {
+      "teamName": "Rockwell Marshals",
+      "teamUrl": "https://www.maxpreps.com/ut/eagle-mountain/rockwell-marshals/basketball/",
+      "region": "2A Region 16"
+    },
+    {
+      "teamName": "Salt Lake Academy Griffins",
+      "teamUrl": "https://www.maxpreps.com/ut/herriman/salt-lake-academy-griffins/basketball/",
+      "region": "2A Region 16"
+    },
+    {
+      "teamName": "Vanguard Academy Knights",
+      "teamUrl": "https://www.maxpreps.com/ut/west-valley-city/vanguard-academy-knights/basketball/",
+      "region": "2A Region 16"
+    },
+    {
+      "teamName": "Freedom Prep Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/ut/provo/freedom-prep-academy-eagles/basketball/",
+      "region": "2A Region 16"
+    },
+    {
+      "teamName": "Emery Spartans",
+      "teamUrl": "https://www.maxpreps.com/ut/castle-dale/emery-spartans/basketball/",
+      "region": "3A Region 13"
+    },
+    {
+      "teamName": "Manti Templars",
+      "teamUrl": "https://www.maxpreps.com/ut/manti/manti-templars/basketball/",
+      "region": "3A Region 13"
+    },
+    {
+      "teamName": "Union Cougars",
+      "teamUrl": "https://www.maxpreps.com/ut/roosevelt/union-cougars/basketball/",
+      "region": "3A Region 13"
+    },
+    {
+      "teamName": "Carbon Dinos",
+      "teamUrl": "https://www.maxpreps.com/ut/price/carbon-dinos/basketball/",
+      "region": "3A Region 13"
+    },
+    {
+      "teamName": "North Sanpete Hawks",
+      "teamUrl": "https://www.maxpreps.com/ut/mt-pleasant/north-sanpete-hawks/basketball/",
+      "region": "3A Region 13"
+    },
+    {
+      "teamName": "Olympus Titans",
+      "teamUrl": "https://www.maxpreps.com/ut/salt-lake-city/olympus-titans/basketball/",
+      "region": "5A Region 6"
+    },
+    {
+      "teamName": "Highland Rams",
+      "teamUrl": "https://www.maxpreps.com/ut/salt-lake-city/highland-rams/basketball/",
+      "region": "5A Region 6"
+    },
+    {
+      "teamName": "Bountiful Redhawks",
+      "teamUrl": "https://www.maxpreps.com/ut/bountiful/bountiful-redhawks/basketball/",
+      "region": "5A Region 6"
+    },
+    {
+      "teamName": "Woods Cross Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ut/woods-cross/woods-cross-wildcats/basketball/",
+      "region": "5A Region 6"
+    },
+    {
+      "teamName": "Viewmont Vikings",
+      "teamUrl": "https://www.maxpreps.com/ut/bountiful/viewmont-vikings/basketball/",
+      "region": "5A Region 6"
+    },
+    {
+      "teamName": "Alta Hawks",
+      "teamUrl": "https://www.maxpreps.com/ut/sandy/alta-hawks/basketball/",
+      "region": "5A Region 6"
+    },
+    {
+      "teamName": "Brighton Bengals",
+      "teamUrl": "https://www.maxpreps.com/ut/salt-lake-city/brighton-bengals/basketball/",
+      "region": "5A Region 6"
+    },
+    {
+      "teamName": "Skyline Eagles",
+      "teamUrl": "https://www.maxpreps.com/ut/salt-lake-city/skyline-eagles/basketball/",
+      "region": "5A Region 6"
+    },
+    {
+      "teamName": "Mount Vernon Patriots",
+      "teamUrl": "https://www.maxpreps.com/ut/murray/mount-vernon-patriots/basketball/",
+      "region": "1A Region 21"
+    },
+    {
+      "teamName": "Telos Titans",
+      "teamUrl": "https://www.maxpreps.com/ut/orem/telos-titans/basketball/",
+      "region": "1A Region 21"
+    },
+    {
+      "teamName": "Utah School For The Deaf And Blind Eagles",
+      "teamUrl": "https://www.maxpreps.com/ut/ogden/utah-school-for-the-deaf-and-blind-eagles/basketball/",
+      "region": "1A Region 21"
+    },
+    {
+      "teamName": "Dugway Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ut/dugway/dugway-mustangs/basketball/",
+      "region": "1A Region 21"
+    },
+    {
+      "teamName": "Eskdale Soldiers",
+      "teamUrl": "https://www.maxpreps.com/ut/eskdale/eskdale-soldiers/basketball/",
+      "region": "1A Region 21"
+    },
+    {
+      "teamName": "West Desert Hawks",
+      "teamUrl": "https://www.maxpreps.com/ut/trout-creek/west-desert-hawks/basketball/",
+      "region": "1A Region 21"
+    },
+    {
+      "teamName": "West Ridge Academy Fighting Eagles",
+      "teamUrl": "https://www.maxpreps.com/ut/west-jordan/west-ridge-academy-fighting-eagles/basketball/",
+      "region": "1A Region 21"
+    },
+    {
+      "teamName": "Sky View Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ut/smithfield/sky-view-bobcats/basketball/",
+      "region": "4A Region 11"
+    },
+    {
+      "teamName": "Ridgeline Riverhawks",
+      "teamUrl": "https://www.maxpreps.com/ut/millville/ridgeline-riverhawks/basketball/",
+      "region": "4A Region 11"
+    },
+    {
+      "teamName": "Green Canyon Wolfpack",
+      "teamUrl": "https://www.maxpreps.com/ut/north-logan/green-canyon-wolfpack/basketball/",
+      "region": "4A Region 11"
+    },
+    {
+      "teamName": "Mountain Crest Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ut/hyrum/mountain-crest-mustangs/basketball/",
+      "region": "4A Region 11"
+    },
+    {
+      "teamName": "Stansbury Stallions",
+      "teamUrl": "https://www.maxpreps.com/ut/stansbury-park/stansbury-stallions/basketball/",
+      "region": "4A Region 11"
+    },
+    {
+      "teamName": "Bear River Bears",
+      "teamUrl": "https://www.maxpreps.com/ut/garland/bear-river-bears/basketball/",
+      "region": "4A Region 11"
+    },
+    {
+      "teamName": "Deseret Peak Golden Eagles",
+      "teamUrl": "https://www.maxpreps.com/ut/tooele/deseret-peak-golden-eagles/basketball/",
+      "region": "4A Region 11"
+    },
+    {
+      "teamName": "Tooele Buffaloes",
+      "teamUrl": "https://www.maxpreps.com/ut/tooele/tooele-buffaloes/basketball/",
+      "region": "4A Region 11"
+    },
+    {
+      "teamName": "Roy Royals",
+      "teamUrl": "https://www.maxpreps.com/ut/roy/roy-royals/basketball/",
+      "region": "5A Region 5"
+    },
+    {
+      "teamName": "West Field Longhorns",
+      "teamUrl": "https://www.maxpreps.com/ut/taylor/west-field-longhorns/basketball/",
+      "region": "5A Region 5"
+    },
+    {
+      "teamName": "Fremont Wolves",
+      "teamUrl": "https://www.maxpreps.com/ut/plain-city/fremont-wolves/basketball/",
+      "region": "5A Region 5"
+    },
+    {
+      "teamName": "Box Elder Bees",
+      "teamUrl": "https://www.maxpreps.com/ut/brigham-city/box-elder-bees/basketball/",
+      "region": "5A Region 5"
+    },
+    {
+      "teamName": "Clearfield Falcons",
+      "teamUrl": "https://www.maxpreps.com/ut/clearfield/clearfield-falcons/basketball/",
+      "region": "5A Region 5"
+    },
+    {
+      "teamName": "Northridge Knights",
+      "teamUrl": "https://www.maxpreps.com/ut/layton/northridge-knights/basketball/",
+      "region": "5A Region 5"
+    },
+    {
+      "teamName": "Bonneville Lakers",
+      "teamUrl": "https://www.maxpreps.com/ut/washington-terrace/bonneville-lakers/basketball/",
+      "region": "5A Region 5"
+    },
+    {
+      "teamName": "American Leadership Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/ut/spanish-fork/american-leadership-academy-eagles/basketball/",
+      "region": "2A Region 17"
+    },
+    {
+      "teamName": "Rowland Hall Winged Lions",
+      "teamUrl": "https://www.maxpreps.com/ut/salt-lake-city/rowland-hall-winged-lions/basketball/",
+      "region": "2A Region 17"
+    },
+    {
+      "teamName": "Draper Apa Eagles",
+      "teamUrl": "https://www.maxpreps.com/ut/draper/draper-apa-eagles/basketball/",
+      "region": "2A Region 17"
+    },
+    {
+      "teamName": "Waterford Ravens",
+      "teamUrl": "https://www.maxpreps.com/ut/sandy/waterford-ravens/basketball/",
+      "region": "2A Region 17"
+    },
+    {
+      "teamName": "Maeser Prep Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/ut/lindon/maeser-prep-academy-lions/basketball/",
+      "region": "2A Region 17"
+    },
+    {
+      "teamName": "Intermountain Christian Lions",
+      "teamUrl": "https://www.maxpreps.com/ut/salt-lake-city/intermountain-christian-lions/basketball/",
+      "region": "2A Region 17"
+    },
+    {
+      "teamName": "Utah Military Academy Hill Field Thunderbirds",
+      "teamUrl": "https://www.maxpreps.com/ut/riverdale/utah-military-academy-hill-field-thunderbirds/basketball/",
+      "region": "2A Region 17"
+    },
+    {
+      "teamName": "Christian Heritage",
+      "teamUrl": "https://www.maxpreps.com/local/team/home.aspx?schoolid=c6562e6a-92c7-4d41-93a6-a28c3a65cbf6&ssid=ee7cf537-7394-4430-88ca-becaabda286c",
+      "region": "2A Region 17"
+    },
+    {
+      "teamName": "Morgan Trojans",
+      "teamUrl": "https://www.maxpreps.com/ut/morgan/morgan-trojans/basketball/",
+      "region": "3A Region 12"
+    },
+    {
+      "teamName": "American Heritage Patriots",
+      "teamUrl": "https://www.maxpreps.com/ut/american-fork/american-heritage-patriots/basketball/",
+      "region": "3A Region 12"
+    },
+    {
+      "teamName": "Ogden Tigers",
+      "teamUrl": "https://www.maxpreps.com/ut/ogden/ogden-tigers/basketball/",
+      "region": "3A Region 12"
+    },
+    {
+      "teamName": "Logan Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/ut/logan/logan-grizzlies/basketball/",
+      "region": "3A Region 12"
+    },
+    {
+      "teamName": "Grantsville Cowboys",
+      "teamUrl": "https://www.maxpreps.com/ut/grantsville/grantsville-cowboys/basketball/",
+      "region": "3A Region 12"
+    },
+    {
+      "teamName": "Ben Lomond Scots",
+      "teamUrl": "https://www.maxpreps.com/ut/ogden/ben-lomond-scots/basketball/",
+      "region": "3A Region 12"
+    },
+    {
+      "teamName": "Herriman Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ut/west-herriman/herriman-mustangs/basketball/",
+      "region": "6A Region 2"
+    },
+    {
+      "teamName": "Westlake Thunder",
+      "teamUrl": "https://www.maxpreps.com/ut/saratoga-springs/westlake-thunder/basketball/",
+      "region": "6A Region 2"
+    },
+    {
+      "teamName": "Bingham Miners",
+      "teamUrl": "https://www.maxpreps.com/ut/south-jordan/bingham-miners/basketball/",
+      "region": "6A Region 2"
+    },
+    {
+      "teamName": "Mountain Ridge Sentinels",
+      "teamUrl": "https://www.maxpreps.com/ut/herriman/mountain-ridge-sentinels/basketball/",
+      "region": "6A Region 2"
+    },
+    {
+      "teamName": "Riverton Silverwolves",
+      "teamUrl": "https://www.maxpreps.com/ut/riverton/riverton-silverwolves/basketball/",
+      "region": "6A Region 2"
+    },
+    {
+      "teamName": "Cedar Valley Aviators",
+      "teamUrl": "https://www.maxpreps.com/ut/eagle-mountain/cedar-valley-aviators/basketball/",
+      "region": "6A Region 2"
+    },
+    {
+      "teamName": "Copper Hills Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/ut/west-jordan/copper-hills-grizzlies/basketball/",
+      "region": "6A Region 2"
+    },
+    {
+      "teamName": "Rich Rebels",
+      "teamUrl": "https://www.maxpreps.com/ut/randolph/rich-rebels/basketball/",
+      "region": "1A Region 22"
+    },
+    {
+      "teamName": "Tabiona Tigers",
+      "teamUrl": "https://www.maxpreps.com/ut/tabiona/tabiona-tigers/basketball/",
+      "region": "1A Region 22"
+    },
+    {
+      "teamName": "Manila Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ut/manila/manila-mustangs/basketball/",
+      "region": "1A Region 22"
+    },
+    {
+      "teamName": "Tintic Miners",
+      "teamUrl": "https://www.maxpreps.com/ut/eureka/tintic-miners/basketball/",
+      "region": "1A Region 22"
+    },
+    {
+      "teamName": "Altamont Longhorns",
+      "teamUrl": "https://www.maxpreps.com/ut/altamont/altamont-longhorns/basketball/",
+      "region": "1A Region 22"
+    },
+    {
+      "teamName": "St Joseph Jayhawks",
+      "teamUrl": "https://www.maxpreps.com/ut/ogden/st-joseph-jayhawks/basketball/",
+      "region": "1A Region 22"
+    },
+    {
+      "teamName": "Wendover Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ut/wendover/wendover-wildcats/basketball/",
+      "region": "1A Region 22"
+    },
+    {
+      "teamName": "North Summit Braves",
+      "teamUrl": "https://www.maxpreps.com/ut/coalville/north-summit-braves/basketball/",
+      "region": "2A Region 15"
+    },
+    {
+      "teamName": "Gunnison Valley Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ut/gunnison/gunnison-valley-bulldogs/basketball/",
+      "region": "2A Region 15"
+    },
+    {
+      "teamName": "South Summit Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ut/kamas/south-summit-wildcats/basketball/",
+      "region": "2A Region 15"
+    },
+    {
+      "teamName": "Millard Eagles",
+      "teamUrl": "https://www.maxpreps.com/ut/fillmore/millard-eagles/basketball/",
+      "region": "2A Region 15"
+    },
+    {
+      "teamName": "Duchesne Eagles",
+      "teamUrl": "https://www.maxpreps.com/ut/duchesne/duchesne-eagles/basketball/",
+      "region": "2A Region 15"
+    },
+    {
+      "teamName": "North Sevier Wolves",
+      "teamUrl": "https://www.maxpreps.com/ut/salina/north-sevier-wolves/basketball/",
+      "region": "2A Region 15"
+    },
+    {
+      "teamName": "Layton Lancers",
+      "teamUrl": "https://www.maxpreps.com/ut/layton/layton-lancers/basketball/",
+      "region": "6A Region 1"
+    },
+    {
+      "teamName": "Davis Darts",
+      "teamUrl": "https://www.maxpreps.com/ut/kaysville/davis-darts/basketball/",
+      "region": "6A Region 1"
+    },
+    {
+      "teamName": "Syracuse Titans",
+      "teamUrl": "https://www.maxpreps.com/ut/syracuse/syracuse-titans/basketball/",
+      "region": "6A Region 1"
+    },
+    {
+      "teamName": "Farmington Phoenix",
+      "teamUrl": "https://www.maxpreps.com/ut/farmington/farmington-phoenix/basketball/",
+      "region": "6A Region 1"
+    },
+    {
+      "teamName": "Weber Warriors",
+      "teamUrl": "https://www.maxpreps.com/ut/pleasant-view/weber-warriors/basketball/",
+      "region": "6A Region 1"
+    },
+    {
+      "teamName": "Wayne Badgers",
+      "teamUrl": "https://www.maxpreps.com/ut/bicknell/wayne-badgers/basketball/",
+      "region": "1A Region 20"
+    },
+    {
+      "teamName": "Valley Buffalos",
+      "teamUrl": "https://www.maxpreps.com/ut/orderville/valley-buffalos/basketball/",
+      "region": "1A Region 20"
+    },
+    {
+      "teamName": "Piute Thunderbirds",
+      "teamUrl": "https://www.maxpreps.com/ut/junction/piute-thunderbirds/basketball/",
+      "region": "1A Region 20"
+    },
+    {
+      "teamName": "Panguitch Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ut/panguitch/panguitch-bobcats/basketball/",
+      "region": "1A Region 20"
+    },
+    {
+      "teamName": "Bryce Valley Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ut/tropic/bryce-valley-mustangs/basketball/",
+      "region": "1A Region 20"
+    },
+    {
+      "teamName": "Milford Tigers",
+      "teamUrl": "https://www.maxpreps.com/ut/milford/milford-tigers/basketball/",
+      "region": "1A Region 20"
+    },
+    {
+      "teamName": "Escalante Moquis",
+      "teamUrl": "https://www.maxpreps.com/ut/escalante/escalante-moquis/basketball/",
+      "region": "1A Region 20"
+    },
+    {
+      "teamName": "Water Canyon Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ut/hildale/water-canyon-wildcats/basketball/",
+      "region": "1A Region 20"
+    },
+    {
+      "teamName": "Paradigm Patriots",
+      "teamUrl": "https://www.maxpreps.com/ut/south-jordan/paradigm-patriots/basketball/",
+      "region": "Independent"
+    },
+    {
+      "teamName": "Davinci Academy Dragons",
+      "teamUrl": "https://www.maxpreps.com/ut/ogden/davinci-academy-dragons/basketball/",
+      "region": "Independent"
+    },
+    {
+      "teamName": "Uintah River",
+      "teamUrl": "https://www.maxpreps.com/ut/fort-duchesne/uintah-river/basketball/",
+      "region": "Independent"
+    },
+    {
+      "teamName": "Wallace Stegner Academy",
+      "teamUrl": "https://www.maxpreps.com/ut/west-valley-city/wallace-stegner-academy/basketball/",
+      "region": "Independent"
+    },
+    {
+      "teamName": "American Academy Of Innovation Titans",
+      "teamUrl": "https://www.maxpreps.com/ut/south-jordan/american-academy-of-innovation-titans/basketball/",
+      "region": "Independent"
+    },
+    {
+      "teamName": "Terra Academy Tigers",
+      "teamUrl": "https://www.maxpreps.com/ut/vernal/terra-academy-tigers/basketball/",
+      "region": "Independent"
+    },
+    {
+      "teamName": "Layton Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/ut/layton/layton-christian-academy-eagles/basketball/",
+      "region": "Independent"
+    },
+    {
+      "teamName": "American Fork Cavemen",
+      "teamUrl": "https://www.maxpreps.com/ut/american-fork/american-fork-cavemen/basketball/",
+      "region": "6A Region 3"
+    },
+    {
+      "teamName": "Lone Peak Knights",
+      "teamUrl": "https://www.maxpreps.com/ut/highland/lone-peak-knights/basketball/",
+      "region": "6A Region 3"
+    },
+    {
+      "teamName": "Corner Canyon Chargers",
+      "teamUrl": "https://www.maxpreps.com/ut/draper/corner-canyon-chargers/basketball/",
+      "region": "6A Region 3"
+    },
+    {
+      "teamName": "Skyridge Falcons",
+      "teamUrl": "https://www.maxpreps.com/ut/lehi/skyridge-falcons/basketball/",
+      "region": "6A Region 3"
+    },
+    {
+      "teamName": "Lehi Pioneers",
+      "teamUrl": "https://www.maxpreps.com/ut/lehi/lehi-pioneers/basketball/",
+      "region": "6A Region 3"
+    },
+    {
+      "teamName": "Provo Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ut/provo/provo-bulldogs/basketball/",
+      "region": "4A Region 8"
+    },
+    {
+      "teamName": "Timpanogos Timberwolves",
+      "teamUrl": "https://www.maxpreps.com/ut/orem/timpanogos-timberwolves/basketball/",
+      "region": "4A Region 8"
+    },
+    {
+      "teamName": "Mountain View Bruins",
+      "teamUrl": "https://www.maxpreps.com/ut/orem/mountain-view-bruins/basketball/",
+      "region": "4A Region 8"
+    },
+    {
+      "teamName": "Uintah Utes",
+      "teamUrl": "https://www.maxpreps.com/ut/vernal/uintah-utes/basketball/",
+      "region": "4A Region 8"
+    },
+    {
+      "teamName": "Summit Academy Bears",
+      "teamUrl": "https://www.maxpreps.com/ut/bluffdale/summit-academy-bears/basketball/",
+      "region": "4A Region 8"
+    },
+    {
+      "teamName": "Timpview Thunderbirds",
+      "teamUrl": "https://www.maxpreps.com/ut/provo/timpview-thunderbirds/basketball/",
+      "region": "5A Region 7"
+    },
+    {
+      "teamName": "Orem Tigers",
+      "teamUrl": "https://www.maxpreps.com/ut/orem/orem-tigers/basketball/",
+      "region": "5A Region 7"
+    },
+    {
+      "teamName": "Springville Red Devils",
+      "teamUrl": "https://www.maxpreps.com/ut/springville/springville-red-devils/basketball/",
+      "region": "5A Region 7"
+    },
+    {
+      "teamName": "Wasatch Wasps",
+      "teamUrl": "https://www.maxpreps.com/ut/heber-city/wasatch-wasps/basketball/",
+      "region": "5A Region 7"
+    },
+    {
+      "teamName": "Maple Mountain Eagles",
+      "teamUrl": "https://www.maxpreps.com/ut/spanish-fork/maple-mountain-eagles/basketball/",
+      "region": "5A Region 7"
+    },
+    {
+      "teamName": "Payson Lions",
+      "teamUrl": "https://www.maxpreps.com/ut/payson/payson-lions/basketball/",
+      "region": "5A Region 7"
+    },
+    {
+      "teamName": "Salem Hills Skyhawks",
+      "teamUrl": "https://www.maxpreps.com/ut/salem/salem-hills-skyhawks/basketball/",
+      "region": "5A Region 7"
+    },
+    {
+      "teamName": "Pleasant Grove Vikings",
+      "teamUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/basketball/",
+      "region": "5A Region 7"
+    },
+    {
+      "teamName": "Spanish Fork Dons",
+      "teamUrl": "https://www.maxpreps.com/ut/spanish-fork/spanish-fork-dons/basketball/",
+      "region": "5A Region 7"
+    },
+    {
+      "teamName": "Crimson Cliffs Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ut/washington/crimson-cliffs-mustangs/basketball/",
+      "region": "4A Region 9"
+    },
+    {
+      "teamName": "Pine View Panthers",
+      "teamUrl": "https://www.maxpreps.com/ut/st-george/pine-view-panthers/basketball/",
+      "region": "4A Region 9"
+    },
+    {
+      "teamName": "Dixie Flyers",
+      "teamUrl": "https://www.maxpreps.com/ut/st-george/dixie-flyers/basketball/",
+      "region": "4A Region 9"
+    },
+    {
+      "teamName": "Hurricane Tigers",
+      "teamUrl": "https://www.maxpreps.com/ut/hurricane/hurricane-tigers/basketball/",
+      "region": "4A Region 9"
+    },
+    {
+      "teamName": "Snow Canyon Warriors",
+      "teamUrl": "https://www.maxpreps.com/ut/st-george/snow-canyon-warriors/basketball/",
+      "region": "4A Region 9"
+    },
+    {
+      "teamName": "Desert Hills Thunder",
+      "teamUrl": "https://www.maxpreps.com/ut/st-george/desert-hills-thunder/basketball/",
+      "region": "4A Region 9"
+    },
+    {
+      "teamName": "Cedar Reds",
+      "teamUrl": "https://www.maxpreps.com/ut/cedar-city/cedar-reds/basketball/",
+      "region": "4A Region 9"
+    }
+  ]
+}

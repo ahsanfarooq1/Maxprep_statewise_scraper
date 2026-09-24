@@ -1,0 +1,1577 @@
+{
+  "meta": {
+    "state": "Arkansas",
+    "stateCode": "AR",
+    "sport": "Girls Basketball",
+    "season": "2026-2027",
+    "totalTeams": 311,
+    "processedTeamsCount": 0,
+    "processedTeams": [],
+    "totalGamesChecked": 0,
+    "teamsFullBoxScores": 0,
+    "teamsPartialBoxScores": 0,
+    "teamsNoBoxScores": 0,
+    "errors_count": 311,
+    "last_updated": "2026-09-24 11:41:58"
+  },
+  "teamsFullBoxScores": [],
+  "teamsPartialBoxScores": [],
+  "teamsNoBoxScores": [],
+  "errors": [
+    {
+      "teamName": "Farmington Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ar/farmington/farmington-cardinals/basketball/girls/",
+      "region": "5A West"
+    },
+    {
+      "teamName": "Mountain Home Bombers",
+      "teamUrl": "https://www.maxpreps.com/ar/mountain-home/mountain-home-bombers/basketball/girls/",
+      "region": "5A West"
+    },
+    {
+      "teamName": "Greenwood Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/greenwood/greenwood-bulldogs/basketball/girls/",
+      "region": "5A West"
+    },
+    {
+      "teamName": "Van Buren Pointers",
+      "teamUrl": "https://www.maxpreps.com/ar/van-buren/van-buren-pointers/basketball/girls/",
+      "region": "5A West"
+    },
+    {
+      "teamName": "Siloam Springs Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/siloam-springs/siloam-springs-panthers/basketball/girls/",
+      "region": "5A West"
+    },
+    {
+      "teamName": "Alma Airedales",
+      "teamUrl": "https://www.maxpreps.com/ar/alma/alma-airedales/basketball/girls/",
+      "region": "5A West"
+    },
+    {
+      "teamName": "Harrison Goblins",
+      "teamUrl": "https://www.maxpreps.com/ar/harrison/harrison-goblins/basketball/girls/",
+      "region": "5A West"
+    },
+    {
+      "teamName": "Russellville Cyclones",
+      "teamUrl": "https://www.maxpreps.com/ar/russellville/russellville-cyclones/basketball/girls/",
+      "region": "5A West"
+    },
+    {
+      "teamName": "Pulaski Academy Bruins",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/pulaski-academy-bruins/basketball/girls/",
+      "region": "4A Region 5 North"
+    },
+    {
+      "teamName": "Robinson Senators",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/robinson-senators/basketball/girls/",
+      "region": "4A Region 5 North"
+    },
+    {
+      "teamName": "Heber Springs Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/heber-springs/heber-springs-panthers/basketball/girls/",
+      "region": "4A Region 5 North"
+    },
+    {
+      "teamName": "Morrilton Devil Dogs",
+      "teamUrl": "https://www.maxpreps.com/ar/morrilton/morrilton-devil-dogs/basketball/girls/",
+      "region": "4A Region 5 North"
+    },
+    {
+      "teamName": "Clinton Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ar/clinton/clinton-yellowjackets/basketball/girls/",
+      "region": "4A Region 5 North"
+    },
+    {
+      "teamName": "Lisa Academy West",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/lisa-academy-west/basketball/girls/",
+      "region": "4A Region 5 North"
+    },
+    {
+      "teamName": "Mcgehee Owls",
+      "teamUrl": "https://www.maxpreps.com/ar/mcgehee/mcgehee-owls/basketball/girls/",
+      "region": "3A Region 8"
+    },
+    {
+      "teamName": "Dumas Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ar/dumas/dumas-bobcats/basketball/girls/",
+      "region": "3A Region 8"
+    },
+    {
+      "teamName": "Drew Central Pirates",
+      "teamUrl": "https://www.maxpreps.com/ar/monticello/drew-central-pirates/basketball/girls/",
+      "region": "3A Region 8"
+    },
+    {
+      "teamName": "Rison Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ar/rison/rison-wildcats/basketball/girls/",
+      "region": "3A Region 8"
+    },
+    {
+      "teamName": "Central Cougars",
+      "teamUrl": "https://www.maxpreps.com/ar/west-helena/central-cougars/basketball/girls/",
+      "region": "3A Region 8"
+    },
+    {
+      "teamName": "Dewitt Dragons",
+      "teamUrl": "https://www.maxpreps.com/ar/dewitt/dewitt-dragons/basketball/girls/",
+      "region": "3A Region 8"
+    },
+    {
+      "teamName": "Lakeside Beavers",
+      "teamUrl": "https://www.maxpreps.com/ar/lake-village/lakeside-beavers/basketball/girls/",
+      "region": "3A Region 8"
+    },
+    {
+      "teamName": "Acorn Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/mena/acorn-tigers/basketball/girls/",
+      "region": "2A Region 4"
+    },
+    {
+      "teamName": "Mountainburg Dragons",
+      "teamUrl": "https://www.maxpreps.com/ar/mountainburg/mountainburg-dragons/basketball/girls/",
+      "region": "2A Region 4"
+    },
+    {
+      "teamName": "Hackett Hornets",
+      "teamUrl": "https://www.maxpreps.com/ar/hackett/hackett-hornets/basketball/girls/",
+      "region": "2A Region 4"
+    },
+    {
+      "teamName": "Hector Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ar/hector/hector-wildcats/basketball/girls/",
+      "region": "2A Region 4"
+    },
+    {
+      "teamName": "Danville Little Johns",
+      "teamUrl": "https://www.maxpreps.com/ar/danville/danville-little-johns/basketball/girls/",
+      "region": "2A Region 4"
+    },
+    {
+      "teamName": "Westside Rebels",
+      "teamUrl": "https://www.maxpreps.com/ar/coal-hill/westside-rebels/basketball/girls/",
+      "region": "2A Region 4"
+    },
+    {
+      "teamName": "County Line Indians",
+      "teamUrl": "https://www.maxpreps.com/ar/branch/county-line-indians/basketball/girls/",
+      "region": "1A Region 4"
+    },
+    {
+      "teamName": "Scranton Rockets",
+      "teamUrl": "https://www.maxpreps.com/ar/scranton/scranton-rockets/basketball/girls/",
+      "region": "1A Region 4"
+    },
+    {
+      "teamName": "Magazine Rattlers",
+      "teamUrl": "https://www.maxpreps.com/ar/magazine/magazine-rattlers/basketball/girls/",
+      "region": "1A Region 4"
+    },
+    {
+      "teamName": "Mulberry Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ar/mulberry/mulberry-yellowjackets/basketball/girls/",
+      "region": "1A Region 4"
+    },
+    {
+      "teamName": "Western Yell County Wolverines",
+      "teamUrl": "https://www.maxpreps.com/ar/havana/western-yell-county-wolverines/basketball/girls/",
+      "region": "1A Region 4"
+    },
+    {
+      "teamName": "Oark Hornets",
+      "teamUrl": "https://www.maxpreps.com/ar/oark/oark-hornets/basketball/girls/",
+      "region": "1A Region 4"
+    },
+    {
+      "teamName": "St Paul Saints",
+      "teamUrl": "https://www.maxpreps.com/ar/st-paul/st-paul-saints/basketball/girls/",
+      "region": "1A Region 4"
+    },
+    {
+      "teamName": "Shiloh Christian Saints",
+      "teamUrl": "https://www.maxpreps.com/ar/springdale/shiloh-christian-saints/basketball/girls/",
+      "region": "4A Region 1"
+    },
+    {
+      "teamName": "Pea Ridge Blackhawks",
+      "teamUrl": "https://www.maxpreps.com/ar/pea-ridge/pea-ridge-blackhawks/basketball/girls/",
+      "region": "4A Region 1"
+    },
+    {
+      "teamName": "Berryville Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ar/berryville/berryville-bobcats/basketball/girls/",
+      "region": "4A Region 1"
+    },
+    {
+      "teamName": "Gravette Lions",
+      "teamUrl": "https://www.maxpreps.com/ar/gravette/gravette-lions/basketball/girls/",
+      "region": "4A Region 1"
+    },
+    {
+      "teamName": "Prairie Grove Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/prairie-grove/prairie-grove-tigers/basketball/girls/",
+      "region": "4A Region 1"
+    },
+    {
+      "teamName": "Huntsville Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/huntsville/huntsville-eagles/basketball/girls/",
+      "region": "4A Region 1"
+    },
+    {
+      "teamName": "Gentry Pioneers",
+      "teamUrl": "https://www.maxpreps.com/ar/gentry/gentry-pioneers/basketball/girls/",
+      "region": "4A Region 1"
+    },
+    {
+      "teamName": "Green Forest Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/green-forest/green-forest-tigers/basketball/girls/",
+      "region": "4A Region 1"
+    },
+    {
+      "teamName": "Greene County Tech Golden Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/paragould/greene-county-tech-golden-eagles/basketball/girls/",
+      "region": "5A East"
+    },
+    {
+      "teamName": "Nettleton Raiders",
+      "teamUrl": "https://www.maxpreps.com/ar/jonesboro/nettleton-raiders/basketball/girls/",
+      "region": "5A East"
+    },
+    {
+      "teamName": "Valley View Blazers",
+      "teamUrl": "https://www.maxpreps.com/ar/jonesboro/valley-view-blazers/basketball/girls/",
+      "region": "5A East"
+    },
+    {
+      "teamName": "Batesville Pioneers",
+      "teamUrl": "https://www.maxpreps.com/ar/batesville/batesville-pioneers/basketball/girls/",
+      "region": "5A East"
+    },
+    {
+      "teamName": "Marion Patriots",
+      "teamUrl": "https://www.maxpreps.com/ar/marion/marion-patriots/basketball/girls/",
+      "region": "5A East"
+    },
+    {
+      "teamName": "Paragould Rams",
+      "teamUrl": "https://www.maxpreps.com/ar/paragould/paragould-rams/basketball/girls/",
+      "region": "5A East"
+    },
+    {
+      "teamName": "Searcy Lions",
+      "teamUrl": "https://www.maxpreps.com/ar/searcy/searcy-lions/basketball/girls/",
+      "region": "5A East"
+    },
+    {
+      "teamName": "West Memphis Blue Devils",
+      "teamUrl": "https://www.maxpreps.com/ar/west-memphis/west-memphis-blue-devils/basketball/girls/",
+      "region": "5A East"
+    },
+    {
+      "teamName": "Nashville Scrappers",
+      "teamUrl": "https://www.maxpreps.com/ar/nashville/nashville-scrappers/basketball/girls/",
+      "region": "4A Region 7"
+    },
+    {
+      "teamName": "De Queen Leopards",
+      "teamUrl": "https://www.maxpreps.com/ar/de-queen/de-queen-leopards/basketball/girls/",
+      "region": "4A Region 7"
+    },
+    {
+      "teamName": "Arkadelphia Badgers",
+      "teamUrl": "https://www.maxpreps.com/ar/arkadelphia/arkadelphia-badgers/basketball/girls/",
+      "region": "4A Region 7"
+    },
+    {
+      "teamName": "Camden Fairview Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ar/camden/camden-fairview-cardinals/basketball/girls/",
+      "region": "4A Region 7"
+    },
+    {
+      "teamName": "Magnolia Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/magnolia/magnolia-panthers/basketball/girls/",
+      "region": "4A Region 7"
+    },
+    {
+      "teamName": "Hope Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ar/hope/hope-bobcats/basketball/girls/",
+      "region": "4A Region 7"
+    },
+    {
+      "teamName": "Dover Pirates",
+      "teamUrl": "https://www.maxpreps.com/ar/dover/dover-pirates/basketball/girls/",
+      "region": "3A Region 5"
+    },
+    {
+      "teamName": "Baptist Prep Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/baptist-prep-eagles/basketball/girls/",
+      "region": "3A Region 5"
+    },
+    {
+      "teamName": "Mayflower Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/mayflower/mayflower-eagles/basketball/girls/",
+      "region": "3A Region 5"
+    },
+    {
+      "teamName": "Harmony Grove Cardinals",
+      "teamUrl": "https://www.maxpreps.com/ar/benton/harmony-grove-cardinals/basketball/girls/",
+      "region": "3A Region 5"
+    },
+    {
+      "teamName": "Perryville Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ar/perryville/perryville-mustangs/basketball/girls/",
+      "region": "3A Region 5"
+    },
+    {
+      "teamName": "Jessieville Lions",
+      "teamUrl": "https://www.maxpreps.com/ar/jessieville/jessieville-lions/basketball/girls/",
+      "region": "3A Region 5"
+    },
+    {
+      "teamName": "Glen Rose Beavers",
+      "teamUrl": "https://www.maxpreps.com/ar/malvern/glen-rose-beavers/basketball/girls/",
+      "region": "3A Region 5"
+    },
+    {
+      "teamName": "Atkins Red Devils",
+      "teamUrl": "https://www.maxpreps.com/ar/atkins/atkins-red-devils/basketball/girls/",
+      "region": "3A Region 5"
+    },
+    {
+      "teamName": "Two Rivers Gators",
+      "teamUrl": "https://www.maxpreps.com/ar/ola/two-rivers-gators/basketball/girls/",
+      "region": "3A Region 5"
+    },
+    {
+      "teamName": "Sloan Hendrix Greyhounds",
+      "teamUrl": "https://www.maxpreps.com/ar/imboden/sloan-hendrix-greyhounds/basketball/girls/",
+      "region": "2A Region 2"
+    },
+    {
+      "teamName": "Izard County Cougars",
+      "teamUrl": "https://www.maxpreps.com/ar/brockwell/izard-county-cougars/basketball/girls/",
+      "region": "2A Region 2"
+    },
+    {
+      "teamName": "Tuckerman Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/tuckerman/tuckerman-bulldogs/basketball/girls/",
+      "region": "2A Region 2"
+    },
+    {
+      "teamName": "Cotter Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/cotter/cotter-warriors/basketball/girls/",
+      "region": "2A Region 2"
+    },
+    {
+      "teamName": "Mammoth Spring Bears",
+      "teamUrl": "https://www.maxpreps.com/ar/mammoth-spring/mammoth-spring-bears/basketball/girls/",
+      "region": "2A Region 2"
+    },
+    {
+      "teamName": "Marshall Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ar/marshall/marshall-bobcats/basketball/girls/",
+      "region": "2A Region 2"
+    },
+    {
+      "teamName": "Cedar Ridge Timberwolves",
+      "teamUrl": "https://www.maxpreps.com/ar/newark/cedar-ridge-timberwolves/basketball/girls/",
+      "region": "2A Region 2"
+    },
+    {
+      "teamName": "Forrest City Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ar/forrest-city/forrest-city-mustangs/basketball/girls/",
+      "region": "4A Region 6"
+    },
+    {
+      "teamName": "Stuttgart Ricebirds",
+      "teamUrl": "https://www.maxpreps.com/ar/stuttgart/stuttgart-ricebirds/basketball/girls/",
+      "region": "4A Region 6"
+    },
+    {
+      "teamName": "Southside Southerners",
+      "teamUrl": "https://www.maxpreps.com/ar/batesville/southside-southerners/basketball/girls/",
+      "region": "4A Region 6"
+    },
+    {
+      "teamName": "Trumann Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ar/trumann/trumann-wildcats/basketball/girls/",
+      "region": "4A Region 6"
+    },
+    {
+      "teamName": "Lonoke Jackrabbits",
+      "teamUrl": "https://www.maxpreps.com/ar/lonoke/lonoke-jackrabbits/basketball/girls/",
+      "region": "4A Region 6"
+    },
+    {
+      "teamName": "Wynne Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ar/wynne/wynne-yellowjackets/basketball/girls/",
+      "region": "4A Region 6"
+    },
+    {
+      "teamName": "Barton Bears",
+      "teamUrl": "https://www.maxpreps.com/ar/lexa/barton-bears/basketball/girls/",
+      "region": "2A Region 6"
+    },
+    {
+      "teamName": "England Lions",
+      "teamUrl": "https://www.maxpreps.com/ar/england/england-lions/basketball/girls/",
+      "region": "2A Region 6"
+    },
+    {
+      "teamName": "Lee Trojans",
+      "teamUrl": "https://www.maxpreps.com/ar/marianna/lee-trojans/basketball/girls/",
+      "region": "2A Region 6"
+    },
+    {
+      "teamName": "Des Arc Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/des-arc/des-arc-eagles/basketball/girls/",
+      "region": "2A Region 6"
+    },
+    {
+      "teamName": "Carlisle Bison",
+      "teamUrl": "https://www.maxpreps.com/ar/carlisle/carlisle-bison/basketball/girls/",
+      "region": "2A Region 6"
+    },
+    {
+      "teamName": "Mccrory Jaguars",
+      "teamUrl": "https://www.maxpreps.com/ar/mccrory/mccrory-jaguars/basketball/girls/",
+      "region": "2A Region 6"
+    },
+    {
+      "teamName": "Hazen Hornets",
+      "teamUrl": "https://www.maxpreps.com/ar/hazen/hazen-hornets/basketball/girls/",
+      "region": "2A Region 6"
+    },
+    {
+      "teamName": "Palestine Wheatley Patriots",
+      "teamUrl": "https://www.maxpreps.com/ar/palestine/palestine-wheatley-patriots/basketball/girls/",
+      "region": "2A Region 6"
+    },
+    {
+      "teamName": "Kipp Delta",
+      "teamUrl": "https://www.maxpreps.com/ar/helena/kipp-delta/basketball/girls/",
+      "region": "2A Region 6"
+    },
+    {
+      "teamName": "Har Ber Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ar/springdale/har-ber-wildcats/basketball/girls/",
+      "region": "6A West"
+    },
+    {
+      "teamName": "Northside Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/ar/fort-smith/northside-grizzlies/basketball/girls/",
+      "region": "6A West"
+    },
+    {
+      "teamName": "Bentonville West Wolverines",
+      "teamUrl": "https://www.maxpreps.com/ar/centerton/bentonville-west-wolverines/basketball/girls/",
+      "region": "6A West"
+    },
+    {
+      "teamName": "Bentonville Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/bentonville/bentonville-tigers/basketball/girls/",
+      "region": "6A West"
+    },
+    {
+      "teamName": "Springdale Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/springdale/springdale-bulldogs/basketball/girls/",
+      "region": "6A West"
+    },
+    {
+      "teamName": "Fayetteville Purple Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/fayetteville/fayetteville-purple-bulldogs/basketball/girls/",
+      "region": "6A West"
+    },
+    {
+      "teamName": "Southside Mavericks",
+      "teamUrl": "https://www.maxpreps.com/ar/fort-smith/southside-mavericks/basketball/girls/",
+      "region": "6A West"
+    },
+    {
+      "teamName": "Rogers Heritage War Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/rogers/rogers-heritage-war-eagles/basketball/girls/",
+      "region": "6A West"
+    },
+    {
+      "teamName": "Rogers Mountaineers",
+      "teamUrl": "https://www.maxpreps.com/ar/rogers/rogers-mountaineers/basketball/girls/",
+      "region": "6A West"
+    },
+    {
+      "teamName": "Dermott Rams",
+      "teamUrl": "https://www.maxpreps.com/ar/dermott/dermott-rams/basketball/girls/",
+      "region": "1A Region 6"
+    },
+    {
+      "teamName": "Friendship Aspire Academy",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/friendship-aspire-academy/basketball/girls/",
+      "region": "1A Region 6"
+    },
+    {
+      "teamName": "Clarendon Lions",
+      "teamUrl": "https://www.maxpreps.com/ar/clarendon/clarendon-lions/basketball/girls/",
+      "region": "1A Region 6"
+    },
+    {
+      "teamName": "Scott Charter",
+      "teamUrl": "https://www.maxpreps.com/ar/scott/scott-charter/basketball/girls/",
+      "region": "1A Region 6"
+    },
+    {
+      "teamName": "Marvell Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ar/marvell/marvell-mustangs/basketball/girls/",
+      "region": "1A Region 6"
+    },
+    {
+      "teamName": "Brinkley Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/brinkley/brinkley-tigers/basketball/girls/",
+      "region": "1A Region 6"
+    },
+    {
+      "teamName": "Arkansas School For The Deaf Leopards",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/arkansas-school-for-the-deaf-leopards/basketball/girls/",
+      "region": "1A Region 6"
+    },
+    {
+      "teamName": "Wonderview Daredevils",
+      "teamUrl": "https://www.maxpreps.com/ar/hattieville/wonderview-daredevils/basketball/girls/",
+      "region": "1A Region 5"
+    },
+    {
+      "teamName": "Sacred Heart Rebels",
+      "teamUrl": "https://www.maxpreps.com/ar/morrilton/sacred-heart-rebels/basketball/girls/",
+      "region": "1A Region 5"
+    },
+    {
+      "teamName": "Nemo Vista Red Hawks",
+      "teamUrl": "https://www.maxpreps.com/ar/center-ridge/nemo-vista-red-hawks/basketball/girls/",
+      "region": "1A Region 5"
+    },
+    {
+      "teamName": "Bradford Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/bradford/bradford-eagles/basketball/girls/",
+      "region": "1A Region 5"
+    },
+    {
+      "teamName": "Augusta Red Devils",
+      "teamUrl": "https://www.maxpreps.com/ar/augusta/augusta-red-devils/basketball/girls/",
+      "region": "1A Region 5"
+    },
+    {
+      "teamName": "Guy Perkins Thunderbirds",
+      "teamUrl": "https://www.maxpreps.com/ar/guy/guy-perkins-thunderbirds/basketball/girls/",
+      "region": "1A Region 5"
+    },
+    {
+      "teamName": "Midland Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ar/pleasant-plains/midland-mustangs/basketball/girls/",
+      "region": "1A Region 5"
+    },
+    {
+      "teamName": "Fouke Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/fouke/fouke-panthers/basketball/girls/",
+      "region": "3A Region 7"
+    },
+    {
+      "teamName": "Bismarck Lions",
+      "teamUrl": "https://www.maxpreps.com/ar/bismarck/bismarck-lions/basketball/girls/",
+      "region": "3A Region 7"
+    },
+    {
+      "teamName": "Centerpoint Knights",
+      "teamUrl": "https://www.maxpreps.com/ar/amity/centerpoint-knights/basketball/girls/",
+      "region": "3A Region 7"
+    },
+    {
+      "teamName": "Genoa Central Dragons",
+      "teamUrl": "https://www.maxpreps.com/ar/texarkana/genoa-central-dragons/basketball/girls/",
+      "region": "3A Region 7"
+    },
+    {
+      "teamName": "Harmony Grove Hornets",
+      "teamUrl": "https://www.maxpreps.com/ar/camden/harmony-grove-hornets/basketball/girls/",
+      "region": "3A Region 7"
+    },
+    {
+      "teamName": "Ashdown Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/ashdown/ashdown-panthers/basketball/girls/",
+      "region": "3A Region 7"
+    },
+    {
+      "teamName": "Smackover Buckaroos",
+      "teamUrl": "https://www.maxpreps.com/ar/smackover/smackover-buckaroos/basketball/girls/",
+      "region": "3A Region 7"
+    },
+    {
+      "teamName": "Prescott Curley Wolves",
+      "teamUrl": "https://www.maxpreps.com/ar/prescott/prescott-curley-wolves/basketball/girls/",
+      "region": "3A Region 7"
+    },
+    {
+      "teamName": "Life Way Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/centerton/life-way-christian-warriors/basketball/girls/",
+      "region": "2A Region 1"
+    },
+    {
+      "teamName": "Ozark Catholic Academy Griffins",
+      "teamUrl": "https://www.maxpreps.com/ar/springdale/ozark-catholic-academy-griffins/basketball/girls/",
+      "region": "2A Region 1"
+    },
+    {
+      "teamName": "Alpena Leopards",
+      "teamUrl": "https://www.maxpreps.com/ar/alpena/alpena-leopards/basketball/girls/",
+      "region": "2A Region 1"
+    },
+    {
+      "teamName": "Eureka Springs Highlanders",
+      "teamUrl": "https://www.maxpreps.com/ar/eureka-springs/eureka-springs-highlanders/basketball/girls/",
+      "region": "2A Region 1"
+    },
+    {
+      "teamName": "Decatur Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/decatur/decatur-bulldogs/basketball/girls/",
+      "region": "2A Region 1"
+    },
+    {
+      "teamName": "Ozark Mountain Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/western-grove/ozark-mountain-warriors/basketball/girls/",
+      "region": "2A Region 1"
+    },
+    {
+      "teamName": "Quitman Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/quitman/quitman-bulldogs/basketball/girls/",
+      "region": "2A Region 5"
+    },
+    {
+      "teamName": "South Side Hornet",
+      "teamUrl": "https://www.maxpreps.com/ar/bee-branch/south-side-hornet/basketball/girls/",
+      "region": "2A Region 5"
+    },
+    {
+      "teamName": "Mt Vernon Enola Warhawks",
+      "teamUrl": "https://www.maxpreps.com/ar/mt-vernon/mt-vernon-enola-warhawks/basketball/girls/",
+      "region": "2A Region 5"
+    },
+    {
+      "teamName": "Bigelow Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/bigelow/bigelow-panthers/basketball/girls/",
+      "region": "2A Region 5"
+    },
+    {
+      "teamName": "Conway Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/conway/conway-christian-eagles/basketball/girls/",
+      "region": "2A Region 5"
+    },
+    {
+      "teamName": "St Joseph Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/conway/st-joseph-bulldogs/basketball/girls/",
+      "region": "2A Region 5"
+    },
+    {
+      "teamName": "Central Arkansas Christian Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ar/north-little-rock/central-arkansas-christian-mustangs/basketball/girls/",
+      "region": "2A Region 5"
+    },
+    {
+      "teamName": "Jacksonville Lighthouse Wolves",
+      "teamUrl": "https://www.maxpreps.com/ar/jacksonville/jacksonville-lighthouse-wolves/basketball/girls/",
+      "region": "2A Region 5"
+    },
+    {
+      "teamName": "White County Central Bears",
+      "teamUrl": "https://www.maxpreps.com/ar/judsonia/white-county-central-bears/basketball/girls/",
+      "region": "2A Region 5"
+    },
+    {
+      "teamName": "West Side Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/greers-ferry/west-side-eagles/basketball/girls/",
+      "region": "1A Region 2"
+    },
+    {
+      "teamName": "Norfork Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/norfork/norfork-panthers/basketball/girls/",
+      "region": "1A Region 2"
+    },
+    {
+      "teamName": "Rural Special Rebels",
+      "teamUrl": "https://www.maxpreps.com/ar/fox/rural-special-rebels/basketball/girls/",
+      "region": "1A Region 2"
+    },
+    {
+      "teamName": "Viola Longhorns",
+      "teamUrl": "https://www.maxpreps.com/ar/viola/viola-longhorns/basketball/girls/",
+      "region": "1A Region 2"
+    },
+    {
+      "teamName": "Calico Rock Pirates",
+      "teamUrl": "https://www.maxpreps.com/ar/calico-rock/calico-rock-pirates/basketball/girls/",
+      "region": "1A Region 2"
+    },
+    {
+      "teamName": "Concord Pirates",
+      "teamUrl": "https://www.maxpreps.com/ar/concord/concord-pirates/basketball/girls/",
+      "region": "1A Region 2"
+    },
+    {
+      "teamName": "Shirley Blue Devils",
+      "teamUrl": "https://www.maxpreps.com/ar/shirley/shirley-blue-devils/basketball/girls/",
+      "region": "1A Region 2"
+    },
+    {
+      "teamName": "Timbo Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/timbo/timbo-tigers/basketball/girls/",
+      "region": "1A Region 2"
+    },
+    {
+      "teamName": "Warren Lumberjacks",
+      "teamUrl": "https://www.maxpreps.com/ar/warren/warren-lumberjacks/basketball/girls/",
+      "region": "4A Region 8"
+    },
+    {
+      "teamName": "Monticello Billies",
+      "teamUrl": "https://www.maxpreps.com/ar/monticello/monticello-billies/basketball/girls/",
+      "region": "4A Region 8"
+    },
+    {
+      "teamName": "Watson Chapel Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ar/pine-bluff/watson-chapel-wildcats/basketball/girls/",
+      "region": "4A Region 8"
+    },
+    {
+      "teamName": "Star City Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/star-city/star-city-bulldogs/basketball/girls/",
+      "region": "4A Region 8"
+    },
+    {
+      "teamName": "Hamburg Lions",
+      "teamUrl": "https://www.maxpreps.com/ar/hamburg/hamburg-lions/basketball/girls/",
+      "region": "4A Region 8"
+    },
+    {
+      "teamName": "Crossett Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/crossett/crossett-eagles/basketball/girls/",
+      "region": "4A Region 8"
+    },
+    {
+      "teamName": "Manila Lions",
+      "teamUrl": "https://www.maxpreps.com/ar/manila/manila-lions/basketball/girls/",
+      "region": "3A Region 3"
+    },
+    {
+      "teamName": "Walnut Ridge Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ar/walnut-ridge/walnut-ridge-bobcats/basketball/girls/",
+      "region": "3A Region 3"
+    },
+    {
+      "teamName": "Harrisburg Hornets",
+      "teamUrl": "https://www.maxpreps.com/ar/harrisburg/harrisburg-hornets/basketball/girls/",
+      "region": "3A Region 3"
+    },
+    {
+      "teamName": "Rivercrest Colts",
+      "teamUrl": "https://www.maxpreps.com/ar/wilson/rivercrest-colts/basketball/girls/",
+      "region": "3A Region 3"
+    },
+    {
+      "teamName": "Osceola Seminoles",
+      "teamUrl": "https://www.maxpreps.com/ar/osceola/osceola-seminoles/basketball/girls/",
+      "region": "3A Region 3"
+    },
+    {
+      "teamName": "Hoxie Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ar/hoxie/hoxie-mustangs/basketball/girls/",
+      "region": "3A Region 3"
+    },
+    {
+      "teamName": "Newport Greyhounds",
+      "teamUrl": "https://www.maxpreps.com/ar/newport/newport-greyhounds/basketball/girls/",
+      "region": "3A Region 3"
+    },
+    {
+      "teamName": "Victory Christian Conquerors",
+      "teamUrl": "https://www.maxpreps.com/ar/camden/victory-christian-conquerors/basketball/girls/",
+      "region": "Arkansas Christian  South"
+    },
+    {
+      "teamName": "Taylor Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/taylor/taylor-tigers/basketball/girls/",
+      "region": "1A Region 8"
+    },
+    {
+      "teamName": "Lafayette County Cougars",
+      "teamUrl": "https://www.maxpreps.com/ar/stamps/lafayette-county-cougars/basketball/girls/",
+      "region": "1A Region 8"
+    },
+    {
+      "teamName": "Emerson Pirates",
+      "teamUrl": "https://www.maxpreps.com/ar/emerson/emerson-pirates/basketball/girls/",
+      "region": "1A Region 8"
+    },
+    {
+      "teamName": "Bradley Bears",
+      "teamUrl": "https://www.maxpreps.com/ar/bradley/bradley-bears/basketball/girls/",
+      "region": "1A Region 8"
+    },
+    {
+      "teamName": "Bearden Bears",
+      "teamUrl": "https://www.maxpreps.com/ar/bearden/bearden-bears/basketball/girls/",
+      "region": "1A Region 8"
+    },
+    {
+      "teamName": "Hermitage Hermits",
+      "teamUrl": "https://www.maxpreps.com/ar/hermitage/hermitage-hermits/basketball/girls/",
+      "region": "1A Region 8"
+    },
+    {
+      "teamName": "Strong Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/strong/strong-bulldogs/basketball/girls/",
+      "region": "1A Region 8"
+    },
+    {
+      "teamName": "Columbia Christian Crusaders",
+      "teamUrl": "https://www.maxpreps.com/ar/magnolia/columbia-christian-crusaders/basketball/girls/",
+      "region": "1A Region 8"
+    },
+    {
+      "teamName": "Lake Hamilton Wolves",
+      "teamUrl": "https://www.maxpreps.com/ar/pearcy/lake-hamilton-wolves/basketball/girls/",
+      "region": "5A South"
+    },
+    {
+      "teamName": "Lakeside Rams",
+      "teamUrl": "https://www.maxpreps.com/ar/hot-springs/lakeside-rams/basketball/girls/",
+      "region": "5A South"
+    },
+    {
+      "teamName": "Arkansas Razorbacks",
+      "teamUrl": "https://www.maxpreps.com/ar/texarkana/arkansas-razorbacks/basketball/girls/",
+      "region": "5A South"
+    },
+    {
+      "teamName": "White Hall Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/white-hall/white-hall-bulldogs/basketball/girls/",
+      "region": "5A South"
+    },
+    {
+      "teamName": "El Dorado Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ar/el-dorado/el-dorado-wildcats/basketball/girls/",
+      "region": "5A South"
+    },
+    {
+      "teamName": "Sheridan Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ar/sheridan/sheridan-yellowjackets/basketball/girls/",
+      "region": "5A South"
+    },
+    {
+      "teamName": "Benton Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/benton/benton-panthers/basketball/girls/",
+      "region": "5A South"
+    },
+    {
+      "teamName": "Hot Springs Trojans",
+      "teamUrl": "https://www.maxpreps.com/ar/hot-springs/hot-springs-trojans/basketball/girls/",
+      "region": "5A South"
+    },
+    {
+      "teamName": "Pine Bluff Fighting Zebras",
+      "teamUrl": "https://www.maxpreps.com/ar/pine-bluff/pine-bluff-fighting-zebras/basketball/girls/",
+      "region": "5A South"
+    },
+    {
+      "teamName": "Greenland Pirates",
+      "teamUrl": "https://www.maxpreps.com/ar/greenland/greenland-pirates/basketball/girls/",
+      "region": "3A Region 1"
+    },
+    {
+      "teamName": "Elkins Elks",
+      "teamUrl": "https://www.maxpreps.com/ar/elkins/elkins-elks/basketball/girls/",
+      "region": "3A Region 1"
+    },
+    {
+      "teamName": "Lincoln Wolves",
+      "teamUrl": "https://www.maxpreps.com/ar/lincoln/lincoln-wolves/basketball/girls/",
+      "region": "3A Region 1"
+    },
+    {
+      "teamName": "West Fork Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/west-fork/west-fork-tigers/basketball/girls/",
+      "region": "3A Region 1"
+    },
+    {
+      "teamName": "Thaden Barnstormer",
+      "teamUrl": "https://www.maxpreps.com/ar/bentonville/thaden-barnstormer/basketball/girls/",
+      "region": "3A Region 1"
+    },
+    {
+      "teamName": "Providence Academy Patriots",
+      "teamUrl": "https://www.maxpreps.com/ar/rogers/providence-academy-patriots/basketball/girls/",
+      "region": "3A Region 1"
+    },
+    {
+      "teamName": "Haas Hall Academy Huskies",
+      "teamUrl": "https://www.maxpreps.com/ar/bentonville/haas-hall-academy-huskies/basketball/girls/",
+      "region": "3A Region 1"
+    },
+    {
+      "teamName": "Haas Hall Academy Mastiff",
+      "teamUrl": "https://www.maxpreps.com/ar/fayetteville/haas-hall-academy-mastiff/basketball/girls/",
+      "region": "3A Region 1"
+    },
+    {
+      "teamName": "Mills University Studies Comets",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/mills-university-studies-comets/basketball/girls/",
+      "region": "4A Region 5 South"
+    },
+    {
+      "teamName": "Fountain Lake Cobras",
+      "teamUrl": "https://www.maxpreps.com/ar/hot-springs-national-park/fountain-lake-cobras/basketball/girls/",
+      "region": "4A Region 5 South"
+    },
+    {
+      "teamName": "Bauxite Miners",
+      "teamUrl": "https://www.maxpreps.com/ar/bauxite/bauxite-miners/basketball/girls/",
+      "region": "4A Region 5 South"
+    },
+    {
+      "teamName": "Malvern Leopards",
+      "teamUrl": "https://www.maxpreps.com/ar/malvern/malvern-leopards/basketball/girls/",
+      "region": "4A Region 5 South"
+    },
+    {
+      "teamName": "Estem Mets",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/estem-mets/basketball/girls/",
+      "region": "4A Region 5 South"
+    },
+    {
+      "teamName": "Hall Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/hall-warriors/basketball/girls/",
+      "region": "4A Region 5 South"
+    },
+    {
+      "teamName": "Earle Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/earle/earle-bulldogs/basketball/girls/",
+      "region": "1A Region 3"
+    },
+    {
+      "teamName": "Marked Tree Indians",
+      "teamUrl": "https://www.maxpreps.com/ar/marked-tree/marked-tree-indians/basketball/girls/",
+      "region": "1A Region 3"
+    },
+    {
+      "teamName": "Maynard Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/maynard/maynard-tigers/basketball/girls/",
+      "region": "1A Region 3"
+    },
+    {
+      "teamName": "Crowleys Ridge Academy Falcons",
+      "teamUrl": "https://www.maxpreps.com/ar/paragould/crowleys-ridge-academy-falcons/basketball/girls/",
+      "region": "1A Region 3"
+    },
+    {
+      "teamName": "Hillcrest Screamin Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/strawberry/hillcrest-screamin-eagles/basketball/girls/",
+      "region": "1A Region 3"
+    },
+    {
+      "teamName": "Armorel Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/armorel/armorel-tigers/basketball/girls/",
+      "region": "1A Region 3"
+    },
+    {
+      "teamName": "Kipp Blytheville Thunder",
+      "teamUrl": "https://www.maxpreps.com/ar/blytheville/kipp-blytheville-thunder/basketball/girls/",
+      "region": "1A Region 3"
+    },
+    {
+      "teamName": "Ridgefield Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/jonesboro/ridgefield-christian-warriors/basketball/girls/",
+      "region": "1A Region 3"
+    },
+    {
+      "teamName": "Mount Ida Lions",
+      "teamUrl": "https://www.maxpreps.com/ar/mount-ida/mount-ida-lions/basketball/girls/",
+      "region": "1A Region 7"
+    },
+    {
+      "teamName": "Blevins Hornets",
+      "teamUrl": "https://www.maxpreps.com/ar/blevins/blevins-hornets/basketball/girls/",
+      "region": "1A Region 7"
+    },
+    {
+      "teamName": "Mineral Springs Hornets",
+      "teamUrl": "https://www.maxpreps.com/ar/mineral-springs/mineral-springs-hornets/basketball/girls/",
+      "region": "1A Region 7"
+    },
+    {
+      "teamName": "Umpire Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ar/umpire/umpire-wildcats/basketball/girls/",
+      "region": "1A Region 7"
+    },
+    {
+      "teamName": "Oden Timberwolves",
+      "teamUrl": "https://www.maxpreps.com/ar/oden/oden-timberwolves/basketball/girls/",
+      "region": "1A Region 7"
+    },
+    {
+      "teamName": "Nevada Blue Jays",
+      "teamUrl": "https://www.maxpreps.com/ar/rosston/nevada-blue-jays/basketball/girls/",
+      "region": "1A Region 7"
+    },
+    {
+      "teamName": "Kirby Trojans",
+      "teamUrl": "https://www.maxpreps.com/ar/kirby/kirby-trojans/basketball/girls/",
+      "region": "1A Region 7"
+    },
+    {
+      "teamName": "Poyen Indians",
+      "teamUrl": "https://www.maxpreps.com/ar/poyen/poyen-indians/basketball/girls/",
+      "region": "2A Region 8"
+    },
+    {
+      "teamName": "Hampton Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/hampton/hampton-bulldogs/basketball/girls/",
+      "region": "2A Region 8"
+    },
+    {
+      "teamName": "Ouachita Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/donaldson/ouachita-warriors/basketball/girls/",
+      "region": "2A Region 8"
+    },
+    {
+      "teamName": "Woodlawn Bears",
+      "teamUrl": "https://www.maxpreps.com/ar/rison/woodlawn-bears/basketball/girls/",
+      "region": "2A Region 8"
+    },
+    {
+      "teamName": "Magnet Cove Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/malvern/magnet-cove-panthers/basketball/girls/",
+      "region": "2A Region 8"
+    },
+    {
+      "teamName": "Parkers Chapel Trojans",
+      "teamUrl": "https://www.maxpreps.com/ar/el-dorado/parkers-chapel-trojans/basketball/girls/",
+      "region": "2A Region 8"
+    },
+    {
+      "teamName": "Junction City Dragons",
+      "teamUrl": "https://www.maxpreps.com/ar/junction-city/junction-city-dragons/basketball/girls/",
+      "region": "2A Region 8"
+    },
+    {
+      "teamName": "Fordyce Redbugs",
+      "teamUrl": "https://www.maxpreps.com/ar/fordyce/fordyce-redbugs/basketball/girls/",
+      "region": "2A Region 8"
+    },
+    {
+      "teamName": "Gurdon Devils",
+      "teamUrl": "https://www.maxpreps.com/ar/gurdon/gurdon-devils/basketball/girls/",
+      "region": "2A Region 8"
+    },
+    {
+      "teamName": "Dierks Outlaws",
+      "teamUrl": "https://www.maxpreps.com/ar/dierks/dierks-outlaws/basketball/girls/",
+      "region": "2A Region 7"
+    },
+    {
+      "teamName": "Cutter Morning Star Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/hot-springs-national-park/cutter-morning-star-eagles/basketball/girls/",
+      "region": "2A Region 7"
+    },
+    {
+      "teamName": "Horatio Lions",
+      "teamUrl": "https://www.maxpreps.com/ar/horatio/horatio-lions/basketball/girls/",
+      "region": "2A Region 7"
+    },
+    {
+      "teamName": "Caddo Hills Indians",
+      "teamUrl": "https://www.maxpreps.com/ar/norman/caddo-hills-indians/basketball/girls/",
+      "region": "2A Region 7"
+    },
+    {
+      "teamName": "Mountain Pine Red Devils",
+      "teamUrl": "https://www.maxpreps.com/ar/mountain-pine/mountain-pine-red-devils/basketball/girls/",
+      "region": "2A Region 7"
+    },
+    {
+      "teamName": "Spring Hill Bears",
+      "teamUrl": "https://www.maxpreps.com/ar/hope/spring-hill-bears/basketball/girls/",
+      "region": "2A Region 7"
+    },
+    {
+      "teamName": "Murfreesboro Rattlers",
+      "teamUrl": "https://www.maxpreps.com/ar/murfreesboro/murfreesboro-rattlers/basketball/girls/",
+      "region": "2A Region 7"
+    },
+    {
+      "teamName": "Foreman Gator Arkansas",
+      "teamUrl": "https://www.maxpreps.com/ar/foreman/foreman-gator-arkansas/basketball/girls/",
+      "region": "2A Region 7"
+    },
+    {
+      "teamName": "Highland Rebels",
+      "teamUrl": "https://www.maxpreps.com/ar/hardy/highland-rebels/basketball/girls/",
+      "region": "4A Region 3"
+    },
+    {
+      "teamName": "Westside Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/jonesboro/westside-warriors/basketball/girls/",
+      "region": "4A Region 3"
+    },
+    {
+      "teamName": "Blytheville Chickasaws",
+      "teamUrl": "https://www.maxpreps.com/ar/blytheville/blytheville-chickasaws/basketball/girls/",
+      "region": "4A Region 3"
+    },
+    {
+      "teamName": "Pocahontas Redskins",
+      "teamUrl": "https://www.maxpreps.com/ar/pocahontas/pocahontas-redskins/basketball/girls/",
+      "region": "4A Region 3"
+    },
+    {
+      "teamName": "Gosnell Pirates",
+      "teamUrl": "https://www.maxpreps.com/ar/gosnell/gosnell-pirates/basketball/girls/",
+      "region": "4A Region 3"
+    },
+    {
+      "teamName": "Brookland Bearcats",
+      "teamUrl": "https://www.maxpreps.com/ar/brookland/brookland-bearcats/basketball/girls/",
+      "region": "4A Region 3"
+    },
+    {
+      "teamName": "Vilonia Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/vilonia/vilonia-eagles/basketball/girls/",
+      "region": "5A Central"
+    },
+    {
+      "teamName": "Little Rock Christian Academy Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/little-rock-christian-academy-warriors/basketball/girls/",
+      "region": "5A Central"
+    },
+    {
+      "teamName": "Greenbrier Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/greenbrier/greenbrier-panthers/basketball/girls/",
+      "region": "5A Central"
+    },
+    {
+      "teamName": "Sylvan Hills Bears",
+      "teamUrl": "https://www.maxpreps.com/ar/sherwood/sylvan-hills-bears/basketball/girls/",
+      "region": "5A Central"
+    },
+    {
+      "teamName": "Beebe Badgers",
+      "teamUrl": "https://www.maxpreps.com/ar/beebe/beebe-badgers/basketball/girls/",
+      "region": "5A Central"
+    },
+    {
+      "teamName": "Maumelle Hornets",
+      "teamUrl": "https://www.maxpreps.com/ar/maumelle/maumelle-hornets/basketball/girls/",
+      "region": "5A Central"
+    },
+    {
+      "teamName": "Parkview Patriots",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/parkview-patriots/basketball/girls/",
+      "region": "5A Central"
+    },
+    {
+      "teamName": "Jacksonville Titans",
+      "teamUrl": "https://www.maxpreps.com/ar/jacksonville/jacksonville-titans/basketball/girls/",
+      "region": "5A Central"
+    },
+    {
+      "teamName": "Catholic Mt St Mary Academy Rockets",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/catholic-mt-st-mary-academy-rockets/basketball/girls/",
+      "region": "5A Central"
+    },
+    {
+      "teamName": "Arkansas Christian Academy Knights",
+      "teamUrl": "https://www.maxpreps.com/ar/bryant/arkansas-christian-academy-knights/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "Union Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/fort-smith/union-christian-academy-eagles/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "Legacy Academy Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/lockesburg/legacy-academy-warriors/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "Garrett Memorial Christian Saints",
+      "teamUrl": "https://www.maxpreps.com/ar/hope/garrett-memorial-christian-saints/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "Christian Ministries Academy Conquerors",
+      "teamUrl": "https://www.maxpreps.com/ar/hot-springs/christian-ministries-academy-conquerors/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "Gospel Light Christian Lions",
+      "teamUrl": "https://www.maxpreps.com/ar/hot-springs/gospel-light-christian-lions/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "New Life Christian Academy",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/new-life-christian-academy/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "Abundant Life Owls",
+      "teamUrl": "https://www.maxpreps.com/ar/north-little-rock/abundant-life-owls/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "Cornerstone Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/tillar/cornerstone-christian-warriors/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "Trinity Tigers",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/trinity-tigers/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "Southwest Christian Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/southwest-christian-academy-lions/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "Cross Christian Academy",
+      "teamUrl": "https://www.maxpreps.com/ok/eucha/cross-christian-academy/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "Trinity Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/texarkana/trinity-christian-warriors/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "Mountain Home Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/mountain-home/mountain-home-christian-academy-eagles/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "Sunrise Christian Academy Buffaloes",
+      "teamUrl": "https://www.maxpreps.com/ks/bel-aire/sunrise-christian-academy-buffaloes/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "West Side Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/el-dorado/west-side-christian-warriors/basketball/girls/",
+      "region": "Heartland Christian"
+    },
+    {
+      "teamName": "North Little Rock Charging Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ar/north-little-rock/north-little-rock-charging-wildcats/basketball/girls/",
+      "region": "6A Central"
+    },
+    {
+      "teamName": "Bryant Hornets",
+      "teamUrl": "https://www.maxpreps.com/ar/bryant/bryant-hornets/basketball/girls/",
+      "region": "6A Central"
+    },
+    {
+      "teamName": "Central Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/central-tigers/basketball/girls/",
+      "region": "6A Central"
+    },
+    {
+      "teamName": "Conway Wampus Cats",
+      "teamUrl": "https://www.maxpreps.com/ar/conway/conway-wampus-cats/basketball/girls/",
+      "region": "6A Central"
+    },
+    {
+      "teamName": "Jonesboro Hurricane",
+      "teamUrl": "https://www.maxpreps.com/ar/jonesboro/jonesboro-hurricane/basketball/girls/",
+      "region": "6A Central"
+    },
+    {
+      "teamName": "Cabot Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/cabot/cabot-panthers/basketball/girls/",
+      "region": "6A Central"
+    },
+    {
+      "teamName": "Little Rock Southwest Gryphons",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/little-rock-southwest-gryphons/basketball/girls/",
+      "region": "6A Central"
+    },
+    {
+      "teamName": "Mansfield Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/mansfield/mansfield-tigers/basketball/girls/",
+      "region": "3A Region 4"
+    },
+    {
+      "teamName": "Charleston Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/charleston/charleston-tigers/basketball/girls/",
+      "region": "3A Region 4"
+    },
+    {
+      "teamName": "Lavaca Golden Arrows",
+      "teamUrl": "https://www.maxpreps.com/ar/lavaca/lavaca-golden-arrows/basketball/girls/",
+      "region": "3A Region 4"
+    },
+    {
+      "teamName": "Paris Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/paris/paris-eagles/basketball/girls/",
+      "region": "3A Region 4"
+    },
+    {
+      "teamName": "Lamar Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/lamar/lamar-warriors/basketball/girls/",
+      "region": "3A Region 4"
+    },
+    {
+      "teamName": "Cossatot River Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/cove/cossatot-river-eagles/basketball/girls/",
+      "region": "3A Region 4"
+    },
+    {
+      "teamName": "Booneville Bearcats",
+      "teamUrl": "https://www.maxpreps.com/ar/booneville/booneville-bearcats/basketball/girls/",
+      "region": "3A Region 4"
+    },
+    {
+      "teamName": "Cedarville Pirates",
+      "teamUrl": "https://www.maxpreps.com/ar/cedarville/cedarville-pirates/basketball/girls/",
+      "region": "3A Region 4"
+    },
+    {
+      "teamName": "Ozark Adventist Academy Skyhawks",
+      "teamUrl": "https://www.maxpreps.com/ar/gentry/ozark-adventist-academy-skyhawks/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Carthage Blue Devils",
+      "teamUrl": "https://www.maxpreps.com/ar/carthage/carthage-blue-devils/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Faulkner County Homeschool Falcons",
+      "teamUrl": "https://www.maxpreps.com/ar/conway/faulkner-county-homeschool-falcons/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Harrison Homeschool",
+      "teamUrl": "https://www.maxpreps.com/ar/harrison/harrison-homeschool/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Little Rock Homeschool Flames",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/little-rock-homeschool-flames/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Northeast Arkansas Christian Home Educators Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/jonesboro/northeast-arkansas-christian-home-educators-eagles/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Pulaski County Homeschool Flames",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/pulaski-county-homeschool-flames/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Saline County Christian Homeschool Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/benton/saline-county-christian-homeschool-warriors/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Episcopal Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/episcopal-wildcats/basketball/girls/",
+      "region": "3A Region 6"
+    },
+    {
+      "teamName": "Harding Academy Wildcats",
+      "teamUrl": "https://www.maxpreps.com/ar/searcy/harding-academy-wildcats/basketball/girls/",
+      "region": "3A Region 6"
+    },
+    {
+      "teamName": "Bald Knob Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/bald-knob/bald-knob-bulldogs/basketball/girls/",
+      "region": "3A Region 6"
+    },
+    {
+      "teamName": "Rose Bud Ramblers",
+      "teamUrl": "https://www.maxpreps.com/ar/rose-bud/rose-bud-ramblers/basketball/girls/",
+      "region": "3A Region 6"
+    },
+    {
+      "teamName": "Riverview Raiders",
+      "teamUrl": "https://www.maxpreps.com/ar/searcy/riverview-raiders/basketball/girls/",
+      "region": "3A Region 6"
+    },
+    {
+      "teamName": "Pangburn Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/pangburn/pangburn-tigers/basketball/girls/",
+      "region": "3A Region 6"
+    },
+    {
+      "teamName": "Maumelle Charter Falcons",
+      "teamUrl": "https://www.maxpreps.com/ar/maumelle/maumelle-charter-falcons/basketball/girls/",
+      "region": "3A Region 6"
+    },
+    {
+      "teamName": "Lisa Academy North Jaguars",
+      "teamUrl": "https://www.maxpreps.com/ar/sherwood/lisa-academy-north-jaguars/basketball/girls/",
+      "region": "3A Region 6"
+    },
+    {
+      "teamName": "Jasper Pirates",
+      "teamUrl": "https://www.maxpreps.com/ar/jasper/jasper-pirates/basketball/girls/",
+      "region": "1A Region 1"
+    },
+    {
+      "teamName": "Kingston Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ar/kingston/kingston-yellowjackets/basketball/girls/",
+      "region": "1A Region 1"
+    },
+    {
+      "teamName": "Lead Hill Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/lead-hill/lead-hill-tigers/basketball/girls/",
+      "region": "1A Region 1"
+    },
+    {
+      "teamName": "Deer Antlers",
+      "teamUrl": "https://www.maxpreps.com/ar/deer/deer-antlers/basketball/girls/",
+      "region": "1A Region 1"
+    },
+    {
+      "teamName": "Omaha Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/omaha/omaha-eagles/basketball/girls/",
+      "region": "1A Region 1"
+    },
+    {
+      "teamName": "Mount Judea Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/mount-judea/mount-judea-eagles/basketball/girls/",
+      "region": "1A Region 1"
+    },
+    {
+      "teamName": "Advanced Studies",
+      "teamUrl": "https://www.maxpreps.com/ar/rogers/advanced-studies/basketball/girls/",
+      "region": "1A Region 1"
+    },
+    {
+      "teamName": "Founders Classical Academy",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/founders-classical-academy/basketball/girls/",
+      "region": "1A Region 1"
+    },
+    {
+      "teamName": "Riverside Rebels",
+      "teamUrl": "https://www.maxpreps.com/ar/lake-city/riverside-rebels/basketball/girls/",
+      "region": "2A Region 3"
+    },
+    {
+      "teamName": "Buffalo Island Central Mustangs",
+      "teamUrl": "https://www.maxpreps.com/ar/monette/buffalo-island-central-mustangs/basketball/girls/",
+      "region": "2A Region 3"
+    },
+    {
+      "teamName": "East Poinsett County Warriors",
+      "teamUrl": "https://www.maxpreps.com/ar/lepanto/east-poinsett-county-warriors/basketball/girls/",
+      "region": "2A Region 3"
+    },
+    {
+      "teamName": "Rector Cougars",
+      "teamUrl": "https://www.maxpreps.com/ar/rector/rector-cougars/basketball/girls/",
+      "region": "2A Region 3"
+    },
+    {
+      "teamName": "Corning Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ar/corning/corning-bobcats/basketball/girls/",
+      "region": "2A Region 3"
+    },
+    {
+      "teamName": "Piggott Mohawks",
+      "teamUrl": "https://www.maxpreps.com/ar/piggott/piggott-mohawks/basketball/girls/",
+      "region": "2A Region 3"
+    },
+    {
+      "teamName": "Cross County Thunderbirds",
+      "teamUrl": "https://www.maxpreps.com/ar/cherry-valley/cross-county-thunderbirds/basketball/girls/",
+      "region": "2A Region 3"
+    },
+    {
+      "teamName": "Marmaduke Greyhounds",
+      "teamUrl": "https://www.maxpreps.com/ar/marmaduke/marmaduke-greyhounds/basketball/girls/",
+      "region": "2A Region 3"
+    },
+    {
+      "teamName": "Bay Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ar/bay/bay-yellowjackets/basketball/girls/",
+      "region": "2A Region 3"
+    },
+    {
+      "teamName": "Mountain View Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/ar/mountain-view/mountain-view-yellowjackets/basketball/girls/",
+      "region": "3A Region 2"
+    },
+    {
+      "teamName": "Melbourne Bearkatz",
+      "teamUrl": "https://www.maxpreps.com/ar/melbourne/melbourne-bearkatz/basketball/girls/",
+      "region": "3A Region 2"
+    },
+    {
+      "teamName": "Bergman Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/bergman/bergman-panthers/basketball/girls/",
+      "region": "3A Region 2"
+    },
+    {
+      "teamName": "Salem Greyhounds",
+      "teamUrl": "https://www.maxpreps.com/ar/salem/salem-greyhounds/basketball/girls/",
+      "region": "3A Region 2"
+    },
+    {
+      "teamName": "Valley Springs Tigers",
+      "teamUrl": "https://www.maxpreps.com/ar/valley-springs/valley-springs-tigers/basketball/girls/",
+      "region": "3A Region 2"
+    },
+    {
+      "teamName": "Cave City Cavemen",
+      "teamUrl": "https://www.maxpreps.com/ar/cave-city/cave-city-cavemen/basketball/girls/",
+      "region": "3A Region 2"
+    },
+    {
+      "teamName": "Flippin Bobcats",
+      "teamUrl": "https://www.maxpreps.com/ar/flippin/flippin-bobcats/basketball/girls/",
+      "region": "3A Region 2"
+    },
+    {
+      "teamName": "Yellville Summit Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/yellville/yellville-summit-panthers/basketball/girls/",
+      "region": "3A Region 2"
+    },
+    {
+      "teamName": "Pottsville Apaches",
+      "teamUrl": "https://www.maxpreps.com/ar/pottsville/pottsville-apaches/basketball/girls/",
+      "region": "4A Region 4"
+    },
+    {
+      "teamName": "Dardanelle Sand Lizards",
+      "teamUrl": "https://www.maxpreps.com/ar/dardanelle/dardanelle-sand-lizards/basketball/girls/",
+      "region": "4A Region 4"
+    },
+    {
+      "teamName": "Waldron Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/ar/waldron/waldron-bulldogs/basketball/girls/",
+      "region": "4A Region 4"
+    },
+    {
+      "teamName": "Mena Bearcats Ladycats",
+      "teamUrl": "https://www.maxpreps.com/ar/mena/mena-bearcats-ladycats/basketball/girls/",
+      "region": "4A Region 4"
+    },
+    {
+      "teamName": "Ozark Hillbillies",
+      "teamUrl": "https://www.maxpreps.com/ar/ozark/ozark-hillbillies/basketball/girls/",
+      "region": "4A Region 4"
+    },
+    {
+      "teamName": "Clarksville Panthers",
+      "teamUrl": "https://www.maxpreps.com/ar/clarksville/clarksville-panthers/basketball/girls/",
+      "region": "4A Region 4"
+    }
+  ]
+}

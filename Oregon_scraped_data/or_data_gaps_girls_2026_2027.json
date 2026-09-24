@@ -1,0 +1,1437 @@
+{
+  "meta": {
+    "state": "Oregon",
+    "stateCode": "OR",
+    "sport": "Girls Basketball",
+    "season": "2026-2027",
+    "totalTeams": 283,
+    "processedTeamsCount": 0,
+    "processedTeams": [],
+    "totalGamesChecked": 0,
+    "teamsFullBoxScores": 0,
+    "teamsPartialBoxScores": 0,
+    "teamsNoBoxScores": 0,
+    "errors_count": 283,
+    "last_updated": "2026-09-24 15:12:03"
+  },
+  "teamsFullBoxScores": [],
+  "teamsPartialBoxScores": [],
+  "teamsNoBoxScores": [],
+  "errors": [
+    {
+      "teamName": "Mapleton Sailors",
+      "teamUrl": "https://www.maxpreps.com/or/mapleton/mapleton-sailors/basketball/girls/",
+      "region": "1A Mountain West"
+    },
+    {
+      "teamName": "Alsea Wolverines",
+      "teamUrl": "https://www.maxpreps.com/or/alsea/alsea-wolverines/basketball/girls/",
+      "region": "1A Mountain West"
+    },
+    {
+      "teamName": "Mohawk Mustangs",
+      "teamUrl": "https://www.maxpreps.com/or/marcola/mohawk-mustangs/basketball/girls/",
+      "region": "1A Mountain West"
+    },
+    {
+      "teamName": "Triangle Lake Lakers",
+      "teamUrl": "https://www.maxpreps.com/or/blachly/triangle-lake-lakers/basketball/girls/",
+      "region": "1A Mountain West"
+    },
+    {
+      "teamName": "Crow Cougars",
+      "teamUrl": "https://www.maxpreps.com/or/eugene/crow-cougars/basketball/girls/",
+      "region": "1A Mountain West"
+    },
+    {
+      "teamName": "Mckenzie Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/finn-rock/mckenzie-eagles/basketball/girls/",
+      "region": "1A Mountain West"
+    },
+    {
+      "teamName": "Eddyville Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/eddyville/eddyville-eagles/basketball/girls/",
+      "region": "1A Mountain West"
+    },
+    {
+      "teamName": "City First Christian Academy",
+      "teamUrl": "https://www.maxpreps.com/or/eugene/city-first-christian-academy/basketball/girls/",
+      "region": "1A Mountain West"
+    },
+    {
+      "teamName": "Benson Tech Astros",
+      "teamUrl": "https://www.maxpreps.com/or/portland/benson-tech-astros/basketball/girls/",
+      "region": "6A Portland"
+    },
+    {
+      "teamName": "Lincoln Cardinals",
+      "teamUrl": "https://www.maxpreps.com/or/portland/lincoln-cardinals/basketball/girls/",
+      "region": "6A Portland"
+    },
+    {
+      "teamName": "Grant Generals",
+      "teamUrl": "https://www.maxpreps.com/or/portland/grant-generals/basketball/girls/",
+      "region": "6A Portland"
+    },
+    {
+      "teamName": "Cleveland Warriors",
+      "teamUrl": "https://www.maxpreps.com/or/portland/cleveland-warriors/basketball/girls/",
+      "region": "6A Portland"
+    },
+    {
+      "teamName": "Jefferson Democrats",
+      "teamUrl": "https://www.maxpreps.com/or/portland/jefferson-democrats/basketball/girls/",
+      "region": "6A Portland"
+    },
+    {
+      "teamName": "Ida B Wells Trojans",
+      "teamUrl": "https://www.maxpreps.com/or/portland/ida-b-wells-trojans/basketball/girls/",
+      "region": "6A Portland"
+    },
+    {
+      "teamName": "Franklin Lightning",
+      "teamUrl": "https://www.maxpreps.com/or/portland/franklin-lightning/basketball/girls/",
+      "region": "6A Portland"
+    },
+    {
+      "teamName": "Roosevelt Roughriders",
+      "teamUrl": "https://www.maxpreps.com/or/portland/roosevelt-roughriders/basketball/girls/",
+      "region": "6A Portland"
+    },
+    {
+      "teamName": "Mcdaniel Mountain Lions",
+      "teamUrl": "https://www.maxpreps.com/or/portland/mcdaniel-mountain-lions/basketball/girls/",
+      "region": "6A Portland"
+    },
+    {
+      "teamName": "Crosshill Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/turner/crosshill-christian-eagles/basketball/girls/",
+      "region": "2A Valley Coast"
+    },
+    {
+      "teamName": "Central Linn Cobras",
+      "teamUrl": "https://www.maxpreps.com/or/halsey/central-linn-cobras/basketball/girls/",
+      "region": "2A Valley Coast"
+    },
+    {
+      "teamName": "East Linn Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/lebanon/east-linn-christian-academy-eagles/basketball/girls/",
+      "region": "2A Valley Coast"
+    },
+    {
+      "teamName": "Waldport Irish",
+      "teamUrl": "https://www.maxpreps.com/or/waldport/waldport-irish/basketball/girls/",
+      "region": "2A Valley Coast"
+    },
+    {
+      "teamName": "Toledo Boomers",
+      "teamUrl": "https://www.maxpreps.com/or/toledo/toledo-boomers/basketball/girls/",
+      "region": "2A Valley Coast"
+    },
+    {
+      "teamName": "Monroe Dragons",
+      "teamUrl": "https://www.maxpreps.com/or/monroe/monroe-dragons/basketball/girls/",
+      "region": "2A Valley Coast"
+    },
+    {
+      "teamName": "North Lake Cowboys",
+      "teamUrl": "https://www.maxpreps.com/or/silver-lake/north-lake-cowboys/basketball/girls/",
+      "region": "1A Mountain Valley"
+    },
+    {
+      "teamName": "Rogue Valley Adventist Hawks",
+      "teamUrl": "https://www.maxpreps.com/or/medford/rogue-valley-adventist-hawks/basketball/girls/",
+      "region": "1A Mountain Valley"
+    },
+    {
+      "teamName": "Central Christian Tigers",
+      "teamUrl": "https://www.maxpreps.com/or/redmond/central-christian-tigers/basketball/girls/",
+      "region": "1A Mountain Valley"
+    },
+    {
+      "teamName": "Chiloquin Panthers",
+      "teamUrl": "https://www.maxpreps.com/or/chiloquin/chiloquin-panthers/basketball/girls/",
+      "region": "1A Mountain Valley"
+    },
+    {
+      "teamName": "Prospect Cougars",
+      "teamUrl": "https://www.maxpreps.com/or/prospect/prospect-cougars/basketball/girls/",
+      "region": "1A Mountain Valley"
+    },
+    {
+      "teamName": "Butte Falls Loggers",
+      "teamUrl": "https://www.maxpreps.com/or/butte-falls/butte-falls-loggers/basketball/girls/",
+      "region": "1A Mountain Valley"
+    },
+    {
+      "teamName": "Crosspoint Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/or/klamath-falls/crosspoint-christian-warriors/basketball/girls/",
+      "region": "1A Mountain Valley"
+    },
+    {
+      "teamName": "Harvest Christian",
+      "teamUrl": "https://www.maxpreps.com/or/medford/harvest-christian/basketball/girls/",
+      "region": "1A Mountain Valley"
+    },
+    {
+      "teamName": "Paisley Broncos",
+      "teamUrl": "https://www.maxpreps.com/or/paisley/paisley-broncos/basketball/girls/",
+      "region": "1A Mountain Valley"
+    },
+    {
+      "teamName": "Banks Braves",
+      "teamUrl": "https://www.maxpreps.com/or/banks/banks-braves/basketball/girls/",
+      "region": "3A Coastal Range"
+    },
+    {
+      "teamName": "Yamhill Carlton Tigers",
+      "teamUrl": "https://www.maxpreps.com/or/yamhill/yamhill-carlton-tigers/basketball/girls/",
+      "region": "3A Coastal Range"
+    },
+    {
+      "teamName": "Neah Kah Nie Pirates",
+      "teamUrl": "https://www.maxpreps.com/or/rockaway-beach/neah-kah-nie-pirates/basketball/girls/",
+      "region": "3A Coastal Range"
+    },
+    {
+      "teamName": "Rainier Columbians",
+      "teamUrl": "https://www.maxpreps.com/or/rainier/rainier-columbians/basketball/girls/",
+      "region": "3A Coastal Range"
+    },
+    {
+      "teamName": "Riverdale Mavericks",
+      "teamUrl": "https://www.maxpreps.com/or/portland/riverdale-mavericks/basketball/girls/",
+      "region": "3A Coastal Range"
+    },
+    {
+      "teamName": "Warrenton Warriors",
+      "teamUrl": "https://www.maxpreps.com/or/warrenton/warrenton-warriors/basketball/girls/",
+      "region": "3A Coastal Range"
+    },
+    {
+      "teamName": "Corbett Cardinals",
+      "teamUrl": "https://www.maxpreps.com/or/corbett/corbett-cardinals/basketball/girls/",
+      "region": "3A Coastal Range"
+    },
+    {
+      "teamName": "Marist Spartans",
+      "teamUrl": "https://www.maxpreps.com/or/eugene/marist-spartans/basketball/girls/",
+      "region": "4A Sky Em"
+    },
+    {
+      "teamName": "North Bend Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/or/north-bend/north-bend-bulldogs/basketball/girls/",
+      "region": "4A Sky Em"
+    },
+    {
+      "teamName": "Junction City Tigers",
+      "teamUrl": "https://www.maxpreps.com/or/junction-city/junction-city-tigers/basketball/girls/",
+      "region": "4A Sky Em"
+    },
+    {
+      "teamName": "Cottage Grove Lions",
+      "teamUrl": "https://www.maxpreps.com/or/cottage-grove/cottage-grove-lions/basketball/girls/",
+      "region": "4A Sky Em"
+    },
+    {
+      "teamName": "Marshfield Pirates",
+      "teamUrl": "https://www.maxpreps.com/or/coos-bay/marshfield-pirates/basketball/girls/",
+      "region": "4A Sky Em"
+    },
+    {
+      "teamName": "Regis Rams",
+      "teamUrl": "https://www.maxpreps.com/or/stayton/regis-rams/basketball/girls/",
+      "region": "2A Tri River"
+    },
+    {
+      "teamName": "Western Christian Pioneers",
+      "teamUrl": "https://www.maxpreps.com/or/salem/western-christian-pioneers/basketball/girls/",
+      "region": "2A Tri River"
+    },
+    {
+      "teamName": "Colton Vikings",
+      "teamUrl": "https://www.maxpreps.com/or/colton/colton-vikings/basketball/girls/",
+      "region": "2A Tri River"
+    },
+    {
+      "teamName": "Kennedy Trojans",
+      "teamUrl": "https://www.maxpreps.com/or/mt-angel/kennedy-trojans/basketball/girls/",
+      "region": "2A Tri River"
+    },
+    {
+      "teamName": "Santiam Wolverines",
+      "teamUrl": "https://www.maxpreps.com/or/mill-city/santiam-wolverines/basketball/girls/",
+      "region": "2A Tri River"
+    },
+    {
+      "teamName": "Delphian Dragons",
+      "teamUrl": "https://www.maxpreps.com/or/sheridan/delphian-dragons/basketball/girls/",
+      "region": "2A Tri River"
+    },
+    {
+      "teamName": "Gervais Cougars",
+      "teamUrl": "https://www.maxpreps.com/or/gervais/gervais-cougars/basketball/girls/",
+      "region": "2A Tri River"
+    },
+    {
+      "teamName": "Sheridan Spartans",
+      "teamUrl": "https://www.maxpreps.com/or/sheridan/sheridan-spartans/basketball/girls/",
+      "region": "2A Tri River"
+    },
+    {
+      "teamName": "Molalla Indians",
+      "teamUrl": "https://www.maxpreps.com/or/molalla/molalla-indians/basketball/girls/",
+      "region": "4A Tri Valley"
+    },
+    {
+      "teamName": "Madras White Buffalos",
+      "teamUrl": "https://www.maxpreps.com/or/madras/madras-white-buffalos/basketball/girls/",
+      "region": "4A Tri Valley"
+    },
+    {
+      "teamName": "The Dalles Riverhawks",
+      "teamUrl": "https://www.maxpreps.com/or/the-dalles/the-dalles-riverhawks/basketball/girls/",
+      "region": "4A Tri Valley"
+    },
+    {
+      "teamName": "Estacada Rangers",
+      "teamUrl": "https://www.maxpreps.com/or/estacada/estacada-rangers/basketball/girls/",
+      "region": "4A Tri Valley"
+    },
+    {
+      "teamName": "Gladstone Gladiators",
+      "teamUrl": "https://www.maxpreps.com/or/gladstone/gladstone-gladiators/basketball/girls/",
+      "region": "4A Tri Valley"
+    },
+    {
+      "teamName": "Stayton Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/stayton/stayton-eagles/basketball/girls/",
+      "region": "4A Oregon West"
+    },
+    {
+      "teamName": "Cascade Cougars",
+      "teamUrl": "https://www.maxpreps.com/or/turner/cascade-cougars/basketball/girls/",
+      "region": "4A Oregon West"
+    },
+    {
+      "teamName": "Philomath Warriors",
+      "teamUrl": "https://www.maxpreps.com/or/philomath/philomath-warriors/basketball/girls/",
+      "region": "4A Oregon West"
+    },
+    {
+      "teamName": "Sweet Home Huskies",
+      "teamUrl": "https://www.maxpreps.com/or/sweet-home/sweet-home-huskies/basketball/girls/",
+      "region": "4A Oregon West"
+    },
+    {
+      "teamName": "Newport Cubs",
+      "teamUrl": "https://www.maxpreps.com/or/newport/newport-cubs/basketball/girls/",
+      "region": "4A Oregon West"
+    },
+    {
+      "teamName": "North Marion Huskies",
+      "teamUrl": "https://www.maxpreps.com/or/aurora/north-marion-huskies/basketball/girls/",
+      "region": "4A Oregon West"
+    },
+    {
+      "teamName": "Imbler Panthers",
+      "teamUrl": "https://www.maxpreps.com/or/imbler/imbler-panthers/basketball/girls/",
+      "region": "1A Old Oregon"
+    },
+    {
+      "teamName": "Echo Cougars",
+      "teamUrl": "https://www.maxpreps.com/or/echo/echo-cougars/basketball/girls/",
+      "region": "1A Old Oregon"
+    },
+    {
+      "teamName": "Union Bobcats",
+      "teamUrl": "https://www.maxpreps.com/or/union/union-bobcats/basketball/girls/",
+      "region": "1A Old Oregon"
+    },
+    {
+      "teamName": "Powder Valley Badgers",
+      "teamUrl": "https://www.maxpreps.com/or/north-powder/powder-valley-badgers/basketball/girls/",
+      "region": "1A Old Oregon"
+    },
+    {
+      "teamName": "Elgin Huskies",
+      "teamUrl": "https://www.maxpreps.com/or/elgin/elgin-huskies/basketball/girls/",
+      "region": "1A Old Oregon"
+    },
+    {
+      "teamName": "Pilot Rock Rockets",
+      "teamUrl": "https://www.maxpreps.com/or/pilot-rock/pilot-rock-rockets/basketball/girls/",
+      "region": "1A Old Oregon"
+    },
+    {
+      "teamName": "Nixyaawii Community Golden Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/pendleton/nixyaawii-community-golden-eagles/basketball/girls/",
+      "region": "1A Old Oregon"
+    },
+    {
+      "teamName": "Joseph Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/joseph/joseph-eagles/basketball/girls/",
+      "region": "1A Old Oregon"
+    },
+    {
+      "teamName": "Pine Eagle Spartans",
+      "teamUrl": "https://www.maxpreps.com/or/halfway/pine-eagle-spartans/basketball/girls/",
+      "region": "1A Old Oregon"
+    },
+    {
+      "teamName": "Cove Leopards",
+      "teamUrl": "https://www.maxpreps.com/or/cove/cove-leopards/basketball/girls/",
+      "region": "1A Old Oregon"
+    },
+    {
+      "teamName": "Griswold Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/or/helix/griswold-grizzlies/basketball/girls/",
+      "region": "1A Old Oregon"
+    },
+    {
+      "teamName": "Wallowa Cougars",
+      "teamUrl": "https://www.maxpreps.com/or/wallowa/wallowa-cougars/basketball/girls/",
+      "region": "1A Old Oregon"
+    },
+    {
+      "teamName": "South Medford Panthers",
+      "teamUrl": "https://www.maxpreps.com/or/medford/south-medford-panthers/basketball/girls/",
+      "region": "6A Southwest"
+    },
+    {
+      "teamName": "Grants Pass Cavemen",
+      "teamUrl": "https://www.maxpreps.com/or/grants-pass/grants-pass-cavemen/basketball/girls/",
+      "region": "6A Southwest"
+    },
+    {
+      "teamName": "Sheldon Irish",
+      "teamUrl": "https://www.maxpreps.com/or/eugene/sheldon-irish/basketball/girls/",
+      "region": "6A Southwest"
+    },
+    {
+      "teamName": "Roseburg Indians",
+      "teamUrl": "https://www.maxpreps.com/or/roseburg/roseburg-indians/basketball/girls/",
+      "region": "6A Southwest"
+    },
+    {
+      "teamName": "North Medford Black Tornado",
+      "teamUrl": "https://www.maxpreps.com/or/medford/north-medford-black-tornado/basketball/girls/",
+      "region": "6A Southwest"
+    },
+    {
+      "teamName": "Willamette Wolverines",
+      "teamUrl": "https://www.maxpreps.com/or/eugene/willamette-wolverines/basketball/girls/",
+      "region": "6A Southwest"
+    },
+    {
+      "teamName": "South Eugene Axe",
+      "teamUrl": "https://www.maxpreps.com/or/eugene/south-eugene-axe/basketball/girls/",
+      "region": "6A Southwest"
+    },
+    {
+      "teamName": "Weston Mcewen Tigerscots",
+      "teamUrl": "https://www.maxpreps.com/or/athena/weston-mcewen-tigerscots/basketball/girls/",
+      "region": "2A Blue Mountain"
+    },
+    {
+      "teamName": "Stanfield Tigers",
+      "teamUrl": "https://www.maxpreps.com/or/stanfield/stanfield-tigers/basketball/girls/",
+      "region": "2A Blue Mountain"
+    },
+    {
+      "teamName": "Heppner Mustangs",
+      "teamUrl": "https://www.maxpreps.com/or/heppner/heppner-mustangs/basketball/girls/",
+      "region": "2A Blue Mountain"
+    },
+    {
+      "teamName": "Grant Union Prospectors",
+      "teamUrl": "https://www.maxpreps.com/or/john-day/grant-union-prospectors/basketball/girls/",
+      "region": "2A Blue Mountain"
+    },
+    {
+      "teamName": "Irrigon Knights",
+      "teamUrl": "https://www.maxpreps.com/or/irrigon/irrigon-knights/basketball/girls/",
+      "region": "2A Blue Mountain"
+    },
+    {
+      "teamName": "Enterprise Outlaws",
+      "teamUrl": "https://www.maxpreps.com/or/enterprise/enterprise-outlaws/basketball/girls/",
+      "region": "2A Blue Mountain"
+    },
+    {
+      "teamName": "Springfield Millers",
+      "teamUrl": "https://www.maxpreps.com/or/springfield/springfield-millers/basketball/girls/",
+      "region": "5A Midwestern"
+    },
+    {
+      "teamName": "Crater Comets",
+      "teamUrl": "https://www.maxpreps.com/or/central-point/crater-comets/basketball/girls/",
+      "region": "5A Midwestern"
+    },
+    {
+      "teamName": "Eagle Point Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/eagle-point/eagle-point-eagles/basketball/girls/",
+      "region": "5A Midwestern"
+    },
+    {
+      "teamName": "North Eugene Highlanders",
+      "teamUrl": "https://www.maxpreps.com/or/eugene/north-eugene-highlanders/basketball/girls/",
+      "region": "5A Midwestern"
+    },
+    {
+      "teamName": "Thurston Colts",
+      "teamUrl": "https://www.maxpreps.com/or/springfield/thurston-colts/basketball/girls/",
+      "region": "5A Midwestern"
+    },
+    {
+      "teamName": "Churchill Lancers",
+      "teamUrl": "https://www.maxpreps.com/or/eugene/churchill-lancers/basketball/girls/",
+      "region": "5A Midwestern"
+    },
+    {
+      "teamName": "Ashland Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/or/ashland/ashland-grizzlies/basketball/girls/",
+      "region": "5A Midwestern"
+    },
+    {
+      "teamName": "Mannahouse Christian Academy",
+      "teamUrl": "https://www.maxpreps.com/or/portland/mannahouse-christian-academy/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Damascus Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/damascus/damascus-christian-eagles/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Gilchrist Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/or/gilchrist/gilchrist-grizzlies/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Milo Adventist Academy Mustangs",
+      "teamUrl": "https://www.maxpreps.com/or/days-creek/milo-adventist-academy-mustangs/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "North Salem Vikings",
+      "teamUrl": "https://www.maxpreps.com/or/salem/north-salem-vikings/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Bandon Tigers",
+      "teamUrl": "https://www.maxpreps.com/or/bandon/bandon-tigers/basketball/girls/",
+      "region": "2A Sunset"
+    },
+    {
+      "teamName": "Oakland Oakers",
+      "teamUrl": "https://www.maxpreps.com/or/oakland/oakland-oakers/basketball/girls/",
+      "region": "2A Sunset"
+    },
+    {
+      "teamName": "Myrtle Point Bobcats",
+      "teamUrl": "https://www.maxpreps.com/or/myrtle-point/myrtle-point-bobcats/basketball/girls/",
+      "region": "2A Sunset"
+    },
+    {
+      "teamName": "Gold Beach Panthers",
+      "teamUrl": "https://www.maxpreps.com/or/gold-beach/gold-beach-panthers/basketball/girls/",
+      "region": "2A Sunset"
+    },
+    {
+      "teamName": "Illinois Valley Cougars",
+      "teamUrl": "https://www.maxpreps.com/or/cave-junction/illinois-valley-cougars/basketball/girls/",
+      "region": "2A Sunset"
+    },
+    {
+      "teamName": "Reedsport",
+      "teamUrl": "https://www.maxpreps.com/or/reedsport/reedsport/basketball/girls/",
+      "region": "2A Sunset"
+    },
+    {
+      "teamName": "Perrydale Pirates",
+      "teamUrl": "https://www.maxpreps.com/or/amity/perrydale-pirates/basketball/girls/",
+      "region": "1A Casco"
+    },
+    {
+      "teamName": "St Paul Buckaroos",
+      "teamUrl": "https://www.maxpreps.com/or/st-paul/st-paul-buckaroos/basketball/girls/",
+      "region": "1A Casco"
+    },
+    {
+      "teamName": "Lewis Academy Watchmen",
+      "teamUrl": "https://www.maxpreps.com/or/newberg/lewis-academy-watchmen/basketball/girls/",
+      "region": "1A Casco"
+    },
+    {
+      "teamName": "Chemawa Indian Braves",
+      "teamUrl": "https://www.maxpreps.com/or/salem/chemawa-indian-braves/basketball/girls/",
+      "region": "1A Casco"
+    },
+    {
+      "teamName": "Willamette Valley Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/or/brooks/willamette-valley-christian-warriors/basketball/girls/",
+      "region": "1A Casco"
+    },
+    {
+      "teamName": "Falls City Kings Valley Charter Mountaineers",
+      "teamUrl": "https://www.maxpreps.com/or/falls-city/falls-city-kings-valley-charter-mountaineers/basketball/girls/",
+      "region": "1A Casco"
+    },
+    {
+      "teamName": "Livingstone Adventist Academy",
+      "teamUrl": "https://www.maxpreps.com/or/salem/livingstone-adventist-academy/basketball/girls/",
+      "region": "1A Casco"
+    },
+    {
+      "teamName": "Oregon School For The Deaf Panthers",
+      "teamUrl": "https://www.maxpreps.com/or/salem/oregon-school-for-the-deaf-panthers/basketball/girls/",
+      "region": "1A Casco"
+    },
+    {
+      "teamName": "Brookings Harbor Bruins",
+      "teamUrl": "https://www.maxpreps.com/or/brookings/brookings-harbor-bruins/basketball/girls/",
+      "region": "3A Southern Oregon"
+    },
+    {
+      "teamName": "Cascade Christian Challengers",
+      "teamUrl": "https://www.maxpreps.com/or/medford/cascade-christian-challengers/basketball/girls/",
+      "region": "3A Southern Oregon"
+    },
+    {
+      "teamName": "St Marys Crusaders",
+      "teamUrl": "https://www.maxpreps.com/or/medford/st-marys-crusaders/basketball/girls/",
+      "region": "3A Southern Oregon"
+    },
+    {
+      "teamName": "North Valley Knights",
+      "teamUrl": "https://www.maxpreps.com/or/grants-pass/north-valley-knights/basketball/girls/",
+      "region": "3A Southern Oregon"
+    },
+    {
+      "teamName": "Rogue River Chieftains",
+      "teamUrl": "https://www.maxpreps.com/or/rogue-river/rogue-river-chieftains/basketball/girls/",
+      "region": "3A Southern Oregon"
+    },
+    {
+      "teamName": "Lakeview Paisley Honkers",
+      "teamUrl": "https://www.maxpreps.com/or/lakeview/lakeview-paisley-honkers/basketball/girls/",
+      "region": "3A Southern Oregon"
+    },
+    {
+      "teamName": "St Helens Lions",
+      "teamUrl": "https://www.maxpreps.com/or/st-helens/st-helens-lions/basketball/girls/",
+      "region": "4A Cowapa"
+    },
+    {
+      "teamName": "Seaside Seagulls",
+      "teamUrl": "https://www.maxpreps.com/or/seaside/seaside-seagulls/basketball/girls/",
+      "region": "4A Cowapa"
+    },
+    {
+      "teamName": "Scappoose Indians",
+      "teamUrl": "https://www.maxpreps.com/or/scappoose/scappoose-indians/basketball/girls/",
+      "region": "4A Cowapa"
+    },
+    {
+      "teamName": "Tillamook Cheesemakers",
+      "teamUrl": "https://www.maxpreps.com/or/tillamook/tillamook-cheesemakers/basketball/girls/",
+      "region": "4A Cowapa"
+    },
+    {
+      "teamName": "Astoria Fishermen",
+      "teamUrl": "https://www.maxpreps.com/or/astoria/astoria-fishermen/basketball/girls/",
+      "region": "4A Cowapa"
+    },
+    {
+      "teamName": "West Albany Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/or/albany/west-albany-bulldogs/basketball/girls/",
+      "region": "5A Mid Willamette"
+    },
+    {
+      "teamName": "South Albany Redhawks",
+      "teamUrl": "https://www.maxpreps.com/or/albany/south-albany-redhawks/basketball/girls/",
+      "region": "5A Mid Willamette"
+    },
+    {
+      "teamName": "Silverton Foxes",
+      "teamUrl": "https://www.maxpreps.com/or/silverton/silverton-foxes/basketball/girls/",
+      "region": "5A Mid Willamette"
+    },
+    {
+      "teamName": "Lebanon Warriors",
+      "teamUrl": "https://www.maxpreps.com/or/lebanon/lebanon-warriors/basketball/girls/",
+      "region": "5A Mid Willamette"
+    },
+    {
+      "teamName": "Crescent Valley Raiders",
+      "teamUrl": "https://www.maxpreps.com/or/corvallis/crescent-valley-raiders/basketball/girls/",
+      "region": "5A Mid Willamette"
+    },
+    {
+      "teamName": "Corvallis Spartans",
+      "teamUrl": "https://www.maxpreps.com/or/corvallis/corvallis-spartans/basketball/girls/",
+      "region": "5A Mid Willamette"
+    },
+    {
+      "teamName": "Central Panthers",
+      "teamUrl": "https://www.maxpreps.com/or/independence/central-panthers/basketball/girls/",
+      "region": "5A Mid Willamette"
+    },
+    {
+      "teamName": "Dallas Dragons",
+      "teamUrl": "https://www.maxpreps.com/or/dallas/dallas-dragons/basketball/girls/",
+      "region": "5A Mid Willamette"
+    },
+    {
+      "teamName": "Woodburn Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/or/woodburn/woodburn-bulldogs/basketball/girls/",
+      "region": "5A Mid Willamette"
+    },
+    {
+      "teamName": "Vale Vikings",
+      "teamUrl": "https://www.maxpreps.com/or/vale/vale-vikings/basketball/girls/",
+      "region": "3A Eastern Oregon"
+    },
+    {
+      "teamName": "Burns Hilanders",
+      "teamUrl": "https://www.maxpreps.com/or/burns/burns-hilanders/basketball/girls/",
+      "region": "3A Eastern Oregon"
+    },
+    {
+      "teamName": "Nyssa Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/or/nyssa/nyssa-bulldogs/basketball/girls/",
+      "region": "3A Eastern Oregon"
+    },
+    {
+      "teamName": "Umatilla Vikings",
+      "teamUrl": "https://www.maxpreps.com/or/umatilla/umatilla-vikings/basketball/girls/",
+      "region": "3A Eastern Oregon"
+    },
+    {
+      "teamName": "Riverside Pirates",
+      "teamUrl": "https://www.maxpreps.com/or/boardman/riverside-pirates/basketball/girls/",
+      "region": "3A Eastern Oregon"
+    },
+    {
+      "teamName": "Mcloughlin Pioneers",
+      "teamUrl": "https://www.maxpreps.com/or/milton-freewater/mcloughlin-pioneers/basketball/girls/",
+      "region": "3A Eastern Oregon"
+    },
+    {
+      "teamName": "Nestucca Bobcats",
+      "teamUrl": "https://www.maxpreps.com/or/cloverdale/nestucca-bobcats/basketball/girls/",
+      "region": "2A Northwest"
+    },
+    {
+      "teamName": "Knappa Loggers",
+      "teamUrl": "https://www.maxpreps.com/or/astoria/knappa-loggers/basketball/girls/",
+      "region": "2A Northwest"
+    },
+    {
+      "teamName": "Clatskanie Tigers",
+      "teamUrl": "https://www.maxpreps.com/or/clatskanie/clatskanie-tigers/basketball/girls/",
+      "region": "2A Northwest"
+    },
+    {
+      "teamName": "Portland Christian Royals",
+      "teamUrl": "https://www.maxpreps.com/or/portland/portland-christian-royals/basketball/girls/",
+      "region": "2A Northwest"
+    },
+    {
+      "teamName": "Columbia Christian Knights",
+      "teamUrl": "https://www.maxpreps.com/or/portland/columbia-christian-knights/basketball/girls/",
+      "region": "2A Northwest"
+    },
+    {
+      "teamName": "Faith Bible Christian Life Christian",
+      "teamUrl": "https://www.maxpreps.com/or/aloha/faith-bible-christian-life-christian/basketball/girls/",
+      "region": "2A Northwest"
+    },
+    {
+      "teamName": "Gaston Greyhounds",
+      "teamUrl": "https://www.maxpreps.com/or/gaston/gaston-greyhounds/basketball/girls/",
+      "region": "2A Northwest"
+    },
+    {
+      "teamName": "Vernonia Loggers",
+      "teamUrl": "https://www.maxpreps.com/or/vernonia/vernonia-loggers/basketball/girls/",
+      "region": "2A Northwest"
+    },
+    {
+      "teamName": "Nelson",
+      "teamUrl": "https://www.maxpreps.com/or/happy-valley/nelson/basketball/girls/",
+      "region": "6A Mt Hood"
+    },
+    {
+      "teamName": "Clackamas Cavaliers",
+      "teamUrl": "https://www.maxpreps.com/or/clackamas/clackamas-cavaliers/basketball/girls/",
+      "region": "6A Mt Hood"
+    },
+    {
+      "teamName": "Barlow Bruins",
+      "teamUrl": "https://www.maxpreps.com/or/gresham/barlow-bruins/basketball/girls/",
+      "region": "6A Mt Hood"
+    },
+    {
+      "teamName": "Central Catholic Rams",
+      "teamUrl": "https://www.maxpreps.com/or/portland/central-catholic-rams/basketball/girls/",
+      "region": "6A Mt Hood"
+    },
+    {
+      "teamName": "David Douglas Scots",
+      "teamUrl": "https://www.maxpreps.com/or/portland/david-douglas-scots/basketball/girls/",
+      "region": "6A Mt Hood"
+    },
+    {
+      "teamName": "Sandy Pioneers",
+      "teamUrl": "https://www.maxpreps.com/or/sandy/sandy-pioneers/basketball/girls/",
+      "region": "6A Mt Hood"
+    },
+    {
+      "teamName": "Gresham Gophers",
+      "teamUrl": "https://www.maxpreps.com/or/gresham/gresham-gophers/basketball/girls/",
+      "region": "6A Mt Hood"
+    },
+    {
+      "teamName": "Reynolds Raiders",
+      "teamUrl": "https://www.maxpreps.com/or/troutdale/reynolds-raiders/basketball/girls/",
+      "region": "6A Mt Hood"
+    },
+    {
+      "teamName": "Wilsonville Wildcats",
+      "teamUrl": "https://www.maxpreps.com/or/wilsonville/wilsonville-wildcats/basketball/girls/",
+      "region": "5A Northwest Oregon"
+    },
+    {
+      "teamName": "La Salle Falcons",
+      "teamUrl": "https://www.maxpreps.com/or/milwaukie/la-salle-falcons/basketball/girls/",
+      "region": "5A Northwest Oregon"
+    },
+    {
+      "teamName": "Canby Cougars",
+      "teamUrl": "https://www.maxpreps.com/or/canby/canby-cougars/basketball/girls/",
+      "region": "5A Northwest Oregon"
+    },
+    {
+      "teamName": "Putnam Kingsmen",
+      "teamUrl": "https://www.maxpreps.com/or/milwaukie/putnam-kingsmen/basketball/girls/",
+      "region": "5A Northwest Oregon"
+    },
+    {
+      "teamName": "Hood River Valley Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/hood-river/hood-river-valley-eagles/basketball/girls/",
+      "region": "5A Northwest Oregon"
+    },
+    {
+      "teamName": "Hillsboro Spartans",
+      "teamUrl": "https://www.maxpreps.com/or/hillsboro/hillsboro-spartans/basketball/girls/",
+      "region": "5A Northwest Oregon"
+    },
+    {
+      "teamName": "Centennial Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/gresham/centennial-eagles/basketball/girls/",
+      "region": "5A Northwest Oregon"
+    },
+    {
+      "teamName": "Milwaukie Milwaukie Academy Of The Arts Mustangs",
+      "teamUrl": "https://www.maxpreps.com/or/milwaukie/milwaukie-milwaukie-academy-of-the-arts-mustangs/basketball/girls/",
+      "region": "5A Northwest Oregon"
+    },
+    {
+      "teamName": "Parkrose Broncos",
+      "teamUrl": "https://www.maxpreps.com/or/portland/parkrose-broncos/basketball/girls/",
+      "region": "5A Northwest Oregon"
+    },
+    {
+      "teamName": "Tualatin Timberwolves",
+      "teamUrl": "https://www.maxpreps.com/or/tualatin/tualatin-timberwolves/basketball/girls/",
+      "region": "6A Three Rivers"
+    },
+    {
+      "teamName": "West Linn Lions",
+      "teamUrl": "https://www.maxpreps.com/or/west-linn/west-linn-lions/basketball/girls/",
+      "region": "6A Three Rivers"
+    },
+    {
+      "teamName": "Oregon City Pioneers",
+      "teamUrl": "https://www.maxpreps.com/or/oregon-city/oregon-city-pioneers/basketball/girls/",
+      "region": "6A Three Rivers"
+    },
+    {
+      "teamName": "Lake Oswego Lakers",
+      "teamUrl": "https://www.maxpreps.com/or/lake-oswego/lake-oswego-lakers/basketball/girls/",
+      "region": "6A Three Rivers"
+    },
+    {
+      "teamName": "Lakeridge Pacers",
+      "teamUrl": "https://www.maxpreps.com/or/lake-oswego/lakeridge-pacers/basketball/girls/",
+      "region": "6A Three Rivers"
+    },
+    {
+      "teamName": "St Marys Academy Blues",
+      "teamUrl": "https://www.maxpreps.com/or/portland/st-marys-academy-blues/basketball/girls/",
+      "region": "6A Three Rivers"
+    },
+    {
+      "teamName": "Tigard Tigers",
+      "teamUrl": "https://www.maxpreps.com/or/tigard/tigard-tigers/basketball/girls/",
+      "region": "6A Three Rivers"
+    },
+    {
+      "teamName": "Dufur Rangers",
+      "teamUrl": "https://www.maxpreps.com/or/dufur/dufur-rangers/basketball/girls/",
+      "region": "1A Big Sky"
+    },
+    {
+      "teamName": "Trout Lake Mustangs",
+      "teamUrl": "https://www.maxpreps.com/wa/trout-lake/trout-lake-mustangs/basketball/girls/",
+      "region": "1A Big Sky"
+    },
+    {
+      "teamName": "South Wasco County Redsides",
+      "teamUrl": "https://www.maxpreps.com/or/maupin/south-wasco-county-redsides/basketball/girls/",
+      "region": "1A Big Sky"
+    },
+    {
+      "teamName": "Ione Arlington Cardinals",
+      "teamUrl": "https://www.maxpreps.com/or/ione/ione-arlington-cardinals/basketball/girls/",
+      "region": "1A Big Sky"
+    },
+    {
+      "teamName": "Sherman Huskies",
+      "teamUrl": "https://www.maxpreps.com/or/moro/sherman-huskies/basketball/girls/",
+      "region": "1A Big Sky"
+    },
+    {
+      "teamName": "Mitchell Spray Wheeler",
+      "teamUrl": "https://www.maxpreps.com/or/mitchell/mitchell-spray-wheeler/basketball/girls/",
+      "region": "1A Big Sky"
+    },
+    {
+      "teamName": "Condon Knights",
+      "teamUrl": "https://www.maxpreps.com/or/condon/condon-knights/basketball/girls/",
+      "region": "1A Big Sky"
+    },
+    {
+      "teamName": "Horizon Christian",
+      "teamUrl": "https://www.maxpreps.com/or/hood-river/horizon-christian/basketball/girls/",
+      "region": "1A Big Sky"
+    },
+    {
+      "teamName": "Bickleton Pirates",
+      "teamUrl": "https://www.maxpreps.com/wa/bickleton/bickleton-pirates/basketball/girls/",
+      "region": "1A Big Sky"
+    },
+    {
+      "teamName": "Glenwood Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/glenwood/glenwood-eagles/basketball/girls/",
+      "region": "1A Big Sky"
+    },
+    {
+      "teamName": "Klickitat Vandals",
+      "teamUrl": "https://www.maxpreps.com/wa/klickitat/klickitat-vandals/basketball/girls/",
+      "region": "1A Big Sky"
+    },
+    {
+      "teamName": "Lyle Wishram Cougars",
+      "teamUrl": "https://www.maxpreps.com/wa/lyle/lyle-wishram-cougars/basketball/girls/",
+      "region": "1A Big Sky"
+    },
+    {
+      "teamName": "Redmond Panthers",
+      "teamUrl": "https://www.maxpreps.com/or/redmond/redmond-panthers/basketball/girls/",
+      "region": "5A Intermountain"
+    },
+    {
+      "teamName": "Crook County Cowboys",
+      "teamUrl": "https://www.maxpreps.com/or/prineville/crook-county-cowboys/basketball/girls/",
+      "region": "5A Intermountain"
+    },
+    {
+      "teamName": "Bend Lava Bears",
+      "teamUrl": "https://www.maxpreps.com/or/bend/bend-lava-bears/basketball/girls/",
+      "region": "5A Intermountain"
+    },
+    {
+      "teamName": "Summit Storm",
+      "teamUrl": "https://www.maxpreps.com/or/bend/summit-storm/basketball/girls/",
+      "region": "5A Intermountain"
+    },
+    {
+      "teamName": "Caldera",
+      "teamUrl": "https://www.maxpreps.com/or/bend/caldera/basketball/girls/",
+      "region": "5A Intermountain"
+    },
+    {
+      "teamName": "Mountain View Cougars",
+      "teamUrl": "https://www.maxpreps.com/or/bend/mountain-view-cougars/basketball/girls/",
+      "region": "5A Intermountain"
+    },
+    {
+      "teamName": "Ridgeview Ravens",
+      "teamUrl": "https://www.maxpreps.com/or/redmond/ridgeview-ravens/basketball/girls/",
+      "region": "5A Intermountain"
+    },
+    {
+      "teamName": "La Grande Tigers",
+      "teamUrl": "https://www.maxpreps.com/or/la-grande/la-grande-tigers/basketball/girls/",
+      "region": "4A Greater Oregon"
+    },
+    {
+      "teamName": "Baker Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/or/baker-city/baker-bulldogs/basketball/girls/",
+      "region": "4A Greater Oregon"
+    },
+    {
+      "teamName": "Pendleton Buckaroos",
+      "teamUrl": "https://www.maxpreps.com/or/pendleton/pendleton-buckaroos/basketball/girls/",
+      "region": "4A Greater Oregon"
+    },
+    {
+      "teamName": "Ontario Tigers",
+      "teamUrl": "https://www.maxpreps.com/or/ontario/ontario-tigers/basketball/girls/",
+      "region": "4A Greater Oregon"
+    },
+    {
+      "teamName": "Umpqua Valley Christian Monarchs",
+      "teamUrl": "https://www.maxpreps.com/or/roseburg/umpqua-valley-christian-monarchs/basketball/girls/",
+      "region": "1A Skyline"
+    },
+    {
+      "teamName": "Powers Cruisers",
+      "teamUrl": "https://www.maxpreps.com/or/powers/powers-cruisers/basketball/girls/",
+      "region": "1A Skyline"
+    },
+    {
+      "teamName": "North Douglas",
+      "teamUrl": "https://www.maxpreps.com/or/drain/north-douglas/basketball/girls/",
+      "region": "1A Skyline"
+    },
+    {
+      "teamName": "Camas Valley Hornets",
+      "teamUrl": "https://www.maxpreps.com/or/camas-valley/camas-valley-hornets/basketball/girls/",
+      "region": "1A Skyline"
+    },
+    {
+      "teamName": "Days Creek Wolves",
+      "teamUrl": "https://www.maxpreps.com/or/days-creek/days-creek-wolves/basketball/girls/",
+      "region": "1A Skyline"
+    },
+    {
+      "teamName": "Glendale Pirates",
+      "teamUrl": "https://www.maxpreps.com/or/glendale/glendale-pirates/basketball/girls/",
+      "region": "1A Skyline"
+    },
+    {
+      "teamName": "Yoncalla Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/yoncalla/yoncalla-eagles/basketball/girls/",
+      "region": "1A Skyline"
+    },
+    {
+      "teamName": "Elkton Elks",
+      "teamUrl": "https://www.maxpreps.com/or/elkton/elkton-elks/basketball/girls/",
+      "region": "1A Skyline"
+    },
+    {
+      "teamName": "Pacific",
+      "teamUrl": "https://www.maxpreps.com/or/port-orford/pacific/basketball/girls/",
+      "region": "1A Skyline"
+    },
+    {
+      "teamName": "Riddle Irish",
+      "teamUrl": "https://www.maxpreps.com/or/riddle/riddle-irish/basketball/girls/",
+      "region": "1A Skyline"
+    },
+    {
+      "teamName": "New Hope Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/or/grants-pass/new-hope-christian-warriors/basketball/girls/",
+      "region": "1A Skyline"
+    },
+    {
+      "teamName": "Trinity Lutheran Saints",
+      "teamUrl": "https://www.maxpreps.com/or/bend/trinity-lutheran-saints/basketball/girls/",
+      "region": "2A East Cascades"
+    },
+    {
+      "teamName": "Bonanza Antlers",
+      "teamUrl": "https://www.maxpreps.com/or/bonanza/bonanza-antlers/basketball/girls/",
+      "region": "2A East Cascades"
+    },
+    {
+      "teamName": "Lost River Raiders",
+      "teamUrl": "https://www.maxpreps.com/or/merrill/lost-river-raiders/basketball/girls/",
+      "region": "2A East Cascades"
+    },
+    {
+      "teamName": "Lowell Red Devils",
+      "teamUrl": "https://www.maxpreps.com/or/lowell/lowell-red-devils/basketball/girls/",
+      "region": "2A East Cascades"
+    },
+    {
+      "teamName": "Culver Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/or/culver/culver-bulldogs/basketball/girls/",
+      "region": "2A East Cascades"
+    },
+    {
+      "teamName": "Oakridge Warriors",
+      "teamUrl": "https://www.maxpreps.com/or/oakridge/oakridge-warriors/basketball/girls/",
+      "region": "2A East Cascades"
+    },
+    {
+      "teamName": "West Salem Titans",
+      "teamUrl": "https://www.maxpreps.com/or/salem/west-salem-titans/basketball/girls/",
+      "region": "6A Central Valley"
+    },
+    {
+      "teamName": "South Salem Saxons",
+      "teamUrl": "https://www.maxpreps.com/or/salem/south-salem-saxons/basketball/girls/",
+      "region": "6A Central Valley"
+    },
+    {
+      "teamName": "Sprague Olympians",
+      "teamUrl": "https://www.maxpreps.com/or/salem/sprague-olympians/basketball/girls/",
+      "region": "6A Central Valley"
+    },
+    {
+      "teamName": "Mcnary Celtics",
+      "teamUrl": "https://www.maxpreps.com/or/keizer/mcnary-celtics/basketball/girls/",
+      "region": "6A Central Valley"
+    },
+    {
+      "teamName": "Sherwood Bowmen",
+      "teamUrl": "https://www.maxpreps.com/or/sherwood/sherwood-bowmen/basketball/girls/",
+      "region": "6A Pacific"
+    },
+    {
+      "teamName": "Century Jaguars",
+      "teamUrl": "https://www.maxpreps.com/or/hillsboro/century-jaguars/basketball/girls/",
+      "region": "6A Pacific"
+    },
+    {
+      "teamName": "Mcminnville Grizzlies",
+      "teamUrl": "https://www.maxpreps.com/or/mcminnville/mcminnville-grizzlies/basketball/girls/",
+      "region": "6A Pacific"
+    },
+    {
+      "teamName": "Newberg Tigers",
+      "teamUrl": "https://www.maxpreps.com/or/newberg/newberg-tigers/basketball/girls/",
+      "region": "6A Pacific"
+    },
+    {
+      "teamName": "Forest Grove Vikings",
+      "teamUrl": "https://www.maxpreps.com/or/forest-grove/forest-grove-vikings/basketball/girls/",
+      "region": "6A Pacific"
+    },
+    {
+      "teamName": "Glencoe Tide",
+      "teamUrl": "https://www.maxpreps.com/or/hillsboro/glencoe-tide/basketball/girls/",
+      "region": "6A Pacific"
+    },
+    {
+      "teamName": "Liberty Falcons",
+      "teamUrl": "https://www.maxpreps.com/or/hillsboro/liberty-falcons/basketball/girls/",
+      "region": "6A Pacific"
+    },
+    {
+      "teamName": "Sutherlin Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/or/sutherlin/sutherlin-bulldogs/basketball/girls/",
+      "region": "3A Far West"
+    },
+    {
+      "teamName": "Coquille Red Devils",
+      "teamUrl": "https://www.maxpreps.com/or/coquille/coquille-red-devils/basketball/girls/",
+      "region": "3A Far West"
+    },
+    {
+      "teamName": "Glide Wildcats",
+      "teamUrl": "https://www.maxpreps.com/or/glide/glide-wildcats/basketball/girls/",
+      "region": "3A Far West"
+    },
+    {
+      "teamName": "Siuslaw Vikings",
+      "teamUrl": "https://www.maxpreps.com/or/florence/siuslaw-vikings/basketball/girls/",
+      "region": "3A Far West"
+    },
+    {
+      "teamName": "Douglas Trojans",
+      "teamUrl": "https://www.maxpreps.com/or/winston/douglas-trojans/basketball/girls/",
+      "region": "3A Far West"
+    },
+    {
+      "teamName": "South Umpqua Lancers",
+      "teamUrl": "https://www.maxpreps.com/or/myrtle-creek/south-umpqua-lancers/basketball/girls/",
+      "region": "3A Far West"
+    },
+    {
+      "teamName": "Jesuit Crusaders",
+      "teamUrl": "https://www.maxpreps.com/or/portland/jesuit-crusaders/basketball/girls/",
+      "region": "6A Metro"
+    },
+    {
+      "teamName": "Southridge Skyhawks",
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/southridge-skyhawks/basketball/girls/",
+      "region": "6A Metro"
+    },
+    {
+      "teamName": "Beaverton Beavers",
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/beaverton-beavers/basketball/girls/",
+      "region": "6A Metro"
+    },
+    {
+      "teamName": "Mountainside Mavericks",
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/mountainside-mavericks/basketball/girls/",
+      "region": "6A Metro"
+    },
+    {
+      "teamName": "Westview Wildcats",
+      "teamUrl": "https://www.maxpreps.com/or/portland/westview-wildcats/basketball/girls/",
+      "region": "6A Metro"
+    },
+    {
+      "teamName": "Sunset Apollos",
+      "teamUrl": "https://www.maxpreps.com/or/portland/sunset-apollos/basketball/girls/",
+      "region": "6A Metro"
+    },
+    {
+      "teamName": "Aloha Warriors",
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/aloha-warriors/basketball/girls/",
+      "region": "6A Metro"
+    },
+    {
+      "teamName": "Valley Catholic Valiants",
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/valley-catholic-valiants/basketball/girls/",
+      "region": "3A Lewis And Clark"
+    },
+    {
+      "teamName": "Oregon Episcopal Aardvarks",
+      "teamUrl": "https://www.maxpreps.com/or/portland/oregon-episcopal-aardvarks/basketball/girls/",
+      "region": "3A Lewis And Clark"
+    },
+    {
+      "teamName": "Westside Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/lake-oswego/westside-christian-eagles/basketball/girls/",
+      "region": "3A Lewis And Clark"
+    },
+    {
+      "teamName": "Portland Adventist Academy Cougars",
+      "teamUrl": "https://www.maxpreps.com/or/portland/portland-adventist-academy-cougars/basketball/girls/",
+      "region": "3A Lewis And Clark"
+    },
+    {
+      "teamName": "De La Salle North Catholic Knights",
+      "teamUrl": "https://www.maxpreps.com/or/portland/de-la-salle-north-catholic-knights/basketball/girls/",
+      "region": "3A Lewis And Clark"
+    },
+    {
+      "teamName": "Catlin Gabel Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/portland/catlin-gabel-eagles/basketball/girls/",
+      "region": "3A Lewis And Clark"
+    },
+    {
+      "teamName": "Horizon Christian Hawks",
+      "teamUrl": "https://www.maxpreps.com/or/tualatin/horizon-christian-hawks/basketball/girls/",
+      "region": "3A Lewis And Clark"
+    },
+    {
+      "teamName": "Creswell Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/or/creswell/creswell-bulldogs/basketball/girls/",
+      "region": "3A Mountain Valley"
+    },
+    {
+      "teamName": "Sisters Outlaws",
+      "teamUrl": "https://www.maxpreps.com/or/sisters/sisters-outlaws/basketball/girls/",
+      "region": "3A Mountain Valley"
+    },
+    {
+      "teamName": "Pleasant Hill Billies",
+      "teamUrl": "https://www.maxpreps.com/or/pleasant-hill/pleasant-hill-billies/basketball/girls/",
+      "region": "3A Mountain Valley"
+    },
+    {
+      "teamName": "Harrisburg Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/harrisburg/harrisburg-eagles/basketball/girls/",
+      "region": "3A Mountain Valley"
+    },
+    {
+      "teamName": "Elmira Falcons",
+      "teamUrl": "https://www.maxpreps.com/or/elmira/elmira-falcons/basketball/girls/",
+      "region": "3A Mountain Valley"
+    },
+    {
+      "teamName": "La Pine Hawks",
+      "teamUrl": "https://www.maxpreps.com/or/la-pine/la-pine-hawks/basketball/girls/",
+      "region": "3A Mountain Valley"
+    },
+    {
+      "teamName": "Country Christian Cougars",
+      "teamUrl": "https://www.maxpreps.com/or/molalla/country-christian-cougars/basketball/girls/",
+      "region": "1A The Valley 10"
+    },
+    {
+      "teamName": "North Clackamas Christian Saints",
+      "teamUrl": "https://www.maxpreps.com/or/oregon-city/north-clackamas-christian-saints/basketball/girls/",
+      "region": "1A The Valley 10"
+    },
+    {
+      "teamName": "Southwest Christian Wilcats",
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/southwest-christian-wilcats/basketball/girls/",
+      "region": "1A The Valley 10"
+    },
+    {
+      "teamName": "Open Door Christian Academy Huskies",
+      "teamUrl": "https://www.maxpreps.com/or/troutdale/open-door-christian-academy-huskies/basketball/girls/",
+      "region": "1A The Valley 10"
+    },
+    {
+      "teamName": "Trinity Academy",
+      "teamUrl": "https://www.maxpreps.com/or/portland/trinity-academy/basketball/girls/",
+      "region": "1A The Valley 10"
+    },
+    {
+      "teamName": "St Stephens Academy",
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/st-stephens-academy/basketball/girls/",
+      "region": "1A The Valley 10"
+    },
+    {
+      "teamName": "Grand View Christian Academy",
+      "teamUrl": "https://www.maxpreps.com/or/beavercreek/grand-view-christian-academy/basketball/girls/",
+      "region": "1A The Valley 10"
+    },
+    {
+      "teamName": "Portland Waldorf",
+      "teamUrl": "https://www.maxpreps.com/or/milwaukie/portland-waldorf/basketball/girls/",
+      "region": "1A The Valley 10"
+    },
+    {
+      "teamName": "Valor Christian Tualatin Valley Academy",
+      "teamUrl": "https://www.maxpreps.com/or/beaverton/valor-christian-tualatin-valley-academy/basketball/girls/",
+      "region": "1A The Valley 10"
+    },
+    {
+      "teamName": "Jordan Valley Mustangs",
+      "teamUrl": "https://www.maxpreps.com/or/jordan-valley/jordan-valley-mustangs/basketball/girls/",
+      "region": "1A High Desert"
+    },
+    {
+      "teamName": "Crane Mustangs",
+      "teamUrl": "https://www.maxpreps.com/or/crane/crane-mustangs/basketball/girls/",
+      "region": "1A High Desert"
+    },
+    {
+      "teamName": "Harper Hornets",
+      "teamUrl": "https://www.maxpreps.com/or/harper/harper-hornets/basketball/girls/",
+      "region": "1A High Desert"
+    },
+    {
+      "teamName": "Adrian Antelopes",
+      "teamUrl": "https://www.maxpreps.com/or/adrian/adrian-antelopes/basketball/girls/",
+      "region": "1A High Desert"
+    },
+    {
+      "teamName": "Prairie City Panthers",
+      "teamUrl": "https://www.maxpreps.com/or/prairie-city/prairie-city-panthers/basketball/girls/",
+      "region": "1A High Desert"
+    },
+    {
+      "teamName": "Four Rivers Falcons",
+      "teamUrl": "https://www.maxpreps.com/or/ontario/four-rivers-falcons/basketball/girls/",
+      "region": "1A High Desert"
+    },
+    {
+      "teamName": "Burnt River Bulls",
+      "teamUrl": "https://www.maxpreps.com/or/unity/burnt-river-bulls/basketball/girls/",
+      "region": "1A High Desert"
+    },
+    {
+      "teamName": "Dayville Tigers",
+      "teamUrl": "https://www.maxpreps.com/or/dayville/dayville-tigers/basketball/girls/",
+      "region": "1A High Desert"
+    },
+    {
+      "teamName": "Huntington Locomotives",
+      "teamUrl": "https://www.maxpreps.com/or/huntington/huntington-locomotives/basketball/girls/",
+      "region": "1A High Desert"
+    },
+    {
+      "teamName": "Monument Tigers",
+      "teamUrl": "https://www.maxpreps.com/or/monument/monument-tigers/basketball/girls/",
+      "region": "1A High Desert"
+    },
+    {
+      "teamName": "Ukiah Cougars",
+      "teamUrl": "https://www.maxpreps.com/or/ukiah/ukiah-cougars/basketball/girls/",
+      "region": "1A High Desert"
+    },
+    {
+      "teamName": "Henley Hornets",
+      "teamUrl": "https://www.maxpreps.com/or/klamath-falls/henley-hornets/basketball/girls/",
+      "region": "4A Skyline"
+    },
+    {
+      "teamName": "Mazama Vikings",
+      "teamUrl": "https://www.maxpreps.com/or/klamath-falls/mazama-vikings/basketball/girls/",
+      "region": "4A Skyline"
+    },
+    {
+      "teamName": "Klamath Union Pelicans",
+      "teamUrl": "https://www.maxpreps.com/or/klamath-falls/klamath-union-pelicans/basketball/girls/",
+      "region": "4A Skyline"
+    },
+    {
+      "teamName": "Phoenix Pirates",
+      "teamUrl": "https://www.maxpreps.com/or/phoenix/phoenix-pirates/basketball/girls/",
+      "region": "4A Skyline"
+    },
+    {
+      "teamName": "Hidden Valley Mustangs",
+      "teamUrl": "https://www.maxpreps.com/or/grants-pass/hidden-valley-mustangs/basketball/girls/",
+      "region": "4A Skyline"
+    },
+    {
+      "teamName": "Amity Warriors",
+      "teamUrl": "https://www.maxpreps.com/or/amity/amity-warriors/basketball/girls/",
+      "region": "3A Pacwest"
+    },
+    {
+      "teamName": "Taft Tigers",
+      "teamUrl": "https://www.maxpreps.com/or/lincoln-city/taft-tigers/basketball/girls/",
+      "region": "3A Pacwest"
+    },
+    {
+      "teamName": "Jefferson Lions",
+      "teamUrl": "https://www.maxpreps.com/or/jefferson/jefferson-lions/basketball/girls/",
+      "region": "3A Pacwest"
+    },
+    {
+      "teamName": "Santiam Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/or/corvallis/santiam-christian-eagles/basketball/girls/",
+      "region": "3A Pacwest"
+    },
+    {
+      "teamName": "Dayton Pirates",
+      "teamUrl": "https://www.maxpreps.com/or/dayton/dayton-pirates/basketball/girls/",
+      "region": "3A Pacwest"
+    },
+    {
+      "teamName": "Scio Loggers",
+      "teamUrl": "https://www.maxpreps.com/or/scio/scio-loggers/basketball/girls/",
+      "region": "3A Pacwest"
+    },
+    {
+      "teamName": "Blanchet Catholic Cavaliers",
+      "teamUrl": "https://www.maxpreps.com/or/salem/blanchet-catholic-cavaliers/basketball/girls/",
+      "region": "3A Pacwest"
+    },
+    {
+      "teamName": "Willamina Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/or/willamina/willamina-bulldogs/basketball/girls/",
+      "region": "3A Pacwest"
+    },
+    {
+      "teamName": "Salem Academy Crusaders",
+      "teamUrl": "https://www.maxpreps.com/or/salem/salem-academy-crusaders/basketball/girls/",
+      "region": "3A Pacwest"
+    }
+  ]
+}

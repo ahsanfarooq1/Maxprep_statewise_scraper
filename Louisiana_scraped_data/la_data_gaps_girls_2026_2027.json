@@ -1,0 +1,1992 @@
+{
+  "meta": {
+    "state": "Louisiana",
+    "stateCode": "LA",
+    "sport": "Girls Basketball",
+    "season": "2026-2027",
+    "totalTeams": 394,
+    "processedTeamsCount": 0,
+    "processedTeams": [],
+    "totalGamesChecked": 0,
+    "teamsFullBoxScores": 0,
+    "teamsPartialBoxScores": 0,
+    "teamsNoBoxScores": 0,
+    "errors_count": 394,
+    "last_updated": "2026-09-24 13:00:01"
+  },
+  "teamsFullBoxScores": [],
+  "teamsPartialBoxScores": [],
+  "teamsNoBoxScores": [],
+  "errors": [
+    {
+      "teamName": "Red River Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/coushatta/red-river-bulldogs/basketball/girls/",
+      "region": "2A District 3"
+    },
+    {
+      "teamName": "Mansfield Wolverines",
+      "teamUrl": "https://www.maxpreps.com/la/mansfield/mansfield-wolverines/basketball/girls/",
+      "region": "2A District 3"
+    },
+    {
+      "teamName": "Many Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/many/many-tigers/basketball/girls/",
+      "region": "2A District 3"
+    },
+    {
+      "teamName": "Winnfield Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/winnfield/winnfield-tigers/basketball/girls/",
+      "region": "2A District 3"
+    },
+    {
+      "teamName": "Lakeside Warriors",
+      "teamUrl": "https://www.maxpreps.com/la/sibley/lakeside-warriors/basketball/girls/",
+      "region": "2A District 3"
+    },
+    {
+      "teamName": "Neville Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/monroe/neville-tigers/basketball/girls/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "West Monroe Rebels",
+      "teamUrl": "https://www.maxpreps.com/la/west-monroe/west-monroe-rebels/basketball/girls/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Ouachita Parish Lions",
+      "teamUrl": "https://www.maxpreps.com/la/monroe/ouachita-parish-lions/basketball/girls/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Ruston Bearcats",
+      "teamUrl": "https://www.maxpreps.com/la/ruston/ruston-bearcats/basketball/girls/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Alexandria Trojans",
+      "teamUrl": "https://www.maxpreps.com/la/alexandria/alexandria-trojans/basketball/girls/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Pineville Rebels",
+      "teamUrl": "https://www.maxpreps.com/la/pineville/pineville-rebels/basketball/girls/",
+      "region": "5A District 2"
+    },
+    {
+      "teamName": "Jeanerette Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/jeanerette/jeanerette-tigers/basketball/girls/",
+      "region": "1A District 7"
+    },
+    {
+      "teamName": "Central Catholic Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/morgan-city/central-catholic-eagles/basketball/girls/",
+      "region": "1A District 7"
+    },
+    {
+      "teamName": "Hanson Memorial Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/franklin/hanson-memorial-tigers/basketball/girls/",
+      "region": "1A District 7"
+    },
+    {
+      "teamName": "Covenant Christian Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/la/houma/covenant-christian-academy-lions/basketball/girls/",
+      "region": "1A District 7"
+    },
+    {
+      "teamName": "Centerville Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/centerville/centerville-bulldogs/basketball/girls/",
+      "region": "1A District 7"
+    },
+    {
+      "teamName": "Summerfield Rebels",
+      "teamUrl": "https://www.maxpreps.com/la/summerfield/summerfield-rebels/basketball/girls/",
+      "region": "C District 1"
+    },
+    {
+      "teamName": "Saline Bobcats",
+      "teamUrl": "https://www.maxpreps.com/la/saline/saline-bobcats/basketball/girls/",
+      "region": "C District 1"
+    },
+    {
+      "teamName": "Gibsland Coleman Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/gibsland/gibsland-coleman-bulldogs/basketball/girls/",
+      "region": "C District 1"
+    },
+    {
+      "teamName": "Claiborne Christian Crusaders",
+      "teamUrl": "https://www.maxpreps.com/la/west-monroe/claiborne-christian-crusaders/basketball/girls/",
+      "region": "C District 1"
+    },
+    {
+      "teamName": "New Living Word Lions",
+      "teamUrl": "https://www.maxpreps.com/la/ruston/new-living-word-lions/basketball/girls/",
+      "region": "C District 1"
+    },
+    {
+      "teamName": "Delhi Bears",
+      "teamUrl": "https://www.maxpreps.com/la/delhi/delhi-bears/basketball/girls/",
+      "region": "1A District 2"
+    },
+    {
+      "teamName": "St Frederick Warriors",
+      "teamUrl": "https://www.maxpreps.com/la/monroe/st-frederick-warriors/basketball/girls/",
+      "region": "1A District 2"
+    },
+    {
+      "teamName": "Tensas Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/st-joseph/tensas-panthers/basketball/girls/",
+      "region": "1A District 2"
+    },
+    {
+      "teamName": "General Trass Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/lake-providence/general-trass-panthers/basketball/girls/",
+      "region": "1A District 2"
+    },
+    {
+      "teamName": "Block Bears",
+      "teamUrl": "https://www.maxpreps.com/la/jonesville/block-bears/basketball/girls/",
+      "region": "1A District 2"
+    },
+    {
+      "teamName": "Delta Charter Storm",
+      "teamUrl": "https://www.maxpreps.com/la/ferriday/delta-charter-storm/basketball/girls/",
+      "region": "1A District 2"
+    },
+    {
+      "teamName": "White Castle Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/white-castle/white-castle-bulldogs/basketball/girls/",
+      "region": "1A District 8"
+    },
+    {
+      "teamName": "Ascension Catholic Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/donaldsonville/ascension-catholic-bulldogs/basketball/girls/",
+      "region": "1A District 8"
+    },
+    {
+      "teamName": "St John Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/plaquemine/st-john-eagles/basketball/girls/",
+      "region": "1A District 8"
+    },
+    {
+      "teamName": "Ascension Christian",
+      "teamUrl": "https://www.maxpreps.com/la/gonzales/ascension-christian/basketball/girls/",
+      "region": "1A District 8"
+    },
+    {
+      "teamName": "North Iberville Unknown",
+      "teamUrl": "https://www.maxpreps.com/la/rosedale/north-iberville-unknown/basketball/girls/",
+      "region": "1A District 8"
+    },
+    {
+      "teamName": "East Iberville Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/st-gabriel/east-iberville-tigers/basketball/girls/",
+      "region": "1A District 8"
+    },
+    {
+      "teamName": "Carver Collegiate Academy Rams",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/carver-collegiate-academy-rams/basketball/girls/",
+      "region": "4A District 10"
+    },
+    {
+      "teamName": "Mcdonogh 35 Roneagles",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/mcdonogh-35-roneagles/basketball/girls/",
+      "region": "4A District 10"
+    },
+    {
+      "teamName": "Abramson Commodores",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/abramson-commodores/basketball/girls/",
+      "region": "4A District 10"
+    },
+    {
+      "teamName": "Eleanor Mcmain Mustangs",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/eleanor-mcmain-mustangs/basketball/girls/",
+      "region": "4A District 10"
+    },
+    {
+      "teamName": "Frederick A Douglass Bobcats",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/frederick-a-douglass-bobcats/basketball/girls/",
+      "region": "4A District 10"
+    },
+    {
+      "teamName": "New Orleans Military And Maritime Academy Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/new-orleans-military-and-maritime-academy-bulldogs/basketball/girls/",
+      "region": "4A District 10"
+    },
+    {
+      "teamName": "New Orleans Charter Science And Math Chambered Nautilus",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/new-orleans-charter-science-and-math-chambered-nautilus/basketball/girls/",
+      "region": "4A District 10"
+    },
+    {
+      "teamName": "West St John Rams",
+      "teamUrl": "https://www.maxpreps.com/la/edgard/west-st-john-rams/basketball/girls/",
+      "region": "1A District 10"
+    },
+    {
+      "teamName": "St Martins Episcopal Saints",
+      "teamUrl": "https://www.maxpreps.com/la/metairie/st-martins-episcopal-saints/basketball/girls/",
+      "region": "1A District 10"
+    },
+    {
+      "teamName": "Varnado Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/angie/varnado-wildcats/basketball/girls/",
+      "region": "1A District 10"
+    },
+    {
+      "teamName": "Riverside Academy Rebels",
+      "teamUrl": "https://www.maxpreps.com/la/reserve/riverside-academy-rebels/basketball/girls/",
+      "region": "1A District 10"
+    },
+    {
+      "teamName": "Ecole Classique Spartans",
+      "teamUrl": "https://www.maxpreps.com/la/metairie/ecole-classique-spartans/basketball/girls/",
+      "region": "1A District 10"
+    },
+    {
+      "teamName": "Mcgehee Hawks",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/mcgehee-hawks/basketball/girls/",
+      "region": "1A District 10"
+    },
+    {
+      "teamName": "Riverdale Rebels",
+      "teamUrl": "https://www.maxpreps.com/la/jefferson/riverdale-rebels/basketball/girls/",
+      "region": "5A District 10"
+    },
+    {
+      "teamName": "Benjamin Franklin Falcons",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/benjamin-franklin-falcons/basketball/girls/",
+      "region": "5A District 10"
+    },
+    {
+      "teamName": "East Jefferson Warriors",
+      "teamUrl": "https://www.maxpreps.com/la/metairie/east-jefferson-warriors/basketball/girls/",
+      "region": "5A District 10"
+    },
+    {
+      "teamName": "Bonnabel Bruins",
+      "teamUrl": "https://www.maxpreps.com/la/kenner/bonnabel-bruins/basketball/girls/",
+      "region": "5A District 10"
+    },
+    {
+      "teamName": "John Ehret Patriots",
+      "teamUrl": "https://www.maxpreps.com/la/marrero/john-ehret-patriots/basketball/girls/",
+      "region": "5A District 10"
+    },
+    {
+      "teamName": "Lw Higgins Hurricanes",
+      "teamUrl": "https://www.maxpreps.com/la/marrero/lw-higgins-hurricanes/basketball/girls/",
+      "region": "5A District 10"
+    },
+    {
+      "teamName": "West Jefferson Buccaneers",
+      "teamUrl": "https://www.maxpreps.com/la/harvey/west-jefferson-buccaneers/basketball/girls/",
+      "region": "5A District 10"
+    },
+    {
+      "teamName": "Sulphur Golden Tornados",
+      "teamUrl": "https://www.maxpreps.com/la/sulphur/sulphur-golden-tornados/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Acadiana Rams",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/acadiana-rams/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Lafayette Mighty Lions",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/lafayette-mighty-lions/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Sam Houston Broncos",
+      "teamUrl": "https://www.maxpreps.com/la/lake-charles/sam-houston-broncos/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Barbe Bucs",
+      "teamUrl": "https://www.maxpreps.com/la/lake-charles/barbe-bucs/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Carencro Bears",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/carencro-bears/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Southside Sharks",
+      "teamUrl": "https://www.maxpreps.com/la/youngsville/southside-sharks/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "New Iberia Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/la/new-iberia/new-iberia-yellowjackets/basketball/girls/",
+      "region": "5A District 3"
+    },
+    {
+      "teamName": "Js Clark Leadership Academy Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/opelousas/js-clark-leadership-academy-bulldogs/basketball/girls/",
+      "region": "1A District 5"
+    },
+    {
+      "teamName": "St Edmund Bluejays",
+      "teamUrl": "https://www.maxpreps.com/la/eunice/st-edmund-bluejays/basketball/girls/",
+      "region": "1A District 5"
+    },
+    {
+      "teamName": "Sacred Heart Trojans",
+      "teamUrl": "https://www.maxpreps.com/la/ville-platte/sacred-heart-trojans/basketball/girls/",
+      "region": "1A District 5"
+    },
+    {
+      "teamName": "North Central Hurricanes",
+      "teamUrl": "https://www.maxpreps.com/la/lebeau/north-central-hurricanes/basketball/girls/",
+      "region": "1A District 5"
+    },
+    {
+      "teamName": "Opelousas Catholic Vikings",
+      "teamUrl": "https://www.maxpreps.com/la/opelousas/opelousas-catholic-vikings/basketball/girls/",
+      "region": "1A District 5"
+    },
+    {
+      "teamName": "Catholic Of Pointe Coupee Green Hornets",
+      "teamUrl": "https://www.maxpreps.com/la/new-roads/catholic-of-pointe-coupee-green-hornets/basketball/girls/",
+      "region": "1A District 5"
+    },
+    {
+      "teamName": "Westminster Christian Academy Crusaders",
+      "teamUrl": "https://www.maxpreps.com/la/opelousas/westminster-christian-academy-crusaders/basketball/girls/",
+      "region": "1A District 5"
+    },
+    {
+      "teamName": "Simpson Broncos",
+      "teamUrl": "https://www.maxpreps.com/la/simpson/simpson-broncos/basketball/girls/",
+      "region": "C District 3"
+    },
+    {
+      "teamName": "Ebarb Rebels",
+      "teamUrl": "https://www.maxpreps.com/la/noble/ebarb-rebels/basketball/girls/",
+      "region": "C District 3"
+    },
+    {
+      "teamName": "Pleasant Hill Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/pleasant-hill/pleasant-hill-eagles/basketball/girls/",
+      "region": "C District 3"
+    },
+    {
+      "teamName": "Evans Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/evans/evans-eagles/basketball/girls/",
+      "region": "C District 3"
+    },
+    {
+      "teamName": "Hornbeck Hornets",
+      "teamUrl": "https://www.maxpreps.com/la/hornbeck/hornbeck-hornets/basketball/girls/",
+      "region": "C District 3"
+    },
+    {
+      "teamName": "Plainview Hornets",
+      "teamUrl": "https://www.maxpreps.com/la/glenmora/plainview-hornets/basketball/girls/",
+      "region": "C District 4"
+    },
+    {
+      "teamName": "St Josephs Plaucheville Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/plaucheville/st-josephs-plaucheville-eagles/basketball/girls/",
+      "region": "C District 4"
+    },
+    {
+      "teamName": "Ville Platte Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/ville-platte/ville-platte-bulldogs/basketball/girls/",
+      "region": "3A District 4"
+    },
+    {
+      "teamName": "Iota Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/iota/iota-bulldogs/basketball/girls/",
+      "region": "3A District 4"
+    },
+    {
+      "teamName": "Northwest Raiders",
+      "teamUrl": "https://www.maxpreps.com/la/opelousas/northwest-raiders/basketball/girls/",
+      "region": "3A District 4"
+    },
+    {
+      "teamName": "Church Point Bears",
+      "teamUrl": "https://www.maxpreps.com/la/church-point/church-point-bears/basketball/girls/",
+      "region": "3A District 4"
+    },
+    {
+      "teamName": "Pine Prairie Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/pine-prairie/pine-prairie-panthers/basketball/girls/",
+      "region": "3A District 4"
+    },
+    {
+      "teamName": "Mamou Demons",
+      "teamUrl": "https://www.maxpreps.com/la/mamou/mamou-demons/basketball/girls/",
+      "region": "3A District 4"
+    },
+    {
+      "teamName": "Crowley Gent",
+      "teamUrl": "https://www.maxpreps.com/la/crowley/crowley-gent/basketball/girls/",
+      "region": "3A District 4"
+    },
+    {
+      "teamName": "Berwick Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/berwick/berwick-panthers/basketball/girls/",
+      "region": "3A District 7"
+    },
+    {
+      "teamName": "Donaldsonville Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/donaldsonville/donaldsonville-tigers/basketball/girls/",
+      "region": "3A District 7"
+    },
+    {
+      "teamName": "St James Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/st-james/st-james-wildcats/basketball/girls/",
+      "region": "3A District 7"
+    },
+    {
+      "teamName": "Patterson Lumberjacks",
+      "teamUrl": "https://www.maxpreps.com/la/patterson/patterson-lumberjacks/basketball/girls/",
+      "region": "3A District 7"
+    },
+    {
+      "teamName": "Negreet Indians",
+      "teamUrl": "https://www.maxpreps.com/la/negreet/negreet-indians/basketball/girls/",
+      "region": "B District 3"
+    },
+    {
+      "teamName": "Zwolle Hawks",
+      "teamUrl": "https://www.maxpreps.com/la/zwolle/zwolle-hawks/basketball/girls/",
+      "region": "B District 3"
+    },
+    {
+      "teamName": "Florien Blackcats",
+      "teamUrl": "https://www.maxpreps.com/la/florien/florien-blackcats/basketball/girls/",
+      "region": "B District 3"
+    },
+    {
+      "teamName": "Stanley Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/logansport/stanley-panthers/basketball/girls/",
+      "region": "B District 3"
+    },
+    {
+      "teamName": "Converse Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/converse/converse-wildcats/basketball/girls/",
+      "region": "B District 3"
+    },
+    {
+      "teamName": "Vermilion Catholic Screaming Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/abbeville/vermilion-catholic-screaming-eagles/basketball/girls/",
+      "region": "1A District 6"
+    },
+    {
+      "teamName": "Ascension Episcopal",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/ascension-episcopal/basketball/girls/",
+      "region": "1A District 6"
+    },
+    {
+      "teamName": "Highland Baptist Christian Bears",
+      "teamUrl": "https://www.maxpreps.com/la/new-iberia/highland-baptist-christian-bears/basketball/girls/",
+      "region": "1A District 6"
+    },
+    {
+      "teamName": "Westminster Christian Academy Lafayette",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/westminster-christian-academy-lafayette/basketball/girls/",
+      "region": "1A District 6"
+    },
+    {
+      "teamName": "Gueydan Bears",
+      "teamUrl": "https://www.maxpreps.com/la/gueydan/gueydan-bears/basketball/girls/",
+      "region": "1A District 6"
+    },
+    {
+      "teamName": "South Lafourche Tarpons",
+      "teamUrl": "https://www.maxpreps.com/la/galliano/south-lafourche-tarpons/basketball/girls/",
+      "region": "4A District 8"
+    },
+    {
+      "teamName": "Ed White Cardinals",
+      "teamUrl": "https://www.maxpreps.com/la/thibodaux/ed-white-cardinals/basketball/girls/",
+      "region": "4A District 8"
+    },
+    {
+      "teamName": "Vandebilt Catholic Terriers",
+      "teamUrl": "https://www.maxpreps.com/la/houma/vandebilt-catholic-terriers/basketball/girls/",
+      "region": "4A District 8"
+    },
+    {
+      "teamName": "South Terrebonne Gators",
+      "teamUrl": "https://www.maxpreps.com/la/bourg/south-terrebonne-gators/basketball/girls/",
+      "region": "4A District 8"
+    },
+    {
+      "teamName": "Lutcher Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/lutcher/lutcher-bulldogs/basketball/girls/",
+      "region": "4A District 8"
+    },
+    {
+      "teamName": "Assumption Mustangs",
+      "teamUrl": "https://www.maxpreps.com/la/napoleonville/assumption-mustangs/basketball/girls/",
+      "region": "4A District 8"
+    },
+    {
+      "teamName": "Morgan City Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/morgan-city/morgan-city-tigers/basketball/girls/",
+      "region": "4A District 8"
+    },
+    {
+      "teamName": "Aj Ellender Patriots",
+      "teamUrl": "https://www.maxpreps.com/la/houma/aj-ellender-patriots/basketball/girls/",
+      "region": "4A District 8"
+    },
+    {
+      "teamName": "Slidell Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/slidell/slidell-tigers/basketball/girls/",
+      "region": "5A District 7"
+    },
+    {
+      "teamName": "Salmen Spartans",
+      "teamUrl": "https://www.maxpreps.com/la/slidell/salmen-spartans/basketball/girls/",
+      "region": "5A District 7"
+    },
+    {
+      "teamName": "Fontainebleau Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/mandeville/fontainebleau-bulldogs/basketball/girls/",
+      "region": "5A District 7"
+    },
+    {
+      "teamName": "Northshore Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/slidell/northshore-panthers/basketball/girls/",
+      "region": "5A District 7"
+    },
+    {
+      "teamName": "Chalmette Owls",
+      "teamUrl": "https://www.maxpreps.com/la/chalmette/chalmette-owls/basketball/girls/",
+      "region": "5A District 7"
+    },
+    {
+      "teamName": "Sarah T Reed Olympians",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/sarah-t-reed-olympians/basketball/girls/",
+      "region": "2A District 10"
+    },
+    {
+      "teamName": "Cohen Green Hornets",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/cohen-green-hornets/basketball/girls/",
+      "region": "2A District 10"
+    },
+    {
+      "teamName": "Metairie Park Country Day Cajuns",
+      "teamUrl": "https://www.maxpreps.com/la/metairie/metairie-park-country-day-cajuns/basketball/girls/",
+      "region": "2A District 10"
+    },
+    {
+      "teamName": "Newman Greenies",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/newman-greenies/basketball/girls/",
+      "region": "2A District 10"
+    },
+    {
+      "teamName": "South Plaquemines Hurricanes",
+      "teamUrl": "https://www.maxpreps.com/la/buras/south-plaquemines-hurricanes/basketball/girls/",
+      "region": "2A District 10"
+    },
+    {
+      "teamName": "St Katharine Drexel Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/st-katharine-drexel-yellowjackets/basketball/girls/",
+      "region": "2A District 10"
+    },
+    {
+      "teamName": "St Marys Academy Cougars",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/st-marys-academy-cougars/basketball/girls/",
+      "region": "2A District 10"
+    },
+    {
+      "teamName": "Catholic Ni Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/new-iberia/catholic-ni-panthers/basketball/girls/",
+      "region": "2A District 7"
+    },
+    {
+      "teamName": "Franklin Hornets",
+      "teamUrl": "https://www.maxpreps.com/la/franklin/franklin-hornets/basketball/girls/",
+      "region": "2A District 7"
+    },
+    {
+      "teamName": "Houma Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/la/houma/houma-christian-warriors/basketball/girls/",
+      "region": "2A District 7"
+    },
+    {
+      "teamName": "West St Mary Wolfpack",
+      "teamUrl": "https://www.maxpreps.com/la/baldwin/west-st-mary-wolfpack/basketball/girls/",
+      "region": "2A District 7"
+    },
+    {
+      "teamName": "Delcambre Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/delcambre/delcambre-panthers/basketball/girls/",
+      "region": "2A District 7"
+    },
+    {
+      "teamName": "Brusly Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/brusly/brusly-panthers/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "St Michael Warriors",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/st-michael-warriors/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "Plaquemine Green Devils",
+      "teamUrl": "https://www.maxpreps.com/la/plaquemine/plaquemine-green-devils/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "West Feliciana Saints",
+      "teamUrl": "https://www.maxpreps.com/la/st-francisville/west-feliciana-saints/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "Istrouma Indians",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/istrouma-indians/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "Broadmoor Buccaneers",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/broadmoor-buccaneers/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "Mckinley Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/mckinley-panthers/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "Tara Trojans",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/tara-trojans/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "Belaire Bengals",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/belaire-bengals/basketball/girls/",
+      "region": "4A District 6"
+    },
+    {
+      "teamName": "South Beauregard Golden Knights",
+      "teamUrl": "https://www.maxpreps.com/la/longville/south-beauregard-golden-knights/basketball/girls/",
+      "region": "3A District 3"
+    },
+    {
+      "teamName": "Westlake Rams",
+      "teamUrl": "https://www.maxpreps.com/la/westlake/westlake-rams/basketball/girls/",
+      "region": "3A District 3"
+    },
+    {
+      "teamName": "St Louis Catholic Saints",
+      "teamUrl": "https://www.maxpreps.com/la/lake-charles/st-louis-catholic-saints/basketball/girls/",
+      "region": "3A District 3"
+    },
+    {
+      "teamName": "Jennings Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/jennings/jennings-bulldogs/basketball/girls/",
+      "region": "3A District 3"
+    },
+    {
+      "teamName": "Lake Charles College Prep Trailblazers",
+      "teamUrl": "https://www.maxpreps.com/la/lake-charles/lake-charles-college-prep-trailblazers/basketball/girls/",
+      "region": "3A District 3"
+    },
+    {
+      "teamName": "Madison Prep Academy",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/madison-prep-academy/basketball/girls/",
+      "region": "3A District 6"
+    },
+    {
+      "teamName": "Parkview Baptist Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/parkview-baptist-eagles/basketball/girls/",
+      "region": "3A District 6"
+    },
+    {
+      "teamName": "University Lab Cubs",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/university-lab-cubs/basketball/girls/",
+      "region": "3A District 6"
+    },
+    {
+      "teamName": "Geo Next Generation Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/geo-next-generation-tigers/basketball/girls/",
+      "region": "3A District 6"
+    },
+    {
+      "teamName": "Glen Oaks Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/glen-oaks-panthers/basketball/girls/",
+      "region": "3A District 6"
+    },
+    {
+      "teamName": "Collegiate",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/collegiate/basketball/girls/",
+      "region": "3A District 6"
+    },
+    {
+      "teamName": "Helix Mentorship And Maritime Academy",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/helix-mentorship-and-maritime-academy/basketball/girls/",
+      "region": "3A District 6"
+    },
+    {
+      "teamName": "Port Allen Pelicans",
+      "teamUrl": "https://www.maxpreps.com/la/port-allen/port-allen-pelicans/basketball/girls/",
+      "region": "3A District 6"
+    },
+    {
+      "teamName": "Zachary Broncos",
+      "teamUrl": "https://www.maxpreps.com/la/zachary/zachary-broncos/basketball/girls/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Scotlandville Hornets",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/scotlandville-hornets/basketball/girls/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Liberty Magnet Patriots",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/liberty-magnet-patriots/basketball/girls/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Woodlawn Br Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/woodlawn-br-panthers/basketball/girls/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Central Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/central-wildcats/basketball/girls/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "St Josephs Academy Redstickers",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/st-josephs-academy-redstickers/basketball/girls/",
+      "region": "5A District 4"
+    },
+    {
+      "teamName": "Sterlington Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/sterlington/sterlington-panthers/basketball/girls/",
+      "region": "3A District 1"
+    },
+    {
+      "teamName": "Richwood Rams",
+      "teamUrl": "https://www.maxpreps.com/la/monroe/richwood-rams/basketball/girls/",
+      "region": "3A District 1"
+    },
+    {
+      "teamName": "Bastrop Rams",
+      "teamUrl": "https://www.maxpreps.com/la/bastrop/bastrop-rams/basketball/girls/",
+      "region": "3A District 1"
+    },
+    {
+      "teamName": "Carroll Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/monroe/carroll-bulldogs/basketball/girls/",
+      "region": "3A District 1"
+    },
+    {
+      "teamName": "North Webster Lumberjacks",
+      "teamUrl": "https://www.maxpreps.com/la/springhill/north-webster-lumberjacks/basketball/girls/",
+      "region": "3A District 1"
+    },
+    {
+      "teamName": "Reeves Raiders",
+      "teamUrl": "https://www.maxpreps.com/la/reeves/reeves-raiders/basketball/girls/",
+      "region": "C District 6"
+    },
+    {
+      "teamName": "Northside Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/la/crowley/northside-christian-warriors/basketball/girls/",
+      "region": "C District 6"
+    },
+    {
+      "teamName": "Southwood Cowboys",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/southwood-cowboys/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "Northwood Falcons",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/northwood-falcons/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "North Desoto Griffins",
+      "teamUrl": "https://www.maxpreps.com/la/stonewall/north-desoto-griffins/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "Booker T Washington Shreveport Lions",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/booker-t-washington-shreveport-lions/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "Minden Crimson Tide",
+      "teamUrl": "https://www.maxpreps.com/la/minden/minden-crimson-tide/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "Bossier Bearkats",
+      "teamUrl": "https://www.maxpreps.com/la/bossier-city/bossier-bearkats/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "Loyola College Prep Prep Flyers",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/loyola-college-prep-prep-flyers/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "Woodlawn Shreveport Knights",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/woodlawn-shreveport-knights/basketball/girls/",
+      "region": "4A District 1"
+    },
+    {
+      "teamName": "Northside Vikings",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/northside-vikings/basketball/girls/",
+      "region": "4A District 4"
+    },
+    {
+      "teamName": "North Vermilion Patriots",
+      "teamUrl": "https://www.maxpreps.com/la/maurice/north-vermilion-patriots/basketball/girls/",
+      "region": "4A District 4"
+    },
+    {
+      "teamName": "Teurlings Catholic Rebels",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/teurlings-catholic-rebels/basketball/girls/",
+      "region": "4A District 4"
+    },
+    {
+      "teamName": "St Thomas More Cougars",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/st-thomas-more-cougars/basketball/girls/",
+      "region": "4A District 4"
+    },
+    {
+      "teamName": "David Thibodaux Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/david-thibodaux-bulldogs/basketball/girls/",
+      "region": "4A District 4"
+    },
+    {
+      "teamName": "Westgate Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/new-iberia/westgate-tigers/basketball/girls/",
+      "region": "4A District 4"
+    },
+    {
+      "teamName": "Comeaux Spartans",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/comeaux-spartans/basketball/girls/",
+      "region": "4A District 4"
+    },
+    {
+      "teamName": "Rayne Wolves",
+      "teamUrl": "https://www.maxpreps.com/la/rayne/rayne-wolves/basketball/girls/",
+      "region": "4A District 4"
+    },
+    {
+      "teamName": "Jefferson Rise Charter",
+      "teamUrl": "https://www.maxpreps.com/la/harvey/jefferson-rise-charter/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Brighton Bengals",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/brighton-bengals/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Acadiana Renaissance Charter Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/youngsville/acadiana-renaissance-charter-academy-eagles/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Patrick Taylor Science And Tech Academy Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/westwego/patrick-taylor-science-and-tech-academy-tigers/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Lafayette Renaissance Charter Academy Lafayette",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/lafayette-renaissance-charter-academy-lafayette/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Cornerstone Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/jonesboro/cornerstone-christian-academy-eagles/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Louisiana Math Science And Arts Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/natchitoches/louisiana-math-science-and-arts-eagles/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Southern Lab Kittens",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/southern-lab-kittens/basketball/girls/",
+      "region": "1A District 9"
+    },
+    {
+      "teamName": "Central Private Redhawks",
+      "teamUrl": "https://www.maxpreps.com/la/baker/central-private-redhawks/basketball/girls/",
+      "region": "1A District 9"
+    },
+    {
+      "teamName": "Kentwood Kangaroos",
+      "teamUrl": "https://www.maxpreps.com/la/kentwood/kentwood-kangaroos/basketball/girls/",
+      "region": "1A District 9"
+    },
+    {
+      "teamName": "Thrive Academy Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/thrive-academy-bulldogs/basketball/girls/",
+      "region": "1A District 9"
+    },
+    {
+      "teamName": "Abbeville Fighting Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/abbeville/abbeville-fighting-wildcats/basketball/girls/",
+      "region": "3A District 5"
+    },
+    {
+      "teamName": "Kaplan Pirates",
+      "teamUrl": "https://www.maxpreps.com/la/kaplan/kaplan-pirates/basketball/girls/",
+      "region": "3A District 5"
+    },
+    {
+      "teamName": "St Martinville Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/st-martinville/st-martinville-tigers/basketball/girls/",
+      "region": "3A District 5"
+    },
+    {
+      "teamName": "Erath Bobcats",
+      "teamUrl": "https://www.maxpreps.com/la/erath/erath-bobcats/basketball/girls/",
+      "region": "3A District 5"
+    },
+    {
+      "teamName": "Union Parish Farmers",
+      "teamUrl": "https://www.maxpreps.com/la/farmerville/union-parish-farmers/basketball/girls/",
+      "region": "2A District 1"
+    },
+    {
+      "teamName": "Darbonne Woods",
+      "teamUrl": "https://www.maxpreps.com/la/farmerville/darbonne-woods/basketball/girls/",
+      "region": "2A District 1"
+    },
+    {
+      "teamName": "North Caddo Rebs",
+      "teamUrl": "https://www.maxpreps.com/la/vivian/north-caddo-rebs/basketball/girls/",
+      "region": "2A District 1"
+    },
+    {
+      "teamName": "Homer Pelicans",
+      "teamUrl": "https://www.maxpreps.com/la/homer/homer-pelicans/basketball/girls/",
+      "region": "2A District 1"
+    },
+    {
+      "teamName": "Magnolia School Of Excellence",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/magnolia-school-of-excellence/basketball/girls/",
+      "region": "2A District 1"
+    },
+    {
+      "teamName": "Calvary Baptist Academy Cavaliers",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/calvary-baptist-academy-cavaliers/basketball/girls/",
+      "region": "2A District 1"
+    },
+    {
+      "teamName": "Green Oaks Giants",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/green-oaks-giants/basketball/girls/",
+      "region": "2A District 1"
+    },
+    {
+      "teamName": "Denham Springs Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/la/denham-springs/denham-springs-yellowjackets/basketball/girls/",
+      "region": "5A District 5"
+    },
+    {
+      "teamName": "Prairieville Hurricanes",
+      "teamUrl": "https://www.maxpreps.com/la/prairieville/prairieville-hurricanes/basketball/girls/",
+      "region": "5A District 5"
+    },
+    {
+      "teamName": "Walker Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/walker/walker-wildcats/basketball/girls/",
+      "region": "5A District 5"
+    },
+    {
+      "teamName": "Dutchtown Griffins",
+      "teamUrl": "https://www.maxpreps.com/la/geismar/dutchtown-griffins/basketball/girls/",
+      "region": "5A District 5"
+    },
+    {
+      "teamName": "East Ascension Spartans",
+      "teamUrl": "https://www.maxpreps.com/la/gonzales/east-ascension-spartans/basketball/girls/",
+      "region": "5A District 5"
+    },
+    {
+      "teamName": "St Amant Gators",
+      "teamUrl": "https://www.maxpreps.com/la/st-amant/st-amant-gators/basketball/girls/",
+      "region": "5A District 5"
+    },
+    {
+      "teamName": "Live Oak Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/watson/live-oak-eagles/basketball/girls/",
+      "region": "5A District 5"
+    },
+    {
+      "teamName": "Logansport Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/logansport/logansport-tigers/basketball/girls/",
+      "region": "1A District 3"
+    },
+    {
+      "teamName": "Lasalle Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/olla/lasalle-tigers/basketball/girls/",
+      "region": "1A District 3"
+    },
+    {
+      "teamName": "Lakeview Gators",
+      "teamUrl": "https://www.maxpreps.com/la/campti/lakeview-gators/basketball/girls/",
+      "region": "1A District 3"
+    },
+    {
+      "teamName": "Montgomery Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/montgomery/montgomery-tigers/basketball/girls/",
+      "region": "1A District 3"
+    },
+    {
+      "teamName": "Northwood Gators",
+      "teamUrl": "https://www.maxpreps.com/la/lena/northwood-gators/basketball/girls/",
+      "region": "1A District 3"
+    },
+    {
+      "teamName": "Merryville Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/merryville/merryville-panthers/basketball/girls/",
+      "region": "1A District 4"
+    },
+    {
+      "teamName": "Grand Lake Hornets",
+      "teamUrl": "https://www.maxpreps.com/la/lake-charles/grand-lake-hornets/basketball/girls/",
+      "region": "1A District 4"
+    },
+    {
+      "teamName": "Oberlin Fightin Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/oberlin/oberlin-fightin-tigers/basketball/girls/",
+      "region": "1A District 4"
+    },
+    {
+      "teamName": "Elton Indians",
+      "teamUrl": "https://www.maxpreps.com/la/elton/elton-indians/basketball/girls/",
+      "region": "1A District 4"
+    },
+    {
+      "teamName": "Basile Bearcats",
+      "teamUrl": "https://www.maxpreps.com/la/basile/basile-bearcats/basketball/girls/",
+      "region": "1A District 4"
+    },
+    {
+      "teamName": "Hamilton Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/la/lake-charles/hamilton-christian-warriors/basketball/girls/",
+      "region": "1A District 4"
+    },
+    {
+      "teamName": "Bell City Bruins",
+      "teamUrl": "https://www.maxpreps.com/la/bell-city/bell-city-bruins/basketball/girls/",
+      "region": "B District 6"
+    },
+    {
+      "teamName": "Hathaway Hornets",
+      "teamUrl": "https://www.maxpreps.com/la/jennings/hathaway-hornets/basketball/girls/",
+      "region": "B District 6"
+    },
+    {
+      "teamName": "Lacassine Cardinals",
+      "teamUrl": "https://www.maxpreps.com/la/lacassine/lacassine-cardinals/basketball/girls/",
+      "region": "B District 6"
+    },
+    {
+      "teamName": "Willow Lions",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/willow-lions/basketball/girls/",
+      "region": "4A District 9"
+    },
+    {
+      "teamName": "Kenner Discovery Health Sciences Academy Swamp Owls",
+      "teamUrl": "https://www.maxpreps.com/la/kenner/kenner-discovery-health-sciences-academy-swamp-owls/basketball/girls/",
+      "region": "4A District 9"
+    },
+    {
+      "teamName": "St Charles Catholic Comets",
+      "teamUrl": "https://www.maxpreps.com/la/laplace/st-charles-catholic-comets/basketball/girls/",
+      "region": "4A District 9"
+    },
+    {
+      "teamName": "Academy Of Our Lady Penguins",
+      "teamUrl": "https://www.maxpreps.com/la/marrero/academy-of-our-lady-penguins/basketball/girls/",
+      "region": "4A District 9"
+    },
+    {
+      "teamName": "Belle Chasse Fighting Cardinals",
+      "teamUrl": "https://www.maxpreps.com/la/belle-chasse/belle-chasse-fighting-cardinals/basketball/girls/",
+      "region": "4A District 9"
+    },
+    {
+      "teamName": "Phoenix Spartans",
+      "teamUrl": "https://www.maxpreps.com/la/braithwaite/phoenix-spartans/basketball/girls/",
+      "region": "C District 8"
+    },
+    {
+      "teamName": "Grand Isle Trojans",
+      "teamUrl": "https://www.maxpreps.com/la/grand-isle/grand-isle-trojans/basketball/girls/",
+      "region": "C District 8"
+    },
+    {
+      "teamName": "Lutheran Gryphons",
+      "teamUrl": "https://www.maxpreps.com/la/metairie/lutheran-gryphons/basketball/girls/",
+      "region": "C District 8"
+    },
+    {
+      "teamName": "Holy Savior Menard Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/alexandria/holy-savior-menard-eagles/basketball/girls/",
+      "region": "2A District 5"
+    },
+    {
+      "teamName": "Oakdale Warriors",
+      "teamUrl": "https://www.maxpreps.com/la/oakdale/oakdale-warriors/basketball/girls/",
+      "region": "2A District 5"
+    },
+    {
+      "teamName": "Avoyelles Mustangs",
+      "teamUrl": "https://www.maxpreps.com/la/moreauville/avoyelles-mustangs/basketball/girls/",
+      "region": "2A District 5"
+    },
+    {
+      "teamName": "Rapides Mustangs",
+      "teamUrl": "https://www.maxpreps.com/la/lecompte/rapides-mustangs/basketball/girls/",
+      "region": "2A District 5"
+    },
+    {
+      "teamName": "Kinder Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/la/kinder/kinder-yellowjackets/basketball/girls/",
+      "region": "2A District 5"
+    },
+    {
+      "teamName": "Port Barre Red Devils",
+      "teamUrl": "https://www.maxpreps.com/la/port-barre/port-barre-red-devils/basketball/girls/",
+      "region": "2A District 5"
+    },
+    {
+      "teamName": "Oak Hill Rams",
+      "teamUrl": "https://www.maxpreps.com/la/hineston/oak-hill-rams/basketball/girls/",
+      "region": "B District 5"
+    },
+    {
+      "teamName": "Glenmora Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/glenmora/glenmora-wildcats/basketball/girls/",
+      "region": "B District 5"
+    },
+    {
+      "teamName": "Avoyelles Charter Vikings",
+      "teamUrl": "https://www.maxpreps.com/la/mansura/avoyelles-charter-vikings/basketball/girls/",
+      "region": "B District 5"
+    },
+    {
+      "teamName": "Monterey Wolves",
+      "teamUrl": "https://www.maxpreps.com/la/monterey/monterey-wolves/basketball/girls/",
+      "region": "B District 5"
+    },
+    {
+      "teamName": "Grace Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/la/alexandria/grace-christian-warriors/basketball/girls/",
+      "region": "B District 5"
+    },
+    {
+      "teamName": "Fairview Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/grant/fairview-panthers/basketball/girls/",
+      "region": "B District 4"
+    },
+    {
+      "teamName": "Pitkin Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/pitkin/pitkin-tigers/basketball/girls/",
+      "region": "B District 4"
+    },
+    {
+      "teamName": "Hicks Pirates",
+      "teamUrl": "https://www.maxpreps.com/la/leesville/hicks-pirates/basketball/girls/",
+      "region": "B District 4"
+    },
+    {
+      "teamName": "Anacoco Indians",
+      "teamUrl": "https://www.maxpreps.com/la/anacoco/anacoco-indians/basketball/girls/",
+      "region": "B District 4"
+    },
+    {
+      "teamName": "Elizabeth Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/elizabeth/elizabeth-bulldogs/basketball/girls/",
+      "region": "B District 4"
+    },
+    {
+      "teamName": "Quitman Wolverines",
+      "teamUrl": "https://www.maxpreps.com/la/quitman/quitman-wolverines/basketball/girls/",
+      "region": "B District 1"
+    },
+    {
+      "teamName": "Providence Classical Academy Knights",
+      "teamUrl": "https://www.maxpreps.com/la/bossier-city/providence-classical-academy-knights/basketball/girls/",
+      "region": "B District 1"
+    },
+    {
+      "teamName": "Castor Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/castor/castor-tigers/basketball/girls/",
+      "region": "B District 1"
+    },
+    {
+      "teamName": "Weston Wolves",
+      "teamUrl": "https://www.maxpreps.com/la/jonesboro/weston-wolves/basketball/girls/",
+      "region": "B District 1"
+    },
+    {
+      "teamName": "Simsboro Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/simsboro/simsboro-tigers/basketball/girls/",
+      "region": "B District 1"
+    },
+    {
+      "teamName": "Doyline Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/doyline/doyline-panthers/basketball/girls/",
+      "region": "B District 1"
+    },
+    {
+      "teamName": "Parkway Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/bossier-city/parkway-panthers/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Captain Shreve Gators",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/captain-shreve-gators/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Airline Vikings",
+      "teamUrl": "https://www.maxpreps.com/la/bossier-city/airline-vikings/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Haughton Buccaneers",
+      "teamUrl": "https://www.maxpreps.com/la/haughton/haughton-buccaneers/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Natchitoches Central Chiefs",
+      "teamUrl": "https://www.maxpreps.com/la/natchitoches/natchitoches-central-chiefs/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Benton Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/benton/benton-tigers/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Byrd Yellow Jackets",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/byrd-yellow-jackets/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Evangel Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/evangel-christian-academy-eagles/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Huntington Hounds",
+      "teamUrl": "https://www.maxpreps.com/la/ferriday/huntington-hounds/basketball/girls/",
+      "region": "5A District 1"
+    },
+    {
+      "teamName": "Oak Grove Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/oak-grove/oak-grove-tigers/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Ouachita Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/monroe/ouachita-christian-eagles/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Mangham Dragons",
+      "teamUrl": "https://www.maxpreps.com/la/mangham/mangham-dragons/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Rayville Hornets",
+      "teamUrl": "https://www.maxpreps.com/la/rayville/rayville-hornets/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Beekman Charter Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/bastrop/beekman-charter-tigers/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Ferriday Trojans",
+      "teamUrl": "https://www.maxpreps.com/la/ferriday/ferriday-trojans/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Delhi Charter Gators",
+      "teamUrl": "https://www.maxpreps.com/la/delhi/delhi-charter-gators/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Madison Jaguars",
+      "teamUrl": "https://www.maxpreps.com/la/tallulah/madison-jaguars/basketball/girls/",
+      "region": "2A District 2"
+    },
+    {
+      "teamName": "Buckeye Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/buckeye/buckeye-panthers/basketball/girls/",
+      "region": "3A District 2"
+    },
+    {
+      "teamName": "Jena Giants",
+      "teamUrl": "https://www.maxpreps.com/la/jena/jena-giants/basketball/girls/",
+      "region": "3A District 2"
+    },
+    {
+      "teamName": "Bunkie Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/bunkie/bunkie-panthers/basketball/girls/",
+      "region": "3A District 2"
+    },
+    {
+      "teamName": "Vidalia Vikings",
+      "teamUrl": "https://www.maxpreps.com/la/vidalia/vidalia-vikings/basketball/girls/",
+      "region": "3A District 2"
+    },
+    {
+      "teamName": "Marksville Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/marksville/marksville-tigers/basketball/girls/",
+      "region": "3A District 2"
+    },
+    {
+      "teamName": "Caldwell Parish Spartans",
+      "teamUrl": "https://www.maxpreps.com/la/columbia/caldwell-parish-spartans/basketball/girls/",
+      "region": "3A District 2"
+    },
+    {
+      "teamName": "Bolton Academy Bears",
+      "teamUrl": "https://www.maxpreps.com/la/alexandria/bolton-academy-bears/basketball/girls/",
+      "region": "3A District 2"
+    },
+    {
+      "teamName": "East Feliciana Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/jackson/east-feliciana-tigers/basketball/girls/",
+      "region": "2A District 8"
+    },
+    {
+      "teamName": "Episcopal Knights",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/episcopal-knights/basketball/girls/",
+      "region": "2A District 8"
+    },
+    {
+      "teamName": "Northeast Vikings",
+      "teamUrl": "https://www.maxpreps.com/la/pride/northeast-vikings/basketball/girls/",
+      "region": "2A District 8"
+    },
+    {
+      "teamName": "Slaughter Community Charter Knights",
+      "teamUrl": "https://www.maxpreps.com/la/slaughter/slaughter-community-charter-knights/basketball/girls/",
+      "region": "2A District 8"
+    },
+    {
+      "teamName": "Baker Buffaloes",
+      "teamUrl": "https://www.maxpreps.com/la/baker/baker-buffaloes/basketball/girls/",
+      "region": "2A District 8"
+    },
+    {
+      "teamName": "Dunham Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/dunham-tigers/basketball/girls/",
+      "region": "2A District 8"
+    },
+    {
+      "teamName": "Capitol Golden Lions",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/capitol-golden-lions/basketball/girls/",
+      "region": "2A District 8"
+    },
+    {
+      "teamName": "Arcadia Hornets",
+      "teamUrl": "https://www.maxpreps.com/la/arcadia/arcadia-hornets/basketball/girls/",
+      "region": "1A District 1"
+    },
+    {
+      "teamName": "Cedar Creek Cougars",
+      "teamUrl": "https://www.maxpreps.com/la/ruston/cedar-creek-cougars/basketball/girls/",
+      "region": "1A District 1"
+    },
+    {
+      "teamName": "Plain Dealing Lions",
+      "teamUrl": "https://www.maxpreps.com/la/plain-dealing/plain-dealing-lions/basketball/girls/",
+      "region": "1A District 1"
+    },
+    {
+      "teamName": "Jonesboro Hodge Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/jonesboro/jonesboro-hodge-tigers/basketball/girls/",
+      "region": "1A District 1"
+    },
+    {
+      "teamName": "Ringgold Redskins",
+      "teamUrl": "https://www.maxpreps.com/la/ringgold/ringgold-redskins/basketball/girls/",
+      "region": "1A District 1"
+    },
+    {
+      "teamName": "Lincoln Prep Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/grambling/lincoln-prep-panthers/basketball/girls/",
+      "region": "1A District 1"
+    },
+    {
+      "teamName": "Haynesville Gldn Tornado",
+      "teamUrl": "https://www.maxpreps.com/la/haynesville/haynesville-gldn-tornado/basketball/girls/",
+      "region": "1A District 1"
+    },
+    {
+      "teamName": "Glenbrook Apaches",
+      "teamUrl": "https://www.maxpreps.com/la/minden/glenbrook-apaches/basketball/girls/",
+      "region": "1A District 1"
+    },
+    {
+      "teamName": "Holden Rockets",
+      "teamUrl": "https://www.maxpreps.com/la/holden/holden-rockets/basketball/girls/",
+      "region": "B District 7"
+    },
+    {
+      "teamName": "Mt Hermon Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/la/mt-hermon/mt-hermon-yellowjackets/basketball/girls/",
+      "region": "B District 7"
+    },
+    {
+      "teamName": "Christ Episcopal School Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/covington/christ-episcopal-school-wildcats/basketball/girls/",
+      "region": "B District 7"
+    },
+    {
+      "teamName": "French Settlement Lions",
+      "teamUrl": "https://www.maxpreps.com/la/french-settlement/french-settlement-lions/basketball/girls/",
+      "region": "2A District 9"
+    },
+    {
+      "teamName": "Northlake Christian Wolverines",
+      "teamUrl": "https://www.maxpreps.com/la/covington/northlake-christian-wolverines/basketball/girls/",
+      "region": "2A District 9"
+    },
+    {
+      "teamName": "Pope John Paul Ii Jaguars",
+      "teamUrl": "https://www.maxpreps.com/la/slidell/pope-john-paul-ii-jaguars/basketball/girls/",
+      "region": "2A District 9"
+    },
+    {
+      "teamName": "St Thomas Aquinas Falcons",
+      "teamUrl": "https://www.maxpreps.com/la/hammond/st-thomas-aquinas-falcons/basketball/girls/",
+      "region": "2A District 9"
+    },
+    {
+      "teamName": "St Helena College And Career Academy Hawks",
+      "teamUrl": "https://www.maxpreps.com/la/greensburg/st-helena-college-and-career-academy-hawks/basketball/girls/",
+      "region": "2A District 9"
+    },
+    {
+      "teamName": "Independence Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/independence/independence-tigers/basketball/girls/",
+      "region": "2A District 9"
+    },
+    {
+      "teamName": "Opelousas Fighting Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/opelousas/opelousas-fighting-tigers/basketball/girls/",
+      "region": "4A District 5"
+    },
+    {
+      "teamName": "Livonia Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/livonia/livonia-wildcats/basketball/girls/",
+      "region": "4A District 5"
+    },
+    {
+      "teamName": "Cecilia Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/cecilia/cecilia-bulldogs/basketball/girls/",
+      "region": "4A District 5"
+    },
+    {
+      "teamName": "Beau Chene Gators",
+      "teamUrl": "https://www.maxpreps.com/la/arnaudville/beau-chene-gators/basketball/girls/",
+      "region": "4A District 5"
+    },
+    {
+      "teamName": "Breaux Bridge Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/breaux-bridge/breaux-bridge-tigers/basketball/girls/",
+      "region": "4A District 5"
+    },
+    {
+      "teamName": "Hackberry Mustangs",
+      "teamUrl": "https://www.maxpreps.com/la/hackberry/hackberry-mustangs/basketball/girls/",
+      "region": "C District 5"
+    },
+    {
+      "teamName": "Singer Hornets",
+      "teamUrl": "https://www.maxpreps.com/la/singer/singer-hornets/basketball/girls/",
+      "region": "C District 5"
+    },
+    {
+      "teamName": "Johnson Bayou Rebels",
+      "teamUrl": "https://www.maxpreps.com/la/cameron/johnson-bayou-rebels/basketball/girls/",
+      "region": "C District 5"
+    },
+    {
+      "teamName": "Starks Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/starks/starks-panthers/basketball/girls/",
+      "region": "C District 5"
+    },
+    {
+      "teamName": "South Cameron Tarpons",
+      "teamUrl": "https://www.maxpreps.com/la/creole/south-cameron-tarpons/basketball/girls/",
+      "region": "C District 5"
+    },
+    {
+      "teamName": "Terrebonne Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/houma/terrebonne-tigers/basketball/girls/",
+      "region": "5A District 8"
+    },
+    {
+      "teamName": "Destrehan Fighting Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/destrehan/destrehan-fighting-wildcats/basketball/girls/",
+      "region": "5A District 8"
+    },
+    {
+      "teamName": "Bourgeois Braves",
+      "teamUrl": "https://www.maxpreps.com/la/gray/bourgeois-braves/basketball/girls/",
+      "region": "5A District 8"
+    },
+    {
+      "teamName": "Hahnville Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/boutte/hahnville-tigers/basketball/girls/",
+      "region": "5A District 8"
+    },
+    {
+      "teamName": "Thibodaux Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/thibodaux/thibodaux-tigers/basketball/girls/",
+      "region": "5A District 8"
+    },
+    {
+      "teamName": "East St John Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/reserve/east-st-john-wildcats/basketball/girls/",
+      "region": "5A District 8"
+    },
+    {
+      "teamName": "Central Lafourche Trojans",
+      "teamUrl": "https://www.maxpreps.com/la/raceland/central-lafourche-trojans/basketball/girls/",
+      "region": "5A District 8"
+    },
+    {
+      "teamName": "Hammond Tornadoes",
+      "teamUrl": "https://www.maxpreps.com/la/hammond/hammond-tornadoes/basketball/girls/",
+      "region": "5A District 6"
+    },
+    {
+      "teamName": "Mandeville Skippers",
+      "teamUrl": "https://www.maxpreps.com/la/mandeville/mandeville-skippers/basketball/girls/",
+      "region": "5A District 6"
+    },
+    {
+      "teamName": "Ponchatoula Green Wave",
+      "teamUrl": "https://www.maxpreps.com/la/ponchatoula/ponchatoula-green-wave/basketball/girls/",
+      "region": "5A District 6"
+    },
+    {
+      "teamName": "Covington Fighting Lions",
+      "teamUrl": "https://www.maxpreps.com/la/covington/covington-fighting-lions/basketball/girls/",
+      "region": "5A District 6"
+    },
+    {
+      "teamName": "John Curtis Christian Patriots",
+      "teamUrl": "https://www.maxpreps.com/la/river-ridge/john-curtis-christian-patriots/basketball/girls/",
+      "region": "5A District 9"
+    },
+    {
+      "teamName": "Archbishop Chapelle Chipmunks",
+      "teamUrl": "https://www.maxpreps.com/la/metairie/archbishop-chapelle-chipmunks/basketball/girls/",
+      "region": "5A District 9"
+    },
+    {
+      "teamName": "Edna Karr Cougars",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/edna-karr-cougars/basketball/girls/",
+      "region": "5A District 9"
+    },
+    {
+      "teamName": "Mt Carmel Cubs",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/mt-carmel-cubs/basketball/girls/",
+      "region": "5A District 9"
+    },
+    {
+      "teamName": "St Marys Dominican",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/st-marys-dominican/basketball/girls/",
+      "region": "5A District 9"
+    },
+    {
+      "teamName": "Warren Easton Fighting Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/warren-easton-fighting-eagles/basketball/girls/",
+      "region": "5A District 9"
+    },
+    {
+      "teamName": "Tioga Indians",
+      "teamUrl": "https://www.maxpreps.com/la/tioga/tioga-indians/basketball/girls/",
+      "region": "4A District 2"
+    },
+    {
+      "teamName": "Wossman Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/monroe/wossman-wildcats/basketball/girls/",
+      "region": "4A District 2"
+    },
+    {
+      "teamName": "Peabody Warhorses",
+      "teamUrl": "https://www.maxpreps.com/la/alexandria/peabody-warhorses/basketball/girls/",
+      "region": "4A District 2"
+    },
+    {
+      "teamName": "Grant Cougars",
+      "teamUrl": "https://www.maxpreps.com/la/dry-prong/grant-cougars/basketball/girls/",
+      "region": "4A District 2"
+    },
+    {
+      "teamName": "Franklin Parish Patriots",
+      "teamUrl": "https://www.maxpreps.com/la/winnsboro/franklin-parish-patriots/basketball/girls/",
+      "region": "4A District 2"
+    },
+    {
+      "teamName": "West Ouachita Chiefs",
+      "teamUrl": "https://www.maxpreps.com/la/west-monroe/west-ouachita-chiefs/basketball/girls/",
+      "region": "4A District 2"
+    },
+    {
+      "teamName": "Calvin Cougars",
+      "teamUrl": "https://www.maxpreps.com/la/calvin/calvin-cougars/basketball/girls/",
+      "region": "C District 2"
+    },
+    {
+      "teamName": "Dodson Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/dodson/dodson-panthers/basketball/girls/",
+      "region": "C District 2"
+    },
+    {
+      "teamName": "Georgetown Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/georgetown/georgetown-bulldogs/basketball/girls/",
+      "region": "C District 2"
+    },
+    {
+      "teamName": "Harrisonburg Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/harrisonburg/harrisonburg-bulldogs/basketball/girls/",
+      "region": "C District 2"
+    },
+    {
+      "teamName": "Archbishop Hannan Hawks",
+      "teamUrl": "https://www.maxpreps.com/la/covington/archbishop-hannan-hawks/basketball/girls/",
+      "region": "4A District 7"
+    },
+    {
+      "teamName": "Loranger Wolves",
+      "teamUrl": "https://www.maxpreps.com/la/loranger/loranger-wolves/basketball/girls/",
+      "region": "4A District 7"
+    },
+    {
+      "teamName": "Lakeshore",
+      "teamUrl": "https://www.maxpreps.com/la/mandeville/lakeshore/basketball/girls/",
+      "region": "4A District 7"
+    },
+    {
+      "teamName": "St Scholastica Doves",
+      "teamUrl": "https://www.maxpreps.com/la/covington/st-scholastica-doves/basketball/girls/",
+      "region": "4A District 7"
+    },
+    {
+      "teamName": "Pearl River Rebels",
+      "teamUrl": "https://www.maxpreps.com/la/pearl-river/pearl-river-rebels/basketball/girls/",
+      "region": "4A District 7"
+    },
+    {
+      "teamName": "Franklinton Demons",
+      "teamUrl": "https://www.maxpreps.com/la/franklinton/franklinton-demons/basketball/girls/",
+      "region": "4A District 7"
+    },
+    {
+      "teamName": "Rosepine Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/rosepine/rosepine-eagles/basketball/girls/",
+      "region": "2A District 4"
+    },
+    {
+      "teamName": "East Beauregard Trojans",
+      "teamUrl": "https://www.maxpreps.com/la/deridder/east-beauregard-trojans/basketball/girls/",
+      "region": "2A District 4"
+    },
+    {
+      "teamName": "Pickering Red Devils",
+      "teamUrl": "https://www.maxpreps.com/la/leesville/pickering-red-devils/basketball/girls/",
+      "region": "2A District 4"
+    },
+    {
+      "teamName": "Vinton Lions",
+      "teamUrl": "https://www.maxpreps.com/la/vinton/vinton-lions/basketball/girls/",
+      "region": "2A District 4"
+    },
+    {
+      "teamName": "Dequincy Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/dequincy/dequincy-tigers/basketball/girls/",
+      "region": "2A District 4"
+    },
+    {
+      "teamName": "Haynes Academy",
+      "teamUrl": "https://www.maxpreps.com/la/metairie/haynes-academy/basketball/girls/",
+      "region": "3A District 9"
+    },
+    {
+      "teamName": "Fisher Gators",
+      "teamUrl": "https://www.maxpreps.com/la/lafitte/fisher-gators/basketball/girls/",
+      "region": "3A District 9"
+    },
+    {
+      "teamName": "Thomas Jefferson",
+      "teamUrl": "https://www.maxpreps.com/la/gretna/thomas-jefferson/basketball/girls/",
+      "region": "3A District 9"
+    },
+    {
+      "teamName": "Young Audiences Charter",
+      "teamUrl": "https://www.maxpreps.com/la/gretna/young-audiences-charter/basketball/girls/",
+      "region": "3A District 9"
+    },
+    {
+      "teamName": "Choudrant Aggies",
+      "teamUrl": "https://www.maxpreps.com/la/choudrant/choudrant-aggies/basketball/girls/",
+      "region": "B District 2"
+    },
+    {
+      "teamName": "Family Community Christian",
+      "teamUrl": "https://www.maxpreps.com/la/winnsboro/family-community-christian/basketball/girls/",
+      "region": "B District 2"
+    },
+    {
+      "teamName": "Downsville Demons",
+      "teamUrl": "https://www.maxpreps.com/la/downsville/downsville-demons/basketball/girls/",
+      "region": "B District 2"
+    },
+    {
+      "teamName": "Forest Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/forest/forest-bulldogs/basketball/girls/",
+      "region": "B District 2"
+    },
+    {
+      "teamName": "Midland Rebels",
+      "teamUrl": "https://www.maxpreps.com/la/midland/midland-rebels/basketball/girls/",
+      "region": "2A District 6"
+    },
+    {
+      "teamName": "Lafayette Christian Academy Knights",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/lafayette-christian-academy-knights/basketball/girls/",
+      "region": "2A District 6"
+    },
+    {
+      "teamName": "Lake Arthur Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/lake-arthur/lake-arthur-tigers/basketball/girls/",
+      "region": "2A District 6"
+    },
+    {
+      "teamName": "Welsh Greyhounds",
+      "teamUrl": "https://www.maxpreps.com/la/welsh/welsh-greyhounds/basketball/girls/",
+      "region": "2A District 6"
+    },
+    {
+      "teamName": "Notre Dame Pioneers",
+      "teamUrl": "https://www.maxpreps.com/la/crowley/notre-dame-pioneers/basketball/girls/",
+      "region": "2A District 6"
+    },
+    {
+      "teamName": "Lagrange Gators",
+      "teamUrl": "https://www.maxpreps.com/la/lake-charles/lagrange-gators/basketball/girls/",
+      "region": "4A District 3"
+    },
+    {
+      "teamName": "Iowa Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/la/iowa/iowa-yellowjackets/basketball/girls/",
+      "region": "4A District 3"
+    },
+    {
+      "teamName": "Washington Marion Chargin Indians",
+      "teamUrl": "https://www.maxpreps.com/la/lake-charles/washington-marion-chargin-indians/basketball/girls/",
+      "region": "4A District 3"
+    },
+    {
+      "teamName": "Leesville Wampus Cats",
+      "teamUrl": "https://www.maxpreps.com/la/leesville/leesville-wampus-cats/basketball/girls/",
+      "region": "4A District 3"
+    },
+    {
+      "teamName": "Deridder Dragons",
+      "teamUrl": "https://www.maxpreps.com/la/deridder/deridder-dragons/basketball/girls/",
+      "region": "4A District 3"
+    },
+    {
+      "teamName": "Eunice Btlng Bobcats",
+      "teamUrl": "https://www.maxpreps.com/la/eunice/eunice-btlng-bobcats/basketball/girls/",
+      "region": "4A District 3"
+    },
+    {
+      "teamName": "Springfield Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/springfield/springfield-bulldogs/basketball/girls/",
+      "region": "3A District 8"
+    },
+    {
+      "teamName": "Albany Hornets",
+      "teamUrl": "https://www.maxpreps.com/la/albany/albany-hornets/basketball/girls/",
+      "region": "3A District 8"
+    },
+    {
+      "teamName": "Doyle Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/livingston/doyle-tigers/basketball/girls/",
+      "region": "3A District 8"
+    },
+    {
+      "teamName": "Pine Raiders",
+      "teamUrl": "https://www.maxpreps.com/la/franklinton/pine-raiders/basketball/girls/",
+      "region": "3A District 8"
+    },
+    {
+      "teamName": "Amite Warriors",
+      "teamUrl": "https://www.maxpreps.com/la/amite/amite-warriors/basketball/girls/",
+      "region": "3A District 8"
+    },
+    {
+      "teamName": "Sumner Cowboys",
+      "teamUrl": "https://www.maxpreps.com/la/kentwood/sumner-cowboys/basketball/girls/",
+      "region": "3A District 8"
+    },
+    {
+      "teamName": "Bogalusa Lumberjacks",
+      "teamUrl": "https://www.maxpreps.com/la/bogalusa/bogalusa-lumberjacks/basketball/girls/",
+      "region": "3A District 8"
+    },
+    {
+      "teamName": "Louisiana School For The Deaf War Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/louisiana-school-for-the-deaf-war-eagles/basketball/girls/",
+      "region": "C District 7"
+    },
+    {
+      "teamName": "Family Christian Flames",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/family-christian-flames/basketball/girls/",
+      "region": "C District 7"
+    },
+    {
+      "teamName": "Maurepas Wolves",
+      "teamUrl": "https://www.maxpreps.com/la/maurepas/maurepas-wolves/basketball/girls/",
+      "region": "C District 7"
+    },
+    {
+      "teamName": "False River Gators",
+      "teamUrl": "https://www.maxpreps.com/la/new-roads/false-river-gators/basketball/girls/",
+      "region": "C District 7"
+    },
+    {
+      "teamName": "De La Salle Cavalier",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/de-la-salle-cavalier/basketball/girls/",
+      "region": "3A District 10"
+    },
+    {
+      "teamName": "Academy Of The Sacred Heart Cardinals",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/academy-of-the-sacred-heart-cardinals/basketball/girls/",
+      "region": "3A District 10"
+    },
+    {
+      "teamName": "Booker T Washington Lions",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/booker-t-washington-lions/basketball/girls/",
+      "region": "3A District 10"
+    },
+    {
+      "teamName": "Landry Buccaneers",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/landry-buccaneers/basketball/girls/",
+      "region": "3A District 10"
+    },
+    {
+      "teamName": "Wright",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/wright/basketball/girls/",
+      "region": "3A District 10"
+    },
+    {
+      "teamName": "Cabrini Crescents",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/cabrini-crescents/basketball/girls/",
+      "region": "3A District 10"
+    },
+    {
+      "teamName": "Ursuline Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/ursuline-academy-lions/basketball/girls/",
+      "region": "3A District 10"
+    },
+    {
+      "teamName": "Morris Jeff Pelicans",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/morris-jeff-pelicans/basketball/girls/",
+      "region": "3A District 10"
+    },
+    {
+      "teamName": "Livingston Collegiate Academy Wolves",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/livingston-collegiate-academy-wolves/basketball/girls/",
+      "region": "3A District 10"
+    },
+    {
+      "teamName": "Kennedy Leopards",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/kennedy-leopards/basketball/girls/",
+      "region": "3A District 10"
+    },
+    {
+      "teamName": "Acadiana Christian Lions",
+      "teamUrl": "https://www.maxpreps.com/la/new-iberia/acadiana-christian-lions/basketball/girls/",
+      "region": "Christian Educators Of Louisiana"
+    },
+    {
+      "teamName": "Arc Academy Warriors",
+      "teamUrl": "https://www.maxpreps.com/la/monroe/arc-academy-warriors/basketball/girls/",
+      "region": "Christian Educators Of Louisiana"
+    },
+    {
+      "teamName": "Midstate Homeschool Storm",
+      "teamUrl": "https://www.maxpreps.com/la/alexandria/midstate-homeschool-storm/basketball/girls/",
+      "region": "Christian Educators Of Louisiana"
+    },
+    {
+      "teamName": "Nela Christian Homeschool Flame",
+      "teamUrl": "https://www.maxpreps.com/la/monroe/nela-christian-homeschool-flame/basketball/girls/",
+      "region": "Christian Educators Of Louisiana"
+    },
+    {
+      "teamName": "Faith Training Christian Academy",
+      "teamUrl": "https://www.maxpreps.com/la/leesville/faith-training-christian-academy/basketball/girls/",
+      "region": "Christian Educators Of Louisiana"
+    },
+    {
+      "teamName": "Southwest Louisiana Homeschool",
+      "teamUrl": "https://www.maxpreps.com/la/lake-charles/southwest-louisiana-homeschool/basketball/girls/",
+      "region": "Christian Educators Of Louisiana"
+    },
+    {
+      "teamName": "Word Of God Academy Force",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/word-of-god-academy-force/basketball/girls/",
+      "region": "Christian Educators Of Louisiana"
+    },
+    {
+      "teamName": "Christian Home Educators Fellowship Patriots",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/christian-home-educators-fellowship-patriots/basketball/girls/",
+      "region": "Christian Educators Of Louisiana"
+    },
+    {
+      "teamName": "Mount Olive Christian",
+      "teamUrl": "https://www.maxpreps.com/la/athens/mount-olive-christian/basketball/girls/",
+      "region": "Christian Educators Of Louisiana"
+    },
+    {
+      "teamName": "Good Samaritan Homeschool Hornets",
+      "teamUrl": "https://www.maxpreps.com/tx/fred/good-samaritan-homeschool-hornets/basketball/girls/",
+      "region": "Christian Educators Of Louisiana"
+    },
+    {
+      "teamName": "John Paul The Great Academy Guardians",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/john-paul-the-great-academy-guardians/basketball/girls/",
+      "region": "Christian Educators Of Louisiana"
+    },
+    {
+      "teamName": "Lake Area Homeschool Sports Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/sulphur/lake-area-homeschool-sports-wildcats/basketball/girls/",
+      "region": "Christian Educators Of Louisiana"
+    },
+    {
+      "teamName": "Psalms Christian Academy Ambassadors",
+      "teamUrl": "https://www.maxpreps.com/la/natchitoches/psalms-christian-academy-ambassadors/basketball/girls/",
+      "region": "Christian Educators Of Louisiana"
+    }
+  ]
+}
