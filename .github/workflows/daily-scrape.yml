@@ -1,4 +1,4 @@
-name: Daily MaxPreps scrape (2026-2027 season)
+name: MaxPreps scrape (2026-2027 season)
 
 # Requires a self-hosted runner registered to this repo (Settings > Actions >
 # Runners) on a machine that can actually reach MaxPreps - GitHub's own
@@ -8,21 +8,29 @@ name: Daily MaxPreps scrape (2026-2027 season)
 # is what makes this work.
 #
 # Deliberately targets the `data` branch for its commits, NOT `master` - so
-# a daily automated data commit never triggers a Streamlit Cloud redeploy
-# (which watches `master` for code changes). Code changes still go through
-# normal commits/PRs to `master` as always.
+# an automated data commit never triggers a Streamlit Cloud redeploy (which
+# watches `master` for code changes). Code changes still go through normal
+# commits/PRs to `master` as always.
 #
 # Uses PowerShell (not `shell: bash`) throughout: on this self-hosted
 # Windows runner, `shell: bash` resolves to WSL's bash.exe (no Linux distro
 # installed there) rather than Git Bash, which fails immediately. PowerShell
 # is what's actually confirmed present and working on this machine.
-
+#
+# SCHEDULE: Monday and Thursday only, with several check-in times spanning
+# ~11am-6pm PKT (UTC+5 => 06:00-13:00 UTC) instead of one single nightly
+# trigger. Combined with the "skip if already refreshed today" logic below,
+# this gives natural retry behavior across the whole working window: if the
+# laptop/VPN isn't up yet at the first check-in, that run fails fast and the
+# NEXT check-in an hour or two later picks up wherever things were left off
+# - no separate monitoring process needed.
 on:
   schedule:
-    # 09:17 UTC ~ 1:17am Pacific / 4:17am Eastern - off-peak, non-round
-    # minute (GitHub's scheduler is best-effort and round times get delayed
-    # most). Adjust freely; this is not load-bearing anywhere else.
-    - cron: '17 9 * * *'
+    - cron: '7 6 * * 1,4'    # ~11:07am PKT
+    - cron: '37 7 * * 1,4'   # ~12:37pm PKT
+    - cron: '7 9 * * 1,4'    # ~2:07pm PKT
+    - cron: '37 10 * * 1,4'  # ~3:37pm PKT
+    - cron: '7 12 * * 1,4'   # ~5:07pm PKT
   workflow_dispatch:
     inputs:
       states:
@@ -33,13 +41,17 @@ on:
         description: 'Space-separated sports to run'
         required: false
         default: 'boys girls'
+      force:
+        description: 'Re-scrape even states already refreshed today'
+        required: false
+        default: 'false'
 
 concurrency:
-  group: daily-maxpreps-scrape
+  group: maxpreps-scrape
   cancel-in-progress: false
 
-# The auto-generated GITHUB_TOKEN is read-only by default; the final step
-# pushes the scraped data to the `data` branch, so it needs write access.
+# The auto-generated GITHUB_TOKEN is read-only by default; committing to the
+# data branch needs write access.
 permissions:
   contents: write
 
@@ -49,7 +61,10 @@ env:
 jobs:
   scrape:
     runs-on: self-hosted
-    timeout-minutes: 480
+    # A single check-in window shouldn't run past the next one anyway - the
+    # per-state-sport timeout below is what actually prevents a hang (the
+    # 2026-09-29 run went 13+ hours stuck on one state before this existed).
+    timeout-minutes: 150
     defaults:
       run:
         shell: powershell
@@ -73,8 +88,7 @@ jobs:
         working-directory: code
         run: py -m pip install -r requirements.txt
 
-      - name: Run pipeline per state
-        working-directory: code
+      - name: Run pipeline per state, committing as each one finishes
         run: |
           $statesInput = "${{ github.event.inputs.states }}"
           if ([string]::IsNullOrWhiteSpace($statesInput)) {
@@ -84,42 +98,93 @@ jobs:
           if ([string]::IsNullOrWhiteSpace($sportsInput)) {
             $sportsInput = "boys girls"
           }
+          $force = "${{ github.event.inputs.force }}" -eq 'true'
 
           $entries = $statesInput -split '\s+' | Where-Object { $_ -ne '' }
           $sports  = $sportsInput -split '\s+' | Where-Object { $_ -ne '' }
 
+          $codeDir = Join-Path $env:GITHUB_WORKSPACE "code"
+          $dataDir = Join-Path $env:GITHUB_WORKSPACE "data"
+          $today   = [DateTime]::UtcNow.ToString('yyyy-MM-dd')
+
+          # 30 min per state/sport. If MaxPreps or the network hangs on one
+          # state, this is what stops it from burning the entire window -
+          # kill it and move on, the skip-check below will retry it at the
+          # next check-in instead of blocking everything after it today.
+          $maxMs = 30 * 60 * 1000
+
+          Set-Location $dataDir
+          git config user.name "maxpreps-daily-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          $done = 0
+          $skipped = 0
           $failed = 0
+
           foreach ($entry in $entries) {
             $parts  = $entry -split ':', 2
             $code   = $parts[0]
             $folder = $parts[1]
-            $outDir = Join-Path $env:GITHUB_WORKSPACE "data\$folder"
+            $outDir = Join-Path $dataDir $folder
             New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 
             foreach ($sport in $sports) {
+              $gapsFile = Join-Path $outDir "$($code.ToLower())_data_gaps_${sport}_2026_2027.json"
+
+              $skip = $false
+              if (-not $force -and (Test-Path $gapsFile)) {
+                try {
+                  $meta = (Get-Content $gapsFile -Raw | ConvertFrom-Json).meta
+                  if ($meta.last_updated -and $meta.last_updated.StartsWith($today)) {
+                    $skip = $true
+                  }
+                } catch {
+                  # Unreadable/partial file from an earlier interrupted run -
+                  # do NOT trust it as "done today", re-run it for real.
+                  $skip = $false
+                }
+              }
+
+              if ($skip) {
+                Write-Output "::group::$code ($sport) - already refreshed today, skipping"
+                Write-Output "::endgroup::"
+                $skipped++
+                continue
+              }
+
               Write-Output "::group::$code ($sport)"
-              py APP/pipeline.py --state $code --sport $sport --season $env:SEASON --output-dir $outDir --workers 15
-              if ($LASTEXITCODE -ne 0) {
-                Write-Output "[WARN] $code $sport pipeline exited $LASTEXITCODE - continuing with the next state/sport"
+              Set-Location $codeDir
+              $proc = Start-Process -FilePath "py" -ArgumentList @(
+                "APP/pipeline.py", "--state", $code, "--sport", $sport,
+                "--season", $env:SEASON, "--output-dir", $outDir, "--workers", "15"
+              ) -NoNewWindow -PassThru
+              $finished = $proc.WaitForExit($maxMs)
+              if (-not $finished) {
+                Write-Output "[WARN] $code $sport exceeded $($maxMs/60000) min - killing, will retry at the next check-in"
+                try { $proc.Kill() } catch {}
                 $failed++
+              } elseif ($proc.ExitCode -ne 0) {
+                Write-Output "[WARN] $code $sport pipeline exited $($proc.ExitCode) - will retry at the next check-in"
+                $failed++
+              } else {
+                $done++
               }
               Write-Output "::endgroup::"
+
+              # Commit + push THIS state/sport's result right now, whatever
+              # it is - a partial/killed run's OWN files may still have
+              # earlier stages' output worth keeping, and a later failure
+              # elsewhere must never take this progress down with it.
+              Set-Location $dataDir
+              git add -A
+              git diff --cached --quiet
+              if ($LASTEXITCODE -ne 0) {
+                $stamp = [DateTime]::UtcNow.ToString('yyyy-MM-dd HH:mm')
+                git commit -m "Scrape: $code $sport - $stamp UTC" | Out-Null
+                git push origin data
+              }
             }
           }
-          Write-Output "Failed state/sport runs: $failed"
-          exit 0
 
-      - name: Commit and push updated data
-        working-directory: data
-        run: |
-          git config user.name "maxpreps-daily-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add -A
-          git diff --cached --quiet
-          if ($LASTEXITCODE -eq 0) {
-            Write-Output "No changes to commit."
-          } else {
-            $stamp = [DateTime]::UtcNow.ToString('yyyy-MM-dd HH:mm')
-            git commit -m "Daily scrape: $stamp UTC"
-            git push origin data
-          }
+          Write-Output "Done: $done  Skipped (already fresh today): $skipped  Failed/timed out: $failed"
+          exit 0
