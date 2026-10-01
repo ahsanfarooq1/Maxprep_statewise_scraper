@@ -1,0 +1,1492 @@
+{
+  "sourceInput": "C:\\actions-runner-maxpreps\\_work\\Maxprep_statewise_scraper\\Maxprep_statewise_scraper\\data\\Kentucky_Scraped_data\\ky_data_gaps_girls_2026_2027.json",
+  "season": "2026-2027",
+  "teamsInInput": 295,
+  "teamsScraped": 0,
+  "teamsSkipped": 295,
+  "totalRecords": 0,
+  "team_totalRecords": 0,
+  "playerRecords": 0,
+  "skipReasons": {
+    "unparseable": 295
+  },
+  "skipped": [
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/owingsville/bath-county-wildcats/basketball/girls/",
+      "teamName": "Bath County Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/atherton-ravens/basketball/girls/",
+      "teamName": "Atherton Ravens",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/belfry/belfry-pirates/basketball/girls/",
+      "teamName": "Belfry Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/columbia/adair-county-indians/basketball/girls/",
+      "teamName": "Adair County Indians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/fort-mitchell/beechwood-tigers/basketball/girls/",
+      "teamName": "Beechwood Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/scottsville/allen-county-scottsville-patriots/basketball/girls/",
+      "teamName": "Allen County Scottsville Patriots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/glasgow/barren-county-trojans/basketball/girls/",
+      "teamName": "Barren County Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lawrenceburg/anderson-county-bearcats/basketball/girls/",
+      "teamName": "Anderson County Bearcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bardstown/bardstown-tigers/basketball/girls/",
+      "teamName": "Bardstown Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/augusta/augusta-panthers/basketball/girls/",
+      "teamName": "Augusta Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/barlow/ballard-memorial-bombers/basketball/girls/",
+      "teamName": "Ballard Memorial Bombers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/ballard-bruins/basketball/girls/",
+      "teamName": "Ballard Bruins",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/owensboro/apollo-eagles/basketball/girls/",
+      "teamName": "Apollo Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/assumption-rockets/basketball/girls/",
+      "teamName": "Assumption Rockets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/beth-haven-bearcats/basketball/girls/",
+      "teamName": "Beth Haven Bearcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/pineville/bell-county-bobcats/basketball/girls/",
+      "teamName": "Bell County Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/bluegrass-blazers/basketball/girls/",
+      "teamName": "Bluegrass Blazers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bardstown/bethlehem-eagles/basketball/girls/",
+      "teamName": "Bethlehem Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/ashland/blazer-tomcats/basketball/girls/",
+      "teamName": "Blazer Tomcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/betsy-layne/betsy-layne-bobcats/basketball/girls/",
+      "teamName": "Betsy Layne Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/berea/berea-pirates/basketball/girls/",
+      "teamName": "Berea Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bellevue/bellevue-tigers/basketball/girls/",
+      "teamName": "Bellevue Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/bluegrass-united-bluehawk/basketball/girls/",
+      "teamName": "Bluegrass United Bluehawk",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/paris/bourbon-county-colonels/basketball/girls/",
+      "teamName": "Bourbon County Colonels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/alexandria/bishop-brossart-mustangs/basketball/girls/",
+      "teamName": "Bishop Brossart Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/florence/boone-county-rebels/basketball/girls/",
+      "teamName": "Boone County Rebels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/barbourville/barbourville-tigers/basketball/girls/",
+      "teamName": "Barbourville Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/bowling-green-purples/basketball/girls/",
+      "teamName": "Bowling Green Purples",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/ashland/boyd-county-lions/basketball/girls/",
+      "teamName": "Boyd County Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/danville/boyle-county-rebels/basketball/girls/",
+      "teamName": "Boyle County Rebels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/brooksville/bracken-county-polar-bears/basketball/girls/",
+      "teamName": "Bracken County Polar Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/jackson/breathitt-county-bobcats/basketball/girls/",
+      "teamName": "Breathitt County Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/bryan-station-defenders/basketball/girls/",
+      "teamName": "Bryan Station Defenders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/brown-bears/basketball/girls/",
+      "teamName": "Brown Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/harned/breckinridge-county-fighting-tigers/basketball/girls/",
+      "teamName": "Breckinridge County Fighting Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/shepherdsville/bullitt-central-cougars/basketball/girls/",
+      "teamName": "Bullitt Central Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/mt-washington/bullitt-east-chargers/basketball/girls/",
+      "teamName": "Bullitt East Chargers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/buckhorn/buckhorn-wildcats/basketball/girls/",
+      "teamName": "Buckhorn Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/morgantown/butler-county-bears/basketball/girls/",
+      "teamName": "Butler County Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/butler-bears/basketball/girls/",
+      "teamName": "Butler Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/burgin/burgin-bulldogs/basketball/girls/",
+      "teamName": "Burgin Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/princeton/caldwell-county-tigers/basketball/girls/",
+      "teamName": "Caldwell County Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/covington/calvary-christian-cougars/basketball/girls/",
+      "teamName": "Calvary Christian Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/murray/calloway-county-lakers/basketball/girls/",
+      "teamName": "Calloway County Lakers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/alexandria/campbell-county-camels/basketball/girls/",
+      "teamName": "Campbell County Camels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/campbellsville/campbellsville-eagles/basketball/girls/",
+      "teamName": "Campbellsville Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bardwell/carlisle-county-comets/basketball/girls/",
+      "teamName": "Carlisle County Comets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/liberty/casey-county-rebels/basketball/girls/",
+      "teamName": "Casey County Rebels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/carrollton/carroll-county-panthers/basketball/girls/",
+      "teamName": "Carroll County Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/cecilia/central-hardin-bruins/basketball/girls/",
+      "teamName": "Central Hardin Bruins",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/horse-cave/caverna-colonels/basketball/girls/",
+      "teamName": "Caverna Colonels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/benton/christian-fellowship-eagles/basketball/girls/",
+      "teamName": "Christian Fellowship Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/christian-academy-louisville-centurions/basketball/girls/",
+      "teamName": "Christian Academy Louisville Centurions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/hopkinsville/christian-county-colonels/basketball/girls/",
+      "teamName": "Christian County Colonels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/christian-educational-consortium-cougars/basketball/girls/",
+      "teamName": "Christian Educational Consortium Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/manchester/clay-county-tigers/basketball/girls/",
+      "teamName": "Clay County Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/central-yellow-jackets/basketball/girls/",
+      "teamName": "Central Yellow Jackets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/albany/clinton-county-bulldogs/basketball/girls/",
+      "teamName": "Clinton County Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/cloverport/cloverport-aces/basketball/girls/",
+      "teamName": "Cloverport Aces",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/independence/community-christian-academy-crusaders/basketball/girls/",
+      "teamName": "Community Christian Academy Crusaders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/paducah/community-christian-warriors/basketball/girls/",
+      "teamName": "Community Christian Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/shelbyville/collins-titans/basketball/girls/",
+      "teamName": "Collins Titans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/hebron/conner-cougars/basketball/girls/",
+      "teamName": "Conner Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/hazard/cordia-lions/basketball/girls/",
+      "teamName": "Cordia Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/corbin/corbin-redhounds/basketball/girls/",
+      "teamName": "Corbin Redhounds",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/park-hills/covington-catholic-colonels/basketball/girls/",
+      "teamName": "Covington Catholic Colonels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/union/cooper-jaguars/basketball/girls/",
+      "teamName": "Cooper Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/covington/covington-latin-trojans/basketball/girls/",
+      "teamName": "Covington Latin Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/shelbyville/cornerstone-christian-academy-bulldogs/basketball/girls/",
+      "teamName": "Cornerstone Christian Academy Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/marion/crittenden-county-rockets/basketball/girls/",
+      "teamName": "Crittenden County Rockets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/burkesville/cumberland-county-panthers/basketball/girls/",
+      "teamName": "Cumberland County Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/owensboro/daviess-county-panthers/basketball/girls/",
+      "teamName": "Daviess County Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/danville/danville-admirals/basketball/girls/",
+      "teamName": "Danville Admirals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/danville/danville-christian-academy-warriors/basketball/girls/",
+      "teamName": "Danville Christian Academy Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/dawson-springs/dawson-springs-panthers/basketball/girls/",
+      "teamName": "Dawson Springs Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/desales-colts/basketball/girls/",
+      "teamName": "Desales Colts",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/doss-dragons/basketball/girls/",
+      "teamName": "Doss Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/edgewood/dixie-heights-colonels/basketball/girls/",
+      "teamName": "Dixie Heights Colonels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/dayton/dayton-greendevils/basketball/girls/",
+      "teamName": "Dayton Greendevils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/dupont-manual-crimsons/basketball/girls/",
+      "teamName": "Dupont Manual Crimsons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/grayson/east-carter-raiders/basketball/girls/",
+      "teamName": "East Carter Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/nicholasville/east-jessamine-jaguars/basketball/girls/",
+      "teamName": "East Jessamine Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lick-creek/east-ridge-warriors/basketball/girls/",
+      "teamName": "East Ridge Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/eastern-eagles/basketball/girls/",
+      "teamName": "Eastern Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/brownsville/edmonson-county-wildcats/basketball/girls/",
+      "teamName": "Edmonson County Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/elizabethtown/elizabethtown-panthers/basketball/girls/",
+      "teamName": "Elizabethtown Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/eminence/eminence-warriors/basketball/girls/",
+      "teamName": "Eminence Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/sandy-hook/elliott-county-lions/basketball/girls/",
+      "teamName": "Elliott County Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/irvine/estill-county-engineers/basketball/girls/",
+      "teamName": "Estill County Engineers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/evangel-christian-eagles/basketball/girls/",
+      "teamName": "Evangel Christian Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/in/evansville/evansville-homeschool-racers-racers/basketball/girls/",
+      "teamName": "Evansville Homeschool Racers Racers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/fairdale/fairdale-bulldogs/basketball/girls/",
+      "teamName": "Fairdale Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/flemingsburg/fleming-county-panthers/basketball/girls/",
+      "teamName": "Fleming County Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/fern-creek-tigers/basketball/girls/",
+      "teamName": "Fern Creek Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/ashland/fairview-eagles/basketball/girls/",
+      "teamName": "Fairview Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/fort-knox/fort-knox-eagles/basketball/girls/",
+      "teamName": "Fort Knox Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/eastern/floyd-central-jaguars/basketball/girls/",
+      "teamName": "Floyd Central Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/foundation-christian-academy-falcons/basketball/girls/",
+      "teamName": "Foundation Christian Academy Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/fort-campbell/fort-campbell-falcons/basketball/girls/",
+      "teamName": "Fort Campbell Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/francis-parker-wyverns/basketball/girls/",
+      "teamName": "Francis Parker Wyverns",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/frankfort/frankfort-christian-academy-royals/basketball/girls/",
+      "teamName": "Frankfort Christian Academy Royals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/frankfort/franklin-county-flyers/basketball/girls/",
+      "teamName": "Franklin County Flyers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/franklin/franklin-simpson-wildcats/basketball/girls/",
+      "teamName": "Franklin Simpson Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/frankfort/frankfort-panthers/basketball/girls/",
+      "teamName": "Frankfort Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/frederick-douglass-broncos/basketball/girls/",
+      "teamName": "Frederick Douglass Broncos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/fulton/fulton-city-bulldogs/basketball/girls/",
+      "teamName": "Fulton City Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/hickman/fulton-county-pilots/basketball/girls/",
+      "teamName": "Fulton County Pilots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/winchester/george-rogers-clark-cardinals/basketball/girls/",
+      "teamName": "George Rogers Clark Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/warsaw/gallatin-county-wildcats/basketball/girls/",
+      "teamName": "Gallatin County Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lancaster/garrard-county-golden-lions/basketball/girls/",
+      "teamName": "Garrard County Golden Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/dry-ridge/grant-county-braves/basketball/girls/",
+      "teamName": "Grant County Braves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/leitchfield/grayson-county-cougars/basketball/girls/",
+      "teamName": "Grayson County Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/glasgow/glasgow-scotties/basketball/girls/",
+      "teamName": "Glasgow Scotties",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/grace-m-james-academy-of-excellence-gems/basketball/girls/",
+      "teamName": "Grace M James Academy Of Excellence Gems",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/georgetown/great-crossing-warhawks/basketball/girls/",
+      "teamName": "Great Crossing Warhawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/mayfield/graves-county-eagles/basketball/girls/",
+      "teamName": "Graves County Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/greensburg/green-county-dragons/basketball/girls/",
+      "teamName": "Green County Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/greenup/greenup-county-musketeers/basketball/girls/",
+      "teamName": "Greenup County Musketeers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/greenwood-gators/basketball/girls/",
+      "teamName": "Greenwood Gators",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lewisport/hancock-county-hornets/basketball/girls/",
+      "teamName": "Hancock County Hornets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/harlan/harlan-county-black-bears/basketball/girls/",
+      "teamName": "Harlan County Black Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/harlan/harlan-green-dragons/basketball/girls/",
+      "teamName": "Harlan Green Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/hazard/hazard-bulldogs-lady-bulldogs/basketball/girls/",
+      "teamName": "Hazard Bulldogs Lady Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/munfordville/hart-county-raiders/basketball/girls/",
+      "teamName": "Hart County Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/florence/heritage-academy-eagles/basketball/girls/",
+      "teamName": "Heritage Academy Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/hopkinsville/heritage-christian-academy-eagles/basketball/girls/",
+      "teamName": "Heritage Christian Academy Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/henderson/henderson-county-colonels/basketball/girls/",
+      "teamName": "Henderson County Colonels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/henry-clay-blue-devils/basketball/girls/",
+      "teamName": "Henry Clay Blue Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/cynthiana/harrison-county-thorobreds-fillies/basketball/girls/",
+      "teamName": "Harrison County Thorobreds Fillies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/new-castle/henry-county-wildcats/basketball/girls/",
+      "teamName": "Henry County Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/clinton/hickman-county-falcons/basketball/girls/",
+      "teamName": "Hickman County Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/highlands-latin-highlanders/basketball/girls/",
+      "teamName": "Highlands Latin Highlanders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/fort-thomas/highlands-bluebirds/basketball/girls/",
+      "teamName": "Highlands Bluebirds",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/covington/holmes-bulldogs/basketball/girls/",
+      "teamName": "Holmes Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/covington/holy-cross-indians/basketball/girls/",
+      "teamName": "Holy Cross Indians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/holy-cross-cougars/basketball/girls/",
+      "teamName": "Holy Cross Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/madisonville/hopkins-county-central-storm/basketball/girls/",
+      "teamName": "Hopkins County Central Storm",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/hopkinsville/hopkinsville-tigers/basketball/girls/",
+      "teamName": "Hopkinsville Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/iroquois-raiders/basketball/girls/",
+      "teamName": "Iroquois Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/mckee/jackson-county-generals/basketball/girls/",
+      "teamName": "Jackson County Generals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/jeffersontown-chargers/basketball/girls/",
+      "teamName": "Jeffersontown Chargers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/jackson/jackson-city-tigers/basketball/girls/",
+      "teamName": "Jackson City Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/elizabethtown/john-hardin-bulldogs/basketball/girls/",
+      "teamName": "John Hardin Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/pippa-passes/june-buchanan-crusaders/basketball/girls/",
+      "teamName": "June Buchanan Crusaders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/paintsville/johnson-central-golden-eagles/basketball/girls/",
+      "teamName": "Johnson Central Golden Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/jenkins/jenkins-cavaliers/basketball/girls/",
+      "teamName": "Jenkins Cavaliers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/kentucky-country-day-bearcats/basketball/girls/",
+      "teamName": "Kentucky Country Day Bearcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lawrenceburg/kentucky-christian-knights/basketball/girls/",
+      "teamName": "Kentucky Christian Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/hindman/knott-county-central-patriots/basketball/girls/",
+      "teamName": "Knott County Central Patriots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/danville/kentucky-school-for-the-deaf-colonels/basketball/girls/",
+      "teamName": "Kentucky School For The Deaf Colonels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/barbourville/knox-central-panthers/basketball/girls/",
+      "teamName": "Knox Central Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/lafayette-generals/basketball/girls/",
+      "teamName": "Lafayette Generals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/hodgenville/larue-county-hawks/basketball/girls/",
+      "teamName": "Larue County Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/hyden/leslie-county-eagles/basketball/girls/",
+      "teamName": "Leslie County Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisa/lawrence-county-bulldogs/basketball/girls/",
+      "teamName": "Lawrence County Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/beattyville/lee-county-bobcats/basketball/girls/",
+      "teamName": "Lee County Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/whitesburg/letcher-county-central-cougars-lady-cougars/basketball/girls/",
+      "teamName": "Letcher County Central Cougars Lady Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/vanceburg/lewis-county-lions/basketball/girls/",
+      "teamName": "Lewis County Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/lexington-catholic-knights/basketball/girls/",
+      "teamName": "Lexington Catholic Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/stanford/lincoln-county-patriots/basketball/girls/",
+      "teamName": "Lincoln County Patriots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/lky-saints/basketball/girls/",
+      "teamName": "Lky Saints",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/lexington-christian-eagles/basketball/girls/",
+      "teamName": "Lexington Christian Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/smithland/livingston-central-cardinals/basketball/girls/",
+      "teamName": "Livingston Central Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/erlanger/lloyd-memorial-juggernauts/basketball/girls/",
+      "teamName": "Lloyd Memorial Juggernauts",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/russellville/logan-county-cougars/basketball/girls/",
+      "teamName": "Logan County Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/louisville-collegiate-amazons-and-titans/basketball/girls/",
+      "teamName": "Louisville Collegiate Amazons And Titans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/ludlow/ludlow-panthers/basketball/girls/",
+      "teamName": "Ludlow Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/corbin/lynn-camp-wildcats/basketball/girls/",
+      "teamName": "Lynn Camp Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/eddyville/lyon-county-lyons/basketball/girls/",
+      "teamName": "Lyon County Lyons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/madisonville/madisonville-north-hopkins-maroons/basketball/girls/",
+      "teamName": "Madisonville North Hopkins Maroons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/salyersville/magoffin-county-hornets/basketball/girls/",
+      "teamName": "Magoffin County Hornets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/berea/madison-southern-eagles/basketball/girls/",
+      "teamName": "Madison Southern Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/male-bulldogs/basketball/girls/",
+      "teamName": "Male Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lebanon/marion-county-knights/basketball/girls/",
+      "teamName": "Marion County Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/inez/martin-county-cardinals/basketball/girls/",
+      "teamName": "Martin County Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/paducah/mccracken-county-mustangs/basketball/girls/",
+      "teamName": "Mccracken County Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/stearns/mccreary-central-raiders/basketball/girls/",
+      "teamName": "Mccreary Central Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/harrodsburg/mercer-county-titans/basketball/girls/",
+      "teamName": "Mercer County Titans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/maysville/mason-county-royals/basketball/girls/",
+      "teamName": "Mason County Royals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/micah-christian/basketball/girls/",
+      "teamName": "Micah Christian",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/brandenburg/meade-county-green-waves/basketball/girls/",
+      "teamName": "Meade County Green Waves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/benton/marshall-county-marshalls/basketball/girls/",
+      "teamName": "Marshall County Marshalls",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/mercy-jaguars/basketball/girls/",
+      "teamName": "Mercy Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/calhoun/mclean-county-cougars/basketball/girls/",
+      "teamName": "Mclean County Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/edmonton/metcalfe-county-hornets/basketball/girls/",
+      "teamName": "Metcalfe County Hornets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/mayfield/mayfield-cardinals/basketball/girls/",
+      "teamName": "Mayfield Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/frenchburg/menifee-county-wildcats/basketball/girls/",
+      "teamName": "Menifee County Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/middlesboro/middlesboro-yellowjackets/basketball/girls/",
+      "teamName": "Middlesboro Yellowjackets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/richmond/model-patriots/basketball/girls/",
+      "teamName": "Model Patriots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/tompkinsville/monroe-county-falcons/basketball/girls/",
+      "teamName": "Monroe County Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/richmond/madison-central-indians/basketball/girls/",
+      "teamName": "Madison Central Indians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/moore-mustangs/basketball/girls/",
+      "teamName": "Moore Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/mt-sterling/montgomery-county-indians/basketball/girls/",
+      "teamName": "Montgomery County Indians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/murray/murray-tigers/basketball/girls/",
+      "teamName": "Murray Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bardstown/nelson-county-cardinals/basketball/girls/",
+      "teamName": "Nelson County Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/carlisle/nicholas-county-bluejackets/basketball/girls/",
+      "teamName": "Nicholas County Bluejackets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/radcliff/north-hardin-christian-falcons/basketball/girls/",
+      "teamName": "North Hardin Christian Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/greenville/muhlenberg-county-mustangs/basketball/girls/",
+      "teamName": "Muhlenberg County Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/shepherdsville/north-bullitt-eagles/basketball/girls/",
+      "teamName": "North Bullitt Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/newport/newport-central-catholic-thoroughbreds/basketball/girls/",
+      "teamName": "Newport Central Catholic Thoroughbreds",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/west-liberty/morgan-county-cougars/basketball/girls/",
+      "teamName": "Morgan County Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/newport/newport-wildcats/basketball/girls/",
+      "teamName": "Newport Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/radcliff/north-hardin-trojans/basketball/girls/",
+      "teamName": "North Hardin Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/london/north-laurel-jaguars/basketball/girls/",
+      "teamName": "North Laurel Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/goshen/north-oldham-mustangs/basketball/girls/",
+      "teamName": "North Oldham Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/mayfield/northside-baptist-christian-lions/basketball/girls/",
+      "teamName": "Northside Baptist Christian Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/park-hills/notre-dame-academy-pandas/basketball/girls/",
+      "teamName": "Notre Dame Academy Pandas",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/morgantown/oak-ridge-christian-academy-warriors/basketball/girls/",
+      "teamName": "Oak Ridge Christian Academy Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/buckner/oldham-county-colonels/basketball/girls/",
+      "teamName": "Oldham County Colonels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/oneida/oneida-baptist-institute-mountanieers/basketball/girls/",
+      "teamName": "Oneida Baptist Institute Mountanieers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/hartford/ohio-county-eagles/basketball/girls/",
+      "teamName": "Ohio County Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/owensboro/owensboro-catholic-aces/basketball/girls/",
+      "teamName": "Owensboro Catholic Aces",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/booneville/owsley-county-owls-lady-owls/basketball/girls/",
+      "teamName": "Owsley County Owls Lady Owls",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/owensboro/owensboro-red-devils/basketball/girls/",
+      "teamName": "Owensboro Red Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/owenton/owen-county-rebels/basketball/girls/",
+      "teamName": "Owen County Rebels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/paintsville/paintsville-tigers/basketball/girls/",
+      "teamName": "Paintsville Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/paducah/paducah-tilghman-blue-tornado/basketball/girls/",
+      "teamName": "Paducah Tilghman Blue Tornado",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/paris/paris-greyhounds/basketball/girls/",
+      "teamName": "Paris Greyhounds",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/paul-laurence-dunbar-bulldogs/basketball/girls/",
+      "teamName": "Paul Laurence Dunbar Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/hazard/perry-county-central-commodores/basketball/girls/",
+      "teamName": "Perry County Central Commodores",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/falmouth/pendleton-county-wildcats/basketball/girls/",
+      "teamName": "Pendleton County Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/phelps/phelps-hornets/basketball/girls/",
+      "teamName": "Phelps Hornets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/pleasure-ridge-park-panthers/basketball/girls/",
+      "teamName": "Pleasure Ridge Park Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/pikeville/pikeville-panthers/basketball/girls/",
+      "teamName": "Pikeville Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/portland-christian-eagles/basketball/girls/",
+      "teamName": "Portland Christian Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/pikeville/pike-county-central-hawks/basketball/girls/",
+      "teamName": "Pike County Central Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/pineville/pineville-mountain-lions/basketball/girls/",
+      "teamName": "Pineville Mountain Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/stanton/powell-county-pirates/basketball/girls/",
+      "teamName": "Powell County Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/somerset/pulaski-county-maroons/basketball/girls/",
+      "teamName": "Pulaski County Maroons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/raceland/raceland-rams/basketball/girls/",
+      "teamName": "Raceland Rams",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/prestonsburg/prestonsburg-blackcats/basketball/girls/",
+      "teamName": "Prestonsburg Blackcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/presentation-toppers/basketball/girls/",
+      "teamName": "Presentation Toppers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/richmond/richmond-homeschool-guardians/basketball/girls/",
+      "teamName": "Richmond Homeschool Guardians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/beverly/red-bird-cardinals/basketball/girls/",
+      "teamName": "Red Bird Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/mt-olivet/robertson-county-black-devils/basketball/girls/",
+      "teamName": "Robertson County Black Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/mt-vernon/rockcastle-county-rockets/basketball/girls/",
+      "teamName": "Rockcastle County Rockets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/ashland/rose-hill-christian-royals/basketball/girls/",
+      "teamName": "Rose Hill Christian Royals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/russell-springs/russell-county-lakers/basketball/girls/",
+      "teamName": "Russell County Lakers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/morehead/rowan-county-vikings/basketball/girls/",
+      "teamName": "Rowan County Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/russellville/russellville-panthers/basketball/girls/",
+      "teamName": "Russellville Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/union/ryle-raiders/basketball/girls/",
+      "teamName": "Ryle Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/russell/russell-red-devils/basketball/girls/",
+      "teamName": "Russell Red Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/sacred-heart-valkyries/basketball/girls/",
+      "teamName": "Sacred Heart Valkyries",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/sayre-spartans/basketball/girls/",
+      "teamName": "Sayre Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/covington/scott-eagles/basketball/girls/",
+      "teamName": "Scott Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/georgetown/scott-county-cardinals/basketball/girls/",
+      "teamName": "Scott County Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/seneca-red-hawks/basketball/girls/",
+      "teamName": "Seneca Red Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/shawnee-golden-eagles/basketball/girls/",
+      "teamName": "Shawnee Golden Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/pikeville/shelby-valley-wildcats/basketball/girls/",
+      "teamName": "Shelby Valley Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/shelbyville/shelby-county-rockets/basketball/girls/",
+      "teamName": "Shelby County Rockets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/somerset/somerset-briar-jumpers/basketball/girls/",
+      "teamName": "Somerset Briar Jumpers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/independence/simon-kenton-pioneers/basketball/girls/",
+      "teamName": "Simon Kenton Pioneers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/somerset/somerset-christian-cougars/basketball/girls/",
+      "teamName": "Somerset Christian Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/crestwood/south-oldham-dragons/basketball/girls/",
+      "teamName": "South Oldham Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/south-warren-spartans/basketball/girls/",
+      "teamName": "South Warren Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/london/south-laurel-cardinals/basketball/girls/",
+      "teamName": "South Laurel Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/taylorsville/spencer-county-bears/basketball/girls/",
+      "teamName": "Spencer County Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/somerset/southwestern-warriors/basketball/girls/",
+      "teamName": "Southwestern Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/southern-trojans/basketball/girls/",
+      "teamName": "Southern Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/maysville/st-patrick-saints/basketball/girls/",
+      "teamName": "St Patrick Saints",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/paducah/st-mary-vikings/basketball/girls/",
+      "teamName": "St Mary Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/summit-christian-academy-warriors/basketball/girls/",
+      "teamName": "Summit Christian Academy Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/tates-creek-commodores/basketball/girls/",
+      "teamName": "Tates Creek Commodores",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/st-xavier-tigers/basketball/girls/",
+      "teamName": "St Xavier Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/erlanger/st-henry-crusaders/basketball/girls/",
+      "teamName": "St Henry Crusaders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/campbellsville/taylor-county-cardinals/basketball/girls/",
+      "teamName": "Taylor County Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bardstown/thomas-nelson-generals/basketball/girls/",
+      "teamName": "Thomas Nelson Generals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/elkton/todd-county-central-rebels/basketball/girls/",
+      "teamName": "Todd County Central Rebels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/cadiz/trigg-county-wildcats/basketball/girls/",
+      "teamName": "Trigg County Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/lexington/trinity-christian-academy-titans/basketball/girls/",
+      "teamName": "Trinity Christian Academy Titans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/morganfield/union-county-braves/basketball/girls/",
+      "teamName": "Union County Braves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bedford/trimble-county-raiders/basketball/girls/",
+      "teamName": "Trimble County Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/trinity-shamrocks/basketball/girls/",
+      "teamName": "Trinity Shamrocks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/hopkinsville/university-heights-blazers/basketball/girls/",
+      "teamName": "University Heights Blazers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/whitesville/trinity-raiders/basketball/girls/",
+      "teamName": "Trinity Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/valley-vikings/basketball/girls/",
+      "teamName": "Valley Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/covington/villa-madonna-vikings/basketball/girls/",
+      "teamName": "Villa Madonna Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/waggener-wildcats/basketball/girls/",
+      "teamName": "Waggener Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/warren-east-raiders/basketball/girls/",
+      "teamName": "Warren East Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/bowling-green/warren-central-dragons/basketball/girls/",
+      "teamName": "Warren Central Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/walton/walton-verona-bearcats/basketball/girls/",
+      "teamName": "Walton Verona Bearcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/springfield/washington-county-commanders/basketball/girls/",
+      "teamName": "Washington County Commanders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/web-dubois-academy-lions/basketball/girls/",
+      "teamName": "Web Dubois Academy Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/monticello/wayne-county-cardinals/basketball/girls/",
+      "teamName": "Wayne County Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/dixon/webster-county-trojans/basketball/girls/",
+      "teamName": "Webster County Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/western-warriors/basketball/girls/",
+      "teamName": "Western Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/frankfort/western-hills-wolverines/basketball/girls/",
+      "teamName": "Western Hills Wolverines",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/olive-hill/west-carter-comets/basketball/girls/",
+      "teamName": "West Carter Comets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/nicholasville/west-jessamine-colts/basketball/girls/",
+      "teamName": "West Jessamine Colts",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/williamsburg/whitley-county-colonels/basketball/girls/",
+      "teamName": "Whitley County Colonels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/williamsburg/williamsburg-yellow-jackets/basketball/girls/",
+      "teamName": "Williamsburg Yellow Jackets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/louisville/whitefield-academy-wildcats/basketball/girls/",
+      "teamName": "Whitefield Academy Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/williamstown/williamstown-demons/basketball/girls/",
+      "teamName": "Williamstown Demons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/campton/wolfe-county-wolves/basketball/girls/",
+      "teamName": "Wolfe County Wolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ky/versailles/woodford-county-yellowjackets/basketball/girls/",
+      "teamName": "Woodford County Yellowjackets",
+      "reason": "unparseable"
+    }
+  ],
+  "generatedAt": "2026-10-01 15:35:49",
+  "outputFile": "C:\\actions-runner-maxpreps\\_work\\Maxprep_statewise_scraper\\Maxprep_statewise_scraper\\data\\Kentucky_Scraped_data\\ky_all_stats_tab_girls_2026_2027.json"
+}
