@@ -1,0 +1,832 @@
+{
+  "sourceInput": "C:\\actions-runner-maxpreps\\_work\\Maxprep_statewise_scraper\\Maxprep_statewise_scraper\\data\\Idaho_scraped_data\\id_data_gaps_girls_2026_2027.json",
+  "season": "2026-2027",
+  "teamsInInput": 163,
+  "teamsScraped": 0,
+  "teamsSkipped": 163,
+  "totalRecords": 0,
+  "team_totalRecords": 0,
+  "playerRecords": 0,
+  "skipReasons": {
+    "unparseable": 163
+  },
+  "skipped": [
+    {
+      "teamUrl": "https://www.maxpreps.com/id/bliss/bliss-bears/basketball/girls/",
+      "teamName": "Bliss Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/idaho-falls/alturas-prep-pumas/basketball/girls/",
+      "teamName": "Alturas Prep Pumas",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/idaho-falls/american-heritage-patriots/basketball/girls/",
+      "teamName": "American Heritage Patriots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/bonners-ferry/bonners-ferry-badgers/basketball/girls/",
+      "teamName": "Bonners Ferry Badgers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/boise/borah-lions/basketball/girls/",
+      "teamName": "Borah Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/buhl/buhl-indians/basketball/girls/",
+      "teamName": "Buhl Indians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/boise/bishop-kelly-knights/basketball/girls/",
+      "teamName": "Bishop Kelly Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/montpelier/bear-lake-bears/basketball/girls/",
+      "teamName": "Bear Lake Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/aberdeen/aberdeen-tigers/basketball/girls/",
+      "teamName": "Aberdeen Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/blackfoot/blackfoot-broncos/basketball/girls/",
+      "teamName": "Blackfoot Broncos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/idaho-falls/bonneville-bees/basketball/girls/",
+      "teamName": "Bonneville Bees",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/american-falls/american-falls-beavers/basketball/girls/",
+      "teamName": "American Falls Beavers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/arco/butte-county-pirates/basketball/girls/",
+      "teamName": "Butte County Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/boise/boise-brave/basketball/girls/",
+      "teamName": "Boise Brave",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/burley/burley-bobcats/basketball/girls/",
+      "teamName": "Burley Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/fairfield/camas-county-musher-dog/basketball/girls/",
+      "teamName": "Camas County Musher Dog",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/carey/carey-panthers/basketball/girls/",
+      "teamName": "Carey Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/caldwell/caldwell-cougars/basketball/girls/",
+      "teamName": "Caldwell Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/castleford/castleford-wolves/basketball/girls/",
+      "teamName": "Castleford Wolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/twin-falls/canyon-ridge-riverhawks/basketball/girls/",
+      "teamName": "Canyon Ridge Riverhawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/challis/challis-vikings/basketball/girls/",
+      "teamName": "Challis Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/dubois/clark-county-bobcats/basketball/girls/",
+      "teamName": "Clark County Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/boise/capital-golden-eagles/basketball/girls/",
+      "teamName": "Capital Golden Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/boise/centennial-patriots/basketball/girls/",
+      "teamName": "Centennial Patriots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/caldwell/centennial-baptist-mustangs/basketball/girls/",
+      "teamName": "Centennial Baptist Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/pocatello/century-diamondbacks/basketball/girls/",
+      "teamName": "Century Diamondbacks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/hayden/christian-center/basketball/girls/",
+      "teamName": "Christian Center",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/clark-fork/clark-fork-wampus-cats/basketball/girls/",
+      "teamName": "Clark Fork Wampus Cats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/cascade/cascade-ramblers/basketball/girls/",
+      "teamName": "Cascade Ramblers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/kooskia/clearwater-valley-rams/basketball/girls/",
+      "teamName": "Clearwater Valley Rams",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/coeur-dalene/coeur-dalene-vikings/basketball/girls/",
+      "teamName": "Coeur Dalene Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/meridian/cole-valley-christian-chargers/basketball/girls/",
+      "teamName": "Cole Valley Christian Chargers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/nampa/columbia-wildcats/basketball/girls/",
+      "teamName": "Columbia Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/meridian/compass-charter-n-a/basketball/girls/",
+      "teamName": "Compass Charter N A",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/council/council-lumberjacks/basketball/girls/",
+      "teamName": "Council Lumberjacks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/deary/deary-mustangs/basketball/girls/",
+      "teamName": "Deary Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/eagle/eagle-mustangs/basketball/girls/",
+      "teamName": "Eagle Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/firth/firth-cougars/basketball/girls/",
+      "teamName": "Firth Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/emmett/emmett-huskies/basketball/girls/",
+      "teamName": "Emmett Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/dietrich/dietrich-blue-devils/basketball/girls/",
+      "teamName": "Dietrich Blue Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/fruitland/fruitland-grizzlies/basketball/girls/",
+      "teamName": "Fruitland Grizzlies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/garden-valley/garden-valley-wolverines/basketball/girls/",
+      "teamName": "Garden Valley Wolverines",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/declo/declo-hornets/basketball/girls/",
+      "teamName": "Declo Hornets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/filer/filer-wildcats/basketball/girls/",
+      "teamName": "Filer Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/caldwell/gem-state-adventist-academy-jaguars/basketball/girls/",
+      "teamName": "Gem State Adventist Academy Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/post-falls/genesis-prep-academy-jaguars/basketball/girls/",
+      "teamName": "Genesis Prep Academy Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/genesee/genesee-bulldogs/basketball/girls/",
+      "teamName": "Genesee Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/glenns-ferry/glenns-ferry-pilots/basketball/girls/",
+      "teamName": "Glenns Ferry Pilots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/grace/grace-grizzlies/basketball/girls/",
+      "teamName": "Grace Grizzlies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/pocatello/grace-lutheran-royals/basketball/girls/",
+      "teamName": "Grace Lutheran Royals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/gooding/gooding-senators/basketball/girls/",
+      "teamName": "Gooding Senators",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/greenleaf/greenleaf-friends-academy-grizzlies/basketball/girls/",
+      "teamName": "Greenleaf Friends Academy Grizzlies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/hansen/hansen-huskies/basketball/girls/",
+      "teamName": "Hansen Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/hagerman/hagerman-pirates/basketball/girls/",
+      "teamName": "Hagerman Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/craigmont/highland-huskies/basketball/girls/",
+      "teamName": "Highland Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/grangeville/grangeville-bulldogs/basketball/girls/",
+      "teamName": "Grangeville Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/pocatello/highland-rams/basketball/girls/",
+      "teamName": "Highland Rams",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/idaho-falls/hillcrest-knights/basketball/girls/",
+      "teamName": "Hillcrest Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/homedale/homedale-trojans/basketball/girls/",
+      "teamName": "Homedale Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/horseshoe-bend/horseshoe-bend-mustangs/basketball/girls/",
+      "teamName": "Horseshoe Bend Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/oldtown/house-of-the-lord-christian-academy/basketball/girls/",
+      "teamName": "House Of The Lord Christian Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/idaho-city/idaho-city-wildcats/basketball/girls/",
+      "teamName": "Idaho City Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/jerome/jerome-tigers/basketball/girls/",
+      "teamName": "Jerome Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/kamiah/kamiah-kubs/basketball/girls/",
+      "teamName": "Kamiah Kubs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/idaho-falls/idaho-falls-tigers/basketball/girls/",
+      "teamName": "Idaho Falls Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/kellogg/kellogg-wildcats/basketball/girls/",
+      "teamName": "Kellogg Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/kendrick/kendrick-tigers/basketball/girls/",
+      "teamName": "Kendrick Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/kimberly/kimberly-bulldogs/basketball/girls/",
+      "teamName": "Kimberly Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/harrison/kootenai-warriors/basketball/girls/",
+      "teamName": "Kootenai Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/kuna/kuna-kavemen/basketball/girls/",
+      "teamName": "Kuna Kavemen",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/plummer/lakeside-knights/basketball/girls/",
+      "teamName": "Lakeside Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/coeur-dalene/lake-city-timberwolves/basketball/girls/",
+      "teamName": "Lake City Timberwolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/lapwai/lapwai-wildcats/basketball/girls/",
+      "teamName": "Lapwai Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/leadore/leadore-mustangs/basketball/girls/",
+      "teamName": "Leadore Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/nampa/liberty-charter-patriots/basketball/girls/",
+      "teamName": "Liberty Charter Patriots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/lewiston/lewiston-golden-bengals/basketball/girls/",
+      "teamName": "Lewiston Golden Bengals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/twin-falls/lighthouse-christian-lions/basketball/girls/",
+      "teamName": "Lighthouse Christian Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/mackay/mackay-miners/basketball/girls/",
+      "teamName": "Mackay Miners",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/rexburg/madison-bobcats/basketball/girls/",
+      "teamName": "Madison Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/moscow/logos-knights/basketball/girls/",
+      "teamName": "Logos Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/malad/malad-dragons/basketball/girls/",
+      "teamName": "Malad Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/rathdrum/lakeland-hawks/basketball/girls/",
+      "teamName": "Lakeland Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/melba/melba-mustangs/basketball/girls/",
+      "teamName": "Melba Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/marsing/marsing-huskies/basketball/girls/",
+      "teamName": "Marsing Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/mccall/mccall-donnelly-vandals/basketball/girls/",
+      "teamName": "Mccall Donnelly Vandals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/arimo/marsh-valley-eagles/basketball/girls/",
+      "teamName": "Marsh Valley Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/meridian/meridian-warriors/basketball/girls/",
+      "teamName": "Meridian Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/middleton/middleton-vikings/basketball/girls/",
+      "teamName": "Middleton Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/rupert/minico-spartans/basketball/girls/",
+      "teamName": "Minico Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/mountain-home/mountain-home-tigers/basketball/girls/",
+      "teamName": "Mountain Home Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/mullan/mullan-tigers/basketball/girls/",
+      "teamName": "Mullan Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/moscow/moscow-bears/basketball/girls/",
+      "teamName": "Moscow Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/meridian/mountain-view-mavericks/basketball/girls/",
+      "teamName": "Mountain View Mavericks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/murtaugh/murtaugh-red-devils/basketball/girls/",
+      "teamName": "Murtaugh Red Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/new-plymouth/new-plymouth-pilgrims/basketball/girls/",
+      "teamName": "New Plymouth Pilgrims",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/nampa/nampa-bulldogs/basketball/girls/",
+      "teamName": "Nampa Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/nampa/nampa-christian-trojans/basketball/girls/",
+      "teamName": "Nampa Christian Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/bancroft/north-gem-cowboys/basketball/girls/",
+      "teamName": "North Gem Cowboys",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/nezperce/nezperce-nighthawks/basketball/girls/",
+      "teamName": "Nezperce Nighthawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/eagle/north-star-huskies/basketball/girls/",
+      "teamName": "North Star Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/ashton/north-fremont-huskies/basketball/girls/",
+      "teamName": "North Fremont Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/notus/notus-pirates/basketball/girls/",
+      "teamName": "Notus Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/hayden/north-idaho-christian-royals/basketball/girls/",
+      "teamName": "North Idaho Christian Royals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/oakley/oakley-hornets/basketball/girls/",
+      "teamName": "Oakley Hornets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/wa/spokane/oaks-academy/basketball/girls/",
+      "teamName": "Oaks Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/meridian/owyhee-storm/basketball/girls/",
+      "teamName": "Owyhee Storm",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/orofino/orofino-maniacs/basketball/girls/",
+      "teamName": "Orofino Maniacs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/parma/parma-panthers/basketball/girls/",
+      "teamName": "Parma Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/payette/payette-pirates/basketball/girls/",
+      "teamName": "Payette Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/pocatello/pocatello-thunder/basketball/girls/",
+      "teamName": "Pocatello Thunder",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/potlatch/potlatch-loggers/basketball/girls/",
+      "teamName": "Potlatch Loggers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/post-falls/post-falls-trojans/basketball/girls/",
+      "teamName": "Post Falls Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/cottonwood/prairie-pirates/basketball/girls/",
+      "teamName": "Prairie Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/richfield/richfield-tigers/basketball/girls/",
+      "teamName": "Richfield Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/priest-river/priest-river-spartans/basketball/girls/",
+      "teamName": "Priest River Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/nampa/ridgevue-warhawks/basketball/girls/",
+      "teamName": "Ridgevue Warhawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/malta/raft-river-trojans/basketball/girls/",
+      "teamName": "Raft River Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/preston/preston-indians/basketball/girls/",
+      "teamName": "Preston Indians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/wa/pullman/pullman-christian-sharks/basketball/girls/",
+      "teamName": "Pullman Christian Sharks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/rigby/rigby-trojans/basketball/girls/",
+      "teamName": "Rigby Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/boise/riverstone-international-otters/basketball/girls/",
+      "teamName": "Riverstone International Otters",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/ririe/ririe-bulldogs/basketball/girls/",
+      "teamName": "Ririe Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/bruneau/rimrock-raiders/basketball/girls/",
+      "teamName": "Rimrock Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/rockland/rockland-bulldogs/basketball/girls/",
+      "teamName": "Rockland Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/meridian/rocky-mountain-grizzlies/basketball/girls/",
+      "teamName": "Rocky Mountain Grizzlies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/riggins/salmon-river-savages/basketball/girls/",
+      "teamName": "Salmon River Savages",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/sandpoint/sandpoint-bulldogs/basketball/girls/",
+      "teamName": "Sandpoint Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/salmon/salmon-savages/basketball/girls/",
+      "teamName": "Salmon Savages",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/fort-hall/sho-ban-chiefs/basketball/girls/",
+      "teamName": "Sho Ban Chiefs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/shoshone/shoshone-indians/basketball/girls/",
+      "teamName": "Shoshone Indians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/shelley/shelley-russets/basketball/girls/",
+      "teamName": "Shelley Russets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/nampa/skyview-hawks/basketball/girls/",
+      "teamName": "Skyview Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/idaho-falls/skyline-grizzlies/basketball/girls/",
+      "teamName": "Skyline Grizzlies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/blackfoot/snake-river-panthers/basketball/girls/",
+      "teamName": "Snake River Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/soda-springs/soda-springs-cardinals/basketball/girls/",
+      "teamName": "Soda Springs Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/st-anthony/south-fremont-cougars/basketball/girls/",
+      "teamName": "South Fremont Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/cottonwood/st-john-bosco-academy-patriots/basketball/girls/",
+      "teamName": "St John Bosco Academy Patriots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/idaho-falls/taylors-crossing-eagles/basketball/girls/",
+      "teamName": "Taylors Crossing Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/meridian/the-ambrose-school-archers/basketball/girls/",
+      "teamName": "The Ambrose School Archers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/st-maries/st-maries-lumberjacks/basketball/girls/",
+      "teamName": "St Maries Lumberjacks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/driggs/teton-timberwolves/basketball/girls/",
+      "teamName": "Teton Timberwolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/boise/timberline-wolves/basketball/girls/",
+      "teamName": "Timberline Wolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/sugar-city/sugar-salem-diggers/basketball/girls/",
+      "teamName": "Sugar Salem Diggers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/weippe/timberline-spartans/basketball/girls/",
+      "teamName": "Timberline Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/spirit-lake/timberlake-tigers/basketball/girls/",
+      "teamName": "Timberlake Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/idaho-falls/thunder-ridge-titans/basketball/girls/",
+      "teamName": "Thunder Ridge Titans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/payette/treasure-valley-classical-academy-timberwolves/basketball/girls/",
+      "teamName": "Treasure Valley Classical Academy Timberwolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/cambridge/tri-valley-titans/basketball/girls/",
+      "teamName": "Tri Valley Titans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/twin-falls/twin-falls-bruins/basketball/girls/",
+      "teamName": "Twin Falls Bruins",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/nampa/victory-charter-vipers/basketball/girls/",
+      "teamName": "Victory Charter Vipers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/twin-falls/twin-falls-christian-academy-warriors/basketball/girls/",
+      "teamName": "Twin Falls Christian Academy Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/hazelton/valley-vikings/basketball/girls/",
+      "teamName": "Valley Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/wallace/wallace-miners/basketball/girls/",
+      "teamName": "Wallace Miners",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/caldwell/vallivue-falcons/basketball/girls/",
+      "teamName": "Vallivue Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/troy/troy-trojans/basketball/girls/",
+      "teamName": "Troy Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/weiser/weiser-wolverines/basketball/girls/",
+      "teamName": "Weiser Wolverines",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/caldwell/vision/basketball/girls/",
+      "teamName": "Vision",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/terreton/west-jefferson-panthers/basketball/girls/",
+      "teamName": "West Jefferson Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/dayton/west-side-pirates/basketball/girls/",
+      "teamName": "West Side Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/idaho-falls/watersprings-warriors/basketball/girls/",
+      "teamName": "Watersprings Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/wilder/wilder-wildcats/basketball/girls/",
+      "teamName": "Wilder Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/hailey/wood-river-wolverines/basketball/girls/",
+      "teamName": "Wood River Wolverines",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/id/wendell/wendell-trojans/basketball/girls/",
+      "teamName": "Wendell Trojans",
+      "reason": "unparseable"
+    }
+  ],
+  "generatedAt": "2026-10-01 13:39:04",
+  "outputFile": "C:\\actions-runner-maxpreps\\_work\\Maxprep_statewise_scraper\\Maxprep_statewise_scraper\\data\\Idaho_scraped_data\\id_all_stats_tab_girls_2026_2027.json"
+}
