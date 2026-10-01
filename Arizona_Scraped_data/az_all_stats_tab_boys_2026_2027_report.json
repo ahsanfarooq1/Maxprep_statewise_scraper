@@ -1,0 +1,1932 @@
+{
+  "sourceInput": "C:\\actions-runner-maxpreps\\_work\\Maxprep_statewise_scraper\\Maxprep_statewise_scraper\\data\\Arizona_Scraped_data\\az_data_gaps_boys_2026_2027.json",
+  "season": "2026-2027",
+  "teamsInInput": 383,
+  "teamsScraped": 0,
+  "teamsSkipped": 383,
+  "totalRecords": 0,
+  "team_totalRecords": 0,
+  "playerRecords": 0,
+  "skipReasons": {
+    "unparseable": 383
+  },
+  "skipped": [
+    {
+      "teamUrl": "https://www.maxpreps.com/az/whiteriver/alchesay-falcons/basketball/",
+      "teamName": "Alchesay Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/academy-with-community-partners-lions/basketball/",
+      "teamName": "Academy With Community Partners Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/waddell/ala-west-foothills-guardians/basketball/",
+      "teamName": "Ala West Foothills Guardians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/queen-creek/ala-queen-creek-patriots/basketball/",
+      "teamName": "Ala Queen Creek Patriots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/alta-vista-lobos/basketball/",
+      "teamName": "Alta Vista Lobos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/florence/ala-anthem-south-titans/basketball/",
+      "teamName": "Ala Anthem South Titans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/ajo/ajo-red-raiders/basketball/",
+      "teamName": "Ajo Red Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/adobe-mountain/basketball/",
+      "teamName": "Adobe Mountain",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/maricopa/a-charter-school-maricopa/basketball/",
+      "teamName": "A Charter School Maricopa",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/alhambra-lions/basketball/",
+      "teamName": "Alhambra Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/avondale/agua-fria-owls/basketball/",
+      "teamName": "Agua Fria Owls",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/91st-psalm-christian-school-eagles/basketball/",
+      "teamName": "91St Psalm Christian School Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/ala-mesa-north-mavericks/basketball/",
+      "teamName": "Ala Mesa North Mavericks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/ala-gilbert-north-eagles/basketball/",
+      "teamName": "Ala Gilbert North Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/ironwood/ala-ironwood-warriors/basketball/",
+      "teamName": "Ala Ironwood Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/cottonwood/american-heritage-academy/basketball/",
+      "teamName": "American Heritage Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/amphitheater-panthers/basketball/",
+      "teamName": "Amphitheater Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/peoria/american-leadership-academy/basketball/",
+      "teamName": "American Leadership Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/andrada-polytechnic-mavericks/basketball/",
+      "teamName": "Andrada Polytechnic Mavericks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/sierra-vista/american-leadership-academy-guardians/basketball/",
+      "teamName": "American Leadership Academy Guardians",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/wellton/antelope-rams/basketball/",
+      "teamName": "Antelope Rams",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/apache-junction/apache-junction-prospectors/basketball/",
+      "teamName": "Apache Junction Prospectors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/arcadia-titans/basketball/",
+      "teamName": "Arcadia Titans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/apollo-hawks/basketball/",
+      "teamName": "Apollo Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/arizona-college-prep-knights/basketball/",
+      "teamName": "Arizona College Prep Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/arizona-cultural-academy-wolves/basketball/",
+      "teamName": "Arizona Cultural Academy Wolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/arete-prep-chargers/basketball/",
+      "teamName": "Arete Prep Chargers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/arizona-lutheran-academy-coyotes/basketball/",
+      "teamName": "Arizona Lutheran Academy Coyotes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/arrowhead-christian-academy-eagles/basketball/",
+      "teamName": "Arrowhead Christian Academy Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/arizona-school-for-the-deaf-and-blind-sentinals/basketball/",
+      "teamName": "Arizona School For The Deaf And Blind Sentinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/ascending-life-college-prep-academy/basketball/",
+      "teamName": "Ascending Life College Prep Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/asu-prep-poly/basketball/",
+      "teamName": "Asu Prep Poly",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/asu-preparatory-south-phoenix/basketball/",
+      "teamName": "Asu Preparatory South Phoenix",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/az-compass-prep-black-dragons/basketball/",
+      "teamName": "Az Compass Prep Black Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/az-compass-prep-gray-dragons/basketball/",
+      "teamName": "Az Compass Prep Gray Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/ash-fork/ash-fork-spartans/basketball/",
+      "teamName": "Ash Fork Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/asu-prep-sun-devils/basketball/",
+      "teamName": "Asu Prep Sun Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/az-compass-prep-dragons/basketball/",
+      "teamName": "Az Compass Prep Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/az-compass-prep-green-dragons/basketball/",
+      "teamName": "Az Compass Prep Green Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/sells/baboquivari-warriors/basketball/",
+      "teamName": "Baboquivari Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/basha-bears/basketball/",
+      "teamName": "Basha Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/bagdad/bagdad-sultans/basketball/",
+      "teamName": "Bagdad Sultans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/basis-ahwatukee/basketball/",
+      "teamName": "Basis Ahwatukee",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/flagstaff/basis-flagstaff-yetis/basketball/",
+      "teamName": "Basis Flagstaff Yetis",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/basis-chandler-bobcats/basketball/",
+      "teamName": "Basis Chandler Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/basis-mesa/basketball/",
+      "teamName": "Basis Mesa",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/peoria/basis-peoria/basketball/",
+      "teamName": "Basis Peoria",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/bella-vista-open-bears/basketball/",
+      "teamName": "Bella Vista Open Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/basis-scottsdale-bulldogs/basketball/",
+      "teamName": "Basis Scottsdale Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/prescott/basis-prescott-coyote/basketball/",
+      "teamName": "Basis Prescott Coyote",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/queen-creek/benjamin-franklin-chargers/basketball/",
+      "teamName": "Benjamin Franklin Chargers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/sierra-vista/berean-academy-eagles/basketball/",
+      "teamName": "Berean Academy Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/bourgade-catholic-golden-eagles/basketball/",
+      "teamName": "Bourgade Catholic Golden Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/benson/benson-bobcats/basketball/",
+      "teamName": "Benson Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/lakeside/blue-ridge-yellow-jackets/basketball/",
+      "teamName": "Blue Ridge Yellow Jackets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/bisbee/bisbee-pumas/basketball/",
+      "teamName": "Bisbee Pumas",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/anthem/boulder-creek-jaguars/basketball/",
+      "teamName": "Boulder Creek Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/brighton-charter-tigers/basketball/",
+      "teamName": "Brighton Charter Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/prescott-valley/bradshaw-mountain-bears/basketball/",
+      "teamName": "Bradshaw Mountain Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/brophy-college-prep-broncos/basketball/",
+      "teamName": "Brophy College Prep Broncos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/browne-bruins/basketball/",
+      "teamName": "Browne Bruins",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/buckeye/buckeye-hawks/basketball/",
+      "teamName": "Buckeye Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/sierra-vista/buena-colts/basketball/",
+      "teamName": "Buena Colts",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/cactus-cobras/basketball/",
+      "teamName": "Cactus Cobras",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/cave-creek/cactus-shadows-falcons/basketball/",
+      "teamName": "Cactus Shadows Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/camp-verde/camp-verde-cowboys/basketball/",
+      "teamName": "Camp Verde Cowboys",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/camelback-spartans/basketball/",
+      "teamName": "Camelback Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/canyon-international-academy/basketball/",
+      "teamName": "Canyon International Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/queen-creek/canyon-state-academy-spartans/basketball/",
+      "teamName": "Canyon State Academy Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/campo-verde-coyotes/basketball/",
+      "teamName": "Campo Verde Coyotes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/canyon-del-oro-dorados/basketball/",
+      "teamName": "Canyon Del Oro Dorados",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/waddell/canyon-view-jaguars/basketball/",
+      "teamName": "Canyon View Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/carl-hayden-community-falcons/basketball/",
+      "teamName": "Carl Hayden Community Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/casa-grande/casa-grande-cougars/basketball/",
+      "teamName": "Casa Grande Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/queen-creek/casteel-colts/basketball/",
+      "teamName": "Casteel Colts",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/anthem/caurus-academy/basketball/",
+      "teamName": "Caurus Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/catalina-trojans/basketball/",
+      "teamName": "Catalina Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/catalina-foothills-falcons/basketball/",
+      "teamName": "Catalina Foothills Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/peoria/centennial-coyotes/basketball/",
+      "teamName": "Centennial Coyotes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/central-bobcats/basketball/",
+      "teamName": "Central Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/chandler-prep-titans/basketball/",
+      "teamName": "Chandler Prep Titans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/chandler-wolves/basketball/",
+      "teamName": "Chandler Wolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chinle/chinle-wildcats/basketball/",
+      "teamName": "Chinle Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/laveen/cesar-chavez-champions/basketball/",
+      "teamName": "Cesar Chavez Champions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/chaparral-firebirds/basketball/",
+      "teamName": "Chaparral Firebirds",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/cicero-prep-academy-centurions/basketball/",
+      "teamName": "Cicero Prep Academy Centurions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/cholla-chargers/basketball/",
+      "teamName": "Cholla Chargers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/yuma/cibola-raiders/basketball/",
+      "teamName": "Cibola Raiders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chino-valley/chino-valley-cougars/basketball/",
+      "teamName": "Chino Valley Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/vail/cienega-bobcats/basketball/",
+      "teamName": "Cienega Bobcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/city-narwhals/basketball/",
+      "teamName": "City Narwhals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/co/colorado-springs/colorado-prep/basketball/",
+      "teamName": "Colorado Prep",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/flagstaff/coconino-panthers/basketball/",
+      "teamName": "Coconino Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/san-tan-valley/combs-coyotes/basketball/",
+      "teamName": "Combs Coyotes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/copper-canyon-aztecs/basketball/",
+      "teamName": "Copper Canyon Aztecs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/coolidge/coolidge-bears/basketball/",
+      "teamName": "Coolidge Bears",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/cortez-colts/basketball/",
+      "teamName": "Cortez Colts",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/coronado-dons/basketball/",
+      "teamName": "Coronado Dons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tempe/corona-del-sol-aztecs/basketball/",
+      "teamName": "Corona Del Sol Aztecs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/deer-valley-skyhawks/basketball/",
+      "teamName": "Deer Valley Skyhawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/goodyear/desert-edge-scorpions/basketball/",
+      "teamName": "Desert Edge Scorpions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/queen-creek/crismon-rattlers/basketball/",
+      "teamName": "Crismon Rattlers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/desert-christian-eagles/basketball/",
+      "teamName": "Desert Christian Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/desert-mountain-wolves/basketball/",
+      "teamName": "Desert Mountain Wolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/desert-heights-prep-coyotes/basketball/",
+      "teamName": "Desert Heights Prep Coyotes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/desert-sage-gila-monsters/basketball/",
+      "teamName": "Desert Sage Gila Monsters",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/desert-ridge-jaguars/basketball/",
+      "teamName": "Desert Ridge Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/fort-mohave/desert-star/basketball/",
+      "teamName": "Desert Star",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/maricopa/desert-sunrise-golden-hawks/basketball/",
+      "teamName": "Desert Sunrise Golden Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/desert-view-jaguars/basketball/",
+      "teamName": "Desert View Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/desert-vista-thunder/basketball/",
+      "teamName": "Desert Vista Thunder",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/dobson-mustangs/basketball/",
+      "teamName": "Dobson Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/duncan/duncan-wildkats/basketball/",
+      "teamName": "Duncan Wildkats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/douglas/douglas-bulldogs/basketball/",
+      "teamName": "Douglas Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/cibecue/dishchiibikoh-unknown/basketball/",
+      "teamName": "Dishchiibikoh Unknown",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/east-valley-athletes-for-christ-eagles/basketball/",
+      "teamName": "East Valley Athletes For Christ Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/dream-city-christian-national/basketball/",
+      "teamName": "Dream City Christian National",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/dream-city-christian-open/basketball/",
+      "teamName": "Dream City Christian Open",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/el-mirage/dysart-demons/basketball/",
+      "teamName": "Dysart Demons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/east-valley-panthers/basketball/",
+      "teamName": "East Valley Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/eastmark-firebirds/basketball/",
+      "teamName": "Eastmark Firebirds",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/eduprize-eagles/basketball/",
+      "teamName": "Eduprize Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/eduprize-open-eagles/basketball/",
+      "teamName": "Eduprize Open Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/el-dorado-wolverines/basketball/",
+      "teamName": "El Dorado Wolverines",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/colorado-city/el-capitan-eagles/basketball/",
+      "teamName": "El Capitan Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/empower-college-prep-wolf/basketball/",
+      "teamName": "Empower College Prep Wolf",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/empire-ravens/basketball/",
+      "teamName": "Empire Ravens",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/goodyear/estrella-foothills-wolves/basketball/",
+      "teamName": "Estrella Foothills Wolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/avondale/estrella-sidewinders/basketball/",
+      "teamName": "Estrella Sidewinders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/flagstaff/flagstaff-eagles/basketball/",
+      "teamName": "Flagstaff Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/flowing-wells-caballeros/basketball/",
+      "teamName": "Flowing Wells Caballeros",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/florence/florence-gophers/basketball/",
+      "teamName": "Florence Gophers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/laveen/fairfax-stampede/basketball/",
+      "teamName": "Fairfax Stampede",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gila-bend/gila-bend-gila-monsters/basketball/",
+      "teamName": "Gila Bend Gila Monsters",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/fredonia/fredonia-lynx/basketball/",
+      "teamName": "Fredonia Lynx",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/yuma/gila-ridge-hawks/basketball/",
+      "teamName": "Gila Ridge Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/gilbert-classical-academy-spartans/basketball/",
+      "teamName": "Gilbert Classical Academy Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/gilbert-christian-knights/basketball/",
+      "teamName": "Gilbert Christian Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/fountain-hills/fountain-hills-falcons/basketball/",
+      "teamName": "Fountain Hills Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/fort-thomas/fort-thomas-apaches/basketball/",
+      "teamName": "Fort Thomas Apaches",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/glenview-college-prep-mustangs/basketball/",
+      "teamName": "Glenview College Prep Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/ganado/ganado-hornets/basketball/",
+      "teamName": "Ganado Hornets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/glendale-cardinals/basketball/",
+      "teamName": "Glendale Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/gilbert-tigers/basketball/",
+      "teamName": "Gilbert Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/globe/globe-tigers/basketball/",
+      "teamName": "Globe Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/glendale-prep-academy-griffins/basketball/",
+      "teamName": "Glendale Prep Academy Griffins",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/goldwater-bulldogs/basketball/",
+      "teamName": "Goldwater Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/grand-canyon/grand-canyon-phantoms/basketball/",
+      "teamName": "Grand Canyon Phantoms",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/greenway-demons/basketball/",
+      "teamName": "Greenway Demons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tuba-city/greyhills-academy-ftng-knights/basketball/",
+      "teamName": "Greyhills Academy Ftng Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/yuma/harvest-prep-academy-eagle/basketball/",
+      "teamName": "Harvest Prep Academy Eagle",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/winkelman/hayden-lobos/basketball/",
+      "teamName": "Hayden Lobos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/heritage-academy-heroes/basketball/",
+      "teamName": "Heritage Academy Heroes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/heritage-academy-heroes/basketball/",
+      "teamName": "Heritage Academy Heroes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/hamilton-huskies/basketball/",
+      "teamName": "Hamilton Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/maricopa/heritage-academy-heroes/basketball/",
+      "teamName": "Heritage Academy Heroes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/highland-hawks/basketball/",
+      "teamName": "Highland Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/laveen/heritage-academy-heroes/basketball/",
+      "teamName": "Heritage Academy Heroes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/surprise/highland-prep-honey-badgers/basketball/",
+      "teamName": "Highland Prep Honey Badgers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/queen-creek/heritage-academy-gateway-heroes/basketball/",
+      "teamName": "Heritage Academy Gateway Heroes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/higley-knights/basketball/",
+      "teamName": "Higley Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/avondale/highland-prep-west-unknown/basketball/",
+      "teamName": "Highland Prep West Unknown",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/hillcrest-prep-bruins/basketball/",
+      "teamName": "Hillcrest Prep Bruins",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/keams-canyon/hopi-bruins/basketball/",
+      "teamName": "Hopi Bruins",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/holbrook/holbrook-indian/basketball/",
+      "teamName": "Holbrook Indian",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/holbrook/holbrook-roadrunners/basketball/",
+      "teamName": "Holbrook Roadrunners",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/coolidge/imagine-prep-coolidge-eagles/basketball/",
+      "teamName": "Imagine Prep Coolidge Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/horizon-honors-eagles/basketball/",
+      "teamName": "Horizon Honors Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/horizon-huskies/basketball/",
+      "teamName": "Horizon Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/surprise/imagine-prep-storm/basketball/",
+      "teamName": "Imagine Prep Storm",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/apache-junction/imagine-prep-superstition-panthers/basketball/",
+      "teamName": "Imagine Prep Superstition Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/ironwood-eagles/basketball/",
+      "teamName": "Ironwood Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/independence-patriots/basketball/",
+      "teamName": "Independence Patriots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tempe/james-madison-preparatory-school-patriots/basketball/",
+      "teamName": "James Madison Preparatory School Patriots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/ironwood-ridge-nighthawks/basketball/",
+      "teamName": "Ironwood Ridge Nighthawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/jefferson-prep/basketball/",
+      "teamName": "Jefferson Prep",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/kellis-cougars/basketball/",
+      "teamName": "Kellis Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/joseph-city/joseph-city-wildcats/basketball/",
+      "teamName": "Joseph City Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/kingman/kingman-academy-tigers/basketball/",
+      "teamName": "Kingman Academy Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/yuma/kofa-kings/basketball/",
+      "teamName": "Kofa Kings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/kingman/kingman-bulldogs/basketball/",
+      "teamName": "Kingman Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/learning-foundation-and-performing-arts-wolves/basketball/",
+      "teamName": "Learning Foundation And Performing Arts Wolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/leading-edge-academy-gec-spartans/basketball/",
+      "teamName": "Leading Edge Academy Gec Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/avondale/la-joya-community-lobos/basketball/",
+      "teamName": "La Joya Community Lobos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/lake-havasu-city/lake-havasu-knights/basketball/",
+      "teamName": "Lake Havasu Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/kingman/lee-williams-volunteers/basketball/",
+      "teamName": "Lee Williams Volunteers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/winslow/leupp-boarding/basketball/",
+      "teamName": "Leupp Boarding",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/lincoln-prep-lightning/basketball/",
+      "teamName": "Lincoln Prep Lightning",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/peoria/liberty-lions/basketball/",
+      "teamName": "Liberty Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/nogales/lourdes-catholic-warriors/basketball/",
+      "teamName": "Lourdes Catholic Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/madison-highland-prep-heat/basketball/",
+      "teamName": "Madison Highland Prep Heat",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/marana-tigers/basketball/",
+      "teamName": "Marana Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/many-farms/many-farms-lobos/basketball/",
+      "teamName": "Many Farms Lobos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tempe/marcos-de-niza-padres/basketball/",
+      "teamName": "Marcos De Niza Padres",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/maricopa-institute-of-technology-iron-eagles/basketball/",
+      "teamName": "Maricopa Institute Of Technology Iron Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/maricopa/maricopa-rams/basketball/",
+      "teamName": "Maricopa Rams",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/maryvale-prep-matador/basketball/",
+      "teamName": "Maryvale Prep Matador",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/maya-jaguars/basketball/",
+      "teamName": "Maya Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/maryvale-panthers/basketball/",
+      "teamName": "Maryvale Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/metro-tech-knights/basketball/",
+      "teamName": "Metro Tech Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/mesquite-wildcats/basketball/",
+      "teamName": "Mesquite Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/mesa-jackrabbits/basketball/",
+      "teamName": "Mesa Jackrabbits",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tempe/mcclintock-chargers/basketball/",
+      "teamName": "Mcclintock Chargers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mayer/mayer-wildcats/basketball/",
+      "teamName": "Mayer Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/mica-mountain-thunderbolts/basketball/",
+      "teamName": "Mica Mountain Thunderbolts",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/miami/miami-vandals/basketball/",
+      "teamName": "Miami Vandals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/cottonwood/mingus-marauders/basketball/",
+      "teamName": "Mingus Marauders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/goodyear/millennium-tigers/basketball/",
+      "teamName": "Millennium Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/casa-grande/mission-heights-prep-phantoms/basketball/",
+      "teamName": "Mission Heights Prep Phantoms",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/heber/mogollon-mustangs/basketball/",
+      "teamName": "Mogollon Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/bullhead-city/mohave-accelerated-patriots/basketball/",
+      "teamName": "Mohave Accelerated Patriots",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/kayenta/monument-valley-mustangs/basketball/",
+      "teamName": "Monument Valley Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/morenci/morenci-wildcats/basketball/",
+      "teamName": "Morenci Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/moon-valley-rockets/basketball/",
+      "teamName": "Moon Valley Rockets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/mountain-pointe-pride/basketball/",
+      "teamName": "Mountain Pointe Pride",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/bullhead-city/mohave-thunderbirds/basketball/",
+      "teamName": "Mohave Thunderbirds",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/mountain-view-mountain-lions/basketball/",
+      "teamName": "Mountain View Mountain Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/mountain-view-toros/basketball/",
+      "teamName": "Mountain View Toros",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/peach-springs/music-mountain-warriors/basketball/",
+      "teamName": "Music Mountain Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/wittmann/mountainside-wolves/basketball/",
+      "teamName": "Mountainside Wolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/new-way-learning-academy-bulldogs/basketball/",
+      "teamName": "New Way Learning Academy Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/nfl-yet-academy-eagles/basketball/",
+      "teamName": "Nfl Yet Academy Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/nogales/nogales-apaches/basketball/",
+      "teamName": "Nogales Apaches",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/glendale/mountain-ridge-mountain-lions/basketball/",
+      "teamName": "Mountain Ridge Mountain Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/north-canyon-rattlers/basketball/",
+      "teamName": "North Canyon Rattlers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/north-mustangs/basketball/",
+      "teamName": "North Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/north-phoenix-preparatory-academy-gladiators/basketball/",
+      "teamName": "North Phoenix Preparatory Academy Gladiators",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/north-valley-christian-academy-lions/basketball/",
+      "teamName": "North Valley Christian Academy Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/northwest-christian-crusaders/basketball/",
+      "teamName": "Northwest Christian Crusaders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/flagstaff/northland-prep-academy-spartans/basketball/",
+      "teamName": "Northland Prep Academy Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/notre-dame-prep-saints/basketball/",
+      "teamName": "Notre Dame Prep Saints",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/oconnor-eagles/basketball/",
+      "teamName": "Oconnor Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mayer/orme-warriors/basketball/",
+      "teamName": "Orme Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/el-mirage/our-lady-of-the-sun-academy-angels/basketball/",
+      "teamName": "Our Lady Of The Sun Academy Angels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/page/page-sand-devils/basketball/",
+      "teamName": "Page Sand Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/buckeye/odyssey-institute-minotaur/basketball/",
+      "teamName": "Odyssey Institute Minotaur",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/palo-verde-titans/basketball/",
+      "teamName": "Palo Verde Titans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/paradise-valley-christian-prep-panthers/basketball/",
+      "teamName": "Paradise Valley Christian Prep Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/pan-american/basketball/",
+      "teamName": "Pan American",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/surprise/paradise-honors-panthers/basketball/",
+      "teamName": "Paradise Honors Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/paradise-valley-trojans/basketball/",
+      "teamName": "Paradise Valley Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/paragon-academy/basketball/",
+      "teamName": "Paragon Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/parker/parker-broncs/basketball/",
+      "teamName": "Parker Broncs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/peoria/peoria-panthers/basketball/",
+      "teamName": "Peoria Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/payson/payson-longhorns/basketball/",
+      "teamName": "Payson Longhorns",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/patagonia/patagonia-lobos/basketball/",
+      "teamName": "Patagonia Lobos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/phh-prep-open-fire-frogs/basketball/",
+      "teamName": "Phh Prep Open Fire Frogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/perry-pumas/basketball/",
+      "teamName": "Perry Pumas",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/phh-prep-national-fire-frogs/basketball/",
+      "teamName": "Phh Prep National Fire Frogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/phoenix-christian-cougars/basketball/",
+      "teamName": "Phoenix Christian Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/phh-prep-eibc-fire-frogs/basketball/",
+      "teamName": "Phh Prep Eibc Fire Frogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/phoenix-college-prep/basketball/",
+      "teamName": "Phoenix College Prep",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/paradise-valley/phoenix-country-day-eagles/basketball/",
+      "teamName": "Phoenix Country Day Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/phoenix-day-school-for-the-deaf-roadrunners/basketball/",
+      "teamName": "Phoenix Day School For The Deaf Roadrunners",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/phoenix-school-of-academic-excellence/basketball/",
+      "teamName": "Phoenix School Of Academic Excellence",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/pima/pima-roughriders/basketball/",
+      "teamName": "Pima Roughriders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/pinnacle-pioneers/basketball/",
+      "teamName": "Pinnacle Pioneers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/pinon/pinon-eagles/basketball/",
+      "teamName": "Pinon Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/premier-prep-phhoenix-fire/basketball/",
+      "teamName": "Premier Prep Phhoenix Fire",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/san-tan-valley/poston-butte-broncos/basketball/",
+      "teamName": "Poston Butte Broncos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/premier-prep-phhoenix-fire-frogs/basketball/",
+      "teamName": "Premier Prep Phhoenix Fire Frogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/premier-titan/basketball/",
+      "teamName": "Premier Titan",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/lake-havasu-city/psalms-learning-center/basketball/",
+      "teamName": "Psalms Learning Center",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/pueblo-warriors/basketball/",
+      "teamName": "Pueblo Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/prescott/prescott-badgers/basketball/",
+      "teamName": "Prescott Badgers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/pusch-ridge-christian-academy-lions/basketball/",
+      "teamName": "Pusch Ridge Christian Academy Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/queen-creek/queen-creek-bulldogs/basketball/",
+      "teamName": "Queen Creek Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/rancho-solano-prep-mustangs/basketball/",
+      "teamName": "Rancho Solano Prep Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/kearny/ray-bearcats/basketball/",
+      "teamName": "Ray Bearcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/teec-nos-pos/red-mesa-redskins/basketball/",
+      "teamName": "Red Mesa Redskins",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/red-mountain-mountain-lions/basketball/",
+      "teamName": "Red Mountain Mountain Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/san-tan-valley/ridgeview-college-prep-lions/basketball/",
+      "teamName": "Ridgeview College Prep Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/sedona/red-rock-scorpions/basketball/",
+      "teamName": "Red Rock Scorpions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/ridgeline-academy-eagles/basketball/",
+      "teamName": "Ridgeline Academy Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/premier-prep-phhoenix-open-fire-frogs/basketball/",
+      "teamName": "Premier Prep Phhoenix Open Fire Frogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mohave-valley/river-valley-dust-devils/basketball/",
+      "teamName": "River Valley Dust Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/rock-point/rock-point-cougars/basketball/",
+      "teamName": "Rock Point Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/rincon-university-rangers/basketball/",
+      "teamName": "Rincon University Rangers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/rio-rico/rio-rico-hawks/basketball/",
+      "teamName": "Rio Rico Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/buckeye/roosevelt-preparatory-academy-aces/basketball/",
+      "teamName": "Roosevelt Preparatory Academy Aces",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/eagar/round-valley-elks/basketball/",
+      "teamName": "Round Valley Elks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chinle/rough-rock-sun-devils/basketball/",
+      "teamName": "Rough Rock Sun Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/sabino-sabercats/basketball/",
+      "teamName": "Sabino Sabercats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/saguaro-sabercats/basketball/",
+      "teamName": "Saguaro Sabercats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/salpointe-catholic-lancers/basketball/",
+      "teamName": "Salpointe Catholic Lancers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/san-tan-charter-roadrunners/basketball/",
+      "teamName": "San Tan Charter Roadrunners",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/queen-creek/san-tan-foothills-sabercats/basketball/",
+      "teamName": "San Tan Foothills Sabercats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/safford/safford-bulldogs/basketball/",
+      "teamName": "Safford Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/santa-rita-eagles/basketball/",
+      "teamName": "Santa Rita Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/scottsdale-christian-academy-eagles/basketball/",
+      "teamName": "Scottsdale Christian Academy Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/san-manuel/san-manuel-miners/basketball/",
+      "teamName": "San Manuel Miners",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/san-miguel-vipers/basketball/",
+      "teamName": "San Miguel Vipers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/scottsdale-preparatory-academy-spartans/basketball/",
+      "teamName": "Scottsdale Preparatory Academy Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/seligman/seligman-antelopes/basketball/",
+      "teamName": "Seligman Antelopes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/san-luis/san-luis-sidewinders/basketball/",
+      "teamName": "San Luis Sidewinders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/sequoia-charter-stallions/basketball/",
+      "teamName": "Sequoia Charter Stallions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/buckeye/sequoia-pathfinder-verrado-way/basketball/",
+      "teamName": "Sequoia Pathfinder Verrado Way",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/seton-catholic-sentinels/basketball/",
+      "teamName": "Seton Catholic Sentinels",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/sahuarita/sahuarita-mustangs/basketball/",
+      "teamName": "Sahuarita Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/surprise/shadow-ridge-stallions/basketball/",
+      "teamName": "Shadow Ridge Stallions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/shadow-mountain-matadors/basketball/",
+      "teamName": "Shadow Mountain Matadors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/sahuaro-cougars/basketball/",
+      "teamName": "Sahuaro Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/ca/winterhaven/san-pasqual-valley-warriors/basketball/",
+      "teamName": "San Pasqual Valley Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/shonto/shonto-prep-grizzlies/basketball/",
+      "teamName": "Shonto Prep Grizzlies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/show-low/show-low-cougars/basketball/",
+      "teamName": "Show Low Cougars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/sierra-linda-bulldogs/basketball/",
+      "teamName": "Sierra Linda Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/san-carlos/san-carlos-braves/basketball/",
+      "teamName": "San Carlos Braves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/san-simon/san-simon-longhorns/basketball/",
+      "teamName": "San Simon Longhorns",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/skyline-coyotes/basketball/",
+      "teamName": "Skyline Coyotes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/eloy/santa-cruz-valley-dust-devils/basketball/",
+      "teamName": "Santa Cruz Valley Dust Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/skyline-gila-river/basketball/",
+      "teamName": "Skyline Gila River",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/skyline-prep-bengals/basketball/",
+      "teamName": "Skyline Prep Bengals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/skyline-prep-open-bengals/basketball/",
+      "teamName": "Skyline Prep Open Bengals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/skyline-prep-national-bengals/basketball/",
+      "teamName": "Skyline Prep National Bengals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/somerton/somerton-toros/basketball/",
+      "teamName": "Somerton Toros",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/buckeye/skyview-huskies/basketball/",
+      "teamName": "Skyview Huskies",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/skyline-prep-select-bengals/basketball/",
+      "teamName": "Skyline Prep Select Bengals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/snowflake/snowflake-lobos/basketball/",
+      "teamName": "Snowflake Lobos",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/sonoran-science-academy/basketball/",
+      "teamName": "Sonoran Science Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/south-mountain-jaguars/basketball/",
+      "teamName": "South Mountain Jaguars",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/southwest-leadership-academy-rams/basketball/",
+      "teamName": "Southwest Leadership Academy Rams",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/st-augustine-catholic-wolves/basketball/",
+      "teamName": "St Augustine Catholic Wolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/south-pointe-griffins/basketball/",
+      "teamName": "South Pointe Griffins",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/south-ridge-mavericks/basketball/",
+      "teamName": "South Ridge Mavericks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/st-david/st-david-tigers/basketball/",
+      "teamName": "St David Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/avondale/st-john-paul-ii-catholic-lions/basketball/",
+      "teamName": "St John Paul Ii Catholic Lions",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/summit-bulldogs/basketball/",
+      "teamName": "Summit Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/salome/salome-frogs/basketball/",
+      "teamName": "Salome Frogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/st-marys-knights/basketball/",
+      "teamName": "St Marys Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/st-michaels/st-michael-cardinals/basketball/",
+      "teamName": "St Michael Cardinals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/sunnyslope-vikings/basketball/",
+      "teamName": "Sunnyslope Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/sunnyside-blue-devils/basketball/",
+      "teamName": "Sunnyside Blue Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/st-johns/st-johns-redskins/basketball/",
+      "teamName": "St Johns Redskins",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/peoria/sunrise-mountain-mustangs/basketball/",
+      "teamName": "Sunrise Mountain Mustangs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/superior/superior-panthers/basketball/",
+      "teamName": "Superior Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/tanque-verde-hawks/basketball/",
+      "teamName": "Tanque Verde Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/lake-havasu-city/telesis-prep-tigers/basketball/",
+      "teamName": "Telesis Prep Tigers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tempe/tempe-buffaloes/basketball/",
+      "teamName": "Tempe Buffaloes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tempe/tempe-prep-knights/basketball/",
+      "teamName": "Tempe Prep Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/thatcher/thatcher-eagles/basketball/",
+      "teamName": "Thatcher Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/the-gregory-school-hawks/basketball/",
+      "teamName": "The Gregory School Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/thunderbird-adventist-academy/basketball/",
+      "teamName": "Thunderbird Adventist Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/tipping-point-academy-warriors/basketball/",
+      "teamName": "Tipping Point Academy Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tolleson/tolleson-wolverines/basketball/",
+      "teamName": "Tolleson Wolverines",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/thunderbird-titans/basketball/",
+      "teamName": "Thunderbird Titans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/sells/tohono-oodham-eagles/basketball/",
+      "teamName": "Tohono Oodham Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tombstone/tombstone-yellow-jackets/basketball/",
+      "teamName": "Tombstone Yellow Jackets",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tonopah/tonopah-valley-phoenix/basketball/",
+      "teamName": "Tonopah Valley Phoenix",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/tri-city-christian-academy-warriors/basketball/",
+      "teamName": "Tri City Christian Academy Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/prescott/tri-city-prep-panthers/basketball/",
+      "teamName": "Tri City Prep Panthers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/prescott/trinity-christian-warriors/basketball/",
+      "teamName": "Trinity Christian Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tuba-city/tuba-city-warriors/basketball/",
+      "teamName": "Tuba City Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/goodyear/trivium-prep-knights/basketball/",
+      "teamName": "Trivium Prep Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/tucson/tucson-high-magnet-school-badgers/basketball/",
+      "teamName": "Tucson High Magnet School Badgers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/chandler/valley-christian-trojans/basketball/",
+      "teamName": "Valley Christian Trojans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/valley-lutheran-flames/basketball/",
+      "teamName": "Valley Lutheran Flames",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/elfrida/valley-union-blue-devils/basketball/",
+      "teamName": "Valley Union Blue Devils",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/sanders/valley-pirates/basketball/",
+      "teamName": "Valley Pirates",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/sedona/verde-valley-coyotes/basketball/",
+      "teamName": "Verde Valley Coyotes",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/surprise/valley-vista-monsoon/basketball/",
+      "teamName": "Valley Vista Monsoon",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/casa-grande/vista-grande-spartans/basketball/",
+      "teamName": "Vista Grande Spartans",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/scottsdale/ville-de-marie-academy/basketball/",
+      "teamName": "Ville De Marie Academy",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/buckeye/verrado-vipers/basketball/",
+      "teamName": "Verrado Vipers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/veritas-prep-falcons/basketball/",
+      "teamName": "Veritas Prep Falcons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/washington-rams/basketball/",
+      "teamName": "Washington Rams",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/sahuarita/walden-grove-wolves/basketball/",
+      "teamName": "Walden Grove Wolves",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/west-phoenix-eagles/basketball/",
+      "teamName": "West Phoenix Eagles",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/avondale/west-point-dragons/basketball/",
+      "teamName": "West Point Dragons",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/goodyear/west-valley-christian-warriors/basketball/",
+      "teamName": "West Valley Christian Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/phoenix/western-scitech-aztec-warrior/basketball/",
+      "teamName": "Western Scitech Aztec Warrior",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/wickenburg/wickenburg-christian-academy-lion/basketball/",
+      "teamName": "Wickenburg Christian Academy Lion",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/avondale/westview-knights/basketball/",
+      "teamName": "Westview Knights",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/mesa/westwood-warriors/basketball/",
+      "teamName": "Westwood Warriors",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/willcox/willcox-cowboys/basketball/",
+      "teamName": "Willcox Cowboys",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/wickenburg/wickenburg-wranglers/basketball/",
+      "teamName": "Wickenburg Wranglers",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/williams/williams-vikings/basketball/",
+      "teamName": "Williams Vikings",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/gilbert/williams-field-black-hawks/basketball/",
+      "teamName": "Williams Field Black Hawks",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/surprise/willow-canyon-wildcats/basketball/",
+      "teamName": "Willow Canyon Wildcats",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/buckeye/youngker-roughriders/basketball/",
+      "teamName": "Youngker Roughriders",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/fort-defiance/window-rock-fighting-scouts/basketball/",
+      "teamName": "Window Rock Fighting Scouts",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/winslow/winslow-bulldogs/basketball/",
+      "teamName": "Winslow Bulldogs",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/yuma/yuma-criminals/basketball/",
+      "teamName": "Yuma Criminals",
+      "reason": "unparseable"
+    },
+    {
+      "teamUrl": "https://www.maxpreps.com/az/yuma/yuma-catholic-shamrocks/basketball/",
+      "teamName": "Yuma Catholic Shamrocks",
+      "reason": "unparseable"
+    }
+  ],
+  "generatedAt": "2026-10-01 11:25:18",
+  "outputFile": "C:\\actions-runner-maxpreps\\_work\\Maxprep_statewise_scraper\\Maxprep_statewise_scraper\\data\\Arizona_Scraped_data\\az_all_stats_tab_boys_2026_2027.json"
+}
