@@ -61,10 +61,13 @@ env:
 jobs:
   scrape:
     runs-on: self-hosted
-    # A single check-in window shouldn't run past the next one anyway - the
-    # per-state-sport timeout below is what actually prevents a hang (the
-    # 2026-09-29 run went 13+ hours stuck on one state before this existed).
-    timeout-minutes: 150
+    # Generous ceiling so a healthy, still-making-progress run isn't killed
+    # mid-state (150 min turned out too tight - even with zero games played
+    # yet this season, schedule discovery alone took 146 min for just 4
+    # states on 2026-10-01). The per-state-sport timeout below is what
+    # actually guards against a genuine hang (the 2026-09-29 run went 13+
+    # hours stuck on one state before that existed).
+    timeout-minutes: 480
     defaults:
       run:
         shell: powershell
@@ -92,7 +95,11 @@ jobs:
         run: |
           $statesInput = "${{ github.event.inputs.states }}"
           if ([string]::IsNullOrWhiteSpace($statesInput)) {
-            $statesInput = "AZ:Arizona_Scraped_data AR:Arkansas_scraped_data CO:Colorado_Scraped_data ID:Idaho_scraped_data IN:Indiana_scraped_data KY:Kentucky_Scraped_data LA:Louisiana_scraped_data MI:Michigan_scraped_data NV:Nevada_Scraped_data NM:NewMaxico_scraped_data OH:Ohio_scraped_data OK:Oklahoma_scraped_data OR:Oregon_scraped_data TX:Texas_scraped_data UT:Utah_Scraped_data WA:Washington_scraped_data WI:Wisconsin_scraped_data"
+            # Initial 10-state priority list (2026-10-01). The other 7
+            # previously-scraped states (AZ, ID, KY, NV, OR, UT, WI) are still
+            # supported via --state/the `states` input - just not run by
+            # default until explicitly re-added here.
+            $statesInput = "TX:Texas_scraped_data NM:NewMaxico_scraped_data OK:Oklahoma_scraped_data AR:Arkansas_scraped_data LA:Louisiana_scraped_data IN:Indiana_scraped_data OH:Ohio_scraped_data WA:Washington_scraped_data MI:Michigan_scraped_data CO:Colorado_Scraped_data"
           }
           $sportsInput = "${{ github.event.inputs.sports }}"
           if ([string]::IsNullOrWhiteSpace($sportsInput)) {
