@@ -265,9 +265,19 @@ def _check_soup(soup, team_name):
 
 
 def _players_key(players):
+    # -1 sentinel for a missing stat (never a real value - minutes/points/FG
+    # are always >= 0): when two players tie on name, sorted() compares the
+    # next tuple field, and comparing None against an int (e.g. one player
+    # missing minutes_played) raises TypeError. Found via a reproducible
+    # crash in a downstream engine that also builds box-score records from
+    # this same fingerprint call - dormant here since this function is only
+    # used for classification, but still a real bug worth fixing at the
+    # source rather than leaving for the next caller that hits it.
+    def _n(v):
+        return v if v is not None else -1
     return sorted(
-        (p.get("player_name", ""), p.get("minutes_played"), p.get("points"),
-         p.get("fg_made"), p.get("fg_attempts"))
+        (p.get("player_name", ""), _n(p.get("minutes_played")), _n(p.get("points")),
+         _n(p.get("fg_made")), _n(p.get("fg_attempts")))
         for p in (players or [])
     )
 
