@@ -12,6 +12,18 @@ python state_teams_counter.py --sport girls --season 2024-2025
 =============================================
 Walks MaxPreps' full hierarchy for every US state.
 Exposes a run() function to be used by other scripts.
+
+Teams MaxPreps hasn't assigned to any league/region page yet (common for
+small/independent schools, and for any school early in a season before
+realignment finishes) are invisible to the league-page walk above, in
+every season - not just a one-time rollover gap. A dedicated, sport/season-
+specific sitemap MaxPreps publishes (Teams-Girls-Varsity-Basketball-Winter-
+{years}-N-Sitemap.xml) lists every indexed team page regardless of league
+assignment, so it's used here as a ground-truth backfill: any team present
+in that sitemap but never found via any league leaf gets added too, with
+its real league if its own page reports one for this season, else filed
+under a synthetic "Unassigned" region so it isn't silently dropped from
+the team list the rest of the pipeline scrapes.
 """
 
 import os
@@ -22,7 +34,7 @@ import time
 import argparse
 import requests
 import concurrent.futures
-from collections import defaultdict
+from collections import defaultdict, Counter
 from typing import Optional
 
 DATA_DIR = os.environ.get("DATA_DIR", ".")
@@ -156,6 +168,76 @@ def parse_season(raw: str) -> str:
         return f"{(end-1)%100:02d}-{end:02d}"
     raise ValueError(f"Cannot parse season '{raw}'.")
 
+# ─── Sitemap backfill (catches teams never assigned to any league) ──────────
+
+SITEMAP_INDEX_URL = "https://www.maxpreps.com/Index-Sitemap.xml"
+_sitemap_cache = {}  # (sport_label, season_short) -> set of team base URLs
+
+def _full_season_years(short_season: str) -> str:
+    """'26-27' -> '2026-2027' (sitemap filenames use full 4-digit years)."""
+    a, _b = short_season.split("-")
+    y1 = 2000 + int(a)
+    return f"{y1}-{y1 + 1}"
+
+def _fetch_xml_locs(url: str, timeout: int = 30, retries: int = 3) -> list:
+    """Fetch a sitemap XML file and return every <loc> entry in it."""
+    for attempt in range(retries):
+        time.sleep(DELAY * (2 ** attempt))
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=timeout)
+            if r.status_code == 404:
+                return []
+            r.raise_for_status()
+            return re.findall(r"<loc>(.*?)</loc>", r.text)
+        except Exception as e:
+            if attempt == retries - 1:
+                print(f"  [WARN] sitemap fetch failed {url}: {e}")
+    return []
+
+def get_sitemap_team_urls(sport_label: str, season_short: str) -> set:
+    """Every team page MaxPreps has indexed for this sport/season, regardless
+    of league assignment. Cached - called once per (sport, season), not once
+    per state, since the sitemap itself isn't state-partitioned."""
+    cache_key = (sport_label, season_short)
+    if cache_key in _sitemap_cache:
+        return _sitemap_cache[cache_key]
+
+    full_years = _full_season_years(season_short)
+    prefix = f"Teams-{sport_label}-Varsity-Basketball-Winter-{full_years}-"
+    sitemap_files = [l for l in _fetch_xml_locs(SITEMAP_INDEX_URL) if prefix in l]
+
+    # Boys team pages have no gender segment in the URL (".../basketball/"),
+    # unlike girls (".../basketball/girls/") - matches the SPORT convention
+    # used everywhere else in this file.
+    suffix = "/basketball/girls" if sport_label == "Girls" else "/basketball"
+    urls = set()
+    for sm_url in sitemap_files:
+        for l in _fetch_xml_locs(sm_url):
+            if l.rstrip("/").endswith(suffix):
+                urls.add(l)
+
+    print(f"  Sitemap: {len(sitemap_files)} file(s) -> {len(urls)} team pages ({sport_label} {full_years})")
+    _sitemap_cache[cache_key] = urls
+    return urls
+
+def _team_slug_key(team_url: str):
+    """(STATE, team-name-slug), ignoring the city slug - MaxPreps sometimes
+    corrects a team's city slug across a realignment while the team-name
+    slug itself stays stable, which would otherwise look like a duplicate."""
+    m = re.match(r"https?://(?:www\.)?maxpreps\.com/([^/]+)/([^/]+)/([^/]+)/", team_url)
+    return (m.group(1).upper(), m.group(3)) if m else None
+
+def get_team_context_live(build_id: str, team_url: str, season_short: Optional[str]) -> Optional[dict]:
+    """One team's own page, fetched for its current schoolId/city/league -
+    only used for teams the league-leaf crawl never found. An explicit
+    season suffix avoids MaxPreps silently serving a stale prior-season
+    page when this team hasn't been rolled over to the target season yet."""
+    sched = team_url.rstrip("/") + (f"/{season_short}/schedule/" if season_short else "/schedule/")
+    data = fetch_json(to_nextjs_url(build_id, sched))
+    if not data:
+        return None
+    return ((data.get("pageProps") or {}).get("teamContext") or {}).get("data") or None
+
 def get_teams_from_leaf(build_id: str, leaf_href: str) -> list:
     url = to_nextjs_url(build_id, leaf_href)
     data = fetch_json(url)
@@ -196,8 +278,10 @@ def get_all_teams_for_state(build_id: str, state: str, season: Optional[str] = N
     base = f"https://www.maxpreps.com/{state}/{SPORT}/{season}/" if season else f"https://www.maxpreps.com/{state}/{SPORT}/"
     state_url = to_nextjs_url(build_id, base)
     data = fetch_json(state_url)
-    if not data: return []
-    cards = get_link_cards(data.get("pageProps") or {})
+    # Don't bail out here even if the state hub page fetch failed - the
+    # sitemap backfill below doesn't depend on it, so this state still gets
+    # whatever that finds instead of nothing.
+    cards = get_link_cards((data or {}).get("pageProps") or {})
     leaf_hrefs, section_hrefs = get_leaf_hrefs_from_cards(cards)
     for sec_href in section_hrefs:
         sec_url = to_nextjs_url(build_id, sec_href)
@@ -206,10 +290,10 @@ def get_all_teams_for_state(build_id: str, state: str, season: Optional[str] = N
             sec_cards = get_link_cards(sec_data.get("pageProps") or {})
             sl, _ = get_leaf_hrefs_from_cards(sec_cards)
             leaf_hrefs.extend(sl)
-    
+
     unique_leaves = list(set(leaf_hrefs))
     all_teams, seen_ids = [], set()
-    
+
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         futures = {executor.submit(get_teams_from_leaf, build_id, leaf): leaf for leaf in unique_leaves}
         for future in concurrent.futures.as_completed(futures):
@@ -228,6 +312,64 @@ def get_all_teams_for_state(build_id: str, state: str, season: Optional[str] = N
                     seen_ids.add(uid)
                     all_teams.append(t)
                     print(f"      [Scraped Team] {t['teamName']} ({t['league']})")
+
+    # ── Sitemap backfill: teams never assigned to any league page are
+    # structurally invisible to the leaf walk above, in every season - see
+    # get_sitemap_team_urls's docstring. season_short is needed both to pick
+    # the right sitemap file and to tell a current vs. stale league apart on
+    # each missing team's own page; infer it from the leaves actually found
+    # when no --season was given (matches this function's "current season"
+    # behaviour in that case).
+    season_short = season or (Counter(season_from_href(l) for l in unique_leaves).most_common(1)[0][0]
+                               if unique_leaves else None)
+    sport_label = "Girls" if SPORT.endswith("/girls") else "Boys"
+
+    sitemap_urls = set()
+    if season_short:
+        try:
+            sitemap_urls = get_sitemap_team_urls(sport_label, season_short)
+        except Exception as e:
+            print(f"  [WARN] sitemap lookup failed: {e}")
+
+    seen_keys = {_team_slug_key(t.get("teamUrl", "")) for t in all_teams}
+    state_prefix = f"https://www.maxpreps.com/{state}/"
+    missing_urls = [
+        u for u in sitemap_urls
+        if u.startswith(state_prefix) and u not in seen_ids and _team_slug_key(u) not in seen_keys
+    ]
+
+    if missing_urls:
+        print(f"  [{state.upper()}] {len(missing_urls)} team(s) in sitemap but not found via any league page - fetching directly")
+
+        def _resolve_missing(team_url):
+            return team_url, get_team_context_live(build_id, team_url, season_short)
+
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+            futures = {executor.submit(_resolve_missing, u): u for u in missing_urls}
+            for future in concurrent.futures.as_completed(futures):
+                team_url, tc = future.result()
+                m = re.match(r"https?://(?:www\.)?maxpreps\.com/([^/]+)/([^/]+)/([^/]+)/", team_url)
+                city_slug, team_slug = (m.group(2), m.group(3)) if m else ("", "")
+                tc = tc or {}
+                is_current = season_short is None or tc.get("year") == season_short
+                league_id, league_name = tc.get("leagueId"), tc.get("leagueName")
+                has_league = bool(is_current and league_name
+                                   and league_id and league_id != "00000000-0000-0000-0000-000000000000")
+
+                entry = {
+                    "schoolId": tc.get("teamId") or "",
+                    "teamName": tc.get("schoolName") or team_slug.replace("-", " ").title(),
+                    "city": tc.get("schoolCity") or city_slug.replace("-", " ").title(),
+                    "state": state.upper(),
+                    "teamUrl": team_url,
+                    "leagueId": league_id if has_league else "00000000-0000-0000-0000-000000000000",
+                    "league": league_name if has_league else "Unassigned",
+                    "season": season_short or "unknown",
+                }
+                if entry["teamUrl"] not in seen_ids:
+                    seen_ids.add(entry["teamUrl"])
+                    all_teams.append(entry)
+                    print(f"      [Sitemap Team] {entry['teamName']} ({entry['league']})")
 
     return all_teams
 
@@ -296,7 +438,7 @@ def run(sport="boys", season=None, states=None):
         with open(tmp, "w") as f: json.dump(output, f, indent=2)
         os.replace(tmp, out_file)
 
-    print(f"Finished. Saved → {out_file}")
+    print(f"Finished. Saved -> {out_file}")
     return out_file
 
 def main():
