@@ -4,15 +4,15 @@
     "stateCode": "OK",
     "sport": "Girls Basketball",
     "season": "2026-2027",
-    "totalTeams": 501,
+    "totalTeams": 506,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 501,
-    "last_updated": "2026-10-06 12:35:08"
+    "errors_count": 506,
+    "last_updated": "2026-10-13 13:05:55"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -1469,6 +1469,11 @@
       "region": "Freelance"
     },
     {
+      "teamName": "Grind Prep Grind",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/grind-prep-grind/basketball/girls/",
+      "region": "Freelance"
+    },
+    {
       "teamName": "Newcastle Racers",
       "teamUrl": "https://www.maxpreps.com/ok/newcastle/newcastle-racers/basketball/girls/",
       "region": "5A District 1"
@@ -2522,6 +2527,26 @@
       "teamName": "Putnam City West Patriots",
       "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/putnam-city-west-patriots/basketball/girls/",
       "region": "6A District 1"
+    },
+    {
+      "teamName": "Burlington Elks",
+      "teamUrl": "https://www.maxpreps.com/ok/burlington/burlington-elks/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Guthrie Bluejays",
+      "teamUrl": "https://www.maxpreps.com/ok/guthrie/guthrie-bluejays/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Oklahoma City Storm Storm",
+      "teamUrl": "https://www.maxpreps.com/ok/oklahoma-city/oklahoma-city-storm-storm/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Olustee Eagles",
+      "teamUrl": "https://www.maxpreps.com/ok/olustee/olustee-eagles/basketball/girls/",
+      "region": "Unassigned"
     }
   ]
 }
