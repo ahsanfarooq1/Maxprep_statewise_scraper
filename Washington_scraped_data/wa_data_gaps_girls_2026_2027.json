@@ -4,15 +4,15 @@
     "stateCode": "WA",
     "sport": "Girls Basketball",
     "season": "2026-2027",
-    "totalTeams": 384,
+    "totalTeams": 393,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 384,
-    "last_updated": "2026-10-06 14:39:56"
+    "errors_count": 393,
+    "last_updated": "2026-10-13 14:47:02"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -1937,6 +1937,51 @@
       "teamName": "Lincoln Lynx",
       "teamUrl": "https://www.maxpreps.com/wa/seattle/lincoln-lynx/basketball/girls/",
       "region": "3A 4A North Puget Sound  Olympic"
+    },
+    {
+      "teamName": "Bothell Inglemoor Cougars",
+      "teamUrl": "https://www.maxpreps.com/wa/bothell/bothell-inglemoor-cougars/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Concordia Christian Academy Hawks",
+      "teamUrl": "https://www.maxpreps.com/wa/tacoma/concordia-christian-academy-hawks/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Firm Foundation Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/battle-ground/firm-foundation-christian-eagles/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Kittitas Coyotes",
+      "teamUrl": "https://www.maxpreps.com/wa/kittitas/kittitas-coyotes/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Lind Ritzville Sprague Washtucna Broncos",
+      "teamUrl": "https://www.maxpreps.com/wa/ritzville/lind-ritzville-sprague-washtucna-broncos/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Moses Lake Christian Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/moses-lake/moses-lake-christian-academy-lions/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Rosalia Spartans",
+      "teamUrl": "https://www.maxpreps.com/wa/rosalia/rosalia-spartans/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Thorp",
+      "teamUrl": "https://www.maxpreps.com/wa/thorp/thorp/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Waterville Shockers",
+      "teamUrl": "https://www.maxpreps.com/wa/waterville/waterville-shockers/basketball/girls/",
+      "region": "Unassigned"
     }
   ]
 }
