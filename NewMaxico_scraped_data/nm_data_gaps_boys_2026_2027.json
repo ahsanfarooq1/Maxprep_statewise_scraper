@@ -4,15 +4,15 @@
     "stateCode": "NM",
     "sport": "Boys Basketball",
     "season": "2026-2027",
-    "totalTeams": 163,
+    "totalTeams": 167,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 163,
-    "last_updated": "2026-10-06 12:09:29"
+    "errors_count": 167,
+    "last_updated": "2026-10-13 12:31:27"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -804,6 +804,11 @@
       "region": "Freelance"
     },
     {
+      "teamName": "Southern New Mexico Prep Rebels",
+      "teamUrl": "https://www.maxpreps.com/nm/alamogordo/southern-new-mexico-prep-rebels/basketball/",
+      "region": "Freelance"
+    },
+    {
       "teamName": "Alamo Navajo Cougars",
       "teamUrl": "https://www.maxpreps.com/nm/magdalena/alamo-navajo-cougars/basketball/",
       "region": "A District 3"
@@ -832,6 +837,21 @@
       "teamName": "Corona Cardinals",
       "teamUrl": "https://www.maxpreps.com/nm/corona/corona-cardinals/basketball/",
       "region": "A District 3"
+    },
+    {
+      "teamName": "Fort Sumner Foxes Vixens",
+      "teamUrl": "https://www.maxpreps.com/nm/fort-sumner/fort-sumner-foxes-vixens/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Native American Community Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/native-american-community-academy-eagles/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Roy Municipal School Longhorns",
+      "teamUrl": "https://www.maxpreps.com/nm/roy/roy-municipal-school-longhorns/basketball/",
+      "region": "Unassigned"
     }
   ]
 }
