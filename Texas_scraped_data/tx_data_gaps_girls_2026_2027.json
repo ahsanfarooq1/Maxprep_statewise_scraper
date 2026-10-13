@@ -4,15 +4,15 @@
     "stateCode": "TX",
     "sport": "Girls Basketball",
     "season": "2026-2027",
-    "totalTeams": 1755,
+    "totalTeams": 1791,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 1755,
-    "last_updated": "2026-10-06 12:12:35"
+    "errors_count": 1791,
+    "last_updated": "2026-10-13 12:39:45"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -8792,6 +8792,186 @@
       "teamName": "Vanguard Academy Mozart",
       "teamUrl": "https://www.maxpreps.com/tx/alamo/vanguard-academy-mozart/basketball/girls/",
       "region": "3A Region Iv District 31"
+    },
+    {
+      "teamName": "Amarillo Homeschool Flames Flames",
+      "teamUrl": "https://www.maxpreps.com/tx/amarillo/amarillo-homeschool-flames-flames/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Athens Christian Preparatory Academy Storm",
+      "teamUrl": "https://www.maxpreps.com/tx/athens/athens-christian-preparatory-academy-storm/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Atlas Prep",
+      "teamUrl": "https://www.maxpreps.com/tx/dallas/atlas-prep/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Austin Peace Academy Alphas",
+      "teamUrl": "https://www.maxpreps.com/tx/austin/austin-peace-academy-alphas/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Bvchea South Homeschool Mustangs",
+      "teamUrl": "https://www.maxpreps.com/tx/college-station/bvchea-south-homeschool-mustangs/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Beaumont Central Jaguars",
+      "teamUrl": "https://www.maxpreps.com/tx/beaumont/beaumont-central-jaguars/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Bell County Homeschool Angels",
+      "teamUrl": "https://www.maxpreps.com/tx/belton/bell-county-homeschool-angels/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Bigtyme Prep Academy Bears",
+      "teamUrl": "https://www.maxpreps.com/tx/rockwall/bigtyme-prep-academy-bears/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Corpus Christi College Prep",
+      "teamUrl": "https://www.maxpreps.com/tx/corpus-christi/corpus-christi-college-prep/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Corpus Christi United Watchmen",
+      "teamUrl": "https://www.maxpreps.com/tx/corpus-christi/corpus-christi-united-watchmen/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Dallas Christian Academy",
+      "teamUrl": "https://www.maxpreps.com/tx/dallas/dallas-christian-academy/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Dallas Hsaa Red Blue Angels",
+      "teamUrl": "https://www.maxpreps.com/tx/plano/dallas-hsaa-red-blue-angels/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Dynamic Prep",
+      "teamUrl": "https://www.maxpreps.com/tx/irving/dynamic-prep/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "First Baptist",
+      "teamUrl": "https://www.maxpreps.com/tx/brownsville/first-baptist/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Great Hearts Monte Vista",
+      "teamUrl": "https://www.maxpreps.com/tx/san-antonio/great-hearts-monte-vista/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Greenville Homeschool Athletics Archers",
+      "teamUrl": "https://www.maxpreps.com/tx/greenville/greenville-homeschool-athletics-archers/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Headwaters",
+      "teamUrl": "https://www.maxpreps.com/tx/austin/headwaters/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Higgins Coyotes",
+      "teamUrl": "https://www.maxpreps.com/tx/higgins/higgins-coyotes/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Houston Homeschool Athletics Mavericks",
+      "teamUrl": "https://www.maxpreps.com/tx/conroe/houston-homeschool-athletics-mavericks/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Idea Monterrey Park College Prep Bears",
+      "teamUrl": "https://www.maxpreps.com/tx/san-antonio/idea-monterrey-park-college-prep-bears/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Idea Yukon Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/tx/odessa/idea-yukon-yellowjackets/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "International Leadership Of Texas Katy Westpark Eagles",
+      "teamUrl": "https://www.maxpreps.com/tx/richmond/international-leadership-of-texas-katy-westpark-eagles/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Kipp Austin Collegiate Cardinals",
+      "teamUrl": "https://www.maxpreps.com/tx/austin/kipp-austin-collegiate-cardinals/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Kingdom Collegiate Academy",
+      "teamUrl": "https://www.maxpreps.com/tx/desoto/kingdom-collegiate-academy/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Kingwood Christian Life Center Academy Cougars",
+      "teamUrl": "https://www.maxpreps.com/tx/kingwood/kingwood-christian-life-center-academy-cougars/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Nike Dallas Fc",
+      "teamUrl": "https://www.maxpreps.com/tx/allen/nike-dallas-fc/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Pathway Academy Warriors",
+      "teamUrl": "https://www.maxpreps.com/tx/big-spring/pathway-academy-warriors/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Pioneer Technology And Arts Academy Mesquite Panthers",
+      "teamUrl": "https://www.maxpreps.com/tx/mesquite/pioneer-technology-and-arts-academy-mesquite-panthers/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Plainview Christian",
+      "teamUrl": "https://www.maxpreps.com/tx/plainview/plainview-christian/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Providence Christian Patriots",
+      "teamUrl": "https://www.maxpreps.com/tx/dallas/providence-christian-patriots/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "St Andrews St Stephens Episcopal",
+      "teamUrl": "https://www.maxpreps.com/tx/austin/st-andrews-st-stephens-episcopal/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Texas Empowerment Academy Panthers",
+      "teamUrl": "https://www.maxpreps.com/tx/austin/texas-empowerment-academy-panthers/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "The Ehrhart School Eagles",
+      "teamUrl": "https://www.maxpreps.com/tx/beaumont/the-ehrhart-school-eagles/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Uplift Infinity Prep",
+      "teamUrl": "https://www.maxpreps.com/tx/irving/uplift-infinity-prep/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Valor Leander Griffins",
+      "teamUrl": "https://www.maxpreps.com/tx/leander/valor-leander-griffins/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Westwood Wildcats",
+      "teamUrl": "https://www.maxpreps.com/tx/dallas/westwood-wildcats/basketball/girls/",
+      "region": "Unassigned"
     }
   ]
 }
