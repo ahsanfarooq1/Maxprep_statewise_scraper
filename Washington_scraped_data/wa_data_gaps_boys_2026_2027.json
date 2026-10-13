@@ -4,15 +4,15 @@
     "stateCode": "WA",
     "sport": "Boys Basketball",
     "season": "2026-2027",
-    "totalTeams": 387,
+    "totalTeams": 395,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 387,
-    "last_updated": "2026-10-06 14:29:11"
+    "errors_count": 395,
+    "last_updated": "2026-10-13 14:39:34"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -1952,6 +1952,46 @@
       "teamName": "Centralia Tigers",
       "teamUrl": "https://www.maxpreps.com/wa/centralia/centralia-tigers/basketball/",
       "region": "2A Evergreen"
+    },
+    {
+      "teamName": "Bothell Inglemoor Cougars",
+      "teamUrl": "https://www.maxpreps.com/wa/bothell/bothell-inglemoor-cougars/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Moses Lake Christian Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/wa/moses-lake/moses-lake-christian-academy-lions/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Pacific Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/federal-way/pacific-christian-academy-eagles/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Raymond Seagulls",
+      "teamUrl": "https://www.maxpreps.com/wa/raymond/raymond-seagulls/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Rosalia Spartans",
+      "teamUrl": "https://www.maxpreps.com/wa/rosalia/rosalia-spartans/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "St John Endicott Eagles",
+      "teamUrl": "https://www.maxpreps.com/wa/st-john/st-john-endicott-eagles/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Waterville Shockers",
+      "teamUrl": "https://www.maxpreps.com/wa/waterville/waterville-shockers/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "White Pass Timberwolves",
+      "teamUrl": "https://www.maxpreps.com/wa/randle/white-pass-timberwolves/basketball/",
+      "region": "Unassigned"
     }
   ]
 }
