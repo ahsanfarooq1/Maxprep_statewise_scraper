@@ -4,15 +4,15 @@
     "stateCode": "LA",
     "sport": "Girls Basketball",
     "season": "2026-2027",
-    "totalTeams": 394,
+    "totalTeams": 412,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 394,
-    "last_updated": "2026-10-06 13:06:40"
+    "errors_count": 412,
+    "last_updated": "2026-10-13 13:40:03"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -1987,6 +1987,96 @@
       "teamName": "Psalms Christian Academy Ambassadors",
       "teamUrl": "https://www.maxpreps.com/la/natchitoches/psalms-christian-academy-ambassadors/basketball/girls/",
       "region": "Christian Educators Of Louisiana"
+    },
+    {
+      "teamName": "Acadiana Christian Defenders",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/acadiana-christian-defenders/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Ascension Classical Admiral",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/ascension-classical-admiral/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Baton Rouge Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/baton-rouge-bulldogs/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Bishop Noland Episcopal Day Bishop Noland High School",
+      "teamUrl": "https://www.maxpreps.com/la/lake-charles/bishop-noland-episcopal-day-bishop-noland-high-school/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Briarfield Academy Rebels",
+      "teamUrl": "https://www.maxpreps.com/la/lake-providence/briarfield-academy-rebels/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Central School Pioneers",
+      "teamUrl": "https://www.maxpreps.com/la/grand-cane/central-school-pioneers/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Claiborne Academy Rebels",
+      "teamUrl": "https://www.maxpreps.com/la/haynesville/claiborne-academy-rebels/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Franklin Academy Cougars",
+      "teamUrl": "https://www.maxpreps.com/la/winnsboro/franklin-academy-cougars/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Helix Mentorship And Maritime Academy Sharks",
+      "teamUrl": "https://www.maxpreps.com/la/baton-rouge/helix-mentorship-and-maritime-academy-sharks/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Huntington Raiders",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/huntington-raiders/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Lord Beaconsfield Landry Buccaneers",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/lord-beaconsfield-landry-buccaneers/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Oak Forest Academy Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/la/amite/oak-forest-academy-yellowjackets/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Prairie View Academy Spartans",
+      "teamUrl": "https://www.maxpreps.com/la/bastrop/prairie-view-academy-spartans/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "River Oaks Mustangs",
+      "teamUrl": "https://www.maxpreps.com/la/monroe/river-oaks-mustangs/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Riverdale Academy Rebels",
+      "teamUrl": "https://www.maxpreps.com/la/coushatta/riverdale-academy-rebels/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Silliman Institute Wildcats",
+      "teamUrl": "https://www.maxpreps.com/la/clinton/silliman-institute-wildcats/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "St Mary Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/natchitoches/st-mary-tigers/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Union Christian Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/la/farmerville/union-christian-academy-lions/basketball/girls/",
+      "region": "Unassigned"
     }
   ]
 }
