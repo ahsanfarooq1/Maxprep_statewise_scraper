@@ -4,15 +4,15 @@
     "stateCode": "LA",
     "sport": "Boys Basketball",
     "season": "2026-2027",
-    "totalTeams": 411,
+    "totalTeams": 424,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 411,
-    "last_updated": "2026-10-06 12:57:53"
+    "errors_count": 424,
+    "last_updated": "2026-10-13 13:31:59"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -2072,6 +2072,71 @@
       "teamName": "Sam Houston Broncos",
       "teamUrl": "https://www.maxpreps.com/la/lake-charles/sam-houston-broncos/basketball/",
       "region": "5A District 3"
+    },
+    {
+      "teamName": "Abramson Sci Academy Commodores",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/abramson-sci-academy-commodores/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Central Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/jonesville/central-panthers/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Franklin Academy Cougars",
+      "teamUrl": "https://www.maxpreps.com/la/winnsboro/franklin-academy-cougars/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Freedom Life Academy Patriots",
+      "teamUrl": "https://www.maxpreps.com/la/natchitoches/freedom-life-academy-patriots/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Huntington Raiders",
+      "teamUrl": "https://www.maxpreps.com/la/shreveport/huntington-raiders/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "International Panthers",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/international-panthers/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Js Clark Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/js-clark-bulldogs/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Lord Beaconsfield Landry Buccaneers",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/lord-beaconsfield-landry-buccaneers/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Lycee Francais De La Nouvelle Orleans Loup Garoux",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/lycee-francais-de-la-nouvelle-orleans-loup-garoux/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Philadelphia Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/la/lafayette/philadelphia-christian-academy-eagles/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "River Oaks Mustangs",
+      "teamUrl": "https://www.maxpreps.com/la/monroe/river-oaks-mustangs/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Rosenwald Collegiate Academy Pride",
+      "teamUrl": "https://www.maxpreps.com/la/new-orleans/rosenwald-collegiate-academy-pride/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "St Mary Tigers",
+      "teamUrl": "https://www.maxpreps.com/la/natchitoches/st-mary-tigers/basketball/",
+      "region": "Unassigned"
     }
   ]
 }
