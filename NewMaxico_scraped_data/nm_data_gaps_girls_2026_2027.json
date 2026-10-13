@@ -4,15 +4,15 @@
     "stateCode": "NM",
     "sport": "Girls Basketball",
     "season": "2026-2027",
-    "totalTeams": 154,
+    "totalTeams": 162,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 154,
-    "last_updated": "2026-10-06 12:12:58"
+    "errors_count": 162,
+    "last_updated": "2026-10-13 12:35:22"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -787,6 +787,46 @@
       "teamName": "Northwest Falcons",
       "teamUrl": "https://www.maxpreps.com/nm/shiprock/northwest-falcons/basketball/girls/",
       "region": "A District 1"
+    },
+    {
+      "teamName": "Corona Vaughn Cardinals",
+      "teamUrl": "https://www.maxpreps.com/nm/corona/corona-vaughn-cardinals/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "El Camino Real Academy",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/el-camino-real-academy/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Fort Sumner Foxes Vixens",
+      "teamUrl": "https://www.maxpreps.com/nm/fort-sumner/fort-sumner-foxes-vixens/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Mission Achievement And Success Bulls",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/mission-achievement-and-success-bulls/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Native American Community Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/native-american-community-academy-eagles/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Northpoint Charter",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/northpoint-charter/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Roy Municipal School Longhorns",
+      "teamUrl": "https://www.maxpreps.com/nm/roy/roy-municipal-school-longhorns/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "South Valley Academy",
+      "teamUrl": "https://www.maxpreps.com/nm/albuquerque/south-valley-academy/basketball/girls/",
+      "region": "Unassigned"
     }
   ]
 }
