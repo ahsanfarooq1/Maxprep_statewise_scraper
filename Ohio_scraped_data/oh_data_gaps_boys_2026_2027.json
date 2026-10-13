@@ -4,15 +4,15 @@
     "stateCode": "OH",
     "sport": "Boys Basketball",
     "season": "2026-2027",
-    "totalTeams": 893,
+    "totalTeams": 898,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 893,
-    "last_updated": "2026-10-06 13:55:02"
+    "errors_count": 898,
+    "last_updated": "2026-10-13 14:15:20"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -4482,6 +4482,31 @@
       "teamName": "Fairless Falcons",
       "teamUrl": "https://www.maxpreps.com/oh/navarre/fairless-falcons/basketball/",
       "region": "Principals"
+    },
+    {
+      "teamName": "Bible Believers Christian",
+      "teamUrl": "https://www.maxpreps.com/oh/lima/bible-believers-christian/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Garfield Rams",
+      "teamUrl": "https://www.maxpreps.com/oh/akron/garfield-rams/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "High Point Christian Academy Huskies",
+      "teamUrl": "https://www.maxpreps.com/oh/clinton/high-point-christian-academy-huskies/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Scioto Christian Soldiers",
+      "teamUrl": "https://www.maxpreps.com/oh/portsmouth/scioto-christian-soldiers/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Youngstown Youth Academy",
+      "teamUrl": "https://www.maxpreps.com/oh/youngstown/youngstown-youth-academy/basketball/",
+      "region": "Unassigned"
     }
   ]
 }
