@@ -4,15 +4,15 @@
     "stateCode": "CO",
     "sport": "Girls Basketball",
     "season": "2026-2027",
-    "totalTeams": 347,
+    "totalTeams": 351,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 347,
-    "last_updated": "2026-10-06 15:49:49"
+    "errors_count": 351,
+    "last_updated": "2026-10-13 15:30:38"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -1752,6 +1752,26 @@
       "teamName": "Central Warriors",
       "teamUrl": "https://www.maxpreps.com/co/grand-junction/central-warriors/basketball/girls/",
       "region": "6A 5A Southwestern"
+    },
+    {
+      "teamName": "Ambleside Skylarks",
+      "teamUrl": "https://www.maxpreps.com/co/centennial/ambleside-skylarks/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Aurora Science And Tech Owls",
+      "teamUrl": "https://www.maxpreps.com/co/aurora/aurora-science-and-tech-owls/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Denver Eagles Christian Homeschool Eagles",
+      "teamUrl": "https://www.maxpreps.com/co/denver/denver-eagles-christian-homeschool-eagles/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Dsst Elevate Northeast Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/co/denver/dsst-elevate-northeast-bulldogs/basketball/girls/",
+      "region": "Unassigned"
     }
   ]
 }
