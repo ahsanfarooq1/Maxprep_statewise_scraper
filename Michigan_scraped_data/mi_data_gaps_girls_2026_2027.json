@@ -4,15 +4,15 @@
     "stateCode": "MI",
     "sport": "Girls Basketball",
     "season": "2026-2027",
-    "totalTeams": 735,
+    "totalTeams": 754,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 735,
-    "last_updated": "2026-10-06 15:26:33"
+    "errors_count": 754,
+    "last_updated": "2026-10-13 15:16:34"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -3692,6 +3692,101 @@
       "teamName": "Algonac Muskrats",
       "teamUrl": "https://www.maxpreps.com/mi/algonac/algonac-muskrats/basketball/girls/",
       "region": "Blue Water Area"
+    },
+    {
+      "teamName": "Bad Axe Hatchets",
+      "teamUrl": "https://www.maxpreps.com/mi/bad-axe/bad-axe-hatchets/basketball/girls/",
+      "region": "Greater Thumb - West"
+    },
+    {
+      "teamName": "Caro Tigers",
+      "teamUrl": "https://www.maxpreps.com/mi/caro/caro-tigers/basketball/girls/",
+      "region": "Greater Thumb - West"
+    },
+    {
+      "teamName": "Cass City Red Hawks",
+      "teamUrl": "https://www.maxpreps.com/mi/cass-city/cass-city-red-hawks/basketball/girls/",
+      "region": "Greater Thumb - West"
+    },
+    {
+      "teamName": "Laker Lakers",
+      "teamUrl": "https://www.maxpreps.com/mi/pigeon/laker-lakers/basketball/girls/",
+      "region": "Greater Thumb - West"
+    },
+    {
+      "teamName": "Millington Cardinals",
+      "teamUrl": "https://www.maxpreps.com/mi/millington/millington-cardinals/basketball/girls/",
+      "region": "Greater Thumb - West"
+    },
+    {
+      "teamName": "Reese Rockets",
+      "teamUrl": "https://www.maxpreps.com/mi/reese/reese-rockets/basketball/girls/",
+      "region": "Greater Thumb - West"
+    },
+    {
+      "teamName": "Unionville Sebewaing Patriots",
+      "teamUrl": "https://www.maxpreps.com/mi/sebewaing/unionville-sebewaing-patriots/basketball/girls/",
+      "region": "Greater Thumb - West"
+    },
+    {
+      "teamName": "Vassar Vulcans",
+      "teamUrl": "https://www.maxpreps.com/mi/vassar/vassar-vulcans/basketball/girls/",
+      "region": "Greater Thumb - West"
+    },
+    {
+      "teamName": "Berkley Bears",
+      "teamUrl": "https://www.maxpreps.com/mi/berkley/berkley-bears/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Consortium College Prep Cougars",
+      "teamUrl": "https://www.maxpreps.com/mi/detroit/consortium-college-prep-cougars/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Jackson Homeschool",
+      "teamUrl": "https://www.maxpreps.com/mi/jackson/jackson-homeschool/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Lapeer East Eagles",
+      "teamUrl": "https://www.maxpreps.com/mi/lapeer/lapeer-east-eagles/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Northwestern Colts",
+      "teamUrl": "https://www.maxpreps.com/mi/detroit/northwestern-colts/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Seaholm Groves Maples",
+      "teamUrl": "https://www.maxpreps.com/mi/birmingham/seaholm-groves-maples/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Summit Academy Dragons",
+      "teamUrl": "https://www.maxpreps.com/mi/romulus/summit-academy-dragons/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Lanse Creuse North Crusaders",
+      "teamUrl": "https://www.maxpreps.com/mi/macomb/lanse-creuse-north-crusaders/basketball/girls/",
+      "region": "Macomb Area - White"
+    },
+    {
+      "teamName": "Romeo Bulldogs",
+      "teamUrl": "https://www.maxpreps.com/mi/romeo/romeo-bulldogs/basketball/girls/",
+      "region": "Macomb Area - White"
+    },
+    {
+      "teamName": "Sterling Heights Stevenson Titans",
+      "teamUrl": "https://www.maxpreps.com/mi/sterling-heights/sterling-heights-stevenson-titans/basketball/girls/",
+      "region": "Macomb Area - White"
+    },
+    {
+      "teamName": "Utica Chieftains",
+      "teamUrl": "https://www.maxpreps.com/mi/utica/utica-chieftains/basketball/girls/",
+      "region": "Macomb Area - White"
     }
   ]
 }
