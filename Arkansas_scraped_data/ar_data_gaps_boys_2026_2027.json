@@ -4,15 +4,15 @@
     "stateCode": "AR",
     "sport": "Boys Basketball",
     "season": "2026-2027",
-    "totalTeams": 326,
+    "totalTeams": 331,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 326,
-    "last_updated": "2026-10-06 12:42:11"
+    "errors_count": 331,
+    "last_updated": "2026-10-13 13:15:39"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -1647,6 +1647,31 @@
       "teamName": "Crossett Eagles",
       "teamUrl": "https://www.maxpreps.com/ar/crossett/crossett-eagles/basketball/",
       "region": "4A Region 8"
+    },
+    {
+      "teamName": "Catholic Rockets",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/catholic-rockets/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Desoto Thunderbirds",
+      "teamUrl": "https://www.maxpreps.com/ar/west-helena/desoto-thunderbirds/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Haas Hall Academy",
+      "teamUrl": "https://www.maxpreps.com/ar/rogers/haas-hall-academy/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Mulberry Pleasant View Yellow Jackets",
+      "teamUrl": "https://www.maxpreps.com/ar/mulberry/mulberry-pleasant-view-yellow-jackets/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Stephens Roadrunners",
+      "teamUrl": "https://www.maxpreps.com/ar/stephens/stephens-roadrunners/basketball/",
+      "region": "Unassigned"
     }
   ]
 }
