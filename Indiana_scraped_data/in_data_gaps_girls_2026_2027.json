@@ -4,15 +4,15 @@
     "stateCode": "IN",
     "sport": "Girls Basketball",
     "season": "2026-2027",
-    "totalTeams": 442,
+    "totalTeams": 454,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 442,
-    "last_updated": "2026-10-06 13:28:53"
+    "errors_count": 454,
+    "last_updated": "2026-10-13 13:58:19"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -2227,6 +2227,66 @@
       "teamName": "Brown County Eagles",
       "teamUrl": "https://www.maxpreps.com/in/nashville/brown-county-eagles/basketball/girls/",
       "region": "Western Indiana"
+    },
+    {
+      "teamName": "Eminence Eels",
+      "teamUrl": "https://www.maxpreps.com/in/eminence/eminence-eels/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Evansville Homeschool Thunderbolts",
+      "teamUrl": "https://www.maxpreps.com/in/evansville/evansville-homeschool-thunderbolts/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Hammond Academy Of Science And Tech Hawks",
+      "teamUrl": "https://www.maxpreps.com/in/hammond/hammond-academy-of-science-and-tech-hawks/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Indy Warriors Fc Homeschool",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indy-warriors-fc-homeschool/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "International Gryphons",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/international-gryphons/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Living Water Homeschool Marlins",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/living-water-homeschool-marlins/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Mission Christian Academy Wolverines",
+      "teamUrl": "https://www.maxpreps.com/in/fishers/mission-christian-academy-wolverines/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Northpoint Homeschool Panthers",
+      "teamUrl": "https://www.maxpreps.com/in/fishers/northpoint-homeschool-panthers/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Plymouth Lady Crusaders",
+      "teamUrl": "https://www.maxpreps.com/in/plymouth/plymouth-lady-crusaders/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Seton Catholic Cardinals",
+      "teamUrl": "https://www.maxpreps.com/in/richmond/seton-catholic-cardinals/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Trailblazer Fury Fc Homeschool",
+      "teamUrl": "https://www.maxpreps.com/in/greenfield/trailblazer-fury-fc-homeschool/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "West Gary Lighthouse",
+      "teamUrl": "https://www.maxpreps.com/in/gary/west-gary-lighthouse/basketball/girls/",
+      "region": "Unassigned"
     }
   ]
 }
