@@ -4,15 +4,15 @@
     "stateCode": "CO",
     "sport": "Boys Basketball",
     "season": "2026-2027",
-    "totalTeams": 357,
+    "totalTeams": 362,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 357,
-    "last_updated": "2026-10-06 15:38:24"
+    "errors_count": 362,
+    "last_updated": "2026-10-13 15:23:46"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -251,6 +251,11 @@
     {
       "teamName": "Village Mountaineers",
       "teamUrl": "https://www.maxpreps.com/co/colorado-springs/village-mountaineers/basketball/",
+      "region": "Freelance"
+    },
+    {
+      "teamName": "Accelerated Prep Accelerated Prep",
+      "teamUrl": "https://www.maxpreps.com/co/lakewood/accelerated-prep-accelerated-prep/basketball/",
       "region": "Freelance"
     },
     {
@@ -1802,6 +1807,26 @@
       "teamName": "Wray Eagles",
       "teamUrl": "https://www.maxpreps.com/co/wray/wray-eagles/basketball/",
       "region": "3A Patriot"
+    },
+    {
+      "teamName": "Arma Dei Academy Griffins",
+      "teamUrl": "https://www.maxpreps.com/co/highlands-ranch/arma-dei-academy-griffins/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Aurora Science And Tech Owls",
+      "teamUrl": "https://www.maxpreps.com/co/aurora/aurora-science-and-tech-owls/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Fwc Academy",
+      "teamUrl": "https://www.maxpreps.com/co/pueblo/fwc-academy/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Merit Academy Bears",
+      "teamUrl": "https://www.maxpreps.com/co/woodland-park/merit-academy-bears/basketball/",
+      "region": "Unassigned"
     }
   ]
 }
