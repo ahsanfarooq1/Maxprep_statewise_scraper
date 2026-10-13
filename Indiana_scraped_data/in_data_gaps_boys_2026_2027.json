@@ -4,15 +4,15 @@
     "stateCode": "IN",
     "sport": "Boys Basketball",
     "season": "2026-2027",
-    "totalTeams": 483,
+    "totalTeams": 492,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 483,
-    "last_updated": "2026-10-06 13:17:58"
+    "errors_count": 492,
+    "last_updated": "2026-10-13 13:49:36"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -2432,6 +2432,51 @@
       "teamName": "White River Valley Wolverines",
       "teamUrl": "https://www.maxpreps.com/in/switz-city/white-river-valley-wolverines/basketball/",
       "region": "Southwestern Indiana"
+    },
+    {
+      "teamName": "Bloomington Homeschool Bobcats",
+      "teamUrl": "https://www.maxpreps.com/in/bloomington/bloomington-homeschool-bobcats/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Eminence Eels",
+      "teamUrl": "https://www.maxpreps.com/in/eminence/eminence-eels/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Evansville Homeschool Thunderbolts",
+      "teamUrl": "https://www.maxpreps.com/in/evansville/evansville-homeschool-thunderbolts/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Indianapolis Metropolitan Pumas",
+      "teamUrl": "https://www.maxpreps.com/in/indianapolis/indianapolis-metropolitan-pumas/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Mission Christian Academy Wolverines",
+      "teamUrl": "https://www.maxpreps.com/in/fishers/mission-christian-academy-wolverines/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Mooresville Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/in/mooresville/mooresville-christian-eagles/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "West Gary Lighthouse",
+      "teamUrl": "https://www.maxpreps.com/in/gary/west-gary-lighthouse/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Westfield Guerin Catholic",
+      "teamUrl": "https://www.maxpreps.com/in/westfield/westfield-guerin-catholic/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Whites Warriors",
+      "teamUrl": "https://www.maxpreps.com/in/wabash/whites-warriors/basketball/",
+      "region": "Unassigned"
     }
   ]
 }
