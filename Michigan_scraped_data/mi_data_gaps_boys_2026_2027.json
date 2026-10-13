@@ -4,15 +4,15 @@
     "stateCode": "MI",
     "sport": "Boys Basketball",
     "season": "2026-2027",
-    "totalTeams": 775,
+    "totalTeams": 791,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 775,
-    "last_updated": "2026-10-06 15:02:55"
+    "errors_count": 791,
+    "last_updated": "2026-10-13 15:02:04"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -3892,6 +3892,86 @@
       "teamName": "Muskegon Heights Tigers",
       "teamUrl": "https://www.maxpreps.com/mi/muskegon-heights/muskegon-heights-tigers/basketball/",
       "region": "Lakes 8"
+    },
+    {
+      "teamName": "Akiva Hebrew Day Fire",
+      "teamUrl": "https://www.maxpreps.com/mi/southfield/akiva-hebrew-day-fire/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Ann Arbor Christian",
+      "teamUrl": "https://www.maxpreps.com/mi/ann-arbor/ann-arbor-christian/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Consortium College Prep Cougars",
+      "teamUrl": "https://www.maxpreps.com/mi/detroit/consortium-college-prep-cougars/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Eton Academy",
+      "teamUrl": "https://www.maxpreps.com/mi/birmingham/eton-academy/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Grand Rapids Homeschoolers",
+      "teamUrl": "https://www.maxpreps.com/mi/grand-rapids/grand-rapids-homeschoolers/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Grand Valley Christian Patriots Patriots",
+      "teamUrl": "https://www.maxpreps.com/mi/byron-center/grand-valley-christian-patriots-patriots/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Holland Black River Dutch",
+      "teamUrl": "https://www.maxpreps.com/mi/holland/holland-black-river-dutch/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Ivywood Classical Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/mi/plymouth/ivywood-classical-academy-eagles/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Lapeer East Eagles",
+      "teamUrl": "https://www.maxpreps.com/mi/lapeer/lapeer-east-eagles/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Michigan Islamic Academy",
+      "teamUrl": "https://www.maxpreps.com/mi/ann-arbor/michigan-islamic-academy/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "North Oakland Bucks",
+      "teamUrl": "https://www.maxpreps.com/mi/rochester-hills/north-oakland-bucks/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Northwestern Colts",
+      "teamUrl": "https://www.maxpreps.com/mi/detroit/northwestern-colts/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Northwestern Detroit Collegiate Prep Colts",
+      "teamUrl": "https://www.maxpreps.com/mi/detroit/northwestern-detroit-collegiate-prep-colts/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Oakland County Homeschool Fireballs Fireballs",
+      "teamUrl": "https://www.maxpreps.com/mi/novi/oakland-county-homeschool-fireballs-fireballs/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Summit Academy Dragons",
+      "teamUrl": "https://www.maxpreps.com/mi/romulus/summit-academy-dragons/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Whitmore Lake Trojans",
+      "teamUrl": "https://www.maxpreps.com/mi/whitmore-lake/whitmore-lake-trojans/basketball/",
+      "region": "Unassigned"
     }
   ]
 }
