@@ -4,15 +4,15 @@
     "stateCode": "TX",
     "sport": "Boys Basketball",
     "season": "2026-2027",
-    "totalTeams": 1878,
+    "totalTeams": 1931,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 1878,
-    "last_updated": "2026-10-06 11:45:24"
+    "errors_count": 1931,
+    "last_updated": "2026-10-13 12:10:40"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -5194,6 +5194,11 @@
       "region": "Freelance"
     },
     {
+      "teamName": "Psat Academy National Panthers",
+      "teamUrl": "https://www.maxpreps.com/tx/houston/psat-academy-national-panthers/basketball/",
+      "region": "Freelance"
+    },
+    {
       "teamName": "Grace Prep Lions",
       "teamUrl": "https://www.maxpreps.com/tx/arlington/grace-prep-lions/basketball/",
       "region": "Tapps 5A District 1"
@@ -9407,6 +9412,266 @@
       "teamName": "Groveton Indians",
       "teamUrl": "https://www.maxpreps.com/tx/groveton/groveton-indians/basketball/",
       "region": "2A Region Iii District 20"
+    },
+    {
+      "teamName": "Abundant Life Christian Knights",
+      "teamUrl": "https://www.maxpreps.com/tx/la-marque/abundant-life-christian-knights/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Alliance Christian Academy Knights",
+      "teamUrl": "https://www.maxpreps.com/tx/fort-worth/alliance-christian-academy-knights/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Austin Prep Academy Avengers",
+      "teamUrl": "https://www.maxpreps.com/tx/austin/austin-prep-academy-avengers/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Bell County Homeschool Association Guardians",
+      "teamUrl": "https://www.maxpreps.com/tx/belton/bell-county-homeschool-association-guardians/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Calvary Way Academy",
+      "teamUrl": "https://www.maxpreps.com/tx/kilgore/calvary-way-academy/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Cathedral Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/tx/beaumont/cathedral-christian-warriors/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Christian Academy Rams",
+      "teamUrl": "https://www.maxpreps.com/tx/san-antonio/christian-academy-rams/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Dallas Thunder White Thunder",
+      "teamUrl": "https://www.maxpreps.com/tx/dallas/dallas-thunder-white-thunder/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "East Texas Storm",
+      "teamUrl": "https://www.maxpreps.com/tx/carthage/east-texas-storm/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Gervin Academy Coyotes",
+      "teamUrl": "https://www.maxpreps.com/tx/san-antonio/gervin-academy-coyotes/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Good Shepherd",
+      "teamUrl": "https://www.maxpreps.com/tx/tyler/good-shepherd/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Great Hearts Western Hills Spartans",
+      "teamUrl": "https://www.maxpreps.com/tx/san-antonio/great-hearts-western-hills-spartans/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Greenville Homeschool Athletics Archers",
+      "teamUrl": "https://www.maxpreps.com/tx/greenville/greenville-homeschool-athletics-archers/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Hype Outreach Prep Academy",
+      "teamUrl": "https://www.maxpreps.com/tx/sulphur-springs/hype-outreach-prep-academy/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Harmony School Of Innovation Dallas Tigers",
+      "teamUrl": "https://www.maxpreps.com/tx/dallas/harmony-school-of-innovation-dallas-tigers/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Headwaters",
+      "teamUrl": "https://www.maxpreps.com/tx/austin/headwaters/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Idea Rise College Prep Ravens",
+      "teamUrl": "https://www.maxpreps.com/tx/fort-worth/idea-rise-college-prep-ravens/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Idea Yukon Yellowjackets",
+      "teamUrl": "https://www.maxpreps.com/tx/odessa/idea-yukon-yellowjackets/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Jubilee Lions",
+      "teamUrl": "https://www.maxpreps.com/tx/san-antonio/jubilee-lions/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Kairos Christian Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/tx/clute/kairos-christian-academy-lions/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Legacy Prep",
+      "teamUrl": "https://www.maxpreps.com/tx/mesquite/legacy-prep/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Liberty Christian Academy Lions",
+      "teamUrl": "https://www.maxpreps.com/tx/liberty/liberty-christian-academy-lions/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Lighthouse Baptist Academy",
+      "teamUrl": "https://www.maxpreps.com/tx/baytown/lighthouse-baptist-academy/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Matagorda Stingrays",
+      "teamUrl": "https://www.maxpreps.com/tx/matagorda/matagorda-stingrays/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Newton Prep Force",
+      "teamUrl": "https://www.maxpreps.com/tx/tomball/newton-prep-force/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Northeast Christian Academy Crusaders",
+      "teamUrl": "https://www.maxpreps.com/tx/el-paso/northeast-christian-academy-crusaders/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Notre Dame Catholic Knights",
+      "teamUrl": "https://www.maxpreps.com/tx/wichita-falls/notre-dame-catholic-knights/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "On1 Prep Academy Lion",
+      "teamUrl": "https://www.maxpreps.com/tx/arlington/on1-prep-academy-lion/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Paris Christian Lions",
+      "teamUrl": "https://www.maxpreps.com/tx/paris/paris-christian-lions/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Paris Homeschool Warriors",
+      "teamUrl": "https://www.maxpreps.com/tx/paris/paris-homeschool-warriors/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Park Meadows Academy",
+      "teamUrl": "https://www.maxpreps.com/tx/corsicana/park-meadows-academy/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Pathway Academy Warriors",
+      "teamUrl": "https://www.maxpreps.com/tx/big-spring/pathway-academy-warriors/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Pioneer Technology And Arts Academy Mesquite Panthers",
+      "teamUrl": "https://www.maxpreps.com/tx/mesquite/pioneer-technology-and-arts-academy-mesquite-panthers/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Raven",
+      "teamUrl": "https://www.maxpreps.com/tx/new-waverly/raven/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "River Crossing Roughriders Roughriders",
+      "teamUrl": "https://www.maxpreps.com/tx/marshall/river-crossing-roughriders-roughriders/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Roxton Lions",
+      "teamUrl": "https://www.maxpreps.com/tx/roxton/roxton-lions/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "San Angelo Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/tx/san-angelo/san-angelo-christian-eagles/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "South San Antonio West Cougars",
+      "teamUrl": "https://www.maxpreps.com/tx/san-antonio/south-san-antonio-west-cougars/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Spring Branch Wolf Pack",
+      "teamUrl": "https://www.maxpreps.com/tx/spring-branch/spring-branch-wolf-pack/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "St Gerard Catholic Royals",
+      "teamUrl": "https://www.maxpreps.com/tx/san-antonio/st-gerard-catholic-royals/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Thesa",
+      "teamUrl": "https://www.maxpreps.com/tx/colleyville/thesa/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Temple Christian Blazers",
+      "teamUrl": "https://www.maxpreps.com/tx/dallas/temple-christian-blazers/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Texas Alliance Of Christian Athletes Gold Storm",
+      "teamUrl": "https://www.maxpreps.com/tx/carrollton/texas-alliance-of-christian-athletes-gold-storm/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Texas Christian Academy Stars",
+      "teamUrl": "https://www.maxpreps.com/tx/waco/texas-christian-academy-stars/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Torchlight Prep Academy Warriors",
+      "teamUrl": "https://www.maxpreps.com/tx/crockett/torchlight-prep-academy-warriors/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Tyler Street Christian Academy Crusaders",
+      "teamUrl": "https://www.maxpreps.com/tx/dallas/tyler-street-christian-academy-crusaders/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Valley Christian",
+      "teamUrl": "https://www.maxpreps.com/tx/brownsville/valley-christian/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Valor Kyle Kingfishers",
+      "teamUrl": "https://www.maxpreps.com/tx/kyle/valor-kyle-kingfishers/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Valor Leander Griffins",
+      "teamUrl": "https://www.maxpreps.com/tx/leander/valor-leander-griffins/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "West Columbia Christian Warriors",
+      "teamUrl": "https://www.maxpreps.com/tx/west-columbia/west-columbia-christian-warriors/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Wichita Falls Coyotes",
+      "teamUrl": "https://www.maxpreps.com/tx/wichita-falls/wichita-falls-coyotes/basketball/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Pace Academy Panthers",
+      "teamUrl": "https://www.maxpreps.com/tx/mckinney/pace-academy-panthers/basketball/",
+      "region": "Grind Session - Southwest"
     }
   ]
 }
