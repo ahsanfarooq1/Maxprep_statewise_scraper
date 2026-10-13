@@ -4,15 +4,15 @@
     "stateCode": "OH",
     "sport": "Girls Basketball",
     "season": "2026-2027",
-    "totalTeams": 847,
+    "totalTeams": 862,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 847,
-    "last_updated": "2026-10-06 14:18:05"
+    "errors_count": 862,
+    "last_updated": "2026-10-13 14:32:01"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -4252,6 +4252,81 @@
       "teamName": "Mansfield Senior Tygers",
       "teamUrl": "https://www.maxpreps.com/oh/mansfield/mansfield-senior-tygers/basketball/girls/",
       "region": "Ohio Cardinal"
+    },
+    {
+      "teamName": "Athens Bobcats Hockey",
+      "teamUrl": "https://www.maxpreps.com/oh/athens/athens-bobcats-hockey/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Berea Braves",
+      "teamUrl": "https://www.maxpreps.com/oh/berea/berea-braves/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Cleveland Central Catholic Ironmen",
+      "teamUrl": "https://www.maxpreps.com/oh/cleveland/cleveland-central-catholic-ironmen/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Coshocton Christian",
+      "teamUrl": "https://www.maxpreps.com/oh/coshocton/coshocton-christian/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Garfield Community Learning Center Golden Rams",
+      "teamUrl": "https://www.maxpreps.com/oh/akron/garfield-community-learning-center-golden-rams/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Glen Este Trojans",
+      "teamUrl": "https://www.maxpreps.com/oh/cincinnati/glen-este-trojans/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Grand Lake Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/oh/st-marys/grand-lake-christian-eagles/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Licking County Christian Academy Eagles",
+      "teamUrl": "https://www.maxpreps.com/oh/heath/licking-county-christian-academy-eagles/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Lockland Panthers",
+      "teamUrl": "https://www.maxpreps.com/oh/lockland/lockland-panthers/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Lordstown Red Devils",
+      "teamUrl": "https://www.maxpreps.com/oh/warren/lordstown-red-devils/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Oyler Madhatters",
+      "teamUrl": "https://www.maxpreps.com/oh/cincinnati/oyler-madhatters/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Spire Academy National Spire",
+      "teamUrl": "https://www.maxpreps.com/oh/geneva/spire-academy-national-spire/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Spencer Center Wolfpack",
+      "teamUrl": "https://www.maxpreps.com/oh/cincinnati/spencer-center-wolfpack/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "St Joseph Central Flyers",
+      "teamUrl": "https://www.maxpreps.com/oh/ironton/st-joseph-central-flyers/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Wayside Christian",
+      "teamUrl": "https://www.maxpreps.com/oh/bucyrus/wayside-christian/basketball/girls/",
+      "region": "Unassigned"
     }
   ]
 }
