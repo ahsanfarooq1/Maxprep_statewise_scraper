@@ -4,15 +4,15 @@
     "stateCode": "AR",
     "sport": "Girls Basketball",
     "season": "2026-2027",
-    "totalTeams": 311,
+    "totalTeams": 315,
     "processedTeamsCount": 0,
     "processedTeams": [],
     "totalGamesChecked": 0,
     "teamsFullBoxScores": 0,
     "teamsPartialBoxScores": 0,
     "teamsNoBoxScores": 0,
-    "errors_count": 311,
-    "last_updated": "2026-10-06 12:48:51"
+    "errors_count": 315,
+    "last_updated": "2026-10-13 13:24:26"
   },
   "teamsFullBoxScores": [],
   "teamsPartialBoxScores": [],
@@ -1572,6 +1572,26 @@
       "teamName": "Clarksville Panthers",
       "teamUrl": "https://www.maxpreps.com/ar/clarksville/clarksville-panthers/basketball/girls/",
       "region": "4A Region 4"
+    },
+    {
+      "teamName": "Fayetteville Christian Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/fayetteville/fayetteville-christian-eagles/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Fort Smith Patriots Patriots",
+      "teamUrl": "https://www.maxpreps.com/ar/fort-smith/fort-smith-patriots-patriots/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Mount St Mary Academy Belles",
+      "teamUrl": "https://www.maxpreps.com/ar/little-rock/mount-st-mary-academy-belles/basketball/girls/",
+      "region": "Unassigned"
+    },
+    {
+      "teamName": "Northwest Arkansas Eagles Eagles",
+      "teamUrl": "https://www.maxpreps.com/ar/bentonville/northwest-arkansas-eagles-eagles/basketball/girls/",
+      "region": "Unassigned"
     }
   ]
 }
